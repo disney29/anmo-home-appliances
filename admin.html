@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin Panel | ANMO HOME APPLIANCES</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="assets/favicon.png" type="image/png">
+<link rel="preconnect" href="https://miaoda.feishu.cn">
+<link href="https://miaoda.feishu.cn/fonts/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="admin">
+
+<!-- ============ LOGIN ============ -->
+<div id="login-screen" class="login-screen">
+  <div class="login-lang" data-admin-lang><button data-alang="en" class="active">EN</button><button data-alang="zh">中</button></div>
+  <div class="login-box">
+    <div class="l-logo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L4.5 13.5H11L9.5 22 19 9.5h-6.5L13 2z"/></svg></div>
+    <h1 data-i18n="admin.loginTitle">Admin Login</h1>
+    <p class="l-sub" data-i18n="admin.loginSub">Manage products, inquiries, orders and site settings.</p>
+    <form id="login-form" novalidate>
+      <div class="field">
+        <label data-i18n="admin.password">Password</label>
+        <input id="login-pass" type="password" placeholder="Enter admin password" autocomplete="current-password" required>
+      </div>
+      <button type="submit" class="btn btn-primary login-btn" data-i18n="admin.signIn">Sign In</button>
+    </form>
+    <p class="login-hint" data-i18n="admin.loginHint">Default password: admin123 — change it in Settings after login.</p>
+  </div>
+</div>
+
+<!-- ============ ADMIN SHELL ============ -->
+<div id="admin-shell" class="admin-shell hidden">
+  <aside class="admin-side">
+    <div class="a-logo">
+      <span class="logo-mark"><img src="assets/logo.png" alt="ANMO HOME APPLIANCES" style="width:34px;height:auto"></span>
+      <span>ANMO <small style="display:block;font-size:10px;letter-spacing:.18em;color:var(--orange-400);font-weight:600">ADMIN</small></span>
+    </div>
+    <nav>
+      <a href="#" data-tab="dash" class="active"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="7" height="9" rx="1"/><rect x="14" y="3" width="7" height="5" rx="1"/><rect x="14" y="12" width="7" height="9" rx="1"/><rect x="3" y="16" width="7" height="5" rx="1"/></svg><span data-i18n="admin.dash">Dashboard</span></a>
+      <a href="#" data-tab="products"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 8l-9-5-9 5v8l9 5 9-5V8z"/><path d="M3 8l9 5 9-5M12 13v8"/></svg><span data-i18n="admin.products">Products</span></a>
+      <a href="#" data-tab="cats"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg><span data-i18n="admin.cats">Categories</span></a>
+
+      <a href="#" data-tab="inquiries"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 11.5a8.4 8.4 0 01-8.5 8.3 8.8 8.8 0 01-3.8-.9L3 21l2.1-5.3a8 8 0 01-.9-3.7A8.4 8.4 0 0112.7 3.5 8.4 8.4 0 0121 11.5z"/></svg><span data-i18n="admin.inquiries">Inquiries</span></a>
+      <a href="#" data-tab="orders"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 2l-3 6v14h18V8l-3-6H6z"/><path d="M3 8h18M16 12a4 4 0 01-8 0"/></svg><span data-i18n="admin.orders">Orders</span></a>
+      <a href="#" data-tab="chat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2v10z"/></svg><span data-i18n="admin.chat">Chat Messages</span></a>
+      <a href="#" data-tab="content"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 6h16M4 12h16M4 18h10"/><circle cx="18" cy="18" r="2.5"/><path d="M19.8 18.8l2 2"/></svg><span data-i18n="admin.content">Content</span></a>
+      <a href="#" data-tab="settings"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 00.3 1.9l.1.1a2 2 0 11-2.8 2.8l-.1-.1a1.7 1.7 0 00-1.9-.3 1.7 1.7 0 00-1 1.5V21a2 2 0 11-4 0v-.2a1.7 1.7 0 00-1-1.5 1.7 1.7 0 00-1.9.3l-.1.1a2 2 0 11-2.8-2.8l.1-.1a1.7 1.7 0 00.3-1.9 1.7 1.7 0 00-1.5-1H3a2 2 0 110-4h.2a1.7 1.7 0 001.5-1 1.7 1.7 0 00-.3-1.9l-.1-.1a2 2 0 112.8-2.8l.1.1a1.7 1.7 0 001.9.3h0a1.7 1.7 0 001-1.5V3a2 2 0 114 0v.2a1.7 1.7 0 001 1.5h0a1.7 1.7 0 001.9-.3l.1-.1a2 2 0 112.8 2.8l-.1.1a1.7 1.7 0 00-.3 1.9v0a1.7 1.7 0 001.5 1H21a2 2 0 110 4h-.2a1.7 1.7 0 00-1.5 1z"/></svg><span data-i18n="admin.settings">Settings</span></a>
+    </nav>
+    <div class="a-foot">
+      <a id="go-home-btn" href="index.html" data-i18n="admin.goHome">← Back to Website</a>
+      <button id="logout-btn" class="a-link-btn" data-i18n="admin.logout">Log Out</button>
+    </div>
+  </aside>
+
+  <main class="admin-main">
+    <div style="display:flex;align-items:center;gap:10px;padding:14px 22px 0;justify-content:flex-end">
+      <div class="admin-lang" data-admin-lang><button data-alang="en" class="active">EN</button><button data-alang="zh">中文</button></div>
+    </div>
+    <button id="admin-menu-btn" class="admin-menu-btn" aria-label="Menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+
+    <!-- ===== DASHBOARD ===== -->
+    <div id="pane-dash" class="tab-pane active">
+      <div class="a-toolbar">
+        <div><h1 data-i18n="admin.dash">Dashboard</h1><p class="a-sub" data-i18n="admin.dashSub">Overview of your store activity</p></div>
+      </div>
+      <div class="a-stats">
+        <div class="a-stat"><div class="ic" style="background:rgba(10,37,64,.08);color:var(--navy-600)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 8l-9-5-9 5v8l9 5 9-5V8z"/><path d="M3 8l9 5 9-5M12 13v8"/></svg></div><div class="v" id="stat-1">0</div><div class="l" id="statlab-1" data-i18n="admin.stProducts">Products</div></div>
+        <div class="a-stat"><div class="ic" style="background:rgba(255,107,26,.12);color:var(--orange-600)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 11.5a8.4 8.4 0 01-8.5 8.3 8.8 8.8 0 01-3.8-.9L3 21l2.1-5.3a8 8 0 01-.9-3.7A8.4 8.4 0 0112.7 3.5 8.4 8.4 0 0121 11.5z"/></svg></div><div class="v" id="stat-2">0</div><div class="l" id="statlab-2" data-i18n="admin.stInquiries">Inquiries</div></div>
+        <div class="a-stat"><div class="ic" style="background:rgba(16,185,129,.12);color:#10B981"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 2l-3 6v14h18V8l-3-6H6z"/><path d="M3 8h18M16 12a4 4 0 01-8 0"/></svg></div><div class="v" id="stat-3">0</div><div class="l" id="statlab-3" data-i18n="admin.stOrders">Orders</div></div>
+        <div class="a-stat"><div class="ic" style="background:rgba(245,158,11,.12);color:#F59E0B"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2v10z"/></svg></div><div class="v" id="stat-4">0</div><div class="l" id="statlab-4" data-i18n="admin.stChat">Chat Messages</div></div>
+      </div>
+    </div>
+
+    <!-- ===== PRODUCTS ===== -->
+    <div id="pane-products" class="tab-pane">
+      <div class="a-toolbar">
+        <div><h1 data-i18n="admin.products">Products</h1><p class="a-sub" data-i18n="admin.prodSub">Add, edit, enable or remove products.</p></div>
+        <button id="prod-add-btn" class="btn btn-primary btn-sm" data-i18n="admin.addProduct">+ Add Product</button>
+      </div>
+      <div class="a-table-wrap">
+        <table class="a-table">
+          <thead>
+            <tr>
+              <th data-i18n="admin.imgCol">Image</th>
+              <th data-i18n="admin.nameCol">Name</th>
+              <th data-i18n="admin.catCol">Category</th>
+              <th data-i18n="admin.priceCol">Price</th>
+              <th data-i18n="admin.moqCol">MOQ</th>
+              <th data-i18n="admin.statusCol">Status</th>
+              <th data-i18n="admin.actionsCol">Actions</th>
+            </tr>
+          </thead>
+          <tbody id="prod-tbody"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- ===== CATEGORIES ===== -->
+    <div id="pane-cats" class="tab-pane">
+        <div class="a-toolbar">
+          <div><h1 data-i18n="admin.cats">Categories</h1><p class="a-sub" data-i18n="admin.catsSub">Manage product categories shown on the website</p></div>
+          <button class="btn btn-primary" id="cat-add-btn" data-i18n="admin.addCat">Add Category</button>
+        </div>
+        <div class="card">
+          <div class="table-wrap"><table class="a-table">
+            <thead><tr><th data-i18n="admin.catName">Name</th><th data-i18n="admin.catId">ID</th><th data-i18n="admin.catProducts">Products</th><th data-i18n="admin.catImage">Image</th><th style="width:150px"></th></tr></thead>
+            <tbody id="cat-tbody"></tbody>
+          </table></div>
+        </div>
+      </div>
+
+    <!-- ===== INQUIRIES ===== -->
+    <div id="pane-inquiries" class="tab-pane">
+      <div class="a-toolbar">
+        <div><h1 data-i18n="admin.inquiries">Inquiries</h1><p class="a-sub" data-i18n="admin.inqSub">Inquiries received from the website forms.</p></div>
+        <button id="inq-export-btn" class="btn btn-outline btn-sm" data-i18n="admin.exportCsv">Export CSV</button>
+      </div>
+      <div class="a-table-wrap">
+        <table class="a-table">
+          <thead>
+            <tr>
+              <th data-i18n="admin.inqContact">Contact</th>
+              <th>Country</th>
+              <th>Product</th>
+              <th data-i18n="admin.inqMsg">Message</th>
+              <th data-i18n="admin.inqDate">Date</th>
+              <th data-i18n="admin.inqStatus">Status</th>
+            </tr>
+          </thead>
+          <tbody id="inq-tbody"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- ===== ORDERS ===== -->
+    <div id="pane-orders" class="tab-pane">
+      <div class="a-toolbar">
+        <div><h1 data-i18n="admin.orders">Orders</h1><p class="a-sub" data-i18n="admin.ordSub">Orders placed on the website with payment method.</p></div>
+      </div>
+      <div class="a-table-wrap">
+        <table class="a-table">
+          <thead>
+            <tr>
+              <th>Order</th>
+              <th data-i18n="admin.ordProduct">Product</th>
+              <th data-i18n="admin.ordQty">Qty</th>
+              <th data-i18n="admin.ordTotal">Total</th>
+              <th data-i18n="admin.ordPay">Payment</th>
+              <th data-i18n="admin.ordStatus">Status</th>
+            </tr>
+          </thead>
+          <tbody id="ord-tbody"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- ===== CHAT ===== -->
+    <div id="pane-chat" class="tab-pane">
+      <div class="a-toolbar">
+        <div><h1 data-i18n="admin.chat">Chat Messages</h1><p class="a-sub" data-i18n="admin.chatSub">Messages sent from the website chat widget.</p></div>
+      </div>
+      <div class="a-table-wrap">
+        <table class="a-table">
+          <thead>
+            <tr>
+              <th data-i18n="admin.chatFrom">From</th>
+              <th>Message</th>
+              <th data-i18n="admin.chatTime">Time</th>
+            </tr>
+          </thead>
+          <tbody id="chat-tbody"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- ===== CONTENT ===== -->
+    <div id="pane-content" class="tab-pane">
+      <div class="a-toolbar">
+        <div><h1 data-i18n="admin.content">Content</h1><p class="a-sub" data-i18n="admin.contentSub">Edit homepage &amp; about page text — each field supports 8 languages.</p></div>
+      </div>
+      <div class="c-tabs">
+        <button class="c-tab active" data-ctab="home" data-i18n="admin.contentHome">Homepage</button>
+        <button class="c-tab" data-ctab="about" data-i18n="admin.contentAbout">About</button>
+        <button class="c-tab" data-ctab="sections" data-i18n="admin.contentSections">Section Titles</button>
+      </div>
+      <p class="hint" style="margin:0 0 14px" data-i18n="admin.langNote">Each text field supports 8 languages. Fill them all for a fully localized site.</p>
+      <div id="content-lists"></div>
+    </div>
+
+    <!-- ===== SETTINGS ===== -->
+    <div id="pane-settings" class="tab-pane">
+      <div class="a-toolbar">
+        <div><h1 data-i18n="admin.settings">Settings</h1><p class="a-sub" data-i18n="admin.setSub">Company, payment and site configuration.</p></div>
+      </div>
+      <div class="settings-grid">
+        <div class="settings-card">
+          <h3 data-i18n="admin.setCompany">Company &amp; Contact</h3>
+          <div class="field"><label data-i18n="admin.setCompanyName">Company Name</label><input id="sf-companyName"></div>
+          <div class="field"><label data-i18n="admin.setSlogan">Tagline / Slogan</label><input id="sf-slogan"></div>
+          <div class="field"><label data-i18n="admin.setEmail">Email</label><input id="sf-email" type="email"></div>
+          <div class="field"><label data-i18n="admin.setWhatsapp">WhatsApp (digits only)</label><input id="sf-whatsapp"></div>
+          <div class="field"><label data-i18n="admin.setPhone">Phone</label><input id="sf-phone"></div>
+          <div class="field"><label data-i18n="admin.setAddress">Address</label><input id="sf-address"></div>
+          <div class="field"><label data-i18n="admin.setMap">Google Maps Embed URL</label><input id="sf-mapEmbed"></div>
+        </div>
+        <div class="settings-card">
+          <h3 data-i18n="admin.setPayment">Payment</h3>
+          <div class="field"><label data-i18n="admin.setPaypal">PayPal Business Email</label><input id="sf-paypal" type="email"></div>
+          <div class="field"><label data-i18n="admin.setBank">Beneficiary Bank</label><input id="sf-bankName"></div>
+          <div class="field"><label data-i18n="admin.setBeneficiary">Beneficiary</label><input id="sf-beneficiary"></div>
+          <div class="field"><label data-i18n="admin.setAccount">Account No.</label><input id="sf-account"></div>
+          <div class="field"><label data-i18n="admin.setSwift">SWIFT / IBAN</label><input id="sf-swift"></div>
+        </div>
+        <div class="settings-card">
+          <h3 data-i18n="admin.currency">Currency</h3>
+          <p class="a-sub" data-i18n="admin.currencySub">Switch all product prices between USD and CNY — existing and new products convert automatically.</p>
+          <div class="field"><label data-i18n="admin.usdRate">USD → CNY Rate</label><input id="sf-usdCnyRate" type="number" step="0.01" min="0" placeholder="7.20"></div>
+          <p class="hint" data-i18n="admin.rateHint">e.g. 7.20. All prices across the site switch instantly after saving.</p>
+        </div>
+
+        <div class="settings-card">
+          <h3 data-i18n="admin.setSite">Site &amp; Analytics</h3>
+          <div class="field"><label data-i18n="admin.setGa">Google Analytics ID (G-XXXXXXX)</label><input id="sf-gaId"></div>
+        </div>
+        <div class="settings-card" style="grid-column:1/-1">
+          <h3 data-i18n="admin.exportTitle">Export Site Configuration</h3>
+          <p class="hint" data-i18n="admin.exportHint">Generate a data-override.js file and upload it to your server root. Content, products and settings then become permanent for every visitor.</p>
+          <div class="row-gap" style="margin-top:10px">
+            <button class="btn btn-primary btn-sm" id="set-export-btn" data-i18n="admin.downloadOverride">Download data-override.js</button>
+            <button class="btn btn-outline btn-sm" id="set-copy-btn" data-i18n="admin.copyOverride">Copy</button>
+          </div>
+          <textarea id="set-export-area" rows="5" readonly style="margin-top:10px;width:100%;font-family:ui-monospace,Consolas,monospace;font-size:12px;background:var(--navy-50);border:1px solid var(--line);border-radius:8px;padding:10px"></textarea>
+        </div>
+        <div class="settings-card" style="grid-column:1/-1">
+          <h3 data-i18n="admin.importTitle">Import Configuration</h3>
+          <p class="hint" data-i18n="admin.importHint">Paste an exported data-override.js content below and apply to this browser (for preview or migration).</p>
+          <textarea id="set-import-area" rows="5" style="margin-top:10px;width:100%;font-family:ui-monospace,Consolas,monospace;font-size:12px;border:1px solid var(--line);border-radius:8px;padding:10px"></textarea>
+          <div class="row-gap" style="margin-top:10px">
+            <button class="btn btn-primary btn-sm" id="set-import-btn" data-i18n="admin.importBtn">Apply to this browser</button>
+          </div>
+        </div>
+        <div class="settings-card">
+          <h3 data-i18n="admin.setPwd">Security</h3>
+          <div class="field"><label data-i18n="admin.newPwd">New Admin Password (min 4 chars)</label><input id="sf-newPwd" type="password"></div>
+          <div class="row-gap" style="margin-top:16px">
+            <button class="btn btn-primary" id="set-save-btn" data-i18n="admin.save">Save Settings</button>
+            <button class="btn btn-outline" id="set-pwd-btn" data-i18n="admin.setPwd">Change Password</button>
+            <button class="btn btn-ghost" id="set-reset-btn" data-i18n="admin.setReset">Reset All Data</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+
+<!-- ============ CATEGORY MODAL ============ -->
+<div id="cat-modal" class="modal">
+  <div class="modal-box">
+    <div class="m-head"><h3 id="catm-title" data-i18n="admin.addCat">Add Category</h3><button class="m-close catm-close" aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg></button></div>
+    <div class="m-body">
+      <input id="catm-id" placeholder="ID (e.g. hair-clipper)" data-i18n-ph="admin.catIdPh" style="margin-bottom:10px">
+      <div class="a-sub" style="margin-bottom:10px" data-i18n="admin.catLangNames">Names in all languages</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px" id="catm-names">
+        <input id="catm-n-en" placeholder="EN — Hair Clippers">
+        <input id="catm-n-zh" placeholder="中文 — 理发器">
+        <input id="catm-n-vi" placeholder="VI">
+        <input id="catm-n-th" placeholder="TH">
+        <input id="catm-n-id" placeholder="ID (Bahasa)">
+        <input id="catm-n-es" placeholder="ES">
+        <input id="catm-n-fr" placeholder="FR">
+        <input id="catm-n-pt" placeholder="PT">
+        <input id="catm-n-ru" placeholder="RU">
+        <input id="catm-n-ja" placeholder="JA">
+        <input id="catm-n-ko" placeholder="KO">
+        <input id="catm-n-it" placeholder="IT">
+        <input id="catm-n-de" placeholder="DE">
+        <input id="catm-n-nl" placeholder="NL">
+        <input id="catm-n-ar" placeholder="AR">
+      </div>
+      <input id="catm-image" placeholder="Image path, e.g. assets/images/product-p1.jpg" style="margin-top:10px">
+    </div>
+    <div class="m-foot">
+      <button type="button" class="btn btn-outline catm-close" data-i18n="admin.cancel">Cancel</button>
+      <button type="button" class="btn btn-primary" id="catm-save" data-i18n="admin.save">Save</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============ PRODUCT MODAL ============ -->
+<style>
+  .pf-steps{display:flex;gap:6px;margin-bottom:16px;border-bottom:1px solid var(--line,#e2e8f0);padding-bottom:12px;flex-wrap:wrap}
+  .pf-step-item{display:flex;align-items:center;gap:8px;padding:8px 13px;border-radius:10px;cursor:pointer;color:var(--slate-500,#64748b);font-size:13px;font-weight:600;border:1px solid transparent;user-select:none}
+  .pf-step-item:hover{background:var(--navy-50,#f3f6fa)}
+  .pf-step-item.active{background:var(--navy-800,#0b2545);color:#fff}
+  .pf-step-num{width:22px;height:22px;border-radius:50%;background:var(--slate-200,#e2e8f0);color:var(--slate-600,#475569);display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;flex:none}
+  .pf-step-item.active .pf-step-num{background:var(--orange-500,#f97316);color:#fff}
+  .pf-step-item.done .pf-step-num{background:var(--orange-500,#f97316);color:#fff}
+  .pf-panel .form-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  .pf-panel .field.full,.pf-panel .hint.full{grid-column:1/-1}
+  @media(max-width:760px){.pf-panel .form-grid{grid-template-columns:1fr}}
+  .pf-prev-thumbs{display:flex;flex-wrap:wrap;gap:10px;margin-top:10px}
+  .pf-prev-thumbs .thumb{position:relative;width:78px;height:78px;border:1px solid var(--line,#e2e8f0);border-radius:10px;overflow:hidden;background:var(--navy-50,#f3f6fa)}
+  .pf-prev-thumbs .thumb img{width:100%;height:100%;object-fit:cover}
+  .pf-prev-thumbs .thumb button{position:absolute;top:2px;right:2px;width:20px;height:20px;border:none;border-radius:50%;background:rgba(15,23,42,.75);color:#fff;font-size:12px;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center}
+  .pf-prev-thumbs .thumb button:hover{background:#dc2626}
+  .pf-nav{display:flex;justify-content:flex-end;gap:10px;margin-top:20px;flex-wrap:wrap}
+  .pf-nav .spacer{flex:1}
+</style>
+<div id="product-modal" class="modal">
+  <div class="modal-box">
+    <div class="m-head"><h3 id="pm-title" data-i18n="admin.addProduct">Add Product</h3><button class="m-close" aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg></button></div>
+    <div class="m-body">
+      <form id="product-form" novalidate>
+        <div class="pf-steps">
+          <div class="pf-step-item active" data-pfstep="1"><span class="pf-step-num">1</span><span data-i18n="admin.stBasics">Basic Info</span></div>
+          <div class="pf-step-item" data-pfstep="2"><span class="pf-step-num">2</span><span data-i18n="admin.stImages">Images &amp; Files</span></div>
+          <div class="pf-step-item" data-pfstep="3"><span class="pf-step-num">3</span><span data-i18n="admin.stPrice">Price &amp; Stock</span></div>
+          <div class="pf-step-item" data-pfstep="4"><span class="pf-step-num">4</span><span data-i18n="admin.stSpecs">Specs &amp; Languages</span></div>
+        </div>
+
+        <!-- Step 1: Basic Info -->
+        <div class="pf-panel" data-panel="1">
+          <div class="form-grid">
+            <div class="field full"><label data-i18n="admin.pName"><span class="req">*</span> Product Name (EN)</label><input id="pf-name" required></div>
+            <div class="field"><label data-i18n="admin.pCategory">Category</label><select id="pf-category"></select></div>
+            <div class="field"><label>Model No. <span class="hint-inline">(auto collected in inquiries)</span></label><input id="pf-model" placeholder="e.g. AM-HC01"></div>
+            <div class="field switch-row"><span data-i18n="admin.pActive">Active on website</span><label class="switch"><input id="pf-active" type="checkbox" checked><span class="slider"></span></label></div>
+            <div class="field switch-row"><span data-i18n="admin.pHot">Hot product</span><label class="switch"><input id="pf-hot" type="checkbox"><span class="slider"></span></label></div>
+          </div>
+        </div>
+
+        <!-- Step 2: Images & Files -->
+        <div class="pf-panel" data-panel="2" style="display:none">
+          <div class="form-grid">
+            <div class="field full"><label data-i18n="admin.pImage">Main Image URL (or upload below)</label><input id="pf-image"><div style="margin-top:10px"><img id="pf-preview" alt="" style="width:120px;height:120px;object-fit:contain;border:1px solid var(--line);border-radius:10px;background:var(--navy-50);display:none"></div></div>
+            <div class="field full"><label data-i18n="admin.pUpload">Upload Main Image (JPG/PNG, max 5MB, auto-compressed)</label><input id="pf-file" type="file" accept="image/*"></div>
+            <div class="field full"><label data-i18n="admin.pfGallery">Gallery Images <span class="hint-inline">(upload below — thumbnails shown, click × to remove)</span></label><input id="pf-gallery" style="display:none" placeholder="assets/images/p1-1.jpg,assets/images/p1-2.jpg"><input id="pf-file-gallery" type="file" accept="image/*" multiple><div id="pf-gallery-previews" class="pf-prev-thumbs"></div></div>
+            <div class="field full"><label data-i18n="admin.pfDetailImages">Detail Images <span class="hint-inline">(upload below — thumbnails shown, click × to remove)</span></label><input id="pf-detailImages" style="display:none" placeholder="assets/images/p1-d1.jpg,assets/images/p1-d2.jpg"><input id="pf-file-detail" type="file" accept="image/*" multiple><div id="pf-detail-previews" class="pf-prev-thumbs"></div></div>
+            <div class="field full"><label data-i18n="admin.pfDatasheet">Datasheet file path (PDF)</label><input id="pf-datasheet" placeholder="assets/docs/p1-spec.pdf"><input id="pf-file-datasheet" type="file" accept=".pdf,.doc,.docx,.xls,.xlsx" multiple style="margin-top:6px"><p class="hint">Upload files to assets/docs/ first, then copy the paths above.</p></div>
+            <div class="field full"><label data-i18n="admin.pfCertFile">Certification file path (PDF)</label><input id="pf-certFile" placeholder="assets/docs/p1-ce.pdf"><input id="pf-file-certFile" type="file" accept=".pdf,.doc,.docx,.jpg,.png" multiple style="margin-top:6px"><p class="hint">Upload files to assets/docs/ first, then copy the paths above.</p></div>
+          </div>
+        </div>
+
+        <!-- Step 3: Price & Stock -->
+        <div class="pf-panel" data-panel="3" style="display:none">
+          <div class="form-grid">
+            <div class="field"><label data-i18n="admin.pPrice">Price (USD)</label><input id="pf-price" type="number" step="0.01" min="0"></div>
+            <div class="field"><label>Carton Packing <span class="hint-inline">(pcs per carton — cart qty must be its multiple)</span></label><input id="pf-packing" type="number" min="1" placeholder="24"></div>
+            <div class="field"><label data-i18n="admin.pMoq">MOQ</label><input id="pf-moq" type="number" min="1"></div>
+            <div class="field"><label data-i18n="admin.pTerm">Trade Term</label><select id="pf-term"><option value="FOB">FOB</option><option value="EXW">EXW</option><option value="FAS">FAS</option><option value="FCA">FCA</option><option value="CPT">CPT</option><option value="CIP">CIP</option><option value="CFR">CFR</option><option value="CIF">CIF</option><option value="DAP">DAP</option><option value="DPU">DPU</option><option value="DDP">DDP</option></select></div>
+            <div class="field"><label data-i18n="admin.pUnit">Unit</label><input id="pf-unit" placeholder="pcs / pack / case / set / dozen" list="unit-list"><datalist id="unit-list"><option>pcs</option><option>pack</option><option>case</option><option>set</option><option>dozen</option></datalist></div>
+            <div class="field"><label data-i18n="admin.pLead">Lead Time (days)</label><input id="pf-lead" type="number" min="1"></div>
+            <div class="field full"><label>Tiered Prices (qty range price, one per line)</label><textarea id="pf-priceTiers" rows="3" placeholder="200-499,15.00&#10;500-1000,14.00&#10;1000+,13.00"></textarea><p class="hint">Each line: minQty-maxQty,price (USD). Cart uses the FIRST line (highest price) by default.</p></div>
+          </div>
+        </div>
+
+        <!-- Step 4: Specs & Languages -->
+        <div class="pf-panel" data-panel="4" style="display:none">
+          <div class="form-grid">
+            <div class="field"><label data-i18n="admin.pVoltage">Voltage / Power</label><input id="pf-voltage"></div>
+            <div class="field"><label data-i18n="admin.pMaterial">Material</label><input id="pf-material"></div>
+            <div class="field"><label data-i18n="admin.pCapacity">Capacity / Size</label><input id="pf-capacity"></div>
+            <div class="field"><label data-i18n="admin.pCerts">Certifications</label><input id="pf-certs"></div>
+            <div class="field full"><label data-i18n="admin.pFeatures">Features (comma separated)</label><input id="pf-features"></div>
+            <div class="field full">
+              <details class="pf-more">
+                <summary data-i18n="admin.pfNames">Product names (15 languages)</summary>
+                <p class="hint" data-i18n="admin.pfNamesHint">Fill the English name plus other languages; empty languages fall back to English.</p>
+                <label class="pf-lang-l">EN</label><input id="pf-names-en" placeholder="English name">
+                <label class="pf-lang-l">ZH</label><input id="pf-names-zh" placeholder="中文名称">
+                <label class="pf-lang-l">VI</label><input id="pf-names-vi" placeholder="Tên tiếng Việt">
+                <label class="pf-lang-l">TH</label><input id="pf-names-th" placeholder="ชื่อภาษาไทย">
+                <label class="pf-lang-l">ID</label><input id="pf-names-id" placeholder="Nama Bahasa Indonesia">
+                <label class="pf-lang-l">ES</label><input id="pf-names-es" placeholder="Nombre en español">
+                <label class="pf-lang-l">FR</label><input id="pf-names-fr" placeholder="Nom en français">
+                <label class="pf-lang-l">PT</label><input id="pf-names-pt" placeholder="Nome em português">
+                <label class="pf-lang-l">RU</label><input id="pf-names-ru" placeholder="Название на русском">
+                <label class="pf-lang-l">JA</label><input id="pf-names-ja" placeholder="日本語の名称">
+                <label class="pf-lang-l">KO</label><input id="pf-names-ko" placeholder="한국어 이름">
+                <label class="pf-lang-l">IT</label><input id="pf-names-it" placeholder="Nome in italiano">
+                <label class="pf-lang-l">DE</label><input id="pf-names-de" placeholder="Name auf Deutsch">
+                <label class="pf-lang-l">NL</label><input id="pf-names-nl" placeholder="Naam in het Nederlands">
+                <label class="pf-lang-l">AR</label><input id="pf-names-ar" placeholder="الاسم بالعربية">
+              </details>
+            </div>
+            <div class="field full">
+              <details class="pf-more">
+                <summary data-i18n="admin.pfDesc">Description (15 languages)</summary>
+                <label class="pf-lang-l">EN</label><textarea id="pf-desc-en" rows="3" placeholder="Product description in English"></textarea>
+                <label class="pf-lang-l">ZH</label><textarea id="pf-desc-zh" rows="2" placeholder="产品描述（中文）"></textarea>
+                <label class="pf-lang-l">VI</label><textarea id="pf-desc-vi" rows="2" placeholder="Mô tả sản phẩm (tiếng Việt)"></textarea>
+                <label class="pf-lang-l">TH</label><textarea id="pf-desc-th" rows="2" placeholder="คำอธิบายสินค้า (ภาษาไทย)"></textarea>
+                <label class="pf-lang-l">ID</label><textarea id="pf-desc-id" rows="2" placeholder="Deskripsi produk (Bahasa Indonesia)"></textarea>
+                <label class="pf-lang-l">ES</label><textarea id="pf-desc-es" rows="2" placeholder="Descripción del producto (español)"></textarea>
+                <label class="pf-lang-l">FR</label><textarea id="pf-desc-fr" rows="2" placeholder="Description du produit (français)"></textarea>
+                <label class="pf-lang-l">PT</label><textarea id="pf-desc-pt" rows="2" placeholder="Descrição do produto (português)"></textarea>
+                <label class="pf-lang-l">RU</label><textarea id="pf-desc-ru" rows="2" placeholder="Описание на русском"></textarea>
+                <label class="pf-lang-l">JA</label><textarea id="pf-desc-ja" rows="2" placeholder="日本語の説明"></textarea>
+                <label class="pf-lang-l">KO</label><textarea id="pf-desc-ko" rows="2" placeholder="한국어 설명"></textarea>
+                <label class="pf-lang-l">IT</label><textarea id="pf-desc-it" rows="2" placeholder="Descrizione in italiano"></textarea>
+                <label class="pf-lang-l">DE</label><textarea id="pf-desc-de" rows="2" placeholder="Beschreibung auf Deutsch"></textarea>
+                <label class="pf-lang-l">NL</label><textarea id="pf-desc-nl" rows="2" placeholder="Beschrijving in het Nederlands"></textarea>
+                <label class="pf-lang-l">AR</label><textarea id="pf-desc-ar" rows="2" placeholder="الوصف بالعربية"></textarea>
+              </details>
+            </div>
+          </div>
+        </div>
+
+        <div class="pf-nav">
+          <button type="button" class="btn btn-outline" id="prod-prev-btn" style="display:none" data-i18n="admin.prev">Previous</button>
+          <span class="spacer"></span>
+          <button type="button" class="btn btn-primary" id="prod-next-btn" data-i18n="admin.next">Next</button>
+          <button type="button" class="btn btn-primary" id="prod-save-btn" style="display:none" data-i18n="admin.save">Save</button>
+          <button type="button" class="btn btn-outline" id="prod-cancel-btn" data-i18n="admin.cancel">Cancel</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- ============ CONTENT EDIT MODAL ============ -->
+<div id="content-modal" class="modal">
+  <div class="modal-box modal-lg">
+    <div class="m-head"><h3 id="cm-title">Edit</h3><button class="m-close" aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg></button></div>
+    <div class="m-body">
+      <div id="cm-form"></div>
+      <div class="row-gap" style="margin-top:18px">
+        <button type="button" class="btn btn-primary" id="cm-save-btn" data-i18n="admin.saveItem">Save</button>
+        <button type="button" class="btn btn-outline" id="cm-cancel-btn" data-i18n="admin.cancel">Cancel</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="toast-box"></div>
+
+<script src="js/data-override.js"></script>
+<script src="langs/en.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/data.js"></script>
+<script src="js/content-data.js"></script>
+<script src="js/admin.js"></script>
+</body>
+</html>

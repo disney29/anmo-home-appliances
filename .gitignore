@@ -1,0 +1,10 @@
+# backups & temp
+*.bak
+*.bak-*
+*~ 
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+# logs
+*.log

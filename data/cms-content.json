@@ -1,0 +1,1580 @@
+{
+  "hero": {
+    "slides": [
+      {
+        "badge": {
+          "en": "Factory Direct · Yiwu, China",
+          "zh": "工厂直供 · 中国义乌",
+          "vi": "Trực tiếp nhà máy · Nghĩa Ô, Trung Quốc",
+          "th": "จากโรงงานโดยตรง · อี้วู จีน",
+          "id": "Langsung dari Pabrik · Yiwu, Tiongkok",
+          "es": "Directo de Fábrica · Yiwu, China",
+          "fr": "Direct d'Usine · Yiwu, Chine",
+          "pt": "Direto da Fábrica · Yiwu, China"
+        },
+        "title": {
+          "en": "Your Trusted Personal Care Appliance Partner",
+          "zh": "您信赖的个人护理电器供应伙伴",
+          "vi": "Đối tác cung cấp thiết bị chăm sóc cá nhân đáng tin cậy của bạn",
+          "th": "พันธมิตรผู้จัดจำหน่ายเครื่องใช้ไฟฟ้าส่วนบุคคลที่คุณไว้วางใจ",
+          "id": "Mitra Pasokan Peralatan Perawatan Pribadi Tepercaya Anda",
+          "es": "Su socio confiable de suministro de electrodomésticos de cuidado personal",
+          "fr": "Votre partenaire fiable en appareils de soins personnels",
+          "pt": "Seu parceiro confiável em eletrodomésticos de cuidado pessoal"
+        },
+        "sub": {
+          "en": "Factory-direct hair clippers, shavers, dryers and personal care appliances — exported to wholesale buyers in 100+ countries.",
+          "zh": "工厂直供电推剪、剃须刀、吹风机等个人护理电器，出口至全球100多个国家的批发采购商。",
+          "vi": "Tông đơ, máy cạo râu, máy sấy tóc và thiết bị chăm sóc cá nhân từ nhà máy — xuất khẩu đến khách bán buôn tại hơn 100 quốc gia.",
+          "th": "กรรไกรตัดผม มีดโกนหนวด ไดร์เป่าผม และเครื่องใช้ไฟฟ้าส่วนบุคคลจากโรงงาน — ส่งออกสู่ผู้ซื้อขายส่งในกว่า 100 ประเทศ",
+          "id": "Tongkat rambut, pencukur, pengering rambut, dan peralatan perawatan pribadi langsung dari pabrik — diekspor ke pembeli grosir di 100+ negara.",
+          "es": "Cortapelos, afeitadoras, secadores y electrodomésticos de cuidado personal, directo de fábrica — exportados a compradores mayoristas en más de 100 países.",
+          "fr": "Tondeuses, rasoirs, sèche-cheveux et appareils de soins personnels, directement d'usine — exportés vers des acheteurs en gros dans plus de 100 pays.",
+          "pt": "Máquinas de cortar, barbeadores, secadores e eletrodomésticos de cuidado pessoal, direto da fábrica — exportados para compradores no atacado em mais de 100 países."
+        },
+        "img": "assets/images/factory-line.jpg",
+        "btn1": {
+          "en": "Explore Products",
+          "zh": "浏览产品",
+          "vi": "Xem sản phẩm",
+          "th": "ชมสินค้า",
+          "id": "Lihat Produk",
+          "es": "Ver Productos",
+          "fr": "Voir les Produits",
+          "pt": "Ver Produtos"
+        },
+        "btn1Href": "products.html",
+        "btn2": {
+          "en": "Contact Us",
+          "zh": "联系我们",
+          "vi": "Liên hệ",
+          "th": "ติดต่อเรา",
+          "id": "Hubungi Kami",
+          "es": "Contáctenos",
+          "fr": "Contactez-Nous",
+          "pt": "Fale Conosco"
+        },
+        "btn2Href": "contact.html"
+      },
+      {
+        "badge": {
+          "en": "Certifications",
+          "zh": "认证",
+          "vi": "Chứng nhận",
+          "th": "การรับรอง",
+          "id": "Sertifikasi",
+          "es": "Certificaciones",
+          "fr": "Certifications",
+          "pt": "Certificações"
+        },
+        "title": {
+          "en": "Quality You Can Verify",
+          "zh": "可验证的品质",
+          "vi": "Chất lượng có thể kiểm chứng",
+          "th": "คุณภาพที่ตรวจสอบได้",
+          "id": "Kualitas yang Dapat Diverifikasi",
+          "es": "Calidad verificable",
+          "fr": "Une qualité vérifiable",
+          "pt": "Qualidade verificável"
+        },
+        "sub": {
+          "en": "CE, CB, RoHS and ISO 9001 certified production lines with full pre-shipment inspection on every order.",
+          "zh": "CE、CB、RoHS、ISO9001认证生产线，每笔订单出厂前全检。",
+          "vi": "Dây chuyền đạt chứng nhận CE, CB, RoHS, ISO 9001 với kiểm tra toàn bộ trước khi giao hàng.",
+          "th": "สายการผลิตที่ผ่านการรับรอง CE CB RoHS ISO 9001 พร้อมตรวจสอบเต็มรูปแบบก่อนจัดส่งทุกคำสั่งซื้อ",
+          "id": "Lini produksi bersertifikat CE, CB, RoHS, ISO 9001 dengan pemeriksaan penuh sebelum pengiriman setiap pesanan.",
+          "es": "Líneas de producción certificadas CE, CB, RoHS e ISO 9001 con inspección total antes de cada envío.",
+          "fr": "Lignes de production certifiées CE, CB, RoHS et ISO 9001 avec inspection complète avant chaque expédition.",
+          "pt": "Linhas de produção certificadas CE, CB, RoHS e ISO 9001 com inspeção completa antes de cada envio."
+        },
+        "img": "assets/images/factory-molding.jpg",
+        "btn1": {
+          "en": "Explore Products",
+          "zh": "浏览产品",
+          "vi": "Xem sản phẩm",
+          "th": "ชมสินค้า",
+          "id": "Lihat Produk",
+          "es": "Ver Productos",
+          "fr": "Voir les Produits",
+          "pt": "Ver Produtos"
+        },
+        "btn1Href": "about.html",
+        "btn2": {
+          "en": "Contact Us",
+          "zh": "联系我们",
+          "vi": "Liên hệ",
+          "th": "ติดต่อเรา",
+          "id": "Hubungi Kami",
+          "es": "Contáctenos",
+          "fr": "Contactez-Nous",
+          "pt": "Fale Conosco"
+        },
+        "btn2Href": "contact.html"
+      },
+      {
+        "badge": {
+          "en": "OEM / ODM",
+          "zh": "OEM / ODM",
+          "vi": "OEM / ODM",
+          "th": "OEM / ODM",
+          "id": "OEM / ODM",
+          "es": "OEM / ODM",
+          "fr": "OEM / ODM",
+          "pt": "OEM / ODM"
+        },
+        "title": {
+          "en": "OEM / ODM Made Easy",
+          "zh": "OEM / ODM 轻松定制",
+          "vi": "OEM / ODM dễ dàng",
+          "th": "OEM / ODM ง่ายนิดเดียว",
+          "id": "OEM / ODM Mudah",
+          "es": "OEM / ODM sin complicaciones",
+          "fr": "OEM / ODM simplifié",
+          "pt": "OEM / ODM sem complicação"
+        },
+        "sub": {
+          "en": "Private-label branding, custom voltage, plugs and design — we build appliances your way, from MOQ 100 pcs.",
+          "zh": "贴牌、定制电压、插头与外观设计——按您的方式生产，起订量低至100件。",
+          "vi": "Nhãn riêng, điện áp, phích cắm và thiết kế tùy chỉnh — sản xuất theo cách của bạn, MOQ từ 100 chiếc.",
+          "th": "แบรนด์ส่วนตัว แรงดันไฟ เต้าเสียบ และดีไซน์ตามต้องการ — ผลิตตามแบบของคุณ MOQ ตั้งแต่ 100 ชิ้น",
+          "id": "Merek pribadi, tegangan, steker, dan desain khusus — kami memproduksi sesuai cara Anda, MOQ dari 100 pcs.",
+          "es": "Marca privada, voltaje, enchufes y diseño personalizados — fabricamos a su manera, MOQ desde 100 unidades.",
+          "fr": "Marque privée, tension, prises et design personnalisés — nous fabriquons à votre façon, MOQ dès 100 pièces.",
+          "pt": "Marca própria, tensão, plugues e design personalizados — fabricamos do seu jeito, MOQ a partir de 100 peças."
+        },
+        "img": "assets/images/factory-qc.jpg",
+        "btn1": {
+          "en": "Explore Products",
+          "zh": "浏览产品",
+          "vi": "Xem sản phẩm",
+          "th": "ชมสินค้า",
+          "id": "Lihat Produk",
+          "es": "Ver Productos",
+          "fr": "Voir les Produits",
+          "pt": "Ver Produtos"
+        },
+        "btn1Href": "products.html",
+        "btn2": {
+          "en": "Contact Us",
+          "zh": "联系我们",
+          "vi": "Liên hệ",
+          "th": "ติดต่อเรา",
+          "id": "Hubungi Kami",
+          "es": "Contáctenos",
+          "fr": "Contactez-Nous",
+          "pt": "Fale Conosco"
+        },
+        "btn2Href": "contact.html"
+      }
+    ]
+  },
+  "stats": [
+    {
+      "v": "15+",
+      "l": {
+        "en": "Years of Export",
+        "zh": "年出口经验",
+        "vi": "Năm xuất khẩu",
+        "th": "ปีส่งออก",
+        "id": "Tahun Ekspor",
+        "es": "Años de Exportación",
+        "fr": "Ans d'Exportation",
+        "pt": "Anos de Exportação"
+      }
+    },
+    {
+      "v": "100+",
+      "l": {
+        "en": "Countries Served",
+        "zh": "服务国家",
+        "vi": "Quốc gia phục vụ",
+        "th": "ประเทศที่ให้บริการ",
+        "id": "Negara Dilayani",
+        "es": "Países Atendidos",
+        "fr": "Pays Servis",
+        "pt": "Países Atendidos"
+      }
+    },
+    {
+      "v": "500+",
+      "l": {
+        "en": "OEM Models",
+        "zh": "OEM型号",
+        "vi": "Mẫu OEM",
+        "th": "รุ่น OEM",
+        "id": "Model OEM",
+        "es": "Modelos OEM",
+        "fr": "Modèles OEM",
+        "pt": "Modelos OEM"
+      }
+    },
+    {
+      "v": "12h",
+      "l": {
+        "en": "Quote Response",
+        "zh": "报价响应",
+        "vi": "Phản hồi báo giá",
+        "th": "ตอบใบเสนอราคา",
+        "id": "Respons Penawaran",
+        "es": "Respuesta de Cotización",
+        "fr": "Réponse Devis",
+        "pt": "Resposta de Orçamento"
+      }
+    }
+  ],
+  "advantages": [
+    {
+      "icon": "star",
+      "title": {
+        "en": "15+ Years of Export Experience",
+        "zh": "15年以上出口经验",
+        "vi": "Hơn 15 năm kinh nghiệm xuất khẩu",
+        "th": "ประสบการณ์ส่งออกกว่า 15 ปี",
+        "id": "15+ Tahun Pengalaman Ekspor",
+        "es": "Más de 15 años de experiencia exportadora",
+        "fr": "Plus de 15 ans d'expérience export",
+        "pt": "Mais de 15 anos de experiência em exportação"
+      },
+      "desc": {
+        "en": "Deep understanding of US, EU, Latin American, Southeast Asian, Middle East and African market standards, voltage and certification requirements.",
+        "zh": "深入了解美国、欧盟、拉美、东南亚、中东与非洲市场的标准、电压与认证要求。",
+        "vi": "Hiểu sâu tiêu chuẩn, điện áp và yêu cầu chứng nhận của thị trường Mỹ, EU, Mỹ Latinh, Đông Nam Á, Trung Đông và châu Phi.",
+        "th": "เข้าใจมาตรฐาน แรงดันไฟ และข้อกำหนดการรับรองของตลาดสหรัฐฯ ยุโรป ละตินอเมริกา เอเชียตะวันออกเฉียงใต้ ตะวันออกกลาง และแอฟริกาอย่างลึกซึ้ง",
+        "id": "Pemahaman mendalam tentang standar pasar AS, UE, Amerika Latin, Asia Tenggara, Timur Tengah, dan Afrika.",
+        "es": "Profundo conocimiento de los estándares de EE. UU., Europa, América Latina, Sudeste Asiático, Medio Oriente y África.",
+        "fr": "Connaissance approfondie des normes des marchés américain, européen, latino-américain, sud-est asiatique, Moyen-Orient et africain.",
+        "pt": "Conhecimento profundo dos padrões dos mercados dos EUA, Europa, América Latina, Sudeste Asiático, Oriente Médio e África."
+      }
+    },
+    {
+      "icon": "shield",
+      "title": {
+        "en": "Full International Certifications",
+        "zh": "齐全的国际认证",
+        "vi": "Đầy đủ chứng nhận quốc tế",
+        "th": "การรับรองมาตรฐานสากลครบถ้วน",
+        "id": "Sertifikasi Internasional Lengkap",
+        "es": "Certificaciones internacionales completas",
+        "fr": "Certifications internationales complètes",
+        "pt": "Certificações internacionais completas"
+      },
+      "desc": {
+        "en": "CE, CB, UL, RoHS, ISO 9001 and BSCI compliant manufacturing with complete test reports and documentation support.",
+        "zh": "符合CE、CB、UL、RoHS、ISO9001与BSCI的生产体系，提供完整测试报告与文件支持。",
+        "vi": "Sản xuất đạt CE, CB, UL, RoHS, ISO 9001 và BSCI với đầy đủ báo cáo thử nghiệm và tài liệu.",
+        "th": "การผลิตที่ได้มาตรฐาน CE CB UL RoHS ISO 9001 และ BSCI พร้อมรายงานทดสอบและเอกสารครบถ้วน",
+        "id": "Manufaktur sesuai CE, CB, UL, RoHS, ISO 9001, dan BSCI dengan laporan uji serta dokumen lengkap.",
+        "es": "Fabricación conforme a CE, CB, UL, RoHS, ISO 9001 y BSCI con informes de prueba y documentación completos.",
+        "fr": "Fabrication conforme CE, CB, UL, RoHS, ISO 9001 et BSCI avec rapports de test et documentation complets.",
+        "pt": "Fabricação em conformidade com CE, CB, UL, RoHS, ISO 9001 e BSCI, com relatórios de teste e documentação completos."
+      }
+    },
+    {
+      "icon": "heart",
+      "title": {
+        "en": "Flexible OEM / ODM Customization",
+        "zh": "灵活的OEM/ODM定制",
+        "vi": "Tùy chỉnh OEM / ODM linh hoạt",
+        "th": "ปรับแต่ง OEM / ODM ได้ยืดหยุ่น",
+        "id": "Kustomisasi OEM / ODM Fleksibel",
+        "es": "Personalización OEM / ODM flexible",
+        "fr": "Personnalisation OEM / ODM flexible",
+        "pt": "Personalização OEM / ODM flexível"
+      },
+      "desc": {
+        "en": "Custom voltage, plugs, branding, packaging and design — low MOQs from 100 pieces to help you start fast.",
+        "zh": "定制电压、插头、品牌、包装与外观设计——起订量低至100件，快速启动。",
+        "vi": "Điện áp, phích cắm, thương hiệu, bao bì và thiết kế tùy chỉnh — MOQ thấp từ 100 chiếc.",
+        "th": "แรงดันไฟ เต้าเสียบ แบรนด์ บรรจุภัณฑ์ และดีไซน์ตามต้องการ — MOQ ต่ำตั้งแต่ 100 ชิ้น",
+        "id": "Tegangan, steker, merek, kemasan, dan desain khusus — MOQ rendah mulai 100 pcs.",
+        "es": "Voltaje, enchufes, marca, empaque y diseño personalizados — MOQ bajo desde 100 unidades.",
+        "fr": "Tension, prises, marque, emballage et design personnalisés — MOQ bas dès 100 pièces.",
+        "pt": "Tensão, plugues, marca, embalagem e design personalizados — MOQ baixo a partir de 100 peças."
+      }
+    }
+  ],
+  "why": [
+    {
+      "icon": "cart",
+      "title": {
+        "en": "Factory-Direct Pricing",
+        "zh": "工厂直供价格",
+        "vi": "Giá trực tiếp từ nhà máy",
+        "th": "ราคาโรงงานโดยตรง",
+        "id": "Harga Langsung Pabrik",
+        "es": "Precio directo de fábrica",
+        "fr": "Prix direct usine",
+        "pt": "Preço direto de fábrica"
+      },
+      "desc": {
+        "en": "No middlemen. Direct manufacturer prices with healthy margins for distributors and wholesalers.",
+        "zh": "没有中间商。直接工厂价，为分销商与批发商留足利润空间。",
+        "vi": "Không qua trung gian. Giá nhà sản xuất với biên lợi nhuận tốt cho nhà phân phối.",
+        "th": "ไม่มีคนกลาง ราคาผู้ผลิตโดยตรง อัตรากำไรดีสำหรับผู้จัดจำหน่าย",
+        "id": "Tanpa perantara. Harga produsen langsung dengan margin sehat untuk distributor.",
+        "es": "Sin intermediarios. Precio de fabricante con márgenes saludables para distribuidores.",
+        "fr": "Sans intermédiaires. Prix fabricant avec de bonnes marges pour les distributeurs.",
+        "pt": "Sem intermediários. Preço de fabricante com boas margens para distribuidores."
+      }
+    },
+    {
+      "icon": "shield",
+      "title": {
+        "en": "Stable Quality Control",
+        "zh": "稳定的品质控制",
+        "vi": "Kiểm soát chất lượng ổn định",
+        "th": "ควบคุมคุณภาพสม่ำเสมอ",
+        "id": "Kontrol Kualitas Stabil",
+        "es": "Control de calidad estable",
+        "fr": "Contrôle qualité stable",
+        "pt": "Controle de qualidade estável"
+      },
+      "desc": {
+        "en": "IQC, in-line inspection and final random inspection (AQL 2.5) before every shipment.",
+        "zh": "来料检验、产线巡检与出厂前按AQL 2.5抽样全检。",
+        "vi": "Kiểm tra đầu vào, kiểm tra trong dây chuyền và kiểm tra ngẫu nhiên AQL 2.5 trước mỗi lô hàng.",
+        "th": "ตรวจสอบวัตถุดิบ ตรวจสอบในสายการผลิต และสุ่มตรวจ AQL 2.5 ก่อนทุกเที่ยวเรือ",
+        "id": "Inspeksi bahan masuk, inspeksi lini, dan inspeksi acak AQL 2.5 sebelum setiap pengiriman.",
+        "es": "Inspección de entrada, inspección en línea y muestreo AQL 2.5 antes de cada envío.",
+        "fr": "Inspection d'entrée, inspection en ligne et échantillonnage AQL 2.5 avant chaque expédition.",
+        "pt": "Inspeção de entrada, inspeção em linha e amostragem AQL 2.5 antes de cada envio."
+      }
+    },
+    {
+      "icon": "truck",
+      "title": {
+        "en": "On-Time Delivery",
+        "zh": "准时交付",
+        "vi": "Giao hàng đúng hẹn",
+        "th": "จัดส่งตรงเวลา",
+        "id": "Pengiriman Tepat Waktu",
+        "es": "Entrega a tiempo",
+        "fr": "Livraison à temps",
+        "pt": "Entrega pontual"
+      },
+      "desc": {
+        "en": "15–30 day production lead time with reliable sea, rail and air shipping schedules.",
+        "zh": "生产交期15–30天，海运、铁路与空运排期可靠。",
+        "vi": "Thời gian sản xuất 15–30 ngày với lịch vận chuyển biển, đường sắt và hàng không đáng tin cậy.",
+        "th": "เวลาผลิต 15–30 วัน พร้อมกำหนดการขนส่งทางเรือ ราง และอากาศที่เชื่อถือได้",
+        "id": "Waktu produksi 15–30 hari dengan jadwal laut, kereta, dan udara yang andal.",
+        "es": "Plazo de producción de 15–30 días con horarios de envío marítimo, ferroviario y aéreo confiables.",
+        "fr": "Délai de production de 15 à 30 jours avec des calendriers maritimes, ferroviaires et aériens fiables.",
+        "pt": "Prazo de produção de 15–30 dias com cronogramas marítimos, ferroviários e aéreos confiáveis."
+      }
+    },
+    {
+      "icon": "card",
+      "title": {
+        "en": "Flexible Payment Terms",
+        "zh": "灵活的付款方式",
+        "vi": "Điều khoản thanh toán linh hoạt",
+        "th": "เงื่อนไขการชำระเงินยืดหยุ่น",
+        "id": "Syarat Pembayaran Fleksibel",
+        "es": "Condiciones de pago flexibles",
+        "fr": "Conditions de paiement flexibles",
+        "pt": "Condições de pagamento flexíveis"
+      },
+      "desc": {
+        "en": "T/T, PayPal and L/C supported, with a clear and protected transaction process.",
+        "zh": "支持T/T电汇、PayPal与信用证，流程清晰有保障。",
+        "vi": "Hỗ trợ T/T, PayPal và L/C với quy trình rõ ràng, an toàn.",
+        "th": "รองรับ T/T PayPal และ L/C ด้วยกระบวนการที่ชัดเจนและปลอดภัย",
+        "id": "Mendukung T/T, PayPal, dan L/C dengan proses yang jelas dan aman.",
+        "es": "Soporte para T/T, PayPal y L/C con un proceso claro y protegido.",
+        "fr": "T/T, PayPal et L/C pris en charge, avec un processus clair et sécurisé.",
+        "pt": "Suporte a T/T, PayPal e L/C com processo claro e protegido."
+      }
+    },
+    {
+      "icon": "heart",
+      "title": {
+        "en": "After-Sales Support",
+        "zh": "完善的售后服务",
+        "vi": "Hỗ trợ sau bán hàng",
+        "th": "บริการหลังการขาย",
+        "id": "Dukungan Purna Jual",
+        "es": "Soporte postventa",
+        "fr": "Support après-vente",
+        "pt": "Suporte pós-venda"
+      },
+      "desc": {
+        "en": "1-year warranty, spare parts supply and remote technical support worldwide.",
+        "zh": "1年质保、备件供应与全球远程技术支持。",
+        "vi": "Bảo hành 1 năm, cung cấp phụ tùng và hỗ trợ kỹ thuật từ xa toàn cầu.",
+        "th": "รับประกัน 1 ปี จัดหาอะไหล่ และสนับสนุนเทคนิคทางไกลทั่วโลก",
+        "id": "Garansi 1 tahun, pasokan suku cadang, dan dukungan teknis jarak jauh global.",
+        "es": "Garantía de 1 año, suministro de repuestos y soporte técnico remoto mundial.",
+        "fr": "Garantie 1 an, fourniture de pièces détachées et support technique à distance mondial.",
+        "pt": "Garantia de 1 ano, fornecimento de peças e suporte técnico remoto mundial."
+      }
+    },
+    {
+      "icon": "globe",
+      "title": {
+        "en": "Local Market Know-how",
+        "zh": "懂当地市场",
+        "vi": "Hiểu biết thị trường địa phương",
+        "th": "รู้จักตลาดท้องถิ่น",
+        "id": "Memahami Pasar Lokal",
+        "es": "Conocimiento del mercado local",
+        "fr": "Connaissance du marché local",
+        "pt": "Conhecimento do mercado local"
+      },
+      "desc": {
+        "en": "Voltage, plug, certification and packaging adapted for your target market.",
+        "zh": "针对目标市场的电压、插头、认证与包装适配。",
+        "vi": "Điện áp, phích cắm, chứng nhận và bao bì phù hợp thị trường mục tiêu của bạn.",
+        "th": "ปรับแรงดันไฟ เต้าเสียบ การรับรอง และบรรจุภัณฑ์ให้เหมาะกับตลาดเป้าหมายของคุณ",
+        "id": "Tegangan, steker, sertifikasi, dan kemasan disesuaikan untuk pasar target Anda.",
+        "es": "Voltaje, enchufes, certificación y empaque adaptados a su mercado objetivo.",
+        "fr": "Tension, prises, certification et emballage adaptés à votre marché cible.",
+        "pt": "Tensão, plugues, certificação e embalagem adaptados ao seu mercado-alvo."
+      }
+    }
+  ],
+  "testimonials": [
+    {
+      "text": {
+        "en": "We have sourced hair clippers and shavers from ANMO for 3 years. Quality is stable and shipments are always on time.",
+        "zh": "我们从安墨采购电推剪和剃须刀已3年，品质稳定，交期准时。",
+        "vi": "Chúng tôi đã nhập tông đơ và máy cạo râu từ ANMO 3 năm. Chất lượng ổn định, hàng luôn đúng hạn.",
+        "th": "เราสั่งซื้อกรรไกรตัดผมและมีดโกนหนวดจาก ANMO มา 3 ปี คุณภาพคงที่ ส่งมอบตรงเวลาเสมอ",
+        "id": "Kami telah membeli pemotong rambut dan pencukur dari ANMO selama 3 tahun. Kualitas stabil dan pengiriman selalu tepat waktu.",
+        "es": "Llevamos 3 años comprando cortapelos y afeitadoras a ANMO. Calidad estable y entregas siempre puntuales.",
+        "fr": "Nous achetons des tondeuses et rasoirs chez ANMO depuis 3 ans. Qualité stable et livraisons toujours à l'heure.",
+        "pt": "Compramos máquinas de cortar cabelo e barbeadores da ANMO há 3 anos. Qualidade estável e entregas sempre pontuais."
+      },
+      "name": {
+        "en": "Carlos Mendes",
+        "zh": "卡洛斯·门德斯",
+        "vi": "Carlos Mendes",
+        "th": "คาร์ลอส เมนเดส",
+        "id": "Carlos Mendes",
+        "es": "Carlos Mendes",
+        "fr": "Carlos Mendes",
+        "pt": "Carlos Mendes"
+      },
+      "role": {
+        "en": "Distributor · Brazil",
+        "zh": "分销商 · 巴西",
+        "vi": "Nhà phân phối · Brazil",
+        "th": "ผู้จัดจำหน่าย · บราซิล",
+        "id": "Distributor · Brasil",
+        "es": "Distribuidor · Brasil",
+        "fr": "Distributeur · Brésil",
+        "pt": "Distribuidor · Brasil"
+      },
+      "initial": "CM"
+    },
+    {
+      "text": {
+        "en": "Their OEM team customized our brand packaging and voltage within one month. Highly professional.",
+        "zh": "他们的OEM团队一个月内就完成了我们的品牌包装与电压定制，非常专业。",
+        "vi": "Đội OEM của họ tùy chỉnh bao bì thương hiệu và điện áp trong một tháng. Rất chuyên nghiệp.",
+        "th": "ทีม OEM ของพวกเขาปรับแบรนด์และแรงดันไฟของเราเสร็จในหนึ่งเดือน มืออาชีพมาก",
+        "id": "Tim OEM mereka mengkustomisasi kemasan merek dan tegangan kami dalam satu bulan. Sangat profesional.",
+        "es": "Su equipo OEM personalizó nuestro empaque y voltaje en un mes. Muy profesional.",
+        "fr": "Leur équipe OEM a personnalisé notre marque et notre tension en un mois. Très professionnel.",
+        "pt": "A equipe OEM deles personalizou nossa marca e tensão em um mês. Muito profissional."
+      },
+      "name": {
+        "en": "Nguyen Van An",
+        "zh": "阮文安",
+        "vi": "Nguyễn Văn An",
+        "th": "เหงียน วัน อาน",
+        "id": "Nguyen Van An",
+        "es": "Nguyen Van An",
+        "fr": "Nguyen Van An",
+        "pt": "Nguyen Van An"
+      },
+      "role": {
+        "en": "Retail Chain Buyer · Vietnam",
+        "zh": "连锁零售采购 · 越南",
+        "vi": "Nhà mua chuỗi bán lẻ · Việt Nam",
+        "th": "ผู้ซื้อห่วงโซ่ค้าปลีก · เวียดนาม",
+        "id": "Pembeli Ritel · Vietnam",
+        "es": "Comprador de Cadena · Vietnam",
+        "fr": "Acheteur de Chaîne · Vietnam",
+        "pt": "Comprador de Rede · Vietnã"
+      },
+      "initial": "NA"
+    },
+    {
+      "text": {
+        "en": "Great factory, honest communication and competitive prices. Our best supplier in China.",
+        "zh": "优秀的工厂、真诚的沟通和有竞争力的价格，是我们在中国最好的供应商。",
+        "vi": "Nhà máy tốt, giao tiếp chân thành và giá cạnh tranh. Nhà cung cấp tốt nhất của chúng tôi tại Trung Quốc.",
+        "th": "โรงงานดี สื่อสารจริงใจ ราคาแข่งขัน เป็นซัพพลายเออร์ที่ดีที่สุดของเราในจีน",
+        "id": "Pabrik bagus, komunikasi jujur, harga kompetitif. Pemasok terbaik kami di China.",
+        "es": "Gran fábrica, comunicación honesta y precios competitivos. Nuestro mejor proveedor en China.",
+        "fr": "Excellente usine, communication honnête et prix compétitifs. Notre meilleur fournisseur en Chine.",
+        "pt": "Ótima fábrica, comunicação honesta e preços competitivos. Nosso melhor fornecedor na China."
+      },
+      "name": {
+        "en": "James Miller",
+        "zh": "詹姆斯·米勒",
+        "vi": "James Miller",
+        "th": "เจมส์ มิลเลอร์",
+        "id": "James Miller",
+        "es": "James Miller",
+        "fr": "James Miller",
+        "pt": "James Miller"
+      },
+      "role": {
+        "en": "Wholesaler · USA",
+        "zh": "批发商 · 美国",
+        "vi": "Nhà bán buôn · Mỹ",
+        "th": "ผู้ขายส่ง · สหรัฐฯ",
+        "id": "Grosir · AS",
+        "es": "Mayorista · EE. UU.",
+        "fr": "Grossiste · États-Unis",
+        "pt": "Atacadista · EUA"
+      },
+      "initial": "JM"
+    },
+    {
+      "text": {
+        "en": "CE and RoHS documents came with every order. Customs clearance was smooth in our market.",
+        "zh": "每笔订单都附带CE与RoHS文件，清关非常顺利。",
+        "vi": "Chứng chỉ CE và RoHS đi kèm mỗi đơn hàng. Thông quan rất suôn sẻ tại thị trường của chúng tôi.",
+        "th": "เอกสาร CE และ RoHS มาพร้อมทุกคำสั่งซื้อ ผ่านพิธีการศุลกากรลื่นไหลมาก",
+        "id": "Sertifikat CE dan RoHS menyertai setiap pesanan. Bea cukai berjalan lancar di pasar kami.",
+        "es": "Los certificados CE y RoHS acompañaron cada pedido. El despacho aduanero fue muy fluido.",
+        "fr": "Les certificats CE et RoHS accompagnaient chaque commande. Le dédouanement était très fluide.",
+        "pt": "Os certificados CE e RoHS acompanharam cada pedido. O desembaraço foi muito tranquilo."
+      },
+      "name": {
+        "en": "Ahmed Hassan",
+        "zh": "艾哈迈德·哈桑",
+        "vi": "Ahmed Hassan",
+        "th": "อาเหม็ด ฮัสซัน",
+        "id": "Ahmed Hassan",
+        "es": "Ahmed Hassan",
+        "fr": "Ahmed Hassan",
+        "pt": "Ahmed Hassan"
+      },
+      "role": {
+        "en": "Importer · Egypt",
+        "zh": "进口商 · 埃及",
+        "vi": "Nhà nhập khẩu · Ai Cập",
+        "th": "ผู้นำเข้า · อียิปต์",
+        "id": "Importir · Mesir",
+        "es": "Importador · Egipto",
+        "fr": "Importateur · Égypte",
+        "pt": "Importador · Egito"
+      },
+      "initial": "AH"
+    }
+  ],
+  "markets": [
+    {
+      "title": {
+        "en": "United States",
+        "zh": "美国",
+        "vi": "Hoa Kỳ",
+        "th": "สหรัฐอเมริกา",
+        "id": "Amerika Serikat",
+        "es": "Estados Unidos",
+        "fr": "États-Unis",
+        "pt": "Estados Unidos"
+      },
+      "desc": {
+        "en": "120V/60Hz · UL, DOE & Energy Star ready",
+        "zh": "120V/60Hz · UL、DOE与能源之星认证就绪",
+        "vi": "120V/60Hz · Sẵn sàng UL, DOE & Energy Star",
+        "th": "120V/60Hz · พร้อม UL, DOE & Energy Star",
+        "id": "120V/60Hz · Siap UL, DOE & Energy Star",
+        "es": "120V/60Hz · Listo para UL, DOE y Energy Star",
+        "fr": "120V/60Hz · Prêt pour UL, DOE et Energy Star",
+        "pt": "120V/60Hz · Pronto para UL, DOE e Energy Star"
+      }
+    },
+    {
+      "title": {
+        "en": "Latin America",
+        "zh": "拉美",
+        "vi": "Mỹ Latinh",
+        "th": "ละตินอเมริกา",
+        "id": "Amerika Latin",
+        "es": "América Latina",
+        "fr": "Amérique latine",
+        "pt": "América Latina"
+      },
+      "desc": {
+        "en": "110–127V · NOM & IRAM compliance support",
+        "zh": "110–127V · NOM与IRAM合规支持",
+        "vi": "110–127V · Hỗ trợ tuân thủ NOM & IRAM",
+        "th": "110–127V · สนับสนุน NOM & IRAM",
+        "id": "110–127V · Dukungan NOM & IRAM",
+        "es": "110–127V · Soporte de cumplimiento NOM e IRAM",
+        "fr": "110–127V · Support de conformité NOM et IRAM",
+        "pt": "110–127V · Suporte de conformidade NOM e IRAM"
+      }
+    },
+    {
+      "title": {
+        "en": "Europe",
+        "zh": "欧洲",
+        "vi": "Châu Âu",
+        "th": "ยุโรป",
+        "id": "Eropa",
+        "es": "Europa",
+        "fr": "Europe",
+        "pt": "Europa"
+      },
+      "desc": {
+        "en": "230V/50Hz · CE, ERP & RoHS compliant",
+        "zh": "230V/50Hz · CE、ERP与RoHS合规",
+        "vi": "230V/50Hz · Tuân thủ CE, ERP & RoHS",
+        "th": "230V/50Hz · ผ่าน CE, ERP & RoHS",
+        "id": "230V/50Hz · Sesuai CE, ERP & RoHS",
+        "es": "230V/50Hz · Conforme a CE, ERP y RoHS",
+        "fr": "230V/50Hz · Conforme CE, ERP et RoHS",
+        "pt": "230V/50Hz · Conforme CE, ERP e RoHS"
+      }
+    },
+    {
+      "title": {
+        "en": "Southeast Asia",
+        "zh": "东南亚",
+        "vi": "Đông Nam Á",
+        "th": "เอเชียตะวันออกเฉียงใต้",
+        "id": "Asia Tenggara",
+        "es": "Sudeste Asiático",
+        "fr": "Asie du Sud-Est",
+        "pt": "Sudeste Asiático"
+      },
+      "desc": {
+        "en": "220V · SIRIM & SNI certification support",
+        "zh": "220V · SIRIM与SNI认证支持",
+        "vi": "220V · Hỗ trợ chứng nhận SIRIM & SNI",
+        "th": "220V · สนับสนุน SIRIM & SNI",
+        "id": "220V · Dukungan SIRIM & SNI",
+        "es": "220V · Soporte de certificación SIRIM y SNI",
+        "fr": "220V · Support de certification SIRIM et SNI",
+        "pt": "220V · Suporte de certificação SIRIM e SNI"
+      }
+    },
+    {
+      "title": {
+        "en": "Middle East",
+        "zh": "中东",
+        "vi": "Trung Đông",
+        "th": "ตะวันออกกลาง",
+        "id": "Timur Tengah",
+        "es": "Medio Oriente",
+        "fr": "Moyen-Orient",
+        "pt": "Oriente Médio"
+      },
+      "desc": {
+        "en": "220–240V · SASO & ECAS compliant",
+        "zh": "220–240V · SASO与ECAS合规",
+        "vi": "220–240V · Tuân thủ SASO & ECAS",
+        "th": "220–240V · ผ่าน SASO & ECAS",
+        "id": "220–240V · Sesuai SASO & ECAS",
+        "es": "220–240V · Conforme a SASO y ECAS",
+        "fr": "220–240V · Conforme SASO et ECAS",
+        "pt": "220–240V · Conforme SASO e ECAS"
+      }
+    },
+    {
+      "title": {
+        "en": "Africa",
+        "zh": "非洲",
+        "vi": "Châu Phi",
+        "th": "แอฟริกา",
+        "id": "Afrika",
+        "es": "África",
+        "fr": "Afrique",
+        "pt": "África"
+      },
+      "desc": {
+        "en": "220V · SONCAP & PVoC clearance support",
+        "zh": "220V · SONCAP与PVoC清关支持",
+        "vi": "220V · Hỗ trợ thông quan SONCAP & PVoC",
+        "th": "220V · สนับสนุน SONCAP & PVoC",
+        "id": "220V · Dukungan SONCAP & PVoC",
+        "es": "220V · Soporte de despacho SONCAP y PVoC",
+        "fr": "220V · Support de dédouanement SONCAP et PVoC",
+        "pt": "220V · Suporte de desembaraço SONCAP e PVoC"
+      }
+    }
+  ],
+  "quote": {
+    "feats": [
+      {
+        "t": {
+          "en": "Factory-direct pricing",
+          "zh": "工厂直供价格",
+          "vi": "Giá trực tiếp nhà máy",
+          "th": "ราคาโรงงานโดยตรง",
+          "id": "Harga langsung pabrik",
+          "es": "Precio directo de fábrica",
+          "fr": "Prix direct usine",
+          "pt": "Preço direto de fábrica"
+        },
+        "d": {
+          "en": "No middlemen, direct manufacturer prices.",
+          "zh": "无中间商，直接出厂价。",
+          "vi": "Không trung gian, giá nhà sản xuất.",
+          "th": "ไม่มีคนกลาง ราคาผู้ผลิต",
+          "id": "Tanpa perantara, harga produsen.",
+          "es": "Sin intermediarios, precio de fabricante.",
+          "fr": "Sans intermédiaires, prix fabricant.",
+          "pt": "Sem intermediários, preço de fabricante."
+        }
+      },
+      {
+        "t": {
+          "en": "12-hour response",
+          "zh": "12小时响应",
+          "vi": "Phản hồi 12 giờ",
+          "th": "ตอบกลับ 12 ชั่วโมง",
+          "id": "Respons 12 jam",
+          "es": "Respuesta en 12 horas",
+          "fr": "Réponse en 12 heures",
+          "pt": "Resposta em 12 horas"
+        },
+        "d": {
+          "en": "Every inquiry answered by a dedicated export manager.",
+          "zh": "每一条询盘都由专属外贸经理跟进。",
+          "vi": "Mọi yêu cầu được quản lý xuất khẩu phụ trách.",
+          "th": "ทุกคำขอมีผู้จัดการส่งออกดูแล",
+          "id": "Setiap permintaan ditangani manajer ekspor.",
+          "es": "Cada consulta la atiende un gerente de exportación.",
+          "fr": "Chaque demande est suivie par un responsable export.",
+          "pt": "Cada consulta é atendida por um gerente de exportação."
+        }
+      },
+      {
+        "t": {
+          "en": "Free samples",
+          "zh": "免费样品",
+          "vi": "Mẫu miễn phí",
+          "th": "ตัวอย่างฟรี",
+          "id": "Sampel gratis",
+          "es": "Muestras gratuitas",
+          "fr": "Échantillons gratuits",
+          "pt": "Amostras grátis"
+        },
+        "d": {
+          "en": "Samples available for quality evaluation.",
+          "zh": "可提供样品用于品质评估。",
+          "vi": "Có mẫu để đánh giá chất lượng.",
+          "th": "มีตัวอย่างให้ประเมินคุณภาพ",
+          "id": "Sampel tersedia untuk evaluasi kualitas.",
+          "es": "Muestras disponibles para evaluación de calidad.",
+          "fr": "Échantillons disponibles pour évaluer la qualité.",
+          "pt": "Amostras disponíveis para avaliação de qualidade."
+        }
+      },
+      {
+        "t": {
+          "en": "Certification documents",
+          "zh": "认证文件",
+          "vi": "Tài liệu chứng nhận",
+          "th": "เอกสารรับรอง",
+          "id": "Dokumen sertifikasi",
+          "es": "Documentos de certificación",
+          "fr": "Documents de certification",
+          "pt": "Documentos de certificação"
+        },
+        "d": {
+          "en": "CE, CB, UL, RoHS test reports on request.",
+          "zh": "CE、CB、UL、RoHS测试报告可按需提供。",
+          "vi": "Báo cáo thử nghiệm CE, CB, UL, RoHS theo yêu cầu.",
+          "th": "รายงานทดสอบ CE CB UL RoHS ตามคำขอ",
+          "id": "Laporan uji CE, CB, UL, RoHS sesuai permintaan.",
+          "es": "Informes de prueba CE, CB, UL, RoHS a solicitud.",
+          "fr": "Rapports de test CE, CB, UL, RoHS sur demande.",
+          "pt": "Relatórios de teste CE, CB, UL, RoHS sob solicitação."
+        }
+      }
+    ]
+  },
+  "about": {
+    "story": {
+      "p1": {
+        "en": "ANMO HOME APPLIANCES (安墨家用电器有限公司) is a specialized manufacturer of hair salon tools and personal care appliances, headquartered at Building 3, No. 9 Longgang Road 1st Street, Heyetang, Yiwu, Jinhua, Zhejiang, China. From our integrated Yiwu facility we cover R&D, injection molding, assembly, QC and export under one roof.",
+        "zh": "安墨家用电器有限公司（ANMO HOME APPLIANCES）是一家专业生产美发沙龙工具与个人护理电器的制造商，总部位于中国浙江省金华市义乌市荷叶塘龙岗路一街九号3号楼。我们在义乌工厂集研发、注塑、组装、质检与出口于一体。",
+        "vi": "Thành lập tại Nghĩa Ô, Chiết Giang — thủ phủ toàn cầu của thiết bị chăm sóc cá nhân — ANMO HOME APPLIANCES khởi đầu từ một xưởng chuyên môn và phát triển thành nhà sản xuất tích hợp bao gồm R&D, ép nhựa, lắp ráp, QC và xuất khẩu tông đơ, máy cạo râu, máy tỉa, máy sấy tóc và thiết bị làm đẹp.",
+        "th": "ก่อตั้งที่อี้วู เจ้อเจียง — เมืองหลวงโลกของเครื่องใช้ไฟฟ้าส่วนบุคคลขนาดเล็ก — ANMO HOME APPLIANCES เริ่มจากเวิร์กช็อปเฉพาะทาง เติบโตเป็นผู้ผลิตครบวงจรครอบคลุม R&D การฉีดพลาสติก การประกอบ QC และการส่งออก กรรไกรตัดผม มีดโกนหนวด เครื่องตัดแต่ง ไดร์เป่าผม และอุปกรณ์ความงาม",
+        "id": "Didirikan di Yiwu, Zhejiang — ibu kota global peralatan perawatan pribadi kecil — ANMO HOME APPLIANCES berawal dari bengkel fokus dan berkembang menjadi produsen terintegrasi yang mencakup R&D, injeksi plastik, perakitan, QC, dan ekspor untuk pemotong rambut, pencukur, alat potong, pengering, dan perangkat kecantikan.",
+        "es": "Fundada en Yiwu, Zhejiang — la capital mundial de los pequeños electrodomésticos de cuidado personal — ANMO HOME APPLIANCES comenzó como un taller especializado y creció hasta convertirse en un fabricante integrado que cubre I+D, inyección de plástico, ensamblaje, control de calidad y exportación de cortapelos, afeitadoras, recortadores, secadores y dispositivos de belleza.",
+        "fr": "Fondée à Yiwu, Zhejiang — la capitale mondiale des petits appareils de soins personnels — ANMO HOME APPLIANCES a démarré comme un atelier spécialisé et est devenue un fabricant intégré couvrant R&D, injection plastique, assemblage, contrôle qualité et exportation de tondeuses, rasoirs, taille-bordures, sèche-cheveux et appareils de beauté.",
+        "pt": "Fundada em Yiwu, Zhejiang — a capital global de pequenos eletrodomésticos de cuidado pessoal — a ANMO HOME APPLIANCES começou como uma oficina especializada e cresceu para se tornar um fabricante integrado cobrindo P&D, injeção de plástico, montagem, controle de qualidade e exportação de máquinas de cortar cabelo, barbeadores, aparadores, secadores e dispositivos de beleza."
+      },
+      "p2": {
+        "en": "Today we serve wholesale buyers, distributors and retail chains across the US, Europe, Latin America, Southeast Asia, the Middle East and Africa, with an annual capacity of 1 million units.",
+        "zh": "如今我们服务美国、欧洲、拉美、东南亚、中东与非洲的批发商、分销商与连锁零售客户，年产能达100万台。",
+        "vi": "Hôm nay chúng tôi phục vụ khách bán buôn, nhà phân phối và chuỗi bán lẻ trên khắp Mỹ, châu Âu, Mỹ Latinh, Đông Nam Á, Trung Đông và châu Phi, với công suất 1 triệu sản phẩm/năm.",
+        "th": "ปัจจุบันเราให้บริการผู้ซื้อขายส่ง ผู้จัดจำหน่าย และห่วงโซ่ค้าปลีกทั่วสหรัฐฯ ยุโรป ละตินอเมริกา เอเชียตะวันออกเฉียงใต้ ตะวันออกกลาง และแอฟริกา ด้วยกำลังการผลิต 1 ล้านเครื่องต่อปี",
+        "id": "Kini kami melayani pembeli grosir, distributor, dan jaringan ritel di AS, Eropa, Amerika Latin, Asia Tenggara, Timur Tengah, dan Afrika, dengan kapasitas 1 juta unit per tahun.",
+        "es": "Hoy servimos a compradores mayoristas, distribuidores y cadenas minoristas en EE. UU., Europa, América Latina, Sudeste Asiático, Medio Oriente y África, con capacidad anual de 1 millón de unidades.",
+        "fr": "Aujourd'hui, nous servons des acheteurs en gros, distributeurs et chaînes de détail aux États-Unis, en Europe, en Amérique latine, en Asie du Sud-Est, au Moyen-Orient et en Afrique, avec une capacité annuelle d'un million d'unités.",
+        "pt": "Hoje atendemos compradores no atacado, distribuidores e redes de varejo nos EUA, Europa, América Latina, Sudeste Asiático, Oriente Médio e África, com capacidade anual de 1 milhão de unidades."
+      },
+      "img": "assets/images/factory-warehouse.jpg"
+    },
+    "timeline": [
+      {
+        "year": "2012",
+        "title": {
+          "en": "Founded in Yiwu",
+          "zh": "创立于义乌",
+          "vi": "Thành lập tại Nghĩa Ô",
+          "th": "ก่อตั้งที่อี้วู",
+          "id": "Didirikan di Yiwu",
+          "es": "Fundada en Yiwu",
+          "fr": "Fondée à Yiwu",
+          "pt": "Fundada em Yiwu"
+        },
+        "desc": {
+          "en": "Started as a small appliance assembly workshop.",
+          "zh": "从小型家电装配车间起步。",
+          "vi": "Khởi đầu là xưởng lắp ráp thiết bị gia dụng nhỏ.",
+          "th": "เริ่มจากโรงงานประกอบเครื่องใช้ไฟฟ้าขนาดเล็ก",
+          "id": "Berawal dari bengkel perakitan kecil.",
+          "es": "Empezó como un pequeño taller de ensamblaje.",
+          "fr": "A commencé comme petit atelier d'assemblage.",
+          "pt": "Começou como uma pequena oficina de montagem."
+        }
+      },
+      {
+        "year": "2015",
+        "title": {
+          "en": "First export orders",
+          "zh": "首批出口订单",
+          "vi": "Đơn xuất khẩu đầu tiên",
+          "th": "คำสั่งซื้อส่งออกแรก",
+          "id": "Pesanan ekspor pertama",
+          "es": "Primeras exportaciones",
+          "fr": "Premières exportations",
+          "pt": "Primeiras exportações"
+        },
+        "desc": {
+          "en": "Expanded to Southeast Asian markets with local voltage and plug adaptation.",
+          "zh": "针对东南亚市场完成电压与插头适配。",
+          "vi": "Mở rộng sang Đông Nam Á với điện áp và phích cắm phù hợp.",
+          "th": "ขยายสู่ตลาดเอเชียตะวันออกเฉียงใต้ ปรับแรงดันไฟและเต้าเสียบ",
+          "id": "Ekspansi ke Asia Tenggara dengan adaptasi tegangan dan steker lokal.",
+          "es": "Expansión al Sudeste Asiático con voltaje y enchufes locales.",
+          "fr": "Expansion vers l'Asie du Sud-Est avec tension et prises locales.",
+          "pt": "Expansão para o Sudeste Asiático com tensão e plugues locais."
+        }
+      },
+      {
+        "year": "2018",
+        "title": {
+          "en": "ISO 9001 & OEM growth",
+          "zh": "ISO9001认证与OEM发展",
+          "vi": "ISO 9001 & tăng trưởng OEM",
+          "th": "ISO 9001 และการเติบโต OEM",
+          "id": "ISO 9001 & pertumbuhan OEM",
+          "es": "ISO 9001 y crecimiento OEM",
+          "fr": "ISO 9001 et croissance OEM",
+          "pt": "ISO 9001 e crescimento OEM"
+        },
+        "desc": {
+          "en": "Certified quality system and 500+ OEM models developed.",
+          "zh": "建立认证质量体系，开发500+ OEM型号。",
+          "vi": "Hệ thống chất lượng được chứng nhận và 500+ mẫu OEM.",
+          "th": "ระบบคุณภาพรับรอง และพัฒนาโมเดล OEM กว่า 500 รุ่น",
+          "id": "Sistem mutu bersertifikat dan 500+ model OEM.",
+          "es": "Sistema de calidad certificado y más de 500 modelos OEM.",
+          "fr": "Système qualité certifié et plus de 500 modèles OEM.",
+          "pt": "Sistema de qualidade certificado e mais de 500 modelos OEM."
+        }
+      },
+      {
+        "year": "2021",
+        "title": {
+          "en": "New 30,000 m² plant",
+          "zh": "新工厂30000平方米",
+          "vi": "Nhà máy mới 30.000 m²",
+          "th": "โรงงานใหม่ 30,000 ตร.ม.",
+          "id": "Pabrik baru 30.000 m²",
+          "es": "Nueva planta de 30.000 m²",
+          "fr": "Nouvelle usine de 30 000 m²",
+          "pt": "Nova fábrica de 30.000 m²"
+        },
+        "desc": {
+          "en": "Automated production lines and in-house testing labs.",
+          "zh": "自动化生产线与内部检测实验室。",
+          "vi": "Dây chuyền tự động và phòng thí nghiệm nội bộ.",
+          "th": "สายการผลิตอัตโนมัติและห้องทดสอบภายใน",
+          "id": "Lini produksi otomatis dan lab pengujian internal.",
+          "es": "Líneas automatizadas y laboratorios de prueba internos.",
+          "fr": "Lignes automatisées et laboratoires d'essai internes.",
+          "pt": "Linhas automatizadas e laboratórios de teste internos."
+        }
+      },
+      {
+        "year": "2024",
+        "title": {
+          "en": "100+ countries served",
+          "zh": "服务100多个国家",
+          "vi": "Phục vụ hơn 100 quốc gia",
+          "th": "ให้บริการกว่า 100 ประเทศ",
+          "id": "Melayani 100+ negara",
+          "es": "Más de 100 países",
+          "fr": "Plus de 100 pays servis",
+          "pt": "Mais de 100 países"
+        },
+        "desc": {
+          "en": "Annual capacity of 1 million units, exporting worldwide.",
+          "zh": "年产能100万台，出口全球。",
+          "vi": "Công suất 1 triệu sản phẩm/năm, xuất khẩu toàn cầu.",
+          "th": "กำลังการผลิต 1 ล้านเครื่องต่อปี ส่งออกทั่วโลก",
+          "id": "Kapasitas 1 juta unit/tahun, ekspor global.",
+          "es": "Capacidad de 1 millón de unidades anuales, exportación mundial.",
+          "fr": "Capacité d'un million d'unités par an, export mondial.",
+          "pt": "Capacidade de 1 milhão de unidades por ano, exportação mundial."
+        }
+      }
+    ],
+    "factory": [
+      {
+        "img": "assets/images/factory-plant.jpg",
+        "cap": {
+          "en": "Headquarters & factory campus, Yiwu, China",
+          "zh": "总部与工厂园区 · 中国义乌",
+          "vi": "Trụ sở & khuôn viên nhà máy, Nghĩa Ô, Trung Quốc",
+          "th": "สำนักงานใหญ่และโรงงาน · อี้วู จีน",
+          "id": "Kantor pusat & kawasan pabrik, Yiwu, China",
+          "es": "Sede y campus fabril, Yiwu, China",
+          "fr": "Siège et campus d'usine, Yiwu, Chine",
+          "pt": "Sede e campus da fábrica, Yiwu, China"
+        }
+      },
+      {
+        "img": "assets/images/factory-qc.jpg",
+        "cap": {
+          "en": "Automated assembly and inspection lines",
+          "zh": "自动化装配与检测线",
+          "vi": "Dây chuyền lắp ráp và kiểm tra tự động",
+          "th": "สายการประกอบและตรวจสอบอัตโนมัติ",
+          "id": "Lini perakitan dan inspeksi otomatis",
+          "es": "Líneas automatizadas de ensamblaje e inspección",
+          "fr": "Lignes d'assemblage et d'inspection automatisées",
+          "pt": "Linhas automatizadas de montagem e inspeção"
+        }
+      }
+    ],
+    "qc": [
+      {
+        "icon": "check",
+        "title": {
+          "en": "Incoming Inspection",
+          "zh": "来料检验",
+          "vi": "Kiểm tra đầu vào",
+          "th": "ตรวจสอบวัตถุดิบ",
+          "id": "Inspeksi Masuk",
+          "es": "Inspección de Entrada",
+          "fr": "Inspection d'Entrée",
+          "pt": "Inspeção de Entrada"
+        },
+        "desc": {
+          "en": "Raw materials and components verified against standards.",
+          "zh": "原材料与零部件按标准检验入库。",
+          "vi": "Nguyên vật liệu và linh kiện được kiểm tra theo tiêu chuẩn.",
+          "th": "ตรวจสอบวัตถุดิบและชิ้นส่วนตามมาตรฐาน",
+          "id": "Bahan baku dan komponen diverifikasi sesuai standar.",
+          "es": "Materias primas y componentes verificados según estándares.",
+          "fr": "Matières premières et composants vérifiés selon les normes.",
+          "pt": "Matérias-primas e componentes verificados conforme padrões."
+        }
+      },
+      {
+        "icon": "check",
+        "title": {
+          "en": "In-Line Inspection",
+          "zh": "产线巡检",
+          "vi": "Kiểm tra trong dây chuyền",
+          "th": "ตรวจสอบในสายการผลิต",
+          "id": "Inspeksi Lini",
+          "es": "Inspección en Línea",
+          "fr": "Inspection en Ligne",
+          "pt": "Inspeção em Linha"
+        },
+        "desc": {
+          "en": "Workstations check key parameters during assembly.",
+          "zh": "装配过程中逐工位核查关键参数。",
+          "vi": "Các trạm kiểm tra thông số chính trong lắp ráp.",
+          "th": "ตรวจสอบพารามิเตอร์หลักระหว่างประกอบ",
+          "id": "Stasiun kerja memeriksa parameter kunci saat perakitan.",
+          "es": "Las estaciones verifican parámetros clave durante el ensamblaje.",
+          "fr": "Les postes vérifient les paramètres clés pendant l'assemblage.",
+          "pt": "As estações verificam parâmetros-chave durante a montagem."
+        }
+      },
+      {
+        "icon": "check",
+        "title": {
+          "en": "Final Random Inspection",
+          "zh": "成品抽检",
+          "vi": "Kiểm tra ngẫu nhiên cuối cùng",
+          "th": "สุ่มตรวจขั้นสุดท้าย",
+          "id": "Inspeksi Acak Akhir",
+          "es": "Inspección Final Aleatoria",
+          "fr": "Inspection Finale Aléatoire",
+          "pt": "Inspeção Final Aleatória"
+        },
+        "desc": {
+          "en": "AQL 2.5 sampling before packing.",
+          "zh": "包装前按AQL 2.5抽样检验。",
+          "vi": "Lấy mẫu AQL 2.5 trước khi đóng gói.",
+          "th": "สุ่มตัวอย่าง AQL 2.5 ก่อนบรรจุ",
+          "id": "Sampling AQL 2.5 sebelum pengemasan.",
+          "es": "Muestreo AQL 2.5 antes del empaque.",
+          "fr": "Échantillonnage AQL 2.5 avant l'emballage.",
+          "pt": "Amostragem AQL 2.5 antes da embalagem."
+        }
+      },
+      {
+        "icon": "check",
+        "title": {
+          "en": "Pre-Shipment Check",
+          "zh": "出货前检查",
+          "vi": "Kiểm tra trước khi gửi",
+          "th": "ตรวจก่อนจัดส่ง",
+          "id": "Pemeriksaan Sebelum Kirim",
+          "es": "Verificación Pre-Embarque",
+          "fr": "Vérification Avant Expédition",
+          "pt": "Verificação Pré-Embarque"
+        },
+        "desc": {
+          "en": "Loading supervision and full container photos.",
+          "zh": "装柜监督与整柜照片记录。",
+          "vi": "Giám sát xếp container và ảnh toàn container.",
+          "th": "ควบคุมการโหลดตู้คอนเทนเนอร์ พร้อมภาพถ่าย",
+          "id": "Supervisi pemuatan dan foto kontainer penuh.",
+          "es": "Supervisión de carga y fotos del contenedor completo.",
+          "fr": "Supervision du chargement et photos du conteneur complet.",
+          "pt": "Supervisão de carga e fotos do contêiner completo."
+        }
+      }
+    ],
+    "certs": [
+      "CE",
+      "CB",
+      "UL",
+      "RoHS",
+      "ISO 9001",
+      "BSCI"
+    ],
+    "oem": [
+      {
+        "icon": "label",
+        "title": {
+          "en": "Private Label",
+          "zh": "贴牌生产",
+          "vi": "Nhãn riêng",
+          "th": "แบรนด์ส่วนตัว",
+          "id": "Label Pribadi",
+          "es": "Marca Privada",
+          "fr": "Marque Privée",
+          "pt": "Marca Própria"
+        },
+        "desc": {
+          "en": "Your brand, logo and packaging on any model.",
+          "zh": "任意型号均可使用您的品牌、Logo与包装。",
+          "vi": "Thương hiệu, logo và bao bì của bạn trên mọi mẫu.",
+          "th": "แบรนด์ โลโก้ และบรรจุภัณฑ์ของคุณบนทุกรุ่น",
+          "id": "Merek, logo, dan kemasan Anda di model apa pun.",
+          "es": "Su marca, logo y empaque en cualquier modelo.",
+          "fr": "Votre marque, logo et emballage sur n'importe quel modèle.",
+          "pt": "Sua marca, logotipo e embalagem em qualquer modelo."
+        }
+      },
+      {
+        "icon": "bolt",
+        "title": {
+          "en": "Custom Voltage & Plugs",
+          "zh": "定制电压与插头",
+          "vi": "Điện áp & phích cắm tùy chỉnh",
+          "th": "ปรับแรงดันไฟ & เต้าเสียบ",
+          "id": "Tegangan & Steker Khusus",
+          "es": "Voltaje y Enchufes Personalizados",
+          "fr": "Tension et Prises Personnalisées",
+          "pt": "Tensão e Plugues Personalizados"
+        },
+        "desc": {
+          "en": "110V/220V, US, EU, UK, AU plug types.",
+          "zh": "110V/220V，美标、欧标、英标、澳标插头。",
+          "vi": "110V/220V, phích cắm US, EU, UK, AU.",
+          "th": "110V/220V เต้าเสียบ US EU UK AU",
+          "id": "110V/220V, steker US, EU, UK, AU.",
+          "es": "110V/220V, enchufes US, EU, UK, AU.",
+          "fr": "110V/220V, prises US, EU, UK, AU.",
+          "pt": "110V/220V, plugues US, EU, UK, AU."
+        }
+      },
+      {
+        "icon": "mold",
+        "title": {
+          "en": "Design & Tooling",
+          "zh": "设计与模具",
+          "vi": "Thiết kế & khuôn mẫu",
+          "th": "ดีไซน์ & แม่พิมพ์",
+          "id": "Desain & Perkakas",
+          "es": "Diseño y Moldes",
+          "fr": "Design et Moules",
+          "pt": "Design e Moldes"
+        },
+        "desc": {
+          "en": "In-house mold design and rapid tooling.",
+          "zh": "自有模具设计与快速开模。",
+          "vi": "Thiết kế khuôn nội bộ và tạo khuôn nhanh.",
+          "th": "ออกแบบแม่พิมพ์ในองค์กร และทำแม่พิมพ์เร็ว",
+          "id": "Desain cetakan internal dan perkakas cepat.",
+          "es": "Diseño de moldes interno y fabricación rápida.",
+          "fr": "Conception de moules interne et outillage rapide.",
+          "pt": "Projeto de moldes interno e ferramentaria rápida."
+        }
+      },
+      {
+        "icon": "cert",
+        "title": {
+          "en": "Certification Support",
+          "zh": "认证支持",
+          "vi": "Hỗ trợ chứng nhận",
+          "th": "สนับสนุนการรับรอง",
+          "id": "Dukungan Sertifikasi",
+          "es": "Soporte de Certificación",
+          "fr": "Support de Certification",
+          "pt": "Suporte de Certificação"
+        },
+        "desc": {
+          "en": "CE, CB, UL, SASO, SONCAP testing assistance.",
+          "zh": "CE、CB、UL、SASO、SONCAP测试协助。",
+          "vi": "Hỗ trợ thử nghiệm CE, CB, UL, SASO, SONCAP.",
+          "th": "ช่วยเหลือการทดสอบ CE CB UL SASO SONCAP",
+          "id": "Bantuan pengujian CE, CB, UL, SASO, SONCAP.",
+          "es": "Asistencia de pruebas CE, CB, UL, SASO, SONCAP.",
+          "fr": "Assistance aux essais CE, CB, UL, SASO, SONCAP.",
+          "pt": "Assistência em testes CE, CB, UL, SASO, SONCAP."
+        }
+      },
+      {
+        "icon": "box",
+        "title": {
+          "en": "Mixed Containers",
+          "zh": "混柜发货",
+          "vi": "Container hỗn hợp",
+          "th": "ตู้คอนเทนเนอร์รวม",
+          "id": "Kontainer Campuran",
+          "es": "Contenedores Mixtos",
+          "fr": "Conteneurs Mixtes",
+          "pt": "Contêineres Mistos"
+        },
+        "desc": {
+          "en": "Combine different models in one container.",
+          "zh": "一个货柜可组合多个型号。",
+          "vi": "Kết hợp nhiều mẫu trong một container.",
+          "th": "รวมหลายรุ่นในตู้เดียว",
+          "id": "Gabungkan berbagai model dalam satu kontainer.",
+          "es": "Combine varios modelos en un contenedor.",
+          "fr": "Combinez plusieurs modèles dans un conteneur.",
+          "pt": "Combine vários modelos em um contêiner."
+        }
+      },
+      {
+        "icon": "gear",
+        "title": {
+          "en": "After-Sales Parts",
+          "zh": "售后配件",
+          "vi": "Phụ tùng sau bán hàng",
+          "th": "อะไหล่หลังการขาย",
+          "id": "Suku Cadang Purna Jual",
+          "es": "Repuestos Postventa",
+          "fr": "Pièces Après-Vente",
+          "pt": "Peças Pós-Venda"
+        },
+        "desc": {
+          "en": "Spare parts kits shipped with your orders.",
+          "zh": "随订单提供备件包。",
+          "vi": "Bộ phụ tùng gửi kèm đơn hàng.",
+          "th": "ชุดอะไหล่ส่งพร้อมคำสั่งซื้อ",
+          "id": "Paket suku cadang dikirim bersama pesanan.",
+          "es": "Kits de repuestos enviados con sus pedidos.",
+          "fr": "Kits de pièces détachées expédiés avec vos commandes.",
+          "pt": "Kits de peças de reposição enviados com seus pedidos."
+        }
+      }
+    ],
+    "productLines": {
+      "title": {
+        "en": "Our Product Lines",
+        "zh": "产品系列",
+        "vi": "",
+        "th": "",
+        "id": "",
+        "es": "",
+        "fr": "",
+        "pt": ""
+      },
+      "intro": {
+        "en": "ANMO HOME APPLIANCES specializes in the production of hair salon tools and personal care appliances. Our company is based at Building 3, No. 9 Longgang Road 1st Street, Heyetang, Yiwu, Jinhua, Zhejiang, China — an integrated factory covering R&D, molding, assembly, quality control and export.\n\nOur main product range includes electric hair clippers, hair trimmers, children's clippers, pet clippers, professional clippers, razors, women's laser hair removal devices, hair removal and shaving devices, facial eyebrow trimmers, foot and hand callus removers, various hair dryers, electric curling and straightening tools, men's nose hair trimmers, electric shavers, electric toothbrushes and more. We warmly welcome your inquiry and selection.",
+        "zh": "安墨家用电器有限公司专业生产美发沙龙工具与个人护理电器，工厂位于中国浙江省金华市义乌市荷叶塘龙岗路一街九号3号楼，集研发、注塑、组装、质检与出口于一体。\n\n我们的主要产品包括电动理发推剪、修剪器、儿童理发器、宠物修剪器、专业理发器、剃须刀、女士激光脱毛仪、脱毛剃毛器、眉部修剪器、手足茧磨修器、各类吹风机、卷发与直发造型器、鼻毛修剪器、电动剃须刀、电动牙刷等。热忱欢迎您的咨询与选购！",
+        "vi": "",
+        "th": "",
+        "id": "",
+        "es": "",
+        "fr": "",
+        "pt": ""
+      },
+      "items": [
+        {"name": {"en": "Electric Hair Clippers", "zh": "电动理发推剪", "vi": "", "th": "", "id": "", "es": "", "fr": "", "pt": ""}},
+        {"name": {"en": "Hair Trimmers", "zh": "修边修剪器", "vi": "", "th": "", "id": "", "es": "", "fr": "", "pt": ""}},
+        {"name": {"en": "Children's Clippers", "zh": "儿童理发器", "vi": "", "th": "", "id": "", "es": "", "fr": "", "pt": ""}},
+        {"name": {"en": "Pet Clippers", "zh": "宠物修剪器", "vi": "", "th": "", "id": "", "es": "", "fr": "", "pt": ""}},
+        {"name": {"en": "Professional Clippers", "zh": "专业理发器", "vi": "", "th": "", "id": "", "es": "", "fr": "", "pt": ""}},
+        {"name": {"en": "Razors & Electric Shavers", "zh": "剃须刀与电动剃须刀", "vi": "", "th": "", "id": "", "es": "", "fr": "", "pt": ""}},
+        {"name": {"en": "Women's Laser Hair Removal Devices", "zh": "女士激光脱毛仪", "vi": "", "th": "", "id": "", "es": "", "fr": "", "pt": ""}},
+        {"name": {"en": "Hair Removal & Shaving Devices", "zh": "脱毛剃毛器", "vi": "", "th": "", "id": "", "es": "", "fr": "", "pt": ""}},
+        {"name": {"en": "Eyebrow Trimmers", "zh": "眉部修剪器", "vi": "", "th": "", "id": "", "es": "", "fr": "", "pt": ""}},
+        {"name": {"en": "Foot & Hand Callus Removers", "zh": "手足茧磨修器", "vi": "", "th": "", "id": "", "es": "", "fr": "", "pt": ""}},
+        {"name": {"en": "Hair Dryers", "zh": "吹风机", "vi": "", "th": "", "id": "", "es": "", "fr": "", "pt": ""}},
+        {"name": {"en": "Hair Curlers & Straighteners", "zh": "卷发器与直发器", "vi": "", "th": "", "id": "", "es": "", "fr": "", "pt": ""}},
+        {"name": {"en": "Nose Hair Trimmers", "zh": "鼻毛修剪器", "vi": "", "th": "", "id": "", "es": "", "fr": "", "pt": ""}},
+        {"name": {"en": "Electric Toothbrushes", "zh": "电动牙刷", "vi": "", "th": "", "id": "", "es": "", "fr": "", "pt": ""}}
+      ]
+    }
+  },
+  "sections": {
+    "advantages": {
+      "title": {
+        "en": "Why Global Buyers Choose Us",
+        "zh": "全球采购商为何选择我们",
+        "vi": "Vì sao khách hàng toàn cầu chọn chúng tôi",
+        "th": "ทำไมผู้ซื้อทั่วโลกเลือกเรา",
+        "id": "Mengapa Pembeli Global Memilih Kami",
+        "es": "Por qué los compradores globales nos eligen",
+        "fr": "Pourquoi les acheteurs mondiaux nous choisissent",
+        "pt": "Por que compradores globais nos escolhem"
+      },
+      "sub": {
+        "en": "Three reasons that make us the reliable partner behind your supply chain.",
+        "zh": "三大理由，让我们成为您供应链背后可靠的合作伙伴。",
+        "vi": "Ba lý do khiến chúng tôi là đối tác đáng tin cậy trong chuỗi cung ứng của bạn.",
+        "th": "สามเหตุผลที่ทำให้เราเป็นพันธมิตรที่น่าเชื่อถือเบื้องหลังซัพพลายเชนของคุณ",
+        "id": "Tiga alasan yang menjadikan kami mitra andal di balik rantai pasokan Anda.",
+        "es": "Tres razones que nos convierten en el socio confiable detrás de su cadena de suministro.",
+        "fr": "Trois raisons qui font de nous le partenaire fiable de votre chaîne d'approvisionnement.",
+        "pt": "Três razões que nos tornam o parceiro confiável da sua cadeia de suprimentos."
+      }
+    },
+    "categories": {
+      "title": {
+        "en": "Product Categories",
+        "zh": "产品分类",
+        "vi": "Danh mục sản phẩm",
+        "th": "หมวดหมู่สินค้า",
+        "id": "Kategori Produk",
+        "es": "Categorías de Productos",
+        "fr": "Catégories de Produits",
+        "pt": "Categorias de Produtos"
+      },
+      "sub": {
+        "en": "Complete personal care appliance lines for wholesale and distribution",
+        "zh": "覆盖全线的个人护理电器产品，支持批发与分销",
+        "vi": "Dòng thiết bị chăm sóc cá nhân hoàn chỉnh cho bán buôn và phân phối",
+        "th": "เครื่องใช้ไฟฟ้าส่วนบุคคลครบวงจรสำหรับขายส่งและจัดจำหน่าย",
+        "id": "Lini peralatan perawatan pribadi lengkap untuk grosir dan distribusi",
+        "es": "Líneas completas de electrodomésticos de cuidado personal para mayoreo y distribución",
+        "fr": "Gammes complètes d'appareils de soins personnels pour le gros et la distribution",
+        "pt": "Linhas completas de eletrodomésticos de cuidado pessoal para atacado e distribuição"
+      }
+    },
+    "why": {
+      "title": {
+        "en": "Why Choose Us",
+        "zh": "为什么选择我们",
+        "vi": "Tại sao chọn chúng tôi",
+        "th": "ทำไมต้องเลือกเรา",
+        "id": "Mengapa Memilih Kami",
+        "es": "Por qué elegirnos",
+        "fr": "Pourquoi nous choisir",
+        "pt": "Por que nos escolher"
+      },
+      "sub": {
+        "en": "Everything a professional importer or distributor needs from a factory partner.",
+        "zh": "专业进口商与分销商对工厂伙伴的全部期待，我们都具备。",
+        "vi": "Mọi thứ nhà nhập khẩu hay nhà phân phối chuyên nghiệp cần từ đối tác nhà máy.",
+        "th": "ทุกสิ่งที่ผู้นำเข้าและผู้จัดจำหน่ายมืออาชีพต้องการจากพันธมิตรโรงงาน",
+        "id": "Semua yang dibutuhkan importir dan distributor profesional dari mitra pabrik.",
+        "es": "Todo lo que un importador o distribuidor profesional necesita de un socio de fábrica.",
+        "fr": "Tout ce qu'un importateur ou distributeur professionnel attend d'un partenaire d'usine.",
+        "pt": "Tudo o que um importador ou distribuidor profissional precisa de um parceiro de fábrica."
+      }
+    },
+    "testimonials": {
+      "title": {
+        "en": "What Our Customers Say",
+        "zh": "客户评价",
+        "vi": "Khách hàng nói gì",
+        "th": "ลูกค้าพูดถึงเรา",
+        "id": "Kata Pelanggan Kami",
+        "es": "Lo que dicen nuestros clientes",
+        "fr": "Ce que disent nos clients",
+        "pt": "O que dizem nossos clientes"
+      },
+      "sub": {
+        "en": "Trusted by importers, distributors and retail chains around the world",
+        "zh": "全球进口商、分销商与连锁零售商的共同信赖",
+        "vi": "Được tin tưởng bởi nhà nhập khẩu, nhà phân phối và chuỗi bán lẻ trên toàn thế giới",
+        "th": "ได้รับความไว้วางใจจากผู้นำเข้า ผู้จัดจำหน่าย และห่วงโซ่ค้าปลีกทั่วโลก",
+        "id": "Dipercaya importir, distributor, dan jaringan ritel di seluruh dunia",
+        "es": "La confianza de importadores, distribuidores y cadenas minoristas de todo el mundo",
+        "fr": "La confiance d'importateurs, distributeurs et chaînes de détail du monde entier",
+        "pt": "A confiança de importadores, distribuidores e redes de varejo do mundo inteiro"
+      }
+    },
+    "markets": {
+      "title": {
+        "en": "Serving Global Markets",
+        "zh": "服务全球市场",
+        "vi": "Phục vụ thị trường toàn cầu",
+        "th": "ให้บริการตลาดทั่วโลก",
+        "id": "Melayani Pasar Global",
+        "es": "Sirviendo mercados globales",
+        "fr": "Au service des marchés mondiaux",
+        "pt": "Atendendo mercados globais"
+      },
+      "sub": {
+        "en": "Export-ready products adapted for your region",
+        "zh": "针对您所在区域适配的出口产品",
+        "vi": "Sản phẩm sẵn sàng xuất khẩu, thích ứng cho khu vực của bạn",
+        "th": "สินค้าพร้อมส่งออก ปรับให้เหมาะกับภูมิภาคของคุณ",
+        "id": "Produk siap ekspor, disesuaikan untuk wilayah Anda",
+        "es": "Productos listos para exportar, adaptados a su región",
+        "fr": "Des produits prêts à exporter, adaptés à votre région",
+        "pt": "Produtos prontos para exportar, adaptados à sua região"
+      }
+    },
+    "quote": {
+      "title": {
+        "en": "Get a Fast Quote",
+        "zh": "快速获取报价",
+        "vi": "Nhận báo giá nhanh",
+        "th": "ขอใบเสนอราคาอย่างรวดเร็ว",
+        "id": "Dapatkan Penawaran Cepat",
+        "es": "Obtenga una cotización rápida",
+        "fr": "Obtenez un devis rapide",
+        "pt": "Obtenha um orçamento rápido"
+      },
+      "sub": {
+        "en": "Tell us your requirements — our export team replies within 12 hours.",
+        "zh": "告诉我们您的需求——出口团队12小时内回复。",
+        "vi": "Cho chúng tôi biết nhu cầu của bạn — đội xuất khẩu trả lời trong 12 giờ.",
+        "th": "บอกความต้องการของคุณ — ทีมส่งออกตอบกลับภายใน 12 ชั่วโมง",
+        "id": "Beri tahu kebutuhan Anda — tim ekspor membalas dalam 12 jam.",
+        "es": "Cuéntenos sus requisitos — nuestro equipo exportador responde en 12 horas.",
+        "fr": "Dites-nous vos besoins — notre équipe export répond sous 12 heures.",
+        "pt": "Conte-nos suas necessidades — nossa equipe de exportação responde em 12 horas."
+      }
+    },
+    "cta": {
+      "title": {
+        "en": "Your Trusted Personal Care Appliance Partner",
+        "zh": "您信赖的个人护理电器供应伙伴",
+        "vi": "Đối tác thiết bị chăm sóc cá nhân đáng tin cậy của bạn",
+        "th": "พันธมิตรเครื่องใช้ไฟฟ้าส่วนบุคคลที่คุณไว้วางใจ",
+        "id": "Mitra Peralatan Perawatan Pribadi Tepercaya Anda",
+        "es": "Su socio confiable de electrodomésticos de cuidado personal",
+        "fr": "Votre partenaire fiable en appareils de soins personnels",
+        "pt": "Seu parceiro confiável em eletrodomésticos de cuidado pessoal"
+      },
+      "sub": {
+        "en": "Factory-direct hair clippers, shavers, dryers and personal care appliances — exported to wholesale buyers in 100+ countries.",
+        "zh": "工厂直供冰箱、空调、洗衣机等家电产品，出口至全球100多个国家的批发采购商。",
+        "vi": "Tủ lạnh, điều hòa, máy giặt và hơn thế nữa từ nhà máy — xuất khẩu đến khách bán buôn tại hơn 100 quốc gia.",
+        "th": "ตู้เย็น เครื่องปรับอากาศ เครื่องซักผ้า และอื่นๆ จากโรงงาน — ส่งออกสู่ผู้ซื้อขายส่งในกว่า 100 ประเทศ",
+        "id": "Kulkas, AC, mesin cuci, dan lainnya langsung dari pabrik — diekspor ke pembeli grosir di 100+ negara.",
+        "es": "Refrigeradores, aires acondicionados, lavadoras y más, directo de fábrica — exportados a compradores mayoristas en más de 100 países.",
+        "fr": "Réfrigérateurs, climatiseurs, lave-linge et plus, directement d'usine — exportés vers des acheteurs en gros dans plus de 100 pays.",
+        "pt": "Geladeiras, ar-condicionado, máquinas de lavar e mais, direto da fábrica — exportados para compradores no atacado em mais de 100 países."
+      }
+    },
+    "products": {
+      "title": {
+        "en": "Products",
+        "zh": "产品中心",
+        "vi": "Sản phẩm",
+        "th": "สินค้า",
+        "id": "Produk",
+        "es": "Productos",
+        "fr": "Produits",
+        "pt": "Produtos"
+      },
+      "sub": {
+        "en": "Browse our full personal care appliance catalog with factory pricing",
+        "zh": "浏览全系列个人护理电器产品，享受工厂直供价格",
+        "vi": "Xem danh mục thiết bị chăm sóc cá nhân đầy đủ với giá nhà máy",
+        "th": "ชมแคตตาล็อกเครื่องใช้ไฟฟ้าส่วนบุคคลครบวงจร ราคาโรงงาน",
+        "id": "Jelajahi katalog lengkap peralatan perawatan pribadi dengan harga pabrik",
+        "es": "Explore nuestro catálogo completo de electrodomésticos de cuidado personal a precio de fábrica",
+        "fr": "Parcourez notre catalogue complet d'appareils de soins personnels à prix d'usine",
+        "pt": "Explore nosso catálogo completo de eletrodomésticos de cuidado pessoal a preço de fábrica"
+      }
+    },
+    "footer": {
+      "aboutText": {
+        "en": "A professional personal care appliance manufacturer and exporter from Yiwu, China — serving wholesale buyers in 100+ countries.",
+        "zh": "来自中国义乌的专业个人护理电器制造商与出口商，服务全球100多个国家的批发采购商。",
+        "vi": "Nhà sản xuất và xuất khẩu thiết bị chăm sóc cá nhân chuyên nghiệp từ Nghĩa Ô, Trung Quốc — phục vụ khách bán buôn tại hơn 100 quốc gia.",
+        "th": "ผู้ผลิตและส่งออกเครื่องใช้ไฟฟ้าส่วนบุคคลมืออาชีพจากอี้วู จีน — ให้บริการผู้ซื้อขายส่งในกว่า 100 ประเทศ",
+        "id": "Produsen dan eksportir peralatan perawatan pribadi profesional dari Yiwu, Tiongkok — melayani pembeli grosir di 100+ negara.",
+        "es": "Fabricante y exportador profesional de electrodomésticos de cuidado personal desde Yiwu, China — al servicio de compradores mayoristas en más de 100 países.",
+        "fr": "Fabricant et exportateur professionnel d'appareils de soins personnels depuis Yiwu, Chine — au service d'acheteurs en gros dans plus de 100 pays.",
+        "pt": "Fabricante e exportador profissional de eletrodomésticos de cuidado pessoal de Yiwu, China — atendendo compradores no atacado em mais de 100 países."
+      }
+    },
+    "about": {
+      "title": {
+        "en": "About Us",
+        "zh": "关于我们",
+        "vi": "Về chúng tôi",
+        "th": "เกี่ยวกับเรา",
+        "id": "Tentang Kami",
+        "es": "Sobre Nosotros",
+        "fr": "À Propos de Nous",
+        "pt": "Sobre Nós"
+      },
+      "sub": {
+        "en": "The manufacturer behind your supply chain",
+        "zh": "您供应链背后的制造商",
+        "vi": "Nhà sản xuất đằng sau chuỗi cung ứng của bạn",
+        "th": "ผู้ผลิตเบื้องหลังซัพพลายเชนของคุณ",
+        "id": "Produsen di balik rantai pasokan Anda",
+        "es": "El fabricante detrás de su cadena de suministro",
+        "fr": "Le fabricant derrière votre chaîne d'approvisionnement",
+        "pt": "O fabricante por trás da sua cadeia de suprimentos"
+      },
+      "storyT": {
+        "en": "Our Story",
+        "zh": "公司历程",
+        "vi": "Lịch sử công ty",
+        "th": "ประวัติบริษัท",
+        "id": "Sejarah Kami",
+        "es": "Nuestra Historia",
+        "fr": "Notre Histoire",
+        "pt": "Nossa História"
+      },
+      "factoryT": {
+        "en": "Factory Tour",
+        "zh": "工厂实景",
+        "vi": "Nhà máy thực tế",
+        "th": "โรงงานจริง",
+        "id": "Tur Pabrik",
+        "es": "Visita a la Fábrica",
+        "fr": "Visite de l'Usine",
+        "pt": "Tour pela Fábrica"
+      },
+      "factoryP": {
+        "en": "A glimpse of our production lines and facilities.",
+        "zh": "一睹我们的生产线与设施。",
+        "vi": "Nhìn vào dây chuyền sản xuất và cơ sở vật chất của chúng tôi.",
+        "th": "ชมสายการผลิตและสิ่งอำนวยความสะดวกของเรา",
+        "id": "Sekilas lini produksi dan fasilitas kami.",
+        "es": "Un vistazo a nuestras líneas de producción e instalaciones.",
+        "fr": "Un aperçu de nos lignes de production et installations.",
+        "pt": "Um vislumbre de nossas linhas de produção e instalações."
+      },
+      "qcT": {
+        "en": "Quality Control Process",
+        "zh": "质控流程",
+        "vi": "Quy trình kiểm soát chất lượng",
+        "th": "กระบวนการควบคุมคุณภาพ",
+        "id": "Proses Kontrol Kualitas",
+        "es": "Proceso de Control de Calidad",
+        "fr": "Processus de Contrôle Qualité",
+        "pt": "Processo de Controle de Qualidade"
+      },
+      "qcP": {
+        "en": "Four checkpoints protect the quality of every shipment.",
+        "zh": "四道关卡保障每一批货物的品质。",
+        "vi": "Bốn điểm kiểm tra bảo vệ chất lượng mỗi lô hàng.",
+        "th": "จุดตรวจสี่จุดปกป้องคุณภาพทุกเที่ยวเรือ",
+        "id": "Empat titik pemeriksaan melindungi kualitas setiap pengiriman.",
+        "es": "Cuatro puntos de control protegen la calidad de cada envío.",
+        "fr": "Quatre points de contrôle protègent la qualité de chaque expédition.",
+        "pt": "Quatro pontos de controle protegem a qualidade de cada envio."
+      },
+      "certT": {
+        "en": "Certifications & Compliance",
+        "zh": "认证与合规",
+        "vi": "Chứng nhận & tuân thủ",
+        "th": "การรับรอง & การปฏิบัติตาม",
+        "id": "Sertifikasi & Kepatuhan",
+        "es": "Certificaciones y Cumplimiento",
+        "fr": "Certifications & Conformité",
+        "pt": "Certificações & Conformidade"
+      },
+      "certP": {
+        "en": "Our products and factory comply with major international standards. Documents available on request.",
+        "zh": "产品与工厂符合主要国际标准，文件可按需提供。",
+        "vi": "Sản phẩm và nhà máy tuân thủ các tiêu chuẩn quốc tế chính. Tài liệu theo yêu cầu.",
+        "th": "สินค้าและโรงงานได้มาตรฐานสากลหลัก เอกสารให้ตามคำขอ",
+        "id": "Produk dan pabrik mematuhi standar internasional utama. Dokumen tersedia atas permintaan.",
+        "es": "Nuestros productos y fábrica cumplen los principales estándares internacionales. Documentos a solicitud.",
+        "fr": "Nos produits et notre usine respectent les principales normes internationales. Documents sur demande.",
+        "pt": "Nossos produtos e fábrica cumprem as principais normas internacionais. Documentos sob solicitação."
+      },
+      "oemT": {
+        "en": "OEM / ODM Capabilities",
+        "zh": "OEM / ODM 能力",
+        "vi": "Năng lực OEM / ODM",
+        "th": "ความสามารถ OEM / ODM",
+        "id": "Kemampuan OEM / ODM",
+        "es": "Capacidades OEM / ODM",
+        "fr": "Capacités OEM / ODM",
+        "pt": "Capacidades OEM / ODM"
+      },
+      "oemP": {
+        "en": "From a simple private label to a fully custom product.",
+        "zh": "从简单贴牌到完全定制产品。",
+        "vi": "Từ nhãn riêng đơn giản đến sản phẩm tùy chỉnh hoàn toàn.",
+        "th": "จากแบรนด์ส่วนตัวธรรมดา ถึงสินค้าปรับแต่งเต็มรูปแบบ",
+        "id": "Dari label pribadi sederhana hingga produk khusus penuh.",
+        "es": "Desde una simple marca privada hasta un producto totalmente personalizado.",
+        "fr": "De la simple marque privée au produit entièrement personnalisé.",
+        "pt": "Da marca própria simples ao produto totalmente personalizado."
+      }
+    },
+    "homeAbout": {
+      "title": {
+        "en": "Who We Are",
+        "zh": "关于安墨",
+        "vi": "",
+        "th": "",
+        "id": "",
+        "es": "",
+        "fr": "",
+        "pt": ""
+      },
+      "sub": {
+        "en": "A specialized manufacturer of hair salon tools and personal care appliances from Yiwu, China — factory-direct supply for wholesale buyers.",
+        "zh": "来自中国义乌的专业美发沙龙工具与个人护理电器制造商——工厂直供批发采购。",
+        "vi": "",
+        "th": "",
+        "id": "",
+        "es": "",
+        "fr": "",
+        "pt": ""
+      },
+      "more": {
+        "en": "More About ANMO",
+        "zh": "了解更多",
+        "vi": "",
+        "th": "",
+        "id": "",
+        "es": "",
+        "fr": "",
+        "pt": ""
+      }
+    }
+  }
+}

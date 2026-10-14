@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Admin panel: block search engines
+Disallow: /admin.html
+
+Sitemap: https://www.anmo-kemei.com/sitemap.xml

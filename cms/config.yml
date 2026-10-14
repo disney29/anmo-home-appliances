@@ -1,0 +1,765 @@
+# ============================================================
+# Decap CMS config — online editing for ANMO site
+# After creating your GitHub repo & Cloudflare Pages, replace:
+#   repo:  <your-username>/<your-repo>
+#   base_url:  https://<your-domain>
+# ============================================================
+
+backend:
+  name: github
+  repo: disney29/anmo-home-appliances
+  branch: main
+  base_url: https://www.anmo-kemei.com
+  auth_endpoint: api/auth
+
+# media uploads go to assets/uploads (use relative paths in content)
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+collections:
+  # ---------------- 联系方式与设置 ----------------
+  - name: "settings"
+    label: "联系方式与设置"
+    label_singular: "设置"
+    description: "公司信息、联系方式、收款信息、Google Analytics"
+    delete: false
+    files:
+      - name: "settings"
+        label: "公司信息 / 联系方式 / 收款"
+        file: "data/cms-settings.json"
+        fields:
+          - { label: "公司名称", name: companyName, widget: string }
+          - { label: "Slogan（标语）", name: slogan, widget: string }
+          - { label: "邮箱", name: email, widget: string }
+          - { label: "WhatsApp 号码（国家码+数字，如 8613665830929）", name: whatsapp, widget: string }
+          - { label: "电话", name: phone, widget: string }
+          - { label: "地址", name: address, widget: text }
+          - { label: "谷歌地图嵌入链接", name: mapEmbed, widget: string }
+          - { label: "PayPal 收款邮箱", name: paypal, widget: string }
+          - { label: "收款银行名称", name: bankName, widget: string }
+          - { label: "收款户名", name: beneficiary, widget: string }
+          - { label: "银行账号", name: account, widget: string }
+          - { label: "SWIFT 代码", name: swift, widget: string }
+          - { label: "Google Analytics ID（填了才启用统计，如 G-XXXXXXX）", name: gaId, widget: string }
+
+  # ---------------- 产品管理 ----------------
+  - name: "products"
+    label: "产品管理"
+    label_singular: "产品"
+    description: "增删改产品，保存后自动发布，全站（含 8 国语言）生效"
+    delete: false
+    files:
+      - name: "products"
+        label: "产品列表"
+        file: "data/cms-products.json"
+        fields:
+          - label: "产品列表"
+            name: products
+            widget: list
+            summary: "{{fields.name}}"
+            collapsed: false
+            fields:
+              - { label: "产品ID（唯一，如 p17，新增时请用新编号）", name: id, widget: string }
+              - { label: "产品名称（英文，默认语言）", name: name, widget: string }
+              - label: "分类"
+                name: category
+                widget: select
+                options: ["hair-clipper", "shaver", "trimmer", "beauty", "pet", "hairstyling", "hair-dryer", "accessory"]
+              - { label: "主图路径（如 assets/images/product-fridge.jpg，或上传后自动生成路径）", name: image, widget: string }
+              - { label: "FOB 价格（美元）", name: price, widget: number, value_type: "float", min: 0 }
+              - { label: "起订量 MOQ", name: moq, widget: number, value_type: "int", min: 0 }
+              - { label: "电压 / 频率", name: voltage, widget: string }
+              - { label: "材质", name: material, widget: string }
+              - { label: "容量 / 尺寸", name: capacity, widget: string }
+              - { label: "认证（如 CE, CB, RoHS）", name: certs, widget: string }
+              - { label: "产品特性（每行一条）", name: features, widget: text }
+              - { label: "交期（天）", name: lead, widget: number, value_type: "int", min: 1 }
+              - { label: "上架显示", name: active, widget: boolean, default: true }
+              - { label: "热门产品（首页/详情标记）", name: hot, widget: boolean, default: false }
+              - label: "多语言产品名称"
+                name: names
+                widget: object
+                collapsed: true
+                fields:
+                  - { label: "English", name: en, widget: string }
+                  - { label: "中文", name: zh, widget: string }
+                  - { label: "Tiếng Việt", name: vi, widget: string }
+                  - { label: "ภาษาไทย", name: th, widget: string }
+                  - { label: "Bahasa Indonesia", name: id, widget: string }
+                  - { label: "Español", name: es, widget: string }
+                  - { label: "Français", name: fr, widget: string }
+                  - { label: "Português", name: pt, widget: string }
+              - label: "多语言产品描述（可选）"
+                name: desc
+                widget: object
+                collapsed: true
+                fields:
+                  - { label: "English", name: en, widget: text }
+                  - { label: "中文", name: zh, widget: text }
+                  - { label: "Tiếng Việt", name: vi, widget: text }
+                  - { label: "ภาษาไทย", name: th, widget: text }
+                  - { label: "Bahasa Indonesia", name: id, widget: text }
+                  - { label: "Español", name: es, widget: text }
+                  - { label: "Français", name: fr, widget: text }
+                  - { label: "Português", name: pt, widget: text }
+              - { label: "图册路径（逗号分隔多张，如 assets/images/p1-a.jpg, assets/images/p1-b.jpg）", name: gallery, widget: string }
+              - { label: "产品资料 PDF 路径（如 assets/docs/p1-spec.pdf）", name: datasheet, widget: string }
+              - { label: "认证文件 PDF 路径", name: certFile, widget: string }
+
+  # ---------------- 首页 / 关于页内容 ----------------
+  - name: "content"
+    label: "首页与关于页内容"
+    label_singular: "内容"
+    description: "首页轮播、优势、客户见证、目标市场、关于页全部文字（8 种语言）"
+    delete: false
+    files:
+      - name: "content"
+        label: "全站版面内容"
+        file: "data/cms-content.json"
+        fields:
+          - label: "首页轮播图"
+            name: hero
+            widget: object
+            collapsed: true
+            fields:
+              - label: "幻灯片"
+                name: slides
+                widget: list
+                summary: "{{fields.title.en}}"
+                fields:
+                  - { label: "背景图路径", name: img, widget: string }
+                  - label: "徽标文字"
+                    name: badge
+                    widget: object
+                    collapsed: true
+                    fields:
+                      - { label: "English", name: en, widget: string }
+                      - { label: "中文", name: zh, widget: string }
+                      - { label: "Tiếng Việt", name: vi, widget: string }
+                      - { label: "ภาษาไทย", name: th, widget: string }
+                      - { label: "Bahasa Indonesia", name: id, widget: string }
+                      - { label: "Español", name: es, widget: string }
+                      - { label: "Français", name: fr, widget: string }
+                      - { label: "Português", name: pt, widget: string }
+                  - label: "大标题"
+                    name: title
+                    widget: object
+                    collapsed: true
+                    fields:
+                      - { label: "English", name: en, widget: string }
+                      - { label: "中文", name: zh, widget: string }
+                      - { label: "Tiếng Việt", name: vi, widget: string }
+                      - { label: "ภาษาไทย", name: th, widget: string }
+                      - { label: "Bahasa Indonesia", name: id, widget: string }
+                      - { label: "Español", name: es, widget: string }
+                      - { label: "Français", name: fr, widget: string }
+                      - { label: "Português", name: pt, widget: string }
+                  - label: "副标题"
+                    name: sub
+                    widget: object
+                    collapsed: true
+                    fields:
+                      - { label: "English", name: en, widget: string }
+                      - { label: "中文", name: zh, widget: string }
+                      - { label: "Tiếng Việt", name: vi, widget: string }
+                      - { label: "ภาษาไทย", name: th, widget: string }
+                      - { label: "Bahasa Indonesia", name: id, widget: string }
+                      - { label: "Español", name: es, widget: string }
+                      - { label: "Français", name: fr, widget: string }
+                      - { label: "Português", name: pt, widget: string }
+                  - { label: "按钮1文字", name: btn1, widget: string }
+                  - { label: "按钮1链接", name: btn1Href, widget: string }
+                  - { label: "按钮2文字", name: btn2, widget: string }
+                  - { label: "按钮2链接", name: btn2Href, widget: string }
+          - label: "数据栏（4 项：年限 / 国家 / 型号 / 报价）"
+            name: stats
+            widget: list
+            summary: "{{fields.v}} {{fields.l.en}}"
+            fields:
+              - { label: "数值", name: v, widget: string }
+              - label: "说明"
+                name: l
+                widget: object
+                collapsed: true
+                fields:
+                  - { label: "English", name: en, widget: string }
+                  - { label: "中文", name: zh, widget: string }
+                  - { label: "Tiếng Việt", name: vi, widget: string }
+                  - { label: "ภาษาไทย", name: th, widget: string }
+                  - { label: "Bahasa Indonesia", name: id, widget: string }
+                  - { label: "Español", name: es, widget: string }
+                  - { label: "Français", name: fr, widget: string }
+                  - { label: "Português", name: pt, widget: string }
+          - label: "三大优势"
+            name: advantages
+            widget: list
+            summary: "{{fields.title.en}}"
+            fields:
+              - { label: "图标名（star/shield/heart/cart/truck 等）", name: icon, widget: string }
+              - label: "标题"
+                name: title
+                widget: object
+                collapsed: true
+                fields:
+                  - { label: "English", name: en, widget: string }
+                  - { label: "中文", name: zh, widget: string }
+                  - { label: "Tiếng Việt", name: vi, widget: string }
+                  - { label: "ภาษาไทย", name: th, widget: string }
+                  - { label: "Bahasa Indonesia", name: id, widget: string }
+                  - { label: "Español", name: es, widget: string }
+                  - { label: "Français", name: fr, widget: string }
+                  - { label: "Português", name: pt, widget: string }
+              - label: "描述"
+                name: desc
+                widget: object
+                collapsed: true
+                fields:
+                  - { label: "English", name: en, widget: text }
+                  - { label: "中文", name: zh, widget: text }
+                  - { label: "Tiếng Việt", name: vi, widget: text }
+                  - { label: "ภาษาไทย", name: th, widget: text }
+                  - { label: "Bahasa Indonesia", name: id, widget: text }
+                  - { label: "Español", name: es, widget: text }
+                  - { label: "Français", name: fr, widget: text }
+                  - { label: "Português", name: pt, widget: text }
+          - label: "为什么选择我们"
+            name: why
+            widget: list
+            summary: "{{fields.title.en}}"
+            fields:
+              - { label: "图标名", name: icon, widget: string }
+              - label: "标题"
+                name: title
+                widget: object
+                collapsed: true
+                fields:
+                  - { label: "English", name: en, widget: string }
+                  - { label: "中文", name: zh, widget: string }
+                  - { label: "Tiếng Việt", name: vi, widget: string }
+                  - { label: "ภาษาไทย", name: th, widget: string }
+                  - { label: "Bahasa Indonesia", name: id, widget: string }
+                  - { label: "Español", name: es, widget: string }
+                  - { label: "Français", name: fr, widget: string }
+                  - { label: "Português", name: pt, widget: string }
+              - label: "描述"
+                name: desc
+                widget: object
+                collapsed: true
+                fields:
+                  - { label: "English", name: en, widget: text }
+                  - { label: "中文", name: zh, widget: text }
+                  - { label: "Tiếng Việt", name: vi, widget: text }
+                  - { label: "ภาษาไทย", name: th, widget: text }
+                  - { label: "Bahasa Indonesia", name: id, widget: text }
+                  - { label: "Español", name: es, widget: text }
+                  - { label: "Français", name: fr, widget: text }
+                  - { label: "Português", name: pt, widget: text }
+          - label: "客户见证"
+            name: testimonials
+            widget: list
+            summary: "{{fields.name.en}}"
+            fields:
+              - label: "评价内容"
+                name: text
+                widget: object
+                collapsed: true
+                fields:
+                  - { label: "English", name: en, widget: text }
+                  - { label: "中文", name: zh, widget: text }
+                  - { label: "Tiếng Việt", name: vi, widget: text }
+                  - { label: "ภาษาไทย", name: th, widget: text }
+                  - { label: "Bahasa Indonesia", name: id, widget: text }
+                  - { label: "Español", name: es, widget: text }
+                  - { label: "Français", name: fr, widget: text }
+                  - { label: "Português", name: pt, widget: text }
+              - label: "姓名"
+                name: name
+                widget: object
+                collapsed: true
+                fields:
+                  - { label: "English", name: en, widget: string }
+                  - { label: "中文", name: zh, widget: string }
+                  - { label: "Tiếng Việt", name: vi, widget: string }
+                  - { label: "ภาษาไทย", name: th, widget: string }
+                  - { label: "Bahasa Indonesia", name: id, widget: string }
+                  - { label: "Español", name: es, widget: string }
+                  - { label: "Français", name: fr, widget: string }
+                  - { label: "Português", name: pt, widget: string }
+              - label: "国家/身份"
+                name: role
+                widget: object
+                collapsed: true
+                fields:
+                  - { label: "English", name: en, widget: string }
+                  - { label: "中文", name: zh, widget: string }
+                  - { label: "Tiếng Việt", name: vi, widget: string }
+                  - { label: "ภาษาไทย", name: th, widget: string }
+                  - { label: "Bahasa Indonesia", name: id, widget: string }
+                  - { label: "Español", name: es, widget: string }
+                  - { label: "Français", name: fr, widget: string }
+                  - { label: "Português", name: pt, widget: string }
+              - { label: "头像缩写", name: initial, widget: string }
+          - label: "目标市场"
+            name: markets
+            widget: list
+            summary: "{{fields.title.en}}"
+            fields:
+              - label: "市场名称"
+                name: title
+                widget: object
+                collapsed: true
+                fields:
+                  - { label: "English", name: en, widget: string }
+                  - { label: "中文", name: zh, widget: string }
+                  - { label: "Tiếng Việt", name: vi, widget: string }
+                  - { label: "ภาษาไทย", name: th, widget: string }
+                  - { label: "Bahasa Indonesia", name: id, widget: string }
+                  - { label: "Español", name: es, widget: string }
+                  - { label: "Français", name: fr, widget: string }
+                  - { label: "Português", name: pt, widget: string }
+              - label: "描述"
+                name: desc
+                widget: object
+                collapsed: true
+                fields:
+                  - { label: "English", name: en, widget: text }
+                  - { label: "中文", name: zh, widget: text }
+                  - { label: "Tiếng Việt", name: vi, widget: text }
+                  - { label: "ภาษาไทย", name: th, widget: text }
+                  - { label: "Bahasa Indonesia", name: id, widget: text }
+                  - { label: "Español", name: es, widget: text }
+                  - { label: "Français", name: fr, widget: text }
+                  - { label: "Português", name: pt, widget: text }
+          - label: "报价表单特性"
+            name: quote
+            widget: object
+            collapsed: true
+            fields:
+              - label: "特性列表"
+                name: feats
+                widget: list
+                summary: "{{fields.t.en}}"
+                fields:
+                  - label: "标题"
+                    name: t
+                    widget: object
+                    collapsed: true
+                    fields:
+                      - { label: "English", name: en, widget: string }
+                      - { label: "中文", name: zh, widget: string }
+                      - { label: "Tiếng Việt", name: vi, widget: string }
+                      - { label: "ภาษาไทย", name: th, widget: string }
+                      - { label: "Bahasa Indonesia", name: id, widget: string }
+                      - { label: "Español", name: es, widget: string }
+                      - { label: "Français", name: fr, widget: string }
+                      - { label: "Português", name: pt, widget: string }
+                  - label: "描述"
+                    name: d
+                    widget: object
+                    collapsed: true
+                    fields:
+                      - { label: "English", name: en, widget: string }
+                      - { label: "中文", name: zh, widget: string }
+                      - { label: "Tiếng Việt", name: vi, widget: string }
+                      - { label: "ภาษาไทย", name: th, widget: string }
+                      - { label: "Bahasa Indonesia", name: id, widget: string }
+                      - { label: "Español", name: es, widget: string }
+                      - { label: "Français", name: fr, widget: string }
+                      - { label: "Português", name: pt, widget: string }
+          - label: "关于页"
+            name: about
+            widget: object
+            collapsed: true
+            fields:
+              - label: "公司故事"
+                name: story
+                widget: object
+                collapsed: true
+                fields:
+                  - label: "段落1"
+                    name: p1
+                    widget: object
+                    collapsed: true
+                    fields:
+                      - { label: "English", name: en, widget: text }
+                      - { label: "中文", name: zh, widget: text }
+                      - { label: "Tiếng Việt", name: vi, widget: text }
+                      - { label: "ภาษาไทย", name: th, widget: text }
+                      - { label: "Bahasa Indonesia", name: id, widget: text }
+                      - { label: "Español", name: es, widget: text }
+                      - { label: "Français", name: fr, widget: text }
+                      - { label: "Português", name: pt, widget: text }
+                  - label: "段落2"
+                    name: p2
+                    widget: object
+                    collapsed: true
+                    fields:
+                      - { label: "English", name: en, widget: text }
+                      - { label: "中文", name: zh, widget: text }
+                      - { label: "Tiếng Việt", name: vi, widget: text }
+                      - { label: "ภาษาไทย", name: th, widget: text }
+                      - { label: "Bahasa Indonesia", name: id, widget: text }
+                      - { label: "Español", name: es, widget: text }
+                      - { label: "Français", name: fr, widget: text }
+                      - { label: "Português", name: pt, widget: text }
+                  - { label: "故事配图路径", name: img, widget: string }
+              - label: "发展时间轴"
+                name: timeline
+                widget: list
+                summary: "{{fields.year}}"
+                fields:
+                  - { label: "年份", name: year, widget: string }
+                  - label: "事件"
+                    name: title
+                    widget: object
+                    collapsed: true
+                    fields:
+                      - { label: "English", name: en, widget: string }
+                      - { label: "中文", name: zh, widget: string }
+                      - { label: "Tiếng Việt", name: vi, widget: string }
+                      - { label: "ภาษาไทย", name: th, widget: string }
+                      - { label: "Bahasa Indonesia", name: id, widget: string }
+                      - { label: "Español", name: es, widget: string }
+                      - { label: "Français", name: fr, widget: string }
+                      - { label: "Português", name: pt, widget: string }
+                  - label: "说明"
+                    name: desc
+                    widget: object
+                    collapsed: true
+                    fields:
+                      - { label: "English", name: en, widget: text }
+                      - { label: "中文", name: zh, widget: text }
+                      - { label: "Tiếng Việt", name: vi, widget: text }
+                      - { label: "ภาษาไทย", name: th, widget: text }
+                      - { label: "Bahasa Indonesia", name: id, widget: text }
+                      - { label: "Español", name: es, widget: text }
+                      - { label: "Français", name: fr, widget: text }
+                      - { label: "Português", name: pt, widget: text }
+              - label: "工厂实景"
+                name: factory
+                widget: list
+                summary: "{{fields.cap.en}}"
+                fields:
+                  - { label: "图片路径", name: img, widget: string }
+                  - label: "图注"
+                    name: cap
+                    widget: object
+                    collapsed: true
+                    fields:
+                      - { label: "English", name: en, widget: string }
+                      - { label: "中文", name: zh, widget: string }
+                      - { label: "Tiếng Việt", name: vi, widget: string }
+                      - { label: "ภาษาไทย", name: th, widget: string }
+                      - { label: "Bahasa Indonesia", name: id, widget: string }
+                      - { label: "Español", name: es, widget: string }
+                      - { label: "Français", name: fr, widget: string }
+                      - { label: "Português", name: pt, widget: string }
+              - label: "质控流程"
+                name: qc
+                widget: list
+                summary: "{{fields.title.en}}"
+                fields:
+                  - label: "标题"
+                    name: title
+                    widget: object
+                    collapsed: true
+                    fields:
+                      - { label: "English", name: en, widget: string }
+                      - { label: "中文", name: zh, widget: string }
+                      - { label: "Tiếng Việt", name: vi, widget: string }
+                      - { label: "ภาษาไทย", name: th, widget: string }
+                      - { label: "Bahasa Indonesia", name: id, widget: string }
+                      - { label: "Español", name: es, widget: string }
+                      - { label: "Français", name: fr, widget: string }
+                      - { label: "Português", name: pt, widget: string }
+                  - label: "描述"
+                    name: desc
+                    widget: object
+                    collapsed: true
+                    fields:
+                      - { label: "English", name: en, widget: text }
+                      - { label: "中文", name: zh, widget: text }
+                      - { label: "Tiếng Việt", name: vi, widget: text }
+                      - { label: "ภาษาไทย", name: th, widget: text }
+                      - { label: "Bahasa Indonesia", name: id, widget: text }
+                      - { label: "Español", name: es, widget: text }
+                      - { label: "Français", name: fr, widget: text }
+                      - { label: "Português", name: pt, widget: text }
+              - label: "认证展示（文本列表）"
+                name: certs
+                widget: list
+                label_singular: "认证"
+                fields:
+                  - { label: "认证名称", name: name, widget: string }
+              - label: "OEM / ODM 能力"
+                name: oem
+                widget: list
+                summary: "{{fields.title.en}}"
+                fields:
+                  - { label: "图标名", name: icon, widget: string }
+                  - label: "标题"
+                    name: title
+                    widget: object
+                    collapsed: true
+                    fields:
+                      - { label: "English", name: en, widget: string }
+                      - { label: "中文", name: zh, widget: string }
+                      - { label: "Tiếng Việt", name: vi, widget: string }
+                      - { label: "ภาษาไทย", name: th, widget: string }
+                      - { label: "Bahasa Indonesia", name: id, widget: string }
+                      - { label: "Español", name: es, widget: string }
+                      - { label: "Français", name: fr, widget: string }
+                      - { label: "Português", name: pt, widget: string }
+                  - label: "描述"
+                    name: desc
+                    widget: object
+                    collapsed: true
+                    fields:
+                      - { label: "English", name: en, widget: text }
+                      - { label: "中文", name: zh, widget: text }
+                      - { label: "Tiếng Việt", name: vi, widget: text }
+                      - { label: "ภาษาไทย", name: th, widget: text }
+                      - { label: "Bahasa Indonesia", name: id, widget: text }
+                      - { label: "Español", name: es, widget: text }
+                      - { label: "Français", name: fr, widget: text }
+                      - { label: "Português", name: pt, widget: text }
+          - label: "区块标题（各栏目大标题，8 语）"
+            name: sections
+            widget: object
+            collapsed: true
+            fields:
+              - label: "优势区块"
+                name: advantages
+                widget: object
+                collapsed: true
+                fields:
+                  - label: "标题"
+                    name: title
+                    widget: object
+                    collapsed: true
+                    fields:
+                      - { label: "English", name: en, widget: string }
+                      - { label: "中文", name: zh, widget: string }
+                      - { label: "Tiếng Việt", name: vi, widget: string }
+                      - { label: "ภาษาไทย", name: th, widget: string }
+                      - { label: "Bahasa Indonesia", name: id, widget: string }
+                      - { label: "Español", name: es, widget: string }
+                      - { label: "Français", name: fr, widget: string }
+                      - { label: "Português", name: pt, widget: string }
+                  - label: "副标题"
+                    name: sub
+                    widget: object
+                    collapsed: true
+                    fields:
+                      - { label: "English", name: en, widget: string }
+                      - { label: "中文", name: zh, widget: string }
+                      - { label: "Tiếng Việt", name: vi, widget: string }
+                      - { label: "ภาษาไทย", name: th, widget: string }
+                      - { label: "Bahasa Indonesia", name: id, widget: string }
+                      - { label: "Español", name: es, widget: string }
+                      - { label: "Français", name: fr, widget: string }
+                      - { label: "Português", name: pt, widget: string }
+              - label: "产品分类区块"
+                name: categories
+                widget: object
+                collapsed: true
+                fields:
+                  - label: "标题"
+                    name: title
+                    widget: object
+                    collapsed: true
+                    fields:
+                      - { label: "English", name: en, widget: string }
+                      - { label: "中文", name: zh, widget: string }
+                      - { label: "Tiếng Việt", name: vi, widget: string }
+                      - { label: "ภาษาไทย", name: th, widget: string }
+                      - { label: "Bahasa Indonesia", name: id, widget: string }
+                      - { label: "Español", name: es, widget: string }
+                      - { label: "Français", name: fr, widget: string }
+                      - { label: "Português", name: pt, widget: string }
+                  - label: "副标题"
+                    name: sub
+                    widget: object
+                    collapsed: true
+                    fields:
+                      - { label: "English", name: en, widget: string }
+                      - { label: "中文", name: zh, widget: string }
+                      - { label: "Tiếng Việt", name: vi, widget: string }
+                      - { label: "ภาษาไทย", name: th, widget: string }
+                      - { label: "Bahasa Indonesia", name: id, widget: string }
+                      - { label: "Español", name: es, widget: string }
+                      - { label: "Français", name: fr, widget: string }
+                      - { label: "Português", name: pt, widget: string }
+              - label: "为什么选我们区块"
+                name: why
+                widget: object
+                collapsed: true
+                fields:
+                  - label: "标题"
+                    name: title
+                    widget: object
+                    collapsed: true
+                    fields:
+                      - { label: "English", name: en, widget: string }
+                      - { label: "中文", name: zh, widget: string }
+                      - { label: "Tiếng Việt", name: vi, widget: string }
+                      - { label: "ภาษาไทย", name: th, widget: string }
+                      - { label: "Bahasa Indonesia", name: id, widget: string }
+                      - { label: "Español", name: es, widget: string }
+                      - { label: "Français", name: fr, widget: string }
+                      - { label: "Português", name: pt, widget: string }
+                  - label: "副标题"
+                    name: sub
+                    widget: object
+                    collapsed: true
+                    fields:
+                      - { label: "English", name: en, widget: string }
+                      - { label: "中文", name: zh, widget: string }
+                      - { label: "Tiếng Việt", name: vi, widget: string }
+                      - { label: "ภาษาไทย", name: th, widget: string }
+                      - { label: "Bahasa Indonesia", name: id, widget: string }
+                      - { label: "Español", name: es, widget: string }
+                      - { label: "Français", name: fr, widget: string }
+                      - { label: "Português", name: pt, widget: string }
+              - label: "客户见证区块"
+                name: testimonials
+                widget: object
+                collapsed: true
+                fields:
+                  - label: "标题"
+                    name: title
+                    widget: object
+                    collapsed: true
+                    fields:
+                      - { label: "English", name: en, widget: string }
+                      - { label: "中文", name: zh, widget: string }
+                      - { label: "Tiếng Việt", name: vi, widget: string }
+                      - { label: "ภาษาไทย", name: th, widget: string }
+                      - { label: "Bahasa Indonesia", name: id, widget: string }
+                      - { label: "Español", name: es, widget: string }
+                      - { label: "Français", name: fr, widget: string }
+                      - { label: "Português", name: pt, widget: string }
+                  - label: "副标题"
+                    name: sub
+                    widget: object
+                    collapsed: true
+                    fields:
+                      - { label: "English", name: en, widget: string }
+                      - { label: "中文", name: zh, widget: string }
+                      - { label: "Tiếng Việt", name: vi, widget: string }
+                      - { label: "ภาษาไทย", name: th, widget: string }
+                      - { label: "Bahasa Indonesia", name: id, widget: string }
+                      - { label: "Español", name: es, widget: string }
+                      - { label: "Français", name: fr, widget: string }
+                      - { label: "Português", name: pt, widget: string }
+              - label: "目标市场区块"
+                name: markets
+                widget: object
+                collapsed: true
+                fields:
+                  - label: "标题"
+                    name: title
+                    widget: object
+                    collapsed: true
+                    fields:
+                      - { label: "English", name: en, widget: string }
+                      - { label: "中文", name: zh, widget: string }
+                      - { label: "Tiếng Việt", name: vi, widget: string }
+                      - { label: "ภาษาไทย", name: th, widget: string }
+                      - { label: "Bahasa Indonesia", name: id, widget: string }
+                      - { label: "Español", name: es, widget: string }
+                      - { label: "Français", name: fr, widget: string }
+                      - { label: "Português", name: pt, widget: string }
+                  - label: "副标题"
+                    name: sub
+                    widget: object
+                    collapsed: true
+                    fields:
+                      - { label: "English", name: en, widget: string }
+                      - { label: "中文", name: zh, widget: string }
+                      - { label: "Tiếng Việt", name: vi, widget: string }
+                      - { label: "ภาษาไทย", name: th, widget: string }
+                      - { label: "Bahasa Indonesia", name: id, widget: string }
+                      - { label: "Español", name: es, widget: string }
+                      - { label: "Français", name: fr, widget: string }
+                      - { label: "Português", name: pt, widget: string }
+              - label: "报价表单区块"
+                name: quote
+                widget: object
+                collapsed: true
+                fields:
+                  - label: "标题"
+                    name: title
+                    widget: object
+                    collapsed: true
+                    fields:
+                      - { label: "English", name: en, widget: string }
+                      - { label: "中文", name: zh, widget: string }
+                      - { label: "Tiếng Việt", name: vi, widget: string }
+                      - { label: "ภาษาไทย", name: th, widget: string }
+                      - { label: "Bahasa Indonesia", name: id, widget: string }
+                      - { label: "Español", name: es, widget: string }
+                      - { label: "Français", name: fr, widget: string }
+                      - { label: "Português", name: pt, widget: string }
+                  - label: "副标题"
+                    name: sub
+                    widget: object
+                    collapsed: true
+                    fields:
+                      - { label: "English", name: en, widget: string }
+                      - { label: "中文", name: zh, widget: string }
+                      - { label: "Tiếng Việt", name: vi, widget: string }
+                      - { label: "ภาษาไทย", name: th, widget: string }
+                      - { label: "Bahasa Indonesia", name: id, widget: string }
+                      - { label: "Español", name: es, widget: string }
+                      - { label: "Français", name: fr, widget: string }
+                      - { label: "Português", name: pt, widget: string }
+              - label: "CTA 行动区区块"
+                name: cta
+                widget: object
+                collapsed: true
+                fields:
+                  - label: "标题"
+                    name: title
+                    widget: object
+                    collapsed: true
+                    fields:
+                      - { label: "English", name: en, widget: string }
+                      - { label: "中文", name: zh, widget: string }
+                      - { label: "Tiếng Việt", name: vi, widget: string }
+                      - { label: "ภาษาไทย", name: th, widget: string }
+                      - { label: "Bahasa Indonesia", name: id, widget: string }
+                      - { label: "Español", name: es, widget: string }
+                      - { label: "Français", name: fr, widget: string }
+                      - { label: "Português", name: pt, widget: string }
+                  - label: "副标题"
+                    name: sub
+                    widget: object
+                    collapsed: true
+                    fields:
+                      - { label: "English", name: en, widget: string }
+                      - { label: "中文", name: zh, widget: string }
+                      - { label: "Tiếng Việt", name: vi, widget: string }
+                      - { label: "ภาษาไทย", name: th, widget: string }
+                      - { label: "Bahasa Indonesia", name: id, widget: string }
+                      - { label: "Español", name: es, widget: string }
+                      - { label: "Français", name: fr, widget: string }
+                      - { label: "Português", name: pt, widget: string }
+              - label: "页脚简介区块"
+                name: footer
+                widget: object
+                collapsed: true
+                fields:
+                  - label: "关于我们简介"
+                    name: aboutText
+                    widget: object
+                    collapsed: true
+                    fields:
+                      - { label: "English", name: en, widget: text }
+                      - { label: "中文", name: zh, widget: text }
+                      - { label: "Tiếng Việt", name: vi, widget: text }
+                      - { label: "ภาษาไทย", name: th, widget: text }
+                      - { label: "Bahasa Indonesia", name: id, widget: text }
+                      - { label: "Español", name: es, widget: text }
+                      - { label: "Français", name: fr, widget: text }
+                      - { label: "Português", name: pt, widget: text }
