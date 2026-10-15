@@ -1109,7 +1109,12 @@ window.I18N_DATA['zh'] = {
   "tabDetails": "产品详情",
   "tabSupplier": "供应商信息",
     "viewLess": "收起",
-    "tierTitle": "阶梯价格"
+    "tierTitle": "阶梯价格",
+    "qty": "订购数量",
+    "qtyHint": "最小起订 {pk} 个/箱，下单数量须为整箱倍数",
+    "sku": "规格",
+    "tierFor": "此数量单价",
+    "tierBase": "单价按件计算"
   },
 
   "admin.currencyHint": "已保存到本机。要让全站访客生效，请在设置页导出 data-override.js 并上传服务器，或通过 CMS 发布。",

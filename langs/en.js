@@ -1111,7 +1111,12 @@ window.I18N_DATA['en'] = {
   "tabDetails": "Product Details",
   "tabSupplier": "Supplier Details",
     "viewLess": "View Less",
-    "tierTitle": "Tiered Pricing"
+    "tierTitle": "Tiered Pricing",
+    "qty": "Quantity",
+    "qtyHint": "Min order {pk} pcs/carton — order in carton multiples",
+    "sku": "Option",
+    "tierFor": "Unit price for",
+    "tierBase": "Unit price applies per piece"
   },
 
   "cart": {

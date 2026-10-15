@@ -269,6 +269,7 @@
       f("certFile").value = p.certFile || "";
       f("model").value = p.model || (p.id ? String(p.id).toUpperCase() : "");
       f("priceTiers").value = (p.priceTiers || []).map(function (t) { return (t.qtyMin || "") + "-" + (t.qtyMax || "") + "," + (t.price != null ? t.price : ""); }).join("\n");
+      f("skuOptions").value = (p.skuOptions || []).map(function (g) { return g.name + ":" + (g.options || []).join(","); }).join("\n");
       f("packing").value = p.packing || "";
     } else {
       f("category").innerHTML = catOptions("hair-clipper");
@@ -297,6 +298,21 @@
     return out;
   }
 
+  function parseSkuOptions(raw) {
+    var out = [];
+    String(raw || "").split(/[\n;]+/).forEach(function (line) {
+      line = line.trim();
+      if (!line) return;
+      var idx = line.indexOf(":");
+      if (idx < 1) return;
+      var name = line.slice(0, idx).trim();
+      var opts = line.slice(idx + 1).split(",").map(function (o) { return o.trim(); }).filter(Boolean);
+      if (!name || !opts.length) return;
+      out.push({ name: name, options: opts });
+    });
+    return out;
+  }
+
   function saveProduct() {
     var form = document.getElementById("product-form");
     var f = function (n) { return document.getElementById("pf-" + n).value.trim(); };
@@ -321,7 +337,8 @@
       certFile: f("certFile"),
       model: f("model"),
       packing: f("packing") === "" ? null : (parseInt(f("packing"), 10) || 24),
-      priceTiers: parsePriceTiers(f("priceTiers"))
+      priceTiers: parsePriceTiers(f("priceTiers")),
+      skuOptions: parseSkuOptions(f("skuOptions"))
     };
     if (state.editId) {
       var i = list.findIndex(function (x) { return x.id === state.editId; });

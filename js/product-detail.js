@@ -60,7 +60,13 @@
     return price + " / " + unitTxt(p);
   }
   function modelOf(p) {
-    return (p && p.model) || (p && p.id ? String(p.id).toUpperCase() : "");
+    if (p && p.model) return p.model;
+    /* extract real model from product name (e.g. "KM-2381 Professional Hair Clipper") */
+    if (p && p.name) {
+      var m = String(p.name).match(/(PROKM-|KM-PG|KM-)[A-Z0-9-]+/i);
+      if (m) return m[0].toUpperCase();
+    }
+    return p && p.id ? String(p.id).toUpperCase() : "";
   }
   /* tiered pricing table html (only when priceTiers present) */
   function tiersHtml(p) {
@@ -130,7 +136,7 @@
     if (!extra.length) return "";
     var html = '<div class="pd-block"><h3>' + esc(T("product.detailedPhoto")) + '</h3><div class="pd-photo-grid">';
     extra.forEach(function (im, i) {
-      html += '<figure class="pd-photo-item"><img src="' + esc(im) + '" alt="' + esc(pName(p)) + ' Detail ' + (i + 1) + '" loading="lazy" data-lightbox data-pd-detail="' + i + '"></figure>';
+      html += '<figure class="pd-photo-item"><img src="' + esc(im) + '" alt="' + esc(pName(p)) + ' Detail ' + (i + 1) + '" loading="lazy" data-pd-detail="' + i + '"></figure>';
     });
     html += "</div></div>";
     return html;
@@ -220,10 +226,13 @@
     /* key specs on the right (no duplicates with the attributes table below) */
     var keySpecs = '<div class="pd-key">';
     var mo = modelOf(p);
+    var pk = parseInt(p.packing, 10) || 24;
+    var moqVal = parseInt(p.moq, 10) || 200;
+    var leadVal = parseInt(p.lead, 10) || 15;
     if (mo) keySpecs += "<span><b>" + esc(T("common.model")) + "</b>" + esc(mo) + "</span>";
-    keySpecs += "<span><b>" + esc(T("products.packing")) + "</b>" + (parseInt(p.packing, 10) || 24) + " " + esc(T("common.pcs")) + "/carton</span>"
-      + "<span><b>" + esc(T("common.moq")) + "</b>" + (p.moq || "—") + " " + esc(T("common.pcs")) + "</span>"
-      + "<span><b>" + esc(T("products.lead")) + "</b>" + (p.lead || "—") + " " + esc(T("product.days")) + "</span>"
+    keySpecs += "<span><b>" + esc(T("products.packing")) + "</b>" + pk + " " + esc(T("common.pcs")) + "/carton</span>"
+      + "<span><b>" + esc(T("common.moq")) + "</b>" + moqVal + " " + esc(T("common.pcs")) + "</span>"
+      + "<span><b>" + esc(T("products.lead")) + "</b>" + leadVal + " " + esc(T("product.days")) + "</span>"
       + (p.certs ? "<span><b>" + esc(T("common.certsLabel")) + "</b>" + esc(p.certs) + "</span>" : "")
       + "</div>";
 
@@ -253,12 +262,42 @@
     var waNum = (settings.whatsapp || "").replace(/[^\d]/g, "");
     var waLink = 'https://wa.me/' + waNum + "?text=" + encodeURIComponent("Inquiry about " + name + " (" + p.id + ")");
 
+    /* SKU option groups (colors/variants) — rendered only when data exists */
+    var skuHtml = "";
+    if (p.skuOptions && p.skuOptions.length) {
+      skuHtml = '<div class="pd-sku" data-sku-wrap>';
+      p.skuOptions.forEach(function (g, gi) {
+        skuHtml += '<div class="pd-sku-group"><span class="pd-sku-label">' + esc(g.name || T("product.sku")) + '</span><div class="pd-sku-opts">';
+        (g.options || []).forEach(function (o, oi) {
+          skuHtml += '<button type="button" class="pd-sku-opt' + (oi === 0 ? " active" : "") + '" data-sku-g="' + gi + '" data-sku-v="' + esc(String(o).toLowerCase()) + '">' + esc(o) + "</button>";
+        });
+        skuHtml += "</div></div>";
+      });
+      skuHtml += "</div>";
+    }
+
+    /* quantity stepper (carton multiple) + tier price line */
+    var defQty = moqVal;
+    var orderBox = '<div class="pd-order-box">'
+      + skuHtml
+      + '<div class="pd-qty-row">'
+      + '<span class="pd-qty-label">' + esc(T("product.qty")) + '</span>'
+      + '<div class="pd-stepper"><button type="button" data-qty-step="-1" aria-label="Decrease">−</button>'
+      + '<input type="text" inputmode="numeric" data-qty value="' + defQty + '" aria-label="Quantity">'
+      + '<button type="button" data-qty-step="1" aria-label="Increase">+</button></div>'
+      + '<span class="pd-qty-hint">' + esc(T("product.qtyHint").replace("{pk}", String(pk))) + "</span>"
+      + "</div>"
+      + '<div class="pd-tier-line" data-tier-line></div>'
+      + "</div>";
+
     main.innerHTML = '<div class="pd-layout">'
             + '<div class="pd-gallery">'
-      + '<div class="pd-main-img"><img id="pd-img-main" src="' + esc(imgs[0]) + '" alt="' + esc(name) + '" data-lightbox></div>'
+      + '<div class="pd-gallery-inner">'
       + (imgs.length > 1 ? '<div class="pd-thumbs">' + imgs.map(function (im, i) {
-          return '<button class="pd-thumb' + (i === 0 ? " active" : "") + '" data-img="' + esc(im) + '"><img src="' + esc(im) + '" alt="" data-lightbox></button>';
+          return '<button class="pd-thumb' + (i === 0 ? " active" : "") + '" data-img="' + esc(im) + '"><img src="' + esc(im) + '" alt=""></button>';
         }).join("") + "</div>" : "")
+      + '<div class="pd-main-img"><img id="pd-img-main" src="' + esc(imgs[0]) + '" alt="' + esc(name) + '"></div>'
+      + "</div>"
       + "</div>"
       + '<div class="pd-info">'
       + '<span class="p-cat' + (p.hot ? " hot" : "") + '">' + esc(catName(p.category)) + "</span>"
@@ -266,6 +305,7 @@
       + priceHtml
       + '<p class="pd-note">' + esc(T("products.priceNote").replace("{term}", p.term || "FOB")) + "</p>"
       + keySpecs
+      + orderBox
       + '<div class="pd-actions">'
       + '<button class="btn btn-primary" data-pd-addcart>' + esc(T("cart.add")) + "</button>"
       + '<button class="btn btn-outline" data-pd-inquiry="' + esc(p.id) + '">' + esc(T("inquiry.add")) + "</button>"
@@ -298,26 +338,83 @@
       main.appendChild(relWrap.firstChild);
     }
 
+    /* ---------- qty stepper + tier price ---------- */
+    var qtyInput = main.querySelector("[data-qty]");
+    var tierLine = main.querySelector("[data-tier-line]");
+    function tierPriceFor(q) {
+      if (p.priceTiers && p.priceTiers.length) {
+        var last = null;
+        for (var i = 0; i < p.priceTiers.length; i++) {
+          var t = p.priceTiers[i];
+          if (!t || t.price == null) continue;
+          last = t;
+          var mn = parseInt(t.qtyMin, 10) || 0;
+          var mx = t.qtyMax ? parseInt(t.qtyMax, 10) : Infinity;
+          if (q >= mn && q <= mx) return Number(t.price);
+        }
+        return last ? Number(last.price) : null;
+      }
+      return null;
+    }
+    function normQty(q) {
+      q = parseInt(q, 10);
+      if (!q || isNaN(q)) q = moqVal;
+      if (q < moqVal) q = moqVal;
+      return Math.ceil(q / pk) * pk;
+    }
+    function renderTier() {
+      if (!qtyInput || !tierLine) return;
+      var q = normQty(qtyInput.value);
+      var tp = tierPriceFor(q);
+      if (tp != null) {
+        tierLine.innerHTML = '<span class="pd-tier-price">' + esc(Util.money(tp)) + ' / ' + esc(unitTxt(p)) + "</span>"
+          + '<span class="pd-tier-note">' + esc(T("product.tierFor")) + " " + q + " " + esc(T("common.pcs")) + "</span>";
+      } else {
+        var base = Util.priceFmt(p);
+        tierLine.innerHTML = base ? '<span class="pd-tier-note">' + esc(T("product.tierBase")) + "</span>" : "";
+      }
+    }
+    if (qtyInput) {
+      main.querySelectorAll("[data-qty-step]").forEach(function (b) {
+        b.addEventListener("click", function () {
+          var cur = parseInt(qtyInput.value, 10) || moqVal;
+          var next = b.getAttribute("data-qty-step") === "1" ? cur + pk : cur - pk;
+          if (next < moqVal) next = moqVal;
+          qtyInput.value = next;
+          renderTier();
+        });
+      });
+      qtyInput.addEventListener("change", function () { qtyInput.value = normQty(qtyInput.value); renderTier(); });
+      qtyInput.addEventListener("input", function () { renderTier(); });
+      renderTier();
+    }
+    /* SKU option selection */
+    main.querySelectorAll("[data-sku-g]").forEach(function (b) {
+      b.addEventListener("click", function () {
+        var g = b.getAttribute("data-sku-g");
+        main.querySelectorAll('[data-sku-g="' + g + '"]').forEach(function (x) { x.classList.remove("active"); });
+        b.classList.add("active");
+      });
+    });
+
     /* bind actions */
     var qBtn = main.querySelector("[data-pd-quote]");
     if (qBtn) qBtn.addEventListener("click", function () { window.HT_ProductActions.openQuote(p); });
     var acBtn = main.querySelector("[data-pd-addcart]");
-    if (acBtn) acBtn.addEventListener("click", function () { window.HT_Cart.add(p.id); });
-    var mainImg = document.getElementById("pd-img-main");
-    main.querySelectorAll("[data-pd-detail]").forEach(function (img) {
-      img.addEventListener("click", function () {
-        openLightbox(imgs.length + Number(img.getAttribute("data-pd-detail")));
-      });
+    if (acBtn) acBtn.addEventListener("click", function () {
+      var q = qtyInput ? normQty(qtyInput.value) : moqVal;
+      window.HT_Cart.add(p.id, q);
     });
+    var mainImg = document.getElementById("pd-img-main");
+    /* thumbs switch the main image — no lightbox popup */
     main.querySelectorAll(".pd-thumb").forEach(function (t) {
-      t.addEventListener("click", function (e) {
-        if (e.target.closest("[data-lightbox]")) { openLightbox(imgs.indexOf(t.getAttribute("data-img"))); return; }
+      t.addEventListener("click", function () {
+        if (!mainImg) return;
         mainImg.src = t.getAttribute("data-img");
         main.querySelectorAll(".pd-thumb").forEach(function (x) { x.classList.remove("active"); });
         t.classList.add("active");
       });
     });
-    mainImg.addEventListener("click", function () { openLightbox(0); });
 
     /* collapsible blocks */
     main.querySelectorAll(".clamp-toggle").forEach(function (b) {
