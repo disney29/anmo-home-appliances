@@ -250,7 +250,7 @@
       f("category").value = p.category || "hair-clipper";
       f("image").value = p.image || "";
       f("price").value = p.price || "";
-      f("term").value = p.term || "FOB";
+      f("term").value = p.term || "EXW";
       f("unit").value = p.unit || "pcs";
       f("moq").value = p.moq || "";
       f("voltage").value = p.voltage || "";
@@ -322,7 +322,7 @@
       category: f("category"),
       image: f("image") || Util.catImage(f("category")),
       price: f("price") === "" ? null : parseFloat(f("price")) || null,
-      term: f("term") || "FOB",
+      term: f("term") || "EXW",
       unit: f("unit") || "pcs",
       moq: f("moq") === "" ? null : parseInt(f("moq"), 10) || null,
       voltage: f("voltage"), material: f("material"), capacity: f("capacity"),
@@ -1181,8 +1181,8 @@
         var b = e.target.closest("button[data-alang]");
         if (!b) return;
         var lang = b.getAttribute("data-alang");
-        if (!window.HT_I18N || window.HT_I18N.current === lang) return;
-        window.HT_I18N.setLang(lang);
+        if (!window.HT_I18N) return;
+        window.HT_I18N.setLang(lang); /* always re-apply — covers remembered-language mismatch */
         window.HT_I18N.apply();
         wrap.querySelectorAll("[data-alang]").forEach(function (x) { x.classList.toggle("active", x === b); });
         document.querySelectorAll("[data-admin-lang]").forEach(function (w2) {

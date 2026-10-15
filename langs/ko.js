@@ -267,7 +267,7 @@ window.I18N_DATA['ko'] = {
     "orderDone": "주문이 전송되었습니다. 팀이 12시간 내로 결제 세부사항을 확인합니다.",
     "orderOk": "주문 접수됨", "lead": "리드타임", "leadVal": "15~30일",
     "priceNote": "참고 가격 {term} — 최종 견적은 수량, 맞춤, 목적지에 따라 달라집니다.",
-    "addQuote": "가격 문의", "orderCta": "주문하기", "fob": "FOB"
+    "addQuote": "가격 문의", "orderCta": "주문하기", "fob": "EXW"
   },
   "about": {
     "title": "회사 소개", "sub": "공급망 뒤의 제조업체",

@@ -292,7 +292,7 @@
       + '<div class="field"><label data-i18n="quote.country">Country</label><input name="country"></div>'
       + '<div class="field"><label data-i18n="products.note">Order Notes</label><textarea name="note" rows="2" style="min-height:52px" data-i18n-ph="products.notePh"></textarea></div>'
       + '</div>'
-      + '<p style="font-size:12.5px;color:var(--ink-3,#6b7688);margin:10px 0" data-o-note>' + esc(T("products.priceNote").replace("{term}", "FOB")) + "</p>"
+      + '<p style="font-size:12.5px;color:var(--ink-3,#6b7688);margin:10px 0" data-o-note>' + esc(T("products.priceNote").replace("{term}", "EXW")) + "</p>"
       + '<button type="submit" class="btn btn-primary btn-block mt-2" data-i18n="cart.placeOrder">Place Order</button>'
       + "</form>"
       + '<div id="co-pay" class="hidden">'
@@ -402,7 +402,7 @@
     renderCart();
     /* refresh dynamic price note in checkout */
     var note = document.querySelector("#checkout-form [data-o-note]");
-    if (note) note.textContent = T("products.priceNote").replace("{term}", "FOB");
+    if (note) note.textContent = T("products.priceNote").replace("{term}", "EXW");
   });
   window.HT_Cart = { add: addToCart, open: openCart, close: closeCart, count: cartCount, refresh: renderCart };
 })();

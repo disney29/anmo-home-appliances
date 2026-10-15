@@ -522,7 +522,7 @@ window.I18N_DATA['vi'] = {
 
     "qty": "Số lượng",
 
-    "unitPrice": "Đơn giá (USD, FOB)",
+    "unitPrice": "Đơn giá (USD, EXW)",
 
     "total": "Tổng ước tính",
 
@@ -546,7 +546,7 @@ window.I18N_DATA['vi'] = {
 
     "orderCta": "Đặt ngay",
 
-    "fob": "FOB"
+    "fob": "EXW"
 
   },
 
@@ -828,7 +828,7 @@ window.I18N_DATA['vi'] = {
 
     "catCol": "Danh mục",
 
-    "priceCol": "Giá FOB (USD)",
+    "priceCol": "Giá EXW (USD)",
 
     "moqCol": "MOQ",
 
@@ -854,7 +854,7 @@ window.I18N_DATA['vi'] = {
 
     "pUpload": "Tải ảnh lên",
 
-    "pPrice": "Giá FOB (USD, tùy chọn)",
+    "pPrice": "Giá EXW (USD, tùy chọn)",
 
     "pTerm": "Điều kiện thương mại",
 

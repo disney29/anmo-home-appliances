@@ -267,7 +267,7 @@ window.I18N_DATA['ja'] = {
     "orderDone": "注文を送信しました。12時間以内に支払い詳細をご案内します。",
     "orderOk": "注文を受領しました", "lead": "リードタイム", "leadVal": "15〜30日",
     "priceNote": "参考価格 {term} — 最終見積りは数量、カスタマイズ、仕向地によって異なります。",
-    "addQuote": "価格を問い合わせる", "orderCta": "注文する", "fob": "FOB"
+    "addQuote": "価格を問い合わせる", "orderCta": "注文する", "fob": "EXW"
   },
   "about": {
     "title": "会社概要", "sub": "サプライチェーンの背後にあるメーカー",

@@ -522,7 +522,7 @@ window.I18N_DATA['th'] = {
 
     "qty": "จำนวน",
 
-    "unitPrice": "ราคาต่อหน่วย (USD, FOB)",
+    "unitPrice": "ราคาต่อหน่วย (USD, EXW)",
 
     "total": "ยอดรวมโดยประมาณ",
 
@@ -546,7 +546,7 @@ window.I18N_DATA['th'] = {
 
     "orderCta": "สั่งซื้อเลย",
 
-    "fob": "FOB"
+    "fob": "EXW"
 
   },
 
@@ -828,7 +828,7 @@ window.I18N_DATA['th'] = {
 
     "catCol": "หมวดหมู่",
 
-    "priceCol": "ราคา FOB (USD)",
+    "priceCol": "ราคา EXW (USD)",
 
     "moqCol": "MOQ",
 
@@ -854,7 +854,7 @@ window.I18N_DATA['th'] = {
 
     "pUpload": "อัปโหลดรูป",
 
-    "pPrice": "ราคา FOB (USD, ไม่บังคับ)",
+    "pPrice": "ราคา EXW (USD, ไม่บังคับ)",
 
     "pTerm": "เงื่อนไขการค้า",
 

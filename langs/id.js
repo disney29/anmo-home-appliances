@@ -522,7 +522,7 @@ window.I18N_DATA['id'] = {
 
     "qty": "Jumlah",
 
-    "unitPrice": "Harga Satuan (USD, FOB)",
+    "unitPrice": "Harga Satuan (USD, EXW)",
 
     "total": "Perkiraan Total",
 
@@ -546,7 +546,7 @@ window.I18N_DATA['id'] = {
 
     "orderCta": "Pesan Sekarang",
 
-    "fob": "FOB"
+    "fob": "EXW"
 
   },
 
@@ -828,7 +828,7 @@ window.I18N_DATA['id'] = {
 
     "catCol": "Kategori",
 
-    "priceCol": "Harga FOB (USD)",
+    "priceCol": "Harga EXW (USD)",
 
     "moqCol": "MOQ",
 
@@ -854,7 +854,7 @@ window.I18N_DATA['id'] = {
 
     "pUpload": "Unggah gambar",
 
-    "pPrice": "Harga FOB (USD, opsional)",
+    "pPrice": "Harga EXW (USD, opsional)",
 
     "pTerm": "Istilah Perdagangan",
 

@@ -522,7 +522,7 @@ window.I18N_DATA['es'] = {
 
     "qty": "Cantidad",
 
-    "unitPrice": "Precio Unitario (USD, FOB)",
+    "unitPrice": "Precio Unitario (USD, EXW)",
 
     "total": "Total Estimado",
 
@@ -546,7 +546,7 @@ window.I18N_DATA['es'] = {
 
     "orderCta": "Pedir Ahora",
 
-    "fob": "FOB"
+    "fob": "EXW"
 
   },
 
@@ -828,7 +828,7 @@ window.I18N_DATA['es'] = {
 
     "catCol": "Categoría",
 
-    "priceCol": "Precio FOB (USD)",
+    "priceCol": "Precio EXW (USD)",
 
     "moqCol": "MOQ",
 
@@ -854,7 +854,7 @@ window.I18N_DATA['es'] = {
 
     "pUpload": "Subir imagen",
 
-    "pPrice": "Precio FOB (USD, opcional)",
+    "pPrice": "Precio EXW (USD, opcional)",
 
     "pTerm": "Término Comercial",
 

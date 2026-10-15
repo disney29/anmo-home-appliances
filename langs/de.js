@@ -267,7 +267,7 @@ window.I18N_DATA['de'] = {
     "orderDone": "Bestellung gesendet. Unser Team bestätigt die Zahlungsdetails innerhalb von 12 Stunden.",
     "orderOk": "Bestellung erhalten", "lead": "Lieferzeit", "leadVal": "15–30 Tage",
     "priceNote": "Indikativer {term}-Preis — das endgültige Angebot hängt von Menge, Anpassung und Zielort ab.",
-    "addQuote": "Preis anfragen", "orderCta": "Jetzt bestellen", "fob": "FOB"
+    "addQuote": "Preis anfragen", "orderCta": "Jetzt bestellen", "fob": "EXW"
   },
   "about": {
     "title": "Über uns", "sub": "Der Hersteller hinter Ihrer Lieferkette",

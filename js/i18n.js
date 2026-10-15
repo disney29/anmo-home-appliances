@@ -118,6 +118,16 @@
   };
 
   document.addEventListener("DOMContentLoaded", function () {
+    var cur = window.HT_I18N.current;
+    if (cur !== "en" && !(window.I18N_DATA && window.I18N_DATA[cur])) {
+      /* remembered language's file is not loaded yet — inject it first, then apply */
+      var s = document.createElement("script");
+      s.src = "langs/" + cur + ".js";
+      s.onload = function () { window.HT_I18N.apply(); };
+      s.onerror = function () { window.HT_I18N.apply(); };
+      document.head.appendChild(s);
+      return;
+    }
     window.HT_I18N.apply();
   });
 })();

@@ -525,7 +525,7 @@ window.I18N_DATA['zh'] = {
 
     "qty": "数量",
 
-    "unitPrice": "单价（美元，FOB）",
+    "unitPrice": "单价（美元，EXW）",
 
     "total": "预计总额",
 
@@ -549,7 +549,7 @@ window.I18N_DATA['zh'] = {
 
     "orderCta": "立即下单",
 
-    "fob": "FOB"
+    "fob": "EXW"
 
   },
 
@@ -721,7 +721,7 @@ window.I18N_DATA['zh'] = {
     "ppHint": "报价单会附带 PayPal 付款链接。",
     "lcDesc": "整柜订单支持即期不可撤销信用证（L/C）。报价阶段会告知可接受的开证行。",
     "termsTitle": "贸易条款",
-    "termsDesc": "支持 FOB、EXW、CIF、CFR、DAP、DDP 等 Incoterms 2020 条款，交货与物流按订单确认。",
+    "termsDesc": "支持 EXW、EXW、CIF、CFR、DAP、DDP 等 Incoterms 2020 条款，交货与物流按订单确认。",
     "termsHint": "付款方式：30% 定金，70% 发货前付清（T/T），或 100% 即期信用证。",
     "contactTitle": "对付款有疑问？",
     "contactDesc": "销售团队将在 12 小时内为您确认最适合您市场和订单量的收款方式。"
@@ -844,7 +844,7 @@ window.I18N_DATA['zh'] = {
 
     "catCol": "分类",
 
-    "priceCol": "FOB价（美元）",
+    "priceCol": "EXW价（美元）",
 
     "moqCol": "起订量",
 
@@ -870,7 +870,7 @@ window.I18N_DATA['zh'] = {
 
     "pUpload": "上传图片",
 
-    "pPrice": "FOB价格（美元，选填）",
+    "pPrice": "EXW价格（美元，选填）",
 
     "pTerm": "贸易术语",
 
@@ -1111,7 +1111,7 @@ window.I18N_DATA['zh'] = {
     "viewLess": "收起",
     "tierTitle": "阶梯价格",
     "qty": "订购数量",
-    "qtyHint": "最小起订 {pk} 个/箱，下单数量须为整箱倍数",
+    "qtyHint": "最小起订 {moq} 个（4 箱 × 每箱 {pk} 个），下单数量为整箱倍数",
     "sku": "规格",
     "tierFor": "此数量单价",
     "tierBase": "单价按件计算"

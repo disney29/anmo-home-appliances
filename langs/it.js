@@ -267,7 +267,7 @@ window.I18N_DATA['it'] = {
     "orderDone": "Ordine inviato. Il nostro team confermerà i dettagli di pagamento entro 12 ore.",
     "orderOk": "Ordine ricevuto", "lead": "Tempi di consegna", "leadVal": "15–30 giorni",
     "priceNote": "Prezzo indicativo {term} — il preventivo finale dipende da quantità, personalizzazione e destinazione.",
-    "addQuote": "Richiedi prezzo", "orderCta": "Ordina ora", "fob": "FOB"
+    "addQuote": "Richiedi prezzo", "orderCta": "Ordina ora", "fob": "EXW"
   },
   "about": {
     "title": "Chi siamo", "sub": "Il produttore dietro la tua filiera",

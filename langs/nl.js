@@ -267,7 +267,7 @@ window.I18N_DATA['nl'] = {
     "orderDone": "Bestelling verzonden. Ons team bevestigt de betaalgegevens binnen 12 uur.",
     "orderOk": "Bestelling ontvangen", "lead": "Levertijd", "leadVal": "15–30 dagen",
     "priceNote": "Indicatieve {term}-prijs — de uiteindelijke offerte hangt af van aantal, aanpassing en bestemming.",
-    "addQuote": "Prijs opvragen", "orderCta": "Nu bestellen", "fob": "FOB"
+    "addQuote": "Prijs opvragen", "orderCta": "Nu bestellen", "fob": "EXW"
   },
   "about": {
     "title": "Over ons", "sub": "De fabrikant achter uw toeleveringsketen",

@@ -227,12 +227,12 @@
     var keySpecs = '<div class="pd-key">';
     var mo = modelOf(p);
     var pk = parseInt(p.packing, 10) || 24;
-    var moqVal = parseInt(p.moq, 10) || 200;
-    var leadVal = parseInt(p.lead, 10) || 15;
+    var moqVal = parseInt(p.moq, 10) || (pk * 4);
+    var leadTxt = (p.lead !== null && p.lead !== undefined && p.lead !== "") ? String(p.lead) : "15-30";
     if (mo) keySpecs += "<span><b>" + esc(T("common.model")) + "</b>" + esc(mo) + "</span>";
     keySpecs += "<span><b>" + esc(T("products.packing")) + "</b>" + pk + " " + esc(T("common.pcs")) + "/carton</span>"
       + "<span><b>" + esc(T("common.moq")) + "</b>" + moqVal + " " + esc(T("common.pcs")) + "</span>"
-      + "<span><b>" + esc(T("products.lead")) + "</b>" + leadVal + " " + esc(T("product.days")) + "</span>"
+      + "<span><b>" + esc(T("products.lead")) + "</b>" + esc(leadTxt) + " " + esc(T("product.days")) + "</span>"
       + (p.certs ? "<span><b>" + esc(T("common.certsLabel")) + "</b>" + esc(p.certs) + "</span>" : "")
       + "</div>";
 
@@ -285,7 +285,7 @@
       + '<div class="pd-stepper"><button type="button" data-qty-step="-1" aria-label="Decrease">−</button>'
       + '<input type="text" inputmode="numeric" data-qty value="' + defQty + '" aria-label="Quantity">'
       + '<button type="button" data-qty-step="1" aria-label="Increase">+</button></div>'
-      + '<span class="pd-qty-hint">' + esc(T("product.qtyHint").replace("{pk}", String(pk))) + "</span>"
+      + '<span class="pd-qty-hint">' + esc(T("product.qtyHint").replace("{moq}", String(moqVal)).replace("{pk}", String(pk))) + "</span>"
       + "</div>"
       + '<div class="pd-tier-line" data-tier-line></div>'
       + "</div>";

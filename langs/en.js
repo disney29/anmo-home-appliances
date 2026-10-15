@@ -527,7 +527,7 @@ window.I18N_DATA['en'] = {
 
     "qty": "Quantity",
 
-    "unitPrice": "Unit Price (USD, FOB)",
+    "unitPrice": "Unit Price (USD, EXW)",
 
     "total": "Estimated Total",
 
@@ -551,7 +551,7 @@ window.I18N_DATA['en'] = {
 
     "orderCta": "Order Now",
 
-    "fob": "FOB"
+    "fob": "EXW"
 
   },
 
@@ -723,7 +723,7 @@ window.I18N_DATA['en'] = {
     "ppHint": "A PayPal payment link will be sent with your quotation.",
     "lcDesc": "Irrevocable L/C at sight is available for container orders. Accepted issuing banks are advised at quotation stage.",
     "termsTitle": "Trade Terms",
-    "termsDesc": "We support FOB, EXW, CIF, CFR, DAP, DDP and other Incoterms 2020. Delivery terms and logistics are confirmed per order.",
+    "termsDesc": "We support EXW, EXW, CIF, CFR, DAP, DDP and other Incoterms 2020. Delivery terms and logistics are confirmed per order.",
     "termsHint": "Payment schedule: 30% deposit in advance, 70% balance before shipment (T/T), or 100% by L/C at sight.",
     "contactTitle": "Need help with payment?",
     "contactDesc": "Our sales team will confirm the best payment method for your market and order size within 12 hours."
@@ -846,7 +846,7 @@ window.I18N_DATA['en'] = {
 
     "catCol": "Category",
 
-    "priceCol": "FOB Price (USD)",
+    "priceCol": "EXW Price (USD)",
 
     "moqCol": "MOQ",
 
@@ -872,7 +872,7 @@ window.I18N_DATA['en'] = {
 
     "pUpload": "Upload image",
 
-    "pPrice": "FOB price (USD, optional)",
+    "pPrice": "EXW price (USD, optional)",
 
     "pTerm": "Trade Term",
 
@@ -1113,7 +1113,7 @@ window.I18N_DATA['en'] = {
     "viewLess": "View Less",
     "tierTitle": "Tiered Pricing",
     "qty": "Quantity",
-    "qtyHint": "Min order {pk} pcs/carton — order in carton multiples",
+    "qtyHint": "MOQ {moq} pcs (4 cartons × {pk} pcs) — order in carton multiples",
     "sku": "Option",
     "tierFor": "Unit price for",
     "tierBase": "Unit price applies per piece"
