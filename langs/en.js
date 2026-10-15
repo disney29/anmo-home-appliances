@@ -182,6 +182,8 @@ window.I18N_DATA['en'] = {
 
     "optional": "(optional)",
 
+    "carton": "carton",
+
     "pcs": "pcs",
 
     "year": "year",

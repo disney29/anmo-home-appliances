@@ -93,6 +93,8 @@ window.I18N_DATA['ko'] = {
     "successSend": "전송 완료! 12시간 내에 답변드립니다.",
     "errSend": "문제가 발생했습니다. 다시 시도해 주세요.",
     "optional": "(선택)",
+
+    "carton": "상자",
     "pcs": "개",
     "year": "년",
     "reply12h": "12시간 내 답변"

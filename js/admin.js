@@ -270,6 +270,7 @@
       f("model").value = p.model || (p.id ? String(p.id).toUpperCase() : "");
       f("priceTiers").value = (p.priceTiers || []).map(function (t) { return (t.qtyMin || "") + "-" + (t.qtyMax || "") + "," + (t.price != null ? t.price : ""); }).join("\n");
       f("skuOptions").value = (p.skuOptions || []).map(function (g) { return g.name + ":" + (g.options || []).join(","); }).join("\n");
+      renderSkuEditor();
       f("packing").value = p.packing || "";
     } else {
       f("category").innerHTML = catOptions("hair-clipper");
@@ -312,6 +313,115 @@
     });
     return out;
   }
+
+  /* ---------- SKU visual editor (groups + option chips, add/remove) ---------- */
+  function renderSkuEditor() {
+    var box = document.getElementById("pf-sku-editor");
+    var hid = document.getElementById("pf-skuOptions");
+    if (!box || !hid) return;
+    var groups = parseSkuOptions(hid.value);
+    box.innerHTML = groups.map(function (g, gi) {
+      var chips = (g.options || []).map(function (o, oi) {
+        return '<span class="sku-chip" data-opt="' + Util.esc(o) + '">' + Util.esc(o)
+          + '<button type="button" class="sku-chip-x" data-del-opt="' + gi + '" data-opt-val="' + Util.esc(o) + '" aria-label="Remove">×</button></span>';
+      }).join("");
+      return '<div class="sku-group" data-gi="' + gi + '">'
+        + '<input class="sku-group-name" data-gi="' + gi + '" placeholder="Group name (e.g. Color)" value="' + Util.esc(g.name || "") + '">'
+        + '<span class="sku-chips">' + (chips || '<span style="font-size:12px;color:var(--slate-400,#94a3b8)">no options yet</span>') + "</span>"
+        + '<input class="sku-add-opt" data-gi="' + gi + '" placeholder="+ option (e.g. Gold)">'
+        + '<button type="button" class="btn btn-sm" data-add-opt="' + gi + '">Add</button>'
+        + '<button type="button" class="sku-del-group" data-del-group="' + gi + '">Delete group</button>'
+        + "</div>";
+    }).join("");
+    if (!groups.length) {
+      box.innerHTML = '<p class="hint" style="margin:2px 0">No SKU options yet — add a group below (e.g. Color with Gold, Blue).</p>';
+    }
+    syncSkuInput();
+  }
+  function syncSkuInput() {
+    var box = document.getElementById("pf-sku-editor");
+    var hid = document.getElementById("pf-skuOptions");
+    if (!box || !hid) return;
+    var lines = [];
+    box.querySelectorAll(".sku-group").forEach(function (g) {
+      var name = g.querySelector(".sku-group-name").value.trim();
+      if (!name) return;
+      var opts = Array.prototype.map.call(g.querySelectorAll(".sku-chip"), function (c) {
+        return c.getAttribute("data-opt");
+      }).filter(Boolean);
+      if (opts.length) lines.push(name + ":" + opts.join(","));
+    });
+    hid.value = lines.join("\n");
+  }
+
+  /* SKU editor events (delegated once) */
+  document.addEventListener("click", function (e) {
+    var delOpt = e.target.closest("[data-del-opt]");
+    if (delOpt) {
+      var gi = delOpt.getAttribute("data-del-opt");
+      var val = delOpt.getAttribute("data-opt-val");
+      var group = document.querySelector('#pf-sku-editor .sku-group[data-gi="' + gi + '"]');
+      if (group) {
+        var chip = group.querySelector('.sku-chip[data-opt="' + Util.esc(val) + '"]');
+        if (chip) chip.remove();
+        syncSkuInput();
+      }
+      return;
+    }
+    var addOpt = e.target.closest("[data-add-opt]");
+    if (addOpt) {
+      var gi2 = addOpt.getAttribute("data-add-opt");
+      var group2 = document.querySelector('#pf-sku-editor .sku-group[data-gi="' + gi2 + '"]');
+      if (group2) {
+        var inp = group2.querySelector(".sku-add-opt");
+        var v = (inp.value || "").trim();
+        if (v) {
+          var exists = Array.prototype.some.call(group2.querySelectorAll(".sku-chip"), function (c) { return c.getAttribute("data-opt") === v; });
+          if (!exists) {
+            var chip2 = document.createElement("span");
+            chip2.className = "sku-chip";
+            chip2.setAttribute("data-opt", v);
+            chip2.innerHTML = Util.esc(v) + '<button type="button" class="sku-chip-x" data-del-opt="' + gi2 + '" data-opt-val="' + Util.esc(v) + '" aria-label="Remove">×</button>';
+            var chipsBox = group2.querySelector(".sku-chips");
+            var hint = group2.querySelector('[style*="no options yet"]');
+            if (hint) hint.remove();
+            chipsBox.appendChild(chip2);
+          }
+          inp.value = "";
+          syncSkuInput();
+        }
+      }
+      return;
+    }
+    var delGroup = e.target.closest("[data-del-group]");
+    if (delGroup) {
+      var gi3 = delGroup.getAttribute("data-del-group");
+      var g3 = document.querySelector('#pf-sku-editor .sku-group[data-gi="' + gi3 + '"]');
+      if (g3) { g3.remove(); syncSkuInput(); }
+      return;
+    }
+    var addGroup = e.target.closest("#pf-sku-add-group");
+    if (addGroup) {
+      var box = document.getElementById("pf-sku-editor");
+      if (!box) return;
+      var gi4 = box.querySelectorAll(".sku-group").length;
+      var div = document.createElement("div");
+      div.className = "sku-group";
+      div.setAttribute("data-gi", String(gi4));
+      div.innerHTML = '<input class="sku-group-name" data-gi="' + gi4 + '" placeholder="Group name (e.g. Color)">'
+        + '<span class="sku-chips"><span style="font-size:12px;color:#94a3b8">no options yet</span></span>'
+        + '<input class="sku-add-opt" data-gi="' + gi4 + '" placeholder="+ option (e.g. Gold)">'
+        + '<button type="button" class="btn btn-sm" data-add-opt="' + gi4 + '">Add</button>'
+        + '<button type="button" class="sku-del-group" data-del-group="' + gi4 + '">Delete group</button>';
+      box.appendChild(div);
+      return;
+    }
+  });
+  document.addEventListener("input", function (e) {
+    if (e.target.closest(".sku-group-name") || e.target.closest(".sku-add-opt")) {
+      syncSkuInput();
+    }
+  });
 
   function saveProduct() {
     var form = document.getElementById("product-form");

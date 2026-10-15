@@ -93,6 +93,8 @@ window.I18N_DATA['nl'] = {
     "successSend": "Verzonden! Wij antwoorden binnen 12 uur.",
     "errSend": "Er ging iets mis. Probeer het opnieuw.",
     "optional": "(optioneel)",
+
+    "carton": "doos",
     "pcs": "stuks",
     "year": "jaar",
     "reply12h": "Antwoord binnen 12 uur"

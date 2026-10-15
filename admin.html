@@ -8,7 +8,7 @@
 <link rel="icon" href="assets/favicon.png" type="image/png">
 <link rel="preconnect" href="https://miaoda.feishu.cn">
 <link href="https://miaoda.feishu.cn/fonts/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=v20261015v8">
+<link rel="stylesheet" href="css/style.css?v=v20261015v9">
 </head>
 <body data-page="admin">
 
@@ -307,6 +307,19 @@
   .pf-prev-thumbs .thumb button:hover{background:#dc2626}
   .pf-nav{display:flex;justify-content:flex-end;gap:10px;margin-top:20px;flex-wrap:wrap}
   .pf-nav .spacer{flex:1}
+  /* SKU visual editor */
+  #pf-sku-editor{display:flex;flex-direction:column;gap:10px;margin-top:8px}
+  .sku-group{display:flex;flex-wrap:wrap;align-items:center;gap:8px;background:var(--navy-50,#f3f6fa);border:1px solid var(--line,#e2e8f0);border-radius:10px;padding:10px 12px}
+  .sku-group-name{flex:0 1 180px;min-width:120px;height:34px;border:1px solid var(--line,#d9e1ec);border-radius:8px;padding:0 10px;font-size:13px;font-weight:600}
+  .sku-chips{display:inline-flex;flex-wrap:wrap;gap:6px;align-items:center}
+  .sku-chip{display:inline-flex;align-items:center;gap:4px;background:#fff;border:1px solid var(--line,#d9e1ec);border-radius:100px;padding:3px 6px 3px 11px;font-size:12.5px;font-weight:600;color:var(--navy-800,#14213d)}
+  .sku-chip-x{width:18px;height:18px;border:none;border-radius:50%;background:var(--slate-200,#e2e8f0);color:#475569;font-size:12px;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0}
+  .sku-chip-x:hover{background:#dc2626;color:#fff}
+  .sku-add-opt{flex:0 1 130px;min-width:90px;height:32px;border:1px solid var(--line,#d9e1ec);border-radius:8px;padding:0 10px;font-size:12.5px}
+  .sku-del-group{border:1px solid var(--line,#d9e1ec);background:#fff;color:#dc2626;border-radius:8px;padding:5px 10px;font-size:12px;cursor:pointer;margin-left:auto}
+  .sku-del-group:hover{background:#fef2f2}
+  #pf-sku-add-group{border:1px dashed var(--line,#cbd5e1);background:#fff;color:var(--navy-700,#2c3e50);border-radius:8px;padding:7px 12px;font-size:13px;cursor:pointer}
+  #pf-sku-add-group:hover{background:var(--navy-50,#f3f6fa)}
 </style>
 <div id="product-modal" class="modal">
   <div class="modal-box">
@@ -353,7 +366,12 @@
             <div class="field"><label data-i18n="admin.pUnit">Unit</label><input id="pf-unit" placeholder="pcs / pack / case / set / dozen" list="unit-list"><datalist id="unit-list"><option>pcs</option><option>pack</option><option>case</option><option>set</option><option>dozen</option></datalist></div>
             <div class="field"><label data-i18n="admin.pLead">Lead Time (days)</label><input id="pf-lead" type="text" placeholder="15-30"></div>
             <div class="field full"><label>Tiered Prices (qty range price, one per line)</label><textarea id="pf-priceTiers" rows="3" placeholder="200-499,15.00&#10;500-1000,14.00&#10;1000+,13.00"></textarea><p class="hint">Each line: minQty-maxQty,price (USD). Cart uses the FIRST line (highest price) by default.</p></div>
-            <div class="field full"><label>SKU Options (one group per line)</label><textarea id="pf-skuOptions" rows="3" placeholder="Color:Black,White,Blue&#10;Voltage:110V,220V"></textarea><p class="hint">Each line: GroupName:option1,option2 — e.g. Color:Black,White. Shown as selectable buttons on the product detail page.</p></div>
+            <div class="field full"><label>SKU Options <span class="hint-inline">(colors / variants, shown on the detail page — customers choose before adding to cart)</span></label>
+              <input id="pf-skuOptions" type="hidden">
+              <div id="pf-sku-editor"></div>
+              <button type="button" id="pf-sku-add-group" class="btn btn-outline btn-sm" style="margin-top:8px">+ Add group (e.g. Color)</button>
+              <p class="hint">Each group = a selectable dimension (e.g. "Color"), each option = one button (e.g. Gold, Blue). Options can be added or removed anytime.</p>
+            </div>
           </div>
         </div>
 
@@ -437,11 +455,11 @@
 
 <div id="toast-box"></div>
 
-<script src="js/data-override.js?v=v20261015v8"></script>
-<script src="langs/en.js?v=v20261015v8"></script>
-<script src="js/i18n.js?v=v20261015v8"></script>
-<script src="js/data.js?v=v20261015v8"></script>
-<script src="js/content-data.js?v=v20261015v8"></script>
-<script src="js/admin.js?v=v20261015v8"></script>
+<script src="js/data-override.js?v=v20261015v9"></script>
+<script src="langs/en.js?v=v20261015v9"></script>
+<script src="js/i18n.js?v=v20261015v9"></script>
+<script src="js/data.js?v=v20261015v9"></script>
+<script src="js/content-data.js?v=v20261015v9"></script>
+<script src="js/admin.js?v=v20261015v9"></script>
 </body>
 </html>

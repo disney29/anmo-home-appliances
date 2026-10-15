@@ -177,6 +177,8 @@ window.I18N_DATA['vi'] = {
 
     "optional": "(không bắt buộc)",
 
+    "carton": "thùng",
+
     "pcs": "chiếc",
 
     "year": "năm",

@@ -180,6 +180,8 @@ window.I18N_DATA['zh'] = {
 
     "optional": "（选填）",
 
+    "carton": "箱",
+
     "pcs": "个",
 
     "year": "年",

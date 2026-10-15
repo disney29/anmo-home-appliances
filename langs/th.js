@@ -177,6 +177,8 @@ window.I18N_DATA['th'] = {
 
     "optional": "(ไม่บังคับ)",
 
+    "carton": "กล่อง",
+
     "pcs": "ชิ้น",
 
     "year": "ปี",

@@ -177,6 +177,8 @@ window.I18N_DATA['id'] = {
 
     "optional": "(opsional)",
 
+    "carton": "karton",
+
     "pcs": "pcs",
 
     "year": "tahun",

@@ -93,6 +93,8 @@ window.I18N_DATA['ja'] = {
     "successSend": "送信しました！12時間以内に返信します。",
     "errSend": "エラーが発生しました。もう一度お試しください。",
     "optional": "(任意)",
+
+    "carton": "箱",
     "pcs": "個",
     "year": "年",
     "reply12h": "12時間以内に返信"

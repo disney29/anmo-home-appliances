@@ -230,7 +230,7 @@
     var moqVal = parseInt(p.moq, 10) || (pk * 4);
     var leadTxt = (p.lead !== null && p.lead !== undefined && p.lead !== "") ? String(p.lead) : "15-30";
     if (mo) keySpecs += "<span><b>" + esc(T("common.model")) + "</b>" + esc(mo) + "</span>";
-    keySpecs += "<span><b>" + esc(T("products.packing")) + "</b>" + pk + " " + esc(T("common.pcs")) + "/carton</span>"
+    keySpecs += "<span><b>" + esc(T("products.packing")) + "</b>" + pk + " " + esc(T("common.pcs")) + "/" + esc(T("common.carton")) + "</span>"
       + "<span><b>" + esc(T("common.moq")) + "</b>" + moqVal + " " + esc(T("common.pcs")) + "</span>"
       + "<span><b>" + esc(T("products.lead")) + "</b>" + esc(leadTxt) + " " + esc(T("product.days")) + "</span>"
       + (p.certs ? "<span><b>" + esc(T("common.certsLabel")) + "</b>" + esc(p.certs) + "</span>" : "")

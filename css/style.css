@@ -508,7 +508,7 @@ table.a-table{width:100%;border-collapse:collapse;min-width:720px}
 @media(max-width:640px){.prod-card .p-foot{grid-template-columns:1fr 1fr}.prod-card .p-foot .btn:first-child{grid-column:1/-1}}
 
 /* ============ V2: product detail page ============ */
-.pd-layout{display:grid;grid-template-columns:minmax(0,44%) 1fr;gap:36px;align-items:flex-start}
+.pd-layout{display:grid;grid-template-columns:minmax(0,40%) 1fr;gap:48px;align-items:flex-start}
 .pd-info{position:sticky;top:80px}
 .pd-gallery .pd-main-img{border:1px solid var(--line);border-radius:16px;overflow:hidden;background:var(--navy-50);min-width:0}
 .pd-main-img img{width:100%;height:auto;display:block;aspect-ratio:4/3;object-fit:contain}
@@ -741,9 +741,10 @@ table.a-table{width:100%;border-collapse:collapse;min-width:720px}
 
 /* ===== v7: gallery thumbs on the left (1688-style) + qty stepper + SKU ===== */
 .pd-gallery-inner{display:flex;gap:14px;align-items:flex-start;min-width:0}
-.pd-thumbs-wrap{display:flex;flex-direction:column;align-items:center;gap:6px;width:84px;flex:none}
-.pd-gallery .pd-thumbs{display:flex;flex-direction:column;gap:10px;width:84px;flex:none;max-height:404px;overflow-y:auto;padding-bottom:4px;margin-top:0;scroll-behavior:smooth}
+.pd-thumbs-wrap{display:flex;flex-direction:column;align-items:center;gap:6px;width:104px;flex:none}
+.pd-gallery .pd-thumbs{display:flex;flex-direction:column;gap:10px;width:104px;flex:none;max-height:520px;overflow-y:auto;padding-bottom:4px;margin-top:0;scroll-behavior:smooth}
 .pd-gallery .pd-thumbs .pd-thumb{flex:0 0 auto}
+@media (min-width:761px){.pd-gallery .pd-thumbs .pd-thumb{width:96px;height:96px}}
 .pd-thumb-arrow{width:100%;height:22px;display:flex;align-items:center;justify-content:center;background:var(--navy-50,#f3f6fa);border:1px solid var(--line,#e3e9f1);border-radius:8px;color:var(--navy-700,#2c3e50);cursor:pointer;padding:0}
 .pd-thumb-arrow svg{width:14px;height:14px}
 .pd-thumb-arrow:hover{background:var(--orange-50,#fff7ed);color:var(--orange-600,#ea580c)}
@@ -753,8 +754,7 @@ table.a-table{width:100%;border-collapse:collapse;min-width:720px}
   .pd-thumbs-wrap{width:56px}
   .pd-gallery .pd-thumbs{width:56px;gap:8px;max-height:270px}
   .pd-gallery .pd-thumb{width:56px;height:56px}
-}
-/* qty / sku order box */
+}/* qty / sku order box */
 .pd-order-box{margin:14px 0 18px;padding:14px 16px;background:var(--navy-50,#f3f6fa);border:1px solid var(--line,#e3e9f1);border-radius:12px}
 .pd-qty-row{display:flex;align-items:center;flex-wrap:wrap;gap:10px}
 .pd-qty-label{font-size:13px;font-weight:700;color:var(--navy-900,#14213d)}

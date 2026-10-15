@@ -177,6 +177,8 @@ window.I18N_DATA['es'] = {
 
     "optional": "(opcional)",
 
+    "carton": "caja",
+
     "pcs": "uds.",
 
     "year": "años",

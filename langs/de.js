@@ -93,6 +93,8 @@ window.I18N_DATA['de'] = {
     "successSend": "Gesendet! Wir antworten innerhalb von 12 Stunden.",
     "errSend": "Etwas ist schiefgelaufen. Bitte erneut versuchen.",
     "optional": "(optional)",
+
+    "carton": "Karton",
     "pcs": "Stk",
     "year": "Jahre",
     "reply12h": "Antwort innerhalb von 12 Stunden"
