@@ -302,9 +302,9 @@ h1,h2,h3,h4{color:var(--navy-800);line-height:1.25;font-weight:700}
 .prod-card .p-specs{font-size:13px;color:var(--ink-2);display:flex;flex-direction:column;gap:5px;margin-bottom:14px}
 .prod-card .p-specs span{display:flex;gap:8px}
 .prod-card .p-specs b{color:var(--navy-700);font-weight:600;min-width:88px}
-.prod-card .p-foot{margin-top:auto;display:flex;gap:10px}
+.prod-card .p-foot{display:flex;gap:10px}
 .prod-card .p-foot .btn{flex:1;padding:10px 12px;font-size:13.5px}
-.prod-card .p-price{color:var(--orange-600);font-weight:800;font-size:16px;margin-bottom:12px;text-align:right}
+.prod-card .p-price{color:var(--orange-600);font-weight:800;font-size:16px;margin:auto 0 12px;text-align:right}
 /* RTL: keep phone / WhatsApp numbers readable left-to-right inside Arabic pages */
 html[dir="rtl"] a[data-ht-phone],
 html[dir="rtl"] a[data-ht-wa]{direction:ltr;unicode-bidi:isolate}
