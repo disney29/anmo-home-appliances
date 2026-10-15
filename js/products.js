@@ -107,7 +107,7 @@
         + (p.certs ? "<span><b>" + Util.esc(T("common.certsLabel")) + '</b>' + Util.esc(p.certs) + "</span>" : "")
         + "</div>"
         + priceHtml
-        + '<div class="p-foot"><a class="btn btn-ghost btn-sm" href="product.html?id=' + p.id + '">' + Util.esc(T("products.details")) + '</a>'
+        + '<div class="p-foot"><a class="btn btn-outline btn-sm" href="product.html?id=' + p.id + '">' + Util.esc(T("products.details")) + '</a>'
         + '<button class="btn btn-outline btn-sm" data-add-inquiry="' + p.id + '">' + Util.esc(T("inquiry.add")) + '</button>'
         + '<button class="btn btn-outline btn-sm" data-act="quote" data-id="' + p.id + '">' + Util.esc(T("products.addQuote")) + '</button>'
         + '<button class="btn btn-primary btn-sm" data-add-cart="' + p.id + '">' + Util.esc(T("cart.add")) + "</button></div>"
