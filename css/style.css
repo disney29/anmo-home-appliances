@@ -292,10 +292,10 @@ h1,h2,h3,h4{color:var(--navy-800);line-height:1.25;font-weight:700}
 .toolbar .search-box input:focus{outline:none;border-color:var(--navy-500)}
 .prod-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
 .prod-card{display:flex;flex-direction:column}
-.prod-card .p-img{position:relative;background:#fff;height:230px;display:flex;align-items:center;justify-content:center;padding:14px}
+.prod-card .p-img{position:relative;background:#fff;height:280px;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;padding:12px 12px 10px}
 .prod-card .p-img img{width:100%;height:100%;object-fit:contain;transition:transform .3s}
 .prod-card:hover .p-img img{transform:scale(1.05)}
-.prod-card .p-cat{position:absolute;top:14px;left:14px;background:var(--navy-800);color:#fff;font-size:11.5px;font-weight:700;padding:5px 12px;border-radius:100px;letter-spacing:.03em}
+.prod-card .p-cat{position:static;align-self:flex-start;background:var(--navy-800);color:#fff;font-size:11.5px;font-weight:700;padding:5px 12px;border-radius:100px;letter-spacing:.03em;margin-bottom:8px}
 .prod-card .p-cat.hot{background:var(--orange-500)}
 .prod-card .p-body{padding:20px 22px 22px;display:flex;flex-direction:column;flex:1}
 .prod-card h3{font-size:16.5px;margin-bottom:12px}
@@ -609,7 +609,7 @@ table.a-table{width:100%;border-collapse:collapse;min-width:720px}
 .pd-tiers th{white-space:nowrap}
 .pd-note{font-size:12px;color:var(--gray-600,#5b6470);margin:2px 0 0}
 .p-tier-hint{font-size:11px;color:var(--orange-600,#e07b12);margin-top:2px;text-align:right}
-.p-img-link{display:block;position:relative;overflow:hidden;height:100%}
+.p-img-link{display:block;position:relative;overflow:hidden;height:100%;flex:1;width:100%}
 .p-img-link img{transition:transform .35s ease;width:100%;height:100%;object-fit:contain;display:block}
 .p-img-link:hover img{transform:scale(1.04)}
 .pd-lightbox{position:fixed;inset:0;background:rgba(6,20,40,.94);z-index:2000;display:none;align-items:center;justify-content:center}
@@ -733,8 +733,8 @@ table.a-table{width:100%;border-collapse:collapse;min-width:720px}
 }
 
 /* ===== v6: smaller product card image (superseded by v12: taller image area) ===== */
-.prod-card .p-img{height:230px;padding:14px}
-@media (max-width:640px){.prod-card .p-img{height:190px;padding:10px}}
+.prod-card .p-img{height:280px;padding:12px 12px 10px}
+@media (max-width:640px){.prod-card .p-img{height:230px;padding:10px 10px 8px}}
 
 /* ===== v6: product detail main image - fixed-height contain, clean layout ===== */
 .pd-main-img img{aspect-ratio:auto;height:440px;object-fit:contain}
