@@ -12,6 +12,16 @@
   var LANGS = ["en", "zh", "vi", "th", "id", "es", "fr", "pt", "ru", "ja", "ko", "it", "de", "nl", "ar"];
   var LS_KEY = "ht_lang";
 
+  /* carry the page's cache-buster version onto on-demand language files */
+  var ver = "";
+  try {
+    var cs = document.currentScript;
+    if (cs && cs.src) {
+      var m = cs.src.match(/[?&]v=([^&]+)/);
+      if (m) ver = "?v=" + m[1];
+    }
+  } catch (e) {}
+
   function getDefaultLang() {
     var m = (location.search || "").match(/[?&]lang=([a-z]{2})/i);
     if (m && LANGS.indexOf(m[1].toLowerCase()) > -1) return m[1].toLowerCase();
@@ -61,7 +71,7 @@
         apply();
       } else {
         var s = document.createElement("script");
-        s.src = "langs/" + lang + ".js";
+        s.src = "langs/" + lang + ".js" + ver;
         s.onload = apply;
         s.onerror = function () { apply(); };
         document.head.appendChild(s);
@@ -122,7 +132,7 @@
     if (cur !== "en" && !(window.I18N_DATA && window.I18N_DATA[cur])) {
       /* remembered language's file is not loaded yet — inject it first, then apply */
       var s = document.createElement("script");
-      s.src = "langs/" + cur + ".js";
+      s.src = "langs/" + cur + ".js" + ver;
       s.onload = function () { window.HT_I18N.apply(); };
       s.onerror = function () { window.HT_I18N.apply(); };
       document.head.appendChild(s);
