@@ -305,6 +305,9 @@ h1,h2,h3,h4{color:var(--navy-800);line-height:1.25;font-weight:700}
 .prod-card .p-foot{margin-top:auto;display:flex;gap:10px}
 .prod-card .p-foot .btn{flex:1;padding:10px 12px;font-size:13.5px}
 .prod-card .p-price{color:var(--orange-600);font-weight:800;font-size:16px;margin-bottom:12px;text-align:right}
+/* RTL: keep phone / WhatsApp numbers readable left-to-right inside Arabic pages */
+html[dir="rtl"] a[data-ht-phone],
+html[dir="rtl"] a[data-ht-wa]{direction:ltr;unicode-bidi:isolate}
 .count-bar{font-size:14px;color:var(--ink-2);margin-bottom:20px}
 .count-bar b{color:var(--navy-800)}
 
