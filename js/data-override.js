@@ -1750,6 +1750,7 @@ window.HT_OVERRIDE = {
       "material": "ABS & Stainless Steel",
       "capacity": "Motor 8000RPM · 5W",
       "certs": "CE, RoHS",
+      "skuOptions": [{"name": "Color", "options": ["Gold", "Blue"]}],
       "features": "8000RPM adjustable motor\nDetachable stainless steel blade\n2-3h charging / 180min running\nUSB charging · low noise",
       "lead": "15-30",
       "active": true,

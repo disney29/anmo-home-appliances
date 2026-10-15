@@ -130,14 +130,16 @@
   }
 
   /* ---------- Quote modal ---------- */
-  function openQuote(p) {
+  function openQuote(p, sku) {
     var m = document.getElementById("quote-modal");
     if (!m) return;
     m.querySelector("[data-q-name]").textContent = pName(p);
     m.querySelector("img").src = p.image;
     m.querySelector("img").alt = pName(p);
     var modelTag = (p.model || p.id || "").toUpperCase();
-    m.querySelector("[name=product]").value = (modelTag ? modelTag + " · " : "") + pName(p);
+    var prodVal = (modelTag ? modelTag + " · " : "") + pName(p);
+    if (sku) prodVal += " (" + sku + ")";
+    m.querySelector("[name=product]").value = prodVal;
     m.querySelector(".form-success").classList.add("hidden");
     m.classList.add("open");
   }

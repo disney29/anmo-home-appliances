@@ -741,11 +741,17 @@ table.a-table{width:100%;border-collapse:collapse;min-width:720px}
 
 /* ===== v7: gallery thumbs on the left (1688-style) + qty stepper + SKU ===== */
 .pd-gallery-inner{display:flex;gap:14px;align-items:flex-start;min-width:0}
-.pd-gallery .pd-thumbs{display:flex;flex-direction:column;gap:10px;width:84px;flex:none;max-height:440px;overflow-y:auto;padding-bottom:4px;margin-top:0}
+.pd-thumbs-wrap{display:flex;flex-direction:column;align-items:center;gap:6px;width:84px;flex:none}
+.pd-gallery .pd-thumbs{display:flex;flex-direction:column;gap:10px;width:84px;flex:none;max-height:404px;overflow-y:auto;padding-bottom:4px;margin-top:0;scroll-behavior:smooth}
+.pd-gallery .pd-thumbs .pd-thumb{flex:0 0 auto}
+.pd-thumb-arrow{width:100%;height:22px;display:flex;align-items:center;justify-content:center;background:var(--navy-50,#f3f6fa);border:1px solid var(--line,#e3e9f1);border-radius:8px;color:var(--navy-700,#2c3e50);cursor:pointer;padding:0}
+.pd-thumb-arrow svg{width:14px;height:14px}
+.pd-thumb-arrow:hover{background:var(--orange-50,#fff7ed);color:var(--orange-600,#ea580c)}
 .pd-gallery .pd-main-img{flex:1;min-width:0}
 @media (max-width:760px){
   .pd-gallery-inner{gap:8px}
-  .pd-gallery .pd-thumbs{width:56px;gap:8px;max-height:300px}
+  .pd-thumbs-wrap{width:56px}
+  .pd-gallery .pd-thumbs{width:56px;gap:8px;max-height:270px}
   .pd-gallery .pd-thumb{width:56px;height:56px}
 }
 /* qty / sku order box */

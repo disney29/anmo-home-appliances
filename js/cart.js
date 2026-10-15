@@ -43,14 +43,15 @@
       b.style.display = n ? "" : "none";
     });
   }
-  function addToCart(pid, qty) {
+  function addToCart(pid, qty, sku) {
     var p = prodById(pid);
     if (!p) return;
+    sku = sku || "";
     var cart = getCart().slice();
     var found = null;
-    for (var i = 0; i < cart.length; i++) if (cart[i].pid === pid) { found = cart[i]; break; }
+    for (var i = 0; i < cart.length; i++) if (cart[i].pid === pid && (cart[i].sku || "") === sku) { found = cart[i]; break; }
     var q = packQty(parseInt(qty, 10) || (p.moq ? parseInt(p.moq, 10) : packingOf(p)), packingOf(p));
-    if (found) found.qty += q; else cart.push({ pid: pid, qty: q });
+    if (found) found.qty += q; else cart.push({ pid: pid, qty: q, sku: sku });
     saveCart(cart);
     window.HT_Toast((pName(p) || pid) + " → " + T("cart.added"));
     if (document.getElementById("cart-items")) renderCart();
@@ -60,12 +61,13 @@
   function packingOf(p) { return parseInt(p && p.packing, 10) || 24; }
   function packQty(q, pk) { q = parseInt(q, 10) || pk; return Math.ceil(q / pk) * pk; }
 
-  function setQty(pid, q) {
+  function keyOf(c) { return c.pid + "|" + (c.sku || ""); }
+  function setQty(key, q) {
     var cart = getCart().slice();
     var item = null;
-    for (var i = 0; i < cart.length; i++) if (cart[i].pid === pid) { item = cart[i]; break; }
+    for (var i = 0; i < cart.length; i++) if (keyOf(cart[i]) === key) { item = cart[i]; break; }
     if (!item) return;
-    var p = prodById(pid);
+    var p = prodById(item.pid);
     var pk = packingOf(p);
     var moq = p ? (parseInt(p.moq, 10) || 0) : 0;
     q = parseInt(q, 10) || (moq || pk);
@@ -75,8 +77,8 @@
     saveCart(cart);
     renderCart();
   }
-  function removeItem(pid) {
-    saveCart(getCart().filter(function (x) { return x.pid !== pid; }));
+  function removeItem(key) {
+    saveCart(getCart().filter(function (x) { return keyOf(x) !== key; }));
     renderCart();
   }
   function clearCart() { saveCart([]); renderCart(); }
@@ -125,9 +127,11 @@
       if (!p) return;
       var moq = parseInt(p.moq, 10) || 0;
       var pk = packingOf(p);
-      html += '<div class="cart-item" data-pid="' + esc(c.pid) + '">'
+      html += '<div class="cart-item" data-pid="' + esc(c.pid) + '" data-key="' + esc(keyOf(c)) + '">'
         + '<img src="' + esc(p.image) + '" alt="' + esc(pName(p)) + '" loading="lazy">'
-        + '<div class="ci-info"><b>' + esc(pName(p)) + "</b>"
+        + '<div class="ci-info"><b>' + esc(pName(p))
+        + (c.sku ? ' <span style="color:var(--orange-600,#f97316);font-size:11px;font-weight:600">' + esc(c.sku) + "</span>" : "")
+        + "</b>"
         + '<small>' + esc((Util.priceFmt(p) || T("common.priceOnRequest")) + " / " + unitTxt(p)) + "</small>"
         + '<div class="ci-ctrl"><button data-step="-' + pk + '" aria-label="Decrease">−</button>'
         + '<input type="number" min="' + (moq || pk) + '" step="' + pk + '" value="' + c.qty + '" data-qty-input>'
@@ -156,7 +160,7 @@
     cart.forEach(function (c) {
       var p = prodById(c.pid);
       if (!p) return;
-      html += '<div class="co-row"><span><b>' + esc(pName(p)) + '</b> × <span data-co-qty>' + c.qty + "</span></span><span>" + esc(itemSub(p, c.qty)) + "</span></div>";
+      html += '<div class="co-row"><span><b>' + esc(pName(p)) + (c.sku ? ' <em style="color:var(--ink-3,#6b7688);font-weight:600">(' + esc(c.sku) + ")</em>" : "") + '</b> × <span data-co-qty>' + c.qty + "</span></span><span>" + esc(itemSub(p, c.qty)) + "</span></div>";
     });
     sum.innerHTML = html;
     var tot = document.getElementById("co-total");
@@ -186,12 +190,12 @@
     var items = [];
     cart.forEach(function (c) {
       var p = prodById(c.pid);
-      if (p) items.push({ pid: p.id, name: pName(p), qty: parseInt(c.qty, 10) || 1, price: Util.curPrice(p) || 0, term: p.term || "FOB", unit: p.unit || "pcs" });
+      if (p) items.push({ pid: p.id, name: pName(p), qty: parseInt(c.qty, 10) || 1, price: Util.curPrice(p) || 0, term: p.term || "FOB", unit: p.unit || "pcs", sku: c.sku || "" });
     });
     var total = items.reduce(function (s, it) { return s + it.price * it.qty; }, 0);
     var settings = Store.getSettings();
     var order = {
-      id: Util.uid("ord"), items: items, product: items.map(function (it) { return it.name + " ×" + it.qty; }).join("; "),
+      id: Util.uid("ord"), items: items, product: items.map(function (it) { return it.name + (it.sku ? " (" + it.sku + ")" : "") + " ×" + it.qty; }).join("; "),
       qty: items.reduce(function (s, it) { return s + it.qty; }, 0), total: total,
       customer: data.name, email: data.email, whatsapp: data.whatsapp, country: data.country,
       note: data.note || "", currency: "USD",
@@ -342,12 +346,12 @@
           var q = parseInt(item.querySelector("[data-qty-input]").value, 10) || 1;
           q += parseInt(step.getAttribute("data-step"), 10) || 0;
           if (q < 1) q = 1;
-          setQty(item.getAttribute("data-pid"), q);
+          setQty(item.getAttribute("data-key"), q);
         }
         return;
       }
       var del = e.target.closest("[data-del]");
-      if (del) { removeItem(del.closest(".cart-item").getAttribute("data-pid")); return; }
+      if (del) { removeItem(del.closest(".cart-item").getAttribute("data-key")); return; }
       var ck = e.target.closest("#cart-checkout");
       if (ck) { openCheckout(); return; }
       var ccl = e.target.closest("[data-checkout-close]");
@@ -380,7 +384,7 @@
           var q = parseInt(inp.value, 10) || 1;
           if (q < 1) q = 1;
           inp.value = q;
-          setQty(item.getAttribute("data-pid"), q);
+          setQty(item.getAttribute("data-key"), q);
         }
       }
     });

@@ -56,14 +56,15 @@
   }
 
   /* ---------- add / remove / qty ---------- */
-  function add(pid, qty) {
+  function add(pid, qty, sku) {
     var p = prodById(pid);
     if (!p) return;
+    sku = sku || "";
     var list = load().slice();
     var found = null;
-    for (var i = 0; i < list.length; i++) if (list[i].pid === pid) { found = list[i]; break; }
+    for (var i = 0; i < list.length; i++) if (list[i].pid === pid && (list[i].sku || "") === sku) { found = list[i]; break; }
     var q = packQty(parseInt(qty, 10) || (p.moq ? parseInt(p.moq, 10) : packingOf(p)), packingOf(p));
-    if (found) found.qty += q; else list.push({ pid: pid, qty: q });
+    if (found) found.qty += q; else list.push({ pid: pid, qty: q, sku: sku });
     save(list);
     window.HT_Toast((pName(p) || pid) + " → " + T("inquiry.added"));
     if (document.getElementById("inquiry-items")) renderBasket();
@@ -74,12 +75,13 @@
   function packingOf(p) { return parseInt(p && p.packing, 10) || 24; }
   function packQty(q, pk) { q = parseInt(q, 10) || pk; return Math.ceil(q / pk) * pk; }
 
-  function setQty(pid, q) {
+  function keyOf(c) { return c.pid + "|" + (c.sku || ""); }
+  function setQty(key, q) {
     var list = load().slice();
     var item = null;
-    for (var i = 0; i < list.length; i++) if (list[i].pid === pid) { item = list[i]; break; }
+    for (var i = 0; i < list.length; i++) if (keyOf(list[i]) === key) { item = list[i]; break; }
     if (!item) return;
-    var p = prodById(pid);
+    var p = prodById(item.pid);
     var pk = packingOf(p);
     var moq = p ? (parseInt(p.moq, 10) || 0) : 0;
     q = parseInt(q, 10) || (moq || pk);
@@ -90,7 +92,7 @@
     renderBasket();
   }
   function remove(pid) {
-    save(load().filter(function (x) { return x.pid !== pid; }));
+    save(load().filter(function (x) { return keyOf(x) !== pid; }));
     renderBasket();
   }
   function clear() { save([]); renderBasket(); }
@@ -118,9 +120,11 @@
       if (!p) return;
       var moq = parseInt(p.moq, 10) || 0;
       var pk = packingOf(p);
-      html += '<div class="inquiry-item" data-pid="' + esc(c.pid) + '">'
+      html += '<div class="inquiry-item" data-pid="' + esc(c.pid) + '" data-key="' + esc(keyOf(c)) + '">'
         + '<img src="' + esc(p.image) + '" alt="' + esc(pName(p)) + '" loading="lazy">'
-        + '<div class="ii-info"><b>' + esc(pName(p)) + "</b>"
+        + '<div class="ii-info"><b>' + esc(pName(p))
+        + (c.sku ? ' <span style="color:var(--orange-600,#f97316);font-size:11px;font-weight:600">' + esc(c.sku) + "</span>" : "")
+        + "</b>"
         + "<small>" + esc((p.model || p.id || "").toUpperCase()) + " · " + esc((Util.priceFmt(p) || T("common.priceOnRequest")) + " / " + unitTxt(p)) + "</small>"
         + '<div class="ii-ctrl"><button data-step="-' + pk + '" aria-label="Decrease">−</button>'
         + '<input type="number" min="' + (moq || pk) + '" step="' + pk + '" value="' + c.qty + '" data-qty-input>'
@@ -148,13 +152,13 @@
     var items = [];
     list.forEach(function (c) {
       var p = prodById(c.pid);
-      if (p) items.push({ pid: p.id, model: p.model || p.id, name: pName(p), qty: parseInt(c.qty, 10) || 1, unit: p.unit || "pcs", term: p.term || "FOB" });
+      if (p) items.push({ pid: p.id, model: p.model || p.id, name: pName(p), qty: parseInt(c.qty, 10) || 1, unit: p.unit || "pcs", term: p.term || "FOB", sku: c.sku || "" });
     });
     var payload = {
       name: data.name, company: data.company, email: data.email,
       whatsapp: data.whatsapp, country: data.country, msg: data.msg || "",
       items: items,
-      product: items.map(function (it) { return it.model + " " + it.name + " ×" + it.qty + " " + it.unit; }).join("; "),
+      product: items.map(function (it) { return it.model + " " + it.name + (it.sku ? " (" + it.sku + ")" : "") + " ×" + it.qty + " " + it.unit; }).join("; "),
       qty: items.reduce(function (s, it) { return s + it.qty; }, 0),
       _type: "basket-inquiry", _date: new Date().toISOString(), _status: "new"
     };
@@ -257,12 +261,12 @@
           var q = parseInt(item.querySelector("[data-qty-input]").value, 10) || 1;
           q += parseInt(step.getAttribute("data-step"), 10) || 0;
           if (q < 1) q = 1;
-          setQty(item.getAttribute("data-pid"), q);
+          setQty(item.getAttribute("data-key"), q);
         }
         return;
       }
       var del = e.target.closest("[data-del]");
-      if (del) { remove(del.closest(".inquiry-item").getAttribute("data-pid")); return; }
+      if (del) { remove(del.closest(".inquiry-item").getAttribute("data-key")); return; }
     });
     root.addEventListener("input", function (e) {
       var inp = e.target.closest("[data-qty-input]");
@@ -272,7 +276,7 @@
           var q = parseInt(inp.value, 10) || 1;
           if (q < 1) q = 1;
           inp.value = q;
-          setQty(item.getAttribute("data-pid"), q);
+          setQty(item.getAttribute("data-key"), q);
         }
       }
     });
@@ -287,7 +291,14 @@
     var ad = e.target.closest("[data-add-inquiry]");
     if (ad) { add(ad.getAttribute("data-add-inquiry"), ad.getAttribute("data-qty")); return; }
     var pd = e.target.closest("[data-pd-inquiry]");
-    if (pd) { add(pd.getAttribute("data-pd-inquiry"), pd.getAttribute("data-qty")); return; }
+    if (pd) {
+      /* read the currently selected SKU option on the product page (if any) */
+      var skuWrap = document.querySelector("[data-sku-wrap]");
+      var sel = skuWrap ? skuWrap.querySelector(".pd-sku-opt.active") : null;
+      var sku = sel ? (sel.getAttribute("data-sku-label") || sel.getAttribute("data-sku-v") || "") : "";
+      add(pd.getAttribute("data-pd-inquiry"), pd.getAttribute("data-qty"), sku);
+      return;
+    }
   });
 
   document.addEventListener("DOMContentLoaded", function () {
