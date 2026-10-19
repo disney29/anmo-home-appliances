@@ -26,7 +26,7 @@
       usdCnyRate: 6.681
     },
     categories: [
-      {
+{
         "id": "hair-clipper",
         "image": "assets/images/product-p1-main.jpg",
         "name": {
@@ -40,7 +40,7 @@
           "pt": "Máquinas de Cortar Cabelo"
         }
       },
-      {
+{
         "id": "shaver",
         "image": "assets/images/product-p84-main.jpg",
         "name": {
@@ -54,7 +54,7 @@
           "pt": "Barbeadores Elétricos"
         }
       },
-      {
+{
         "id": "beauty",
         "image": "assets/images/product-p97-main.jpg",
         "name": {
@@ -68,21 +68,21 @@
           "pt": "Beleza e Depilação"
         }
       },
-      {
-        "id": "pet",
-        "image": "assets/images/product-p113-main.jpg",
+{
+        "id": "hair-dryer",
+        "image": "assets/images/product-p102-main.jpg",
         "name": {
-          "en": "Pet Grooming",
-          "zh": "宠物护理",
-          "vi": "Chăm sóc thú cưng",
-          "th": "การดูแลสัตว์เลี้ยง",
-          "id": "Perawatan Hewan Peliharaan",
-          "es": "Cuidado de Mascotas",
-          "fr": "Toilettage pour Animaux",
-          "pt": "Cuidados com Animais de Estimação"
+          "en": "Hair Dryers",
+          "zh": "吹风机",
+          "vi": "Máy sấy tóc",
+          "th": "ไดร์เป่าผม",
+          "id": "Pengering Rambut",
+          "es": "Secadores de Pelo",
+          "fr": "Sèche-cheveux",
+          "pt": "Secadores de Cabelo"
         }
       },
-      {
+{
         "id": "hairstyling",
         "image": "assets/images/product-p108-main.jpg",
         "name": {
@@ -97,17 +97,31 @@
         }
       },
       {
-        "id": "hair-dryer",
-        "image": "assets/images/product-p102-main.jpg",
+        "id": "kids-clipper",
+        "image": "assets/images/product-p111-main.jpg",
         "name": {
-          "en": "Hair Dryers",
-          "zh": "吹风机",
-          "vi": "Máy sấy tóc",
-          "th": "ไดร์เป่าผม",
-          "id": "Pengering Rambut",
-          "es": "Secadores de Pelo",
-          "fr": "Sèche-cheveux",
-          "pt": "Secadores de Cabelo"
+          "en": "Kids Hair Clippers",
+          "zh": "儿童电推剪",
+          "vi": "Tông đơ cắt tóc cho trẻ em",
+          "th": "กรรไกรตัดผมสำหรับเด็ก",
+          "id": "Pemotong Rambut Anak",
+          "es": "Cortapelos Infantiles",
+          "fr": "Tondeuses pour Enfants",
+          "pt": "Máquinas de Cortar Cabelo Infantis"
+        }
+      },
+{
+        "id": "pet",
+        "image": "assets/images/product-p113-main.jpg",
+        "name": {
+          "en": "Pet Grooming",
+          "zh": "宠物护理",
+          "vi": "Chăm sóc thú cưng",
+          "th": "การดูแลสัตว์เลี้ยง",
+          "id": "Perawatan Hewan Peliharaan",
+          "es": "Cuidado de Mascotas",
+          "fr": "Toilettage pour Animaux",
+          "pt": "Cuidados com Animais de Estimação"
         }
       }
     ],
@@ -5402,7 +5416,7 @@
       {
         "id": "p110",
         "name": "KM-569 Kids Hair Clipper Type-C Charging Ceramic Blade for Kids",
-        "category": "hair-clipper",
+        "category": "kids-clipper",
         "image": "assets/images/product-p110-main.jpg",
         "gallery": "assets/images/product-p110-g1.jpg,assets/images/product-p110-g2.jpg,assets/images/product-p110-g3.jpg,assets/images/product-p110-g4.jpg,assets/images/product-p110-g5.jpg,assets/images/product-p110-g6.jpg",
         "detailImages": "assets/images/product-p110-d1.jpg,assets/images/product-p110-d2.jpg,assets/images/product-p110-d3.jpg,assets/images/product-p110-d4.jpg,assets/images/product-p110-d5.jpg,assets/images/product-p110-d6.jpg,assets/images/product-p110-d7.jpg,assets/images/product-p110-d8.jpg,assets/images/product-p110-d9.jpg,assets/images/product-p110-d10.jpg,assets/images/product-p110-d11.jpg",
@@ -5445,7 +5459,7 @@
       {
         "id": "p111",
         "name": "KM-963 Kids Hair Clipper USB Charging for Kids",
-        "category": "hair-clipper",
+        "category": "kids-clipper",
         "image": "assets/images/product-p111-main.jpg",
         "gallery": "assets/images/product-p111-g1.jpg,assets/images/product-p111-g2.jpg,assets/images/product-p111-g3.jpg,assets/images/product-p111-g4.jpg,assets/images/product-p111-g5.jpg,assets/images/product-p111-g6.jpg",
         "detailImages": "assets/images/product-p111-d1.jpg,assets/images/product-p111-d2.jpg,assets/images/product-p111-d3.jpg,assets/images/product-p111-d4.jpg,assets/images/product-p111-d5.jpg,assets/images/product-p111-d6.jpg,assets/images/product-p111-d7.jpg,assets/images/product-p111-d8.jpg,assets/images/product-p111-d9.jpg,assets/images/product-p111-d10.jpg,assets/images/product-p111-d11.jpg",
@@ -5487,7 +5501,7 @@
       {
         "id": "p112",
         "name": "KM-965 Kids Hair Clipper USB Charging Washable Low Noise Ceramic Blade for Kids",
-        "category": "hair-clipper",
+        "category": "kids-clipper",
         "image": "assets/images/product-p112-main.jpg",
         "gallery": "assets/images/product-p112-g1.jpg,assets/images/product-p112-g2.jpg,assets/images/product-p112-g3.jpg,assets/images/product-p112-g4.jpg,assets/images/product-p112-g5.jpg,assets/images/product-p112-g6.jpg,assets/images/product-p112-g7.jpg",
         "detailImages": "assets/images/product-p112-d1.jpg,assets/images/product-p112-d2.jpg,assets/images/product-p112-d3.jpg,assets/images/product-p112-d4.jpg,assets/images/product-p112-d5.jpg,assets/images/product-p112-d6.jpg,assets/images/product-p112-d7.jpg,assets/images/product-p112-d8.jpg,assets/images/product-p112-d9.jpg,assets/images/product-p112-d10.jpg,assets/images/product-p112-d11.jpg",
