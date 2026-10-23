@@ -5934,6 +5934,7 @@ window.HT_OVERRIDE = {
       "image": "assets/images/product-p86-main.jpg",
       "gallery": "assets/images/product-p86-g1.jpg,assets/images/product-p86-g2.jpg,assets/images/product-p86-g3.jpg,assets/images/product-p86-g4.jpg,assets/images/product-p86-g5.jpg",
       "detailImages": "assets/images/product-p86-d1.jpg,assets/images/product-p86-d2.jpg,assets/images/product-p86-d3.jpg,assets/images/product-p86-d4.jpg,assets/images/product-p86-d5.jpg,assets/images/product-p86-d6.jpg,assets/images/product-p86-d7.jpg,assets/images/product-p86-d8.jpg",
+      "price": 14.0,
       "term": "EXW",
       "unit": "pcs",
       "moq": 40,
@@ -6123,7 +6124,7 @@ window.HT_OVERRIDE = {
       ],
       "datasheet": "",
       "certFile": "",
-      "price": 20.0
+      "price": 20.5
     },
     {
       "id": "p90",
@@ -11219,6 +11220,44 @@ window.HT_OVERRIDE = {
         "es": "",
         "fr": "",
         "pt": ""
+      },
+      "skuOptions": [],
+      "datasheet": "",
+      "certFile": ""
+    },
+{
+      "id": "p201",
+      "name": "KM-1838 Lady Shaver Electric Bikini Trimmer USB Type-C Charging Washable IPX7 for Women",
+      "category": "beauty",
+      "image": "assets/images/product-p201-main.jpg",
+      "gallery": "assets/images/product-p201-g1.jpg,assets/images/product-p201-g2.jpg,assets/images/product-p201-g3.jpg,assets/images/product-p201-g4.jpg",
+      "detailImages": "assets/images/product-p201-d1.jpg",
+      "price": 9.0,
+      "term": "EXW",
+      "unit": "pcs",
+      "moq": 24,
+      "packing": 24,
+      "lead": "15-30",
+      "active": true,
+      "hot": false,
+      "voltage": "110-240V",
+      "material": "ABS rubber-coated body & ceramic blade",
+      "capacity": "Power 5W · Motor 6300RPM ≤68dB · 600mAh Li-ion · Charge 90min / Use 90min · IPX7 waterproof · Size 146x37x34mm · Weight 120g · Carton 41.7x41x41.7cm",
+      "certs": "CE, RoHS, FCC",
+      "features": "Lady's electric shaver for bikini line and underarm\nIPX7 waterproof, washable wet & dry use\nCeramic blade for gentle, skin-safe trimming\n6300RPM constant-speed motor with speed stabilisation\nUSB to Type-C charging, 90min charge / 90min runtime\nCharge/discharge and stall protection\nRubber-coated ABS body, lightweight 120g",
+      "names": {
+        "en": "KM-1838 Lady Shaver Electric Bikini Trimmer USB Type-C Charging Washable IPX7 for Women",
+        "zh": "KM-1838 女士剃毛器 私密剃毛 USB Type-C充电 防水水洗 IPX7",
+        "vi": "KM-1838 Máy cạo lông phụ nữ USB Type-C chống nước IPX7",
+        "th": "KM-1838 มีดโกนหนวดผู้หญิง USB Type-C กันน้ำ IPX7",
+        "id": "KM-1838 Pencukur Rambut Wanita USB Type-C Tahan Air IPX7",
+        "es": "KM-1838 Afeitadora Femenina USB Tipo-C Resistente al Agua IPX7",
+        "fr": "KM-1838 Rasoir Électrique Femme USB Type-C Étanche IPX7",
+        "pt": "KM-1838 Barbeador Feminino USB Tipo-C À Prova d'Água IPX7"
+      },
+      "desc": {
+        "en": "The Kemei KM-1838 is a cordless ladies' shaver with a ceramic blade, IPX7 waterproof body and USB Type-C charging, ideal for bikini line and underarm trimming.",
+        "zh": "", "vi": "", "th": "", "id": "", "es": "", "fr": "", "pt": ""
       },
       "skuOptions": [],
       "datasheet": "",
