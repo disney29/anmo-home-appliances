@@ -9719,6 +9719,58 @@
           ],
           "datasheet": "",
           "certFile": ""
+    },
+{
+          "id": "p203",
+          "name": "KM-6037 4-in-1 Electric Hair Remover Epilator USB Rechargeable LED Light 2-Speed for Women Body Hair Removal",
+          "category": "beauty",
+          "image": "assets/images/product-p203-main.jpg",
+          "gallery": "assets/images/product-p203-g1.jpg,assets/images/product-p203-g2.jpg,assets/images/product-p203-g3.jpg,assets/images/product-p203-g4.jpg",
+          "detailImages": "assets/images/product-p203-d1.jpg,assets/images/product-p203-d2.jpg,assets/images/product-p203-d3.jpg,assets/images/product-p203-d4.jpg,assets/images/product-p203-d5.jpg,assets/images/product-p203-d6.jpg,assets/images/product-p203-d7.jpg,assets/images/product-p203-d8.jpg,assets/images/product-p203-d9.jpg",
+          "price": 11.0,
+          "term": "EXW",
+          "unit": "pcs",
+          "moq": 40,
+          "packing": 40,
+          "lead": "15-30",
+          "active": true,
+          "hot": false,
+          "voltage": "5V (USB)",
+          "material": "Fine steel cutter head, ABS body",
+          "capacity": "Input 5V/5W · 2 speeds (0/1/2) · LED lighting · USB charging, charge 2.5h / use 60min · size 10x6.8x3.4cm · color box 283x172x61.3mm · carton 67x50x36.5cm · 40 pcs/carton · carton gross weight 15kg · single weight 195g",
+          "certs": "CE,RoHS,FCC",
+          "features": "4-in-1 nursing device: hair removal blade (underarm), razor head (legs), massage blade (face), foot-care blade\n2-speed settings (0/1/2) for gentle or thorough hair removal\nLED lighting clearly captures fine hair for precise shaving\nUSB charging, full charge in 2.5h for 60 minutes of use\nLightweight 195g and compact, easy to carry while traveling\nWater-washable body, low noise, safe and painless\nAntiShock design, suitable for various skin types, whole-body application",
+          "names": {
+            "en": "KM-6037 4-in-1 Electric Hair Remover Epilator USB Rechargeable LED Light 2-Speed for Women Body Hair Removal",
+            "zh": "KM-6037 四合一电动脱毛器 USB充电 LED照明灯 两档调速 女士全身脱毛 剃毛器",
+            "vi": "KM-6037 Máy triệt lông điện 4 trong 1 sạc USB đèn LED 2 tốc độ cho phụ nữ",
+            "th": "KM-6037 เครื่องกำจัดขนไฟฟ้า 4 in 1 ชาร์จ USB ไฟ LED 2 ความเร็วสำหรับผู้หญิง",
+            "es": "KM-6037 Depiladora eléctrica 4 en 1 carga USB luz LED 2 velocidades para mujer",
+            "fr": "KM-6037 Épilateur électrique 4 en 1 charge USB lumière LED 2 vitesses pour femme",
+            "id": "KM-6037 Penghilang bulu listrik 4-in-1 USB LED 2 kecepatan untuk wanita",
+            "pt": "KM-6037 Depilador elétrico 4 em 1 carregamento USB luz LED 2 velocidades para mulher"
+          },
+          "desc": {
+            "en": "Kemei KM-6037 is a 4-in-1 electric hair remover with hair removal, razor, massage and foot-care blades for whole-body grooming. 2-speed control, LED light for precise capture, USB charging (2.5h full charge / 60min use), lightweight 195g and water-washable body - safe, painless and skin-friendly.",
+            "zh": "科美 KM-6037 四合一电动脱毛器，配备脱毛、剃毛、按摩、磨脚四种刀头，全身适用。两档调速、LED 照明清晰捕捉毛发、USB 充电（2.5 小时充满可用 60 分钟）、机身仅 195g 可水洗，安全无痛、温和亲肤。",
+            "vi": "KM-6037 là máy triệt lông điện 4 trong 1 với các đầu triệt lông, cạo, massage và chăm sóc chân. 2 tốc độ, đèn LED, sạc USB (2.5h sạc / 60 phút dùng), thân máy 195g có thể rửa bằng nước, an toàn không đau, thân thiện với da.",
+            "th": "KM-6037 เครื่องกำจัดขนไฟฟ้า 4-in-1 พร้อมหัวกำจัดขน โกน นวด และดูแลเท้า 2 ความเร็ว ไฟ LED ชาร์จ USB (ชาร์จ 2.5 ชม. ใช้ได้ 60 นาที) ตัวเครื่อง 195g ล้างน้ำได้ ปลอดภัย ไม่เจ็บ ผิวอ่อนโยน",
+            "es": "KM-6037 es una depiladora eléctrica 4 en 1 con cabezales de depilación, afeitado, masaje y cuidado de pies. 2 velocidades, luz LED, carga USB (2,5h de carga / 60min de uso), cuerpo de 195g lavable, seguro e indoloro, suave con la piel.",
+            "fr": "KM-6037 est un épilateur électrique 4 en 1 avec têtes d'épilation, rasage, massage et soin des pieds. 2 vitesses, lumière LED, charge USB (2,5h / 60min), corps de 195g lavable, sûr et indolore, doux pour la peau.",
+            "id": "KM-6037 adalah penghilang bulu listrik 4-in-1 dengan kepala hair removal, razor, massage dan perawatan kaki. 2 kecepatan, lampu LED, USB (isi 2.5 jam / pakai 60 menit), bodi 195g bisa dicuci, aman tanpa rasa sakit, ramah kulit.",
+            "pt": "KM-6037 é um depilador elétrico 4 em 1 com cabeças de depilação, barbear, massagem e cuidado dos pés. 2 velocidades, luz LED, carregamento USB (2,5h / 60min), corpo de 195g lavável, seguro e indolor, suave para a pele."
+          },
+          "skuOptions": [
+            {
+              "name": "Color",
+              "options": [
+                "KM-6037-Green",
+                "KM-6037-Purple"
+              ]
+            }
+          ],
+          "datasheet": "",
+          "certFile": ""
     }
     ],
     testimonials: [
