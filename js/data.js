@@ -4027,7 +4027,8 @@
           "pt": ""
         },
         "datasheet": "",
-        "certFile": ""
+        "certFile": "",
+      "skuOptions": [{"name": "Color", "options": ["PROKM-1382-Blue", "PROKM-1382-Gray", "PROKM-1382-Red"]}]
       },
       {
         "id": "p80",
