@@ -11262,7 +11262,59 @@ window.HT_OVERRIDE = {
       "skuOptions": [],
       "datasheet": "",
       "certFile": ""
-    }
+    },
+{
+        "id": "p202",
+        "name": "KM-2026 KM-2027 Electric Shaver Reciprocating Double-Mesh 7500RPM LCD Display USB Rechargeable for Men",
+        "category": "shaver",
+        "image": "assets/images/product-p202-main.jpg",
+        "gallery": "assets/images/product-p202-g1.jpg,assets/images/product-p202-g2.jpg,assets/images/product-p202-g3.jpg,assets/images/product-p202-g4.jpg,assets/images/product-p202-g5.jpg,assets/images/product-p202-g6.jpg,assets/images/product-p202-g7.jpg",
+        "detailImages": "assets/images/product-p202-d1.jpg,assets/images/product-p202-d2.jpg,assets/images/product-p202-d3.jpg,assets/images/product-p202-d4.jpg,assets/images/product-p202-d5.jpg,assets/images/product-p202-d6.jpg,assets/images/product-p202-d7.jpg,assets/images/product-p202-d8.jpg,assets/images/product-p202-d9.jpg,assets/images/product-p202-d10.jpg,assets/images/product-p202-d11.jpg",
+        "price": 15.0,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 60,
+        "packing": 60,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V (USB)",
+        "material": "ABS body, gold foil double mesh cutter head",
+        "capacity": "Motor 7500RPM · LCD power/battery display · USB rechargeable · floating double foil mesh · detachable cutter head · pop-up sideburn trimmer · color box 17x13x5.5cm · carton 56x31x57cm · 60 pcs/carton · single gross weight 348g",
+        "certs": "CE,RoHS,FCC",
+        "features": "Reciprocating double-mesh shaver for fast, clean and snag-free shaving\n7500RPM high-speed motor with smart LCD power/battery display\nFloating cutter head adapts to different facial contours\nDetachable cutter head for easy disassembly and cleaning\nPop-up sideburn trimmer for precise styling\nUSB rechargeable; two colors available: KM-2026 black & KM-2027 camo",
+        "names": {
+          "en": "KM-2026 KM-2027 Electric Shaver Reciprocating Double-Mesh 7500RPM LCD Display USB Rechargeable for Men",
+          "zh": "KM-2026 KM-2027 电动剃须刀 往复式双网 7500RPM 数显屏 USB充电 男士剃须刀",
+          "vi": "KM-2026 KM-2027 Máy cạo râu điện lưới kép 7500RPM màn hình LCD sạc USB cho nam",
+          "th": "KM-2026 KM-2027 มีดโกนหนวดไฟฟ้า 7500RPM จอ LCD ชาร์จ USB สำหรับผู้ชาย",
+          "es": "KM-2026 KM-2027 Maquinilla de afeitar eléctrica de doble malla 7500RPM pantalla LCD carga USB para hombre",
+          "fr": "KM-2026 KM-2027 Rasoir électrique à double grille 7500RPM écran LCD charge USB pour homme",
+          "id": "KM-2026 KM-2027 Pencukur listrik jaring ganda 7500RPM layar LCD USB rechargeable untuk pria",
+          "pt": "KM-2026 KM-2027 Barbeador elétrico de malha dupla 7500RPM tela LCD carregamento USB para homem"
+        },
+        "desc": {
+          "en": "Kemei KM-2026 (black) and KM-2027 (camo) reciprocating double-mesh electric shavers with 7500RPM motor, smart LCD display, floating detachable cutter head and pop-up sideburn trimmer. USB rechargeable, ideal for men's daily shaving and professional grooming.",
+          "zh": "科美 KM-2026（黑色）与 KM-2027（迷彩）往复式双网电动剃须刀，7500RPM 电机、智能数显屏、浮动可拆卸刀头、弹出式鬓角修剪器，USB 充电，适合男士日常剃须与专业造型。",
+          "vi": "Máy cạo râu lưới kép qua lại Kemei KM-2026 (đen) và KM-2027 (rằn ri), động cơ 7500RPM, màn hình LCD, đầu cắt nổi tháo rời, tông đơ mai râu bật lên, sạc USB cho nam.",
+          "th": "มีดโกนหนวดแบบตาข่ายคู่ Kemei KM-2026 (สีดำ) และ KM-2027 (ลายพราง) มอเตอร์ 7500RPM จอ LCD หัวโกนลอยถอดได้ กรรไกรตัดจอนแบบป๊อปอัพ ชาร์จ USB",
+          "es": "Maquinilla de afeitar eléctrica de doble malla Kemei KM-2026 (negro) y KM-2027 (camuflaje), motor 7500RPM, pantalla LCD, cabezal flotante desmontable y recortador de patillas, carga USB.",
+          "fr": "Rasoir électrique à double grille Kemei KM-2026 (noir) et KM-2027 (camouflage), moteur 7500RPM, écran LCD, tête flottante amovible et tondeuse à favoris, charge USB.",
+          "id": "Pencukur listrik jaring ganda Kemei KM-2026 (hitam) dan KM-2027 (camo), motor 7500RPM, layar LCD, kepala apung dapat dilepas, pencukur cambang pop-up, USB rechargeable.",
+          "pt": "Barbeador elétrico de malha dupla Kemei KM-2026 (preto) e KM-2027 (camuflado), motor 7500RPM, tela LCD, cabeça flutuante removível e cortador de costeletas, carregamento USB."
+        },
+        "skuOptions": [
+          {
+            "name": "Color",
+            "options": [
+              "KM-2026-Black",
+              "KM-2027-Camo"
+            ]
+          }
+        ],
+        "datasheet": "",
+        "certFile": ""
+}
   ],
   "categories": [
     {
