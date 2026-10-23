@@ -26,7 +26,7 @@
       usdCnyRate: 6.681
     },
     categories: [
-{
+      {
         "id": "hair-clipper",
         "image": "assets/images/product-p1-main.jpg",
         "name": {
@@ -40,7 +40,7 @@
           "pt": "Máquinas de Cortar Cabelo"
         }
       },
-{
+      {
         "id": "shaver",
         "image": "assets/images/product-p84-main.jpg",
         "name": {
@@ -54,7 +54,7 @@
           "pt": "Barbeadores Elétricos"
         }
       },
-{
+      {
         "id": "beauty",
         "image": "assets/images/product-p97-main.jpg",
         "name": {
@@ -68,7 +68,7 @@
           "pt": "Beleza e Depilação"
         }
       },
-{
+      {
         "id": "hair-dryer",
         "image": "assets/images/product-p102-main.jpg",
         "name": {
@@ -82,7 +82,7 @@
           "pt": "Secadores de Cabelo"
         }
       },
-{
+      {
         "id": "hairstyling",
         "image": "assets/images/product-p108-main.jpg",
         "name": {
@@ -110,7 +110,7 @@
           "pt": "Máquinas de Cortar Cabelo Infantis"
         }
       },
-{
+      {
         "id": "pet",
         "image": "assets/images/product-p113-main.jpg",
         "name": {
@@ -123,6 +123,20 @@
           "fr": "Toilettage pour Animaux",
           "pt": "Cuidados com Animais de Estimação"
         }
+      },
+      {
+        "id": "gift-set",
+        "image": "assets/images/product-p72-main.jpg",
+        "name": {
+          "en": "Hair Clipper & Shaver Sets",
+          "zh": "理发剪剃须刀套装",
+          "vi": "Bộ Tông Đơ & Máy Cạo Râu",
+          "th": "ชุดกรรไกรตัดผมและมีดโกนหนวด",
+          "id": "Set Pemotong Rambut & Pencukur",
+          "es": "Sets de Cortapelos y Afeitadoras",
+          "fr": "Ensembles Tondeuse & Rasoir",
+          "pt": "Conjuntos de Cortapelos e Barbeadores"
+        }
       }
     ],
     products: [
@@ -131,9 +145,9 @@
         "name": "KM-1366 Electric Hair Clipper 7500RPM Type-C Charging Ceramic Blade for Barbershop",
         "category": "hair-clipper",
         "image": "assets/images/product-p1-main.jpg",
-        "gallery": "assets/images/product-p1-g1.jpg,assets/images/product-p1-g2.jpg,assets/images/product-p1-g3.jpg,assets/images/product-p1-g4.jpg,assets/images/product-p1-g5.jpg,assets/images/product-p1-g6.jpg,assets/images/product-p1-g7.jpg",
+        "gallery": "assets/images/product-p1-g1.jpg,assets/images/product-p1-g2.jpg,assets/images/product-p1-g3.jpg,assets/images/product-p1-g4.jpg,assets/images/product-p1-g5.jpg,assets/images/product-p1-g6.jpg,assets/images/product-p1-g7.jpg,assets/images/product-p1-g8.jpg",
         "detailImages": "assets/images/product-p1-d1.jpg,assets/images/product-p1-d2.jpg,assets/images/product-p1-d3.jpg,assets/images/product-p1-d4.jpg,assets/images/product-p1-d5.jpg,assets/images/product-p1-d6.jpg,assets/images/product-p1-d7.jpg,assets/images/product-p1-d8.jpg,assets/images/product-p1-d9.jpg,assets/images/product-p1-d10.jpg,assets/images/product-p1-d11.jpg",
-        "price": 14.37,
+        "price": 14.5,
         "term": "EXW",
         "unit": "pcs",
         "moq": 40,
@@ -170,8 +184,8 @@
           {
             "name": "Color",
             "options": [
-              "Blue",
-              "Gold"
+              "KM-1366-Blue",
+              "KM-1366-Gold"
             ]
           }
         ],
@@ -183,9 +197,9 @@
         "name": "KM-1367 Electric Hair Clipper 9000RPM Cordless Type-C Charging Ceramic Blade for Barbershop",
         "category": "hair-clipper",
         "image": "assets/images/product-p2-main.jpg",
-        "gallery": "assets/images/product-p2-g1.jpg,assets/images/product-p2-g2.jpg,assets/images/product-p2-g3.jpg,assets/images/product-p2-g4.jpg,assets/images/product-p2-g5.jpg,assets/images/product-p2-g6.jpg,assets/images/product-p2-g7.jpg",
+        "gallery": "assets/images/product-p2-g1.jpg,assets/images/product-p2-g2.jpg,assets/images/product-p2-g3.jpg,assets/images/product-p2-g4.jpg,assets/images/product-p2-g5.jpg,assets/images/product-p2-g6.jpg,assets/images/product-p2-g7.jpg,assets/images/product-p2-g8.jpg",
         "detailImages": "assets/images/product-p2-d1.jpg,assets/images/product-p2-d2.jpg,assets/images/product-p2-d3.jpg,assets/images/product-p2-d4.jpg,assets/images/product-p2-d5.jpg,assets/images/product-p2-d6.jpg,assets/images/product-p2-d7.jpg,assets/images/product-p2-d8.jpg,assets/images/product-p2-d9.jpg,assets/images/product-p2-d10.jpg,assets/images/product-p2-d11.jpg,assets/images/product-p2-d12.jpg,assets/images/product-p2-d13.jpg",
-        "price": 19.76,
+        "price": 19.8,
         "term": "EXW",
         "unit": "pcs",
         "moq": 40,
@@ -222,8 +236,8 @@
           {
             "name": "Color",
             "options": [
-              "Blue",
-              "Gold"
+              "KM-1367-Blue",
+              "KM-1367-Gold"
             ]
           }
         ],
@@ -237,7 +251,7 @@
         "image": "assets/images/product-p3-main.jpg",
         "gallery": "assets/images/product-p3-g1.jpg,assets/images/product-p3-g2.jpg,assets/images/product-p3-g3.jpg,assets/images/product-p3-g4.jpg,assets/images/product-p3-g5.jpg,assets/images/product-p3-g6.jpg,assets/images/product-p3-g7.jpg,assets/images/product-p3-g8.jpg,assets/images/product-p3-g9.jpg",
         "detailImages": "assets/images/product-p3-d1.jpg,assets/images/product-p3-d2.jpg,assets/images/product-p3-d3.jpg,assets/images/product-p3-d4.jpg,assets/images/product-p3-d5.jpg,assets/images/product-p3-d6.jpg,assets/images/product-p3-d7.jpg,assets/images/product-p3-d8.jpg,assets/images/product-p3-d9.jpg,assets/images/product-p3-d10.jpg",
-        "price": 19.98,
+        "price": 20.0,
         "term": "EXW",
         "unit": "pcs",
         "moq": 24,
@@ -274,8 +288,8 @@
           {
             "name": "Color",
             "options": [
-              "Gray",
-              "Yellow"
+              "KM-1372-Gray",
+              "KM-1372-Yellow"
             ]
           }
         ],
@@ -287,9 +301,9 @@
         "name": "KM-1386 Electric Hair Clipper 7500RPM USB Charging Low Noise for Barbershop",
         "category": "hair-clipper",
         "image": "assets/images/product-p4-main.jpg",
-        "gallery": "assets/images/product-p4-g1.jpg,assets/images/product-p4-g2.jpg,assets/images/product-p4-g3.jpg,assets/images/product-p4-g4.jpg,assets/images/product-p4-g5.jpg,assets/images/product-p4-g6.jpg,assets/images/product-p4-g7.jpg,assets/images/product-p4-g8.jpg,assets/images/product-p4-g9.jpg",
+        "gallery": "assets/images/product-p4-g1.jpg,assets/images/product-p4-g2.jpg,assets/images/product-p4-g3.jpg,assets/images/product-p4-g4.jpg,assets/images/product-p4-g5.jpg,assets/images/product-p4-g6.jpg,assets/images/product-p4-g7.jpg,assets/images/product-p4-g8.jpg,assets/images/product-p4-g9.jpg,assets/images/product-p4-g10.jpg",
         "detailImages": "assets/images/product-p4-d1.jpg,assets/images/product-p4-d2.jpg,assets/images/product-p4-d3.jpg,assets/images/product-p4-d4.jpg,assets/images/product-p4-d5.jpg,assets/images/product-p4-d6.jpg,assets/images/product-p4-d7.jpg,assets/images/product-p4-d8.jpg,assets/images/product-p4-d9.jpg,assets/images/product-p4-d10.jpg,assets/images/product-p4-d11.jpg,assets/images/product-p4-d12.jpg",
-        "price": 17.06,
+        "price": 17.0,
         "term": "EXW",
         "unit": "pcs",
         "moq": 24,
@@ -330,9 +344,9 @@
         "name": "KM-1387 Electric Hair Clipper 8000RPM Low Noise for Barbershop",
         "category": "hair-clipper",
         "image": "assets/images/product-p5-main.jpg",
-        "gallery": "assets/images/product-p5-g1.jpg,assets/images/product-p5-g2.jpg,assets/images/product-p5-g3.jpg,assets/images/product-p5-g4.jpg,assets/images/product-p5-g5.jpg,assets/images/product-p5-g6.jpg,assets/images/product-p5-g7.jpg,assets/images/product-p5-g8.jpg,assets/images/product-p5-g9.jpg",
+        "gallery": "assets/images/product-p5-g1.jpg,assets/images/product-p5-g2.jpg,assets/images/product-p5-g3.jpg,assets/images/product-p5-g4.jpg,assets/images/product-p5-g5.jpg,assets/images/product-p5-g6.jpg,assets/images/product-p5-g7.jpg,assets/images/product-p5-g8.jpg,assets/images/product-p5-g9.jpg,assets/images/product-p5-g10.jpg",
         "detailImages": "assets/images/product-p5-d1.jpg,assets/images/product-p5-d2.jpg,assets/images/product-p5-d3.jpg,assets/images/product-p5-d4.jpg,assets/images/product-p5-d5.jpg,assets/images/product-p5-d6.jpg,assets/images/product-p5-d7.jpg,assets/images/product-p5-d8.jpg,assets/images/product-p5-d9.jpg,assets/images/product-p5-d10.jpg,assets/images/product-p5-d11.jpg,assets/images/product-p5-d12.jpg",
-        "price": 14.82,
+        "price": 14.8,
         "term": "EXW",
         "unit": "pcs",
         "moq": 40,
@@ -373,9 +387,9 @@
         "name": "KM-1389 Electric Hair Clipper 7500RPM USB Charging for Barbershop",
         "category": "hair-clipper",
         "image": "assets/images/product-p6-main.jpg",
-        "gallery": "assets/images/product-p6-g1.jpg,assets/images/product-p6-g2.jpg,assets/images/product-p6-g3.jpg,assets/images/product-p6-g4.jpg,assets/images/product-p6-g5.jpg,assets/images/product-p6-g6.jpg,assets/images/product-p6-g7.jpg,assets/images/product-p6-g8.jpg,assets/images/product-p6-g9.jpg",
+        "gallery": "assets/images/product-p6-g1.jpg,assets/images/product-p6-g2.jpg,assets/images/product-p6-g3.jpg,assets/images/product-p6-g4.jpg,assets/images/product-p6-g5.jpg,assets/images/product-p6-g6.jpg,assets/images/product-p6-g7.jpg,assets/images/product-p6-g8.jpg,assets/images/product-p6-g9.jpg,assets/images/product-p6-g10.jpg",
         "detailImages": "assets/images/product-p6-d1.jpg,assets/images/product-p6-d2.jpg,assets/images/product-p6-d3.jpg,assets/images/product-p6-d4.jpg,assets/images/product-p6-d5.jpg,assets/images/product-p6-d6.jpg,assets/images/product-p6-d7.jpg,assets/images/product-p6-d8.jpg,assets/images/product-p6-d9.jpg,assets/images/product-p6-d10.jpg,assets/images/product-p6-d11.jpg",
-        "price": 8.31,
+        "price": 8.5,
         "term": "EXW",
         "unit": "pcs",
         "moq": 40,
@@ -412,8 +426,8 @@
           {
             "name": "Color",
             "options": [
-              "Green",
-              "Yellow"
+              "KM-1389-Green",
+              "KM-1389-Yellow"
             ]
           }
         ],
@@ -425,9 +439,9 @@
         "name": "KM-1403 Electric Hair Clipper 8000RPM USB Charging Low Noise Ceramic Blade for Barbershop",
         "category": "hair-clipper",
         "image": "assets/images/product-p7-main.jpg",
-        "gallery": "assets/images/product-p7-g1.jpg,assets/images/product-p7-g2.jpg,assets/images/product-p7-g3.jpg,assets/images/product-p7-g4.jpg,assets/images/product-p7-g5.jpg,assets/images/product-p7-g6.jpg,assets/images/product-p7-g7.jpg,assets/images/product-p7-g8.jpg,assets/images/product-p7-g9.jpg,assets/images/product-p7-g10.jpg",
+        "gallery": "assets/images/product-p7-g1.jpg,assets/images/product-p7-g2.jpg,assets/images/product-p7-g3.jpg,assets/images/product-p7-g4.jpg,assets/images/product-p7-g5.jpg,assets/images/product-p7-g6.jpg,assets/images/product-p7-g7.jpg,assets/images/product-p7-g8.jpg,assets/images/product-p7-g9.jpg,assets/images/product-p7-g10.jpg,assets/images/product-p7-g11.jpg",
         "detailImages": "assets/images/product-p7-d1.jpg,assets/images/product-p7-d2.jpg,assets/images/product-p7-d3.jpg,assets/images/product-p7-d4.jpg,assets/images/product-p7-d5.jpg,assets/images/product-p7-d6.jpg,assets/images/product-p7-d7.jpg,assets/images/product-p7-d8.jpg,assets/images/product-p7-d9.jpg,assets/images/product-p7-d10.jpg,assets/images/product-p7-d11.jpg,assets/images/product-p7-d12.jpg,assets/images/product-p7-d13.jpg",
-        "price": 16.61,
+        "price": 16.5,
         "term": "EXW",
         "unit": "pcs",
         "moq": 24,
@@ -464,8 +478,8 @@
           {
             "name": "Color",
             "options": [
-              "Blue",
-              "Gold"
+              "KM-1403-Blue",
+              "KM-1403-Gold"
             ]
           }
         ],
@@ -477,9 +491,9 @@
         "name": "KM-1404 Electric Hair Clipper 8000RPM Low Noise Ceramic Blade for Barbershop",
         "category": "hair-clipper",
         "image": "assets/images/product-p8-main.jpg",
-        "gallery": "assets/images/product-p8-g1.jpg,assets/images/product-p8-g2.jpg,assets/images/product-p8-g3.jpg,assets/images/product-p8-g4.jpg,assets/images/product-p8-g5.jpg,assets/images/product-p8-g6.jpg,assets/images/product-p8-g7.jpg,assets/images/product-p8-g8.jpg,assets/images/product-p8-g9.jpg,assets/images/product-p8-g10.jpg",
+        "gallery": "assets/images/product-p8-g1.jpg,assets/images/product-p8-g2.jpg,assets/images/product-p8-g3.jpg,assets/images/product-p8-g4.jpg,assets/images/product-p8-g5.jpg,assets/images/product-p8-g6.jpg,assets/images/product-p8-g7.jpg,assets/images/product-p8-g8.jpg,assets/images/product-p8-g9.jpg,assets/images/product-p8-g10.jpg,assets/images/product-p8-g11.jpg",
         "detailImages": "assets/images/product-p8-d1.jpg,assets/images/product-p8-d2.jpg,assets/images/product-p8-d3.jpg,assets/images/product-p8-d4.jpg,assets/images/product-p8-d5.jpg,assets/images/product-p8-d6.jpg,assets/images/product-p8-d7.jpg,assets/images/product-p8-d8.jpg,assets/images/product-p8-d9.jpg,assets/images/product-p8-d10.jpg,assets/images/product-p8-d11.jpg,assets/images/product-p8-d12.jpg",
-        "price": 12.12,
+        "price": 12.0,
         "term": "EXW",
         "unit": "pcs",
         "moq": 24,
@@ -516,8 +530,8 @@
           {
             "name": "Color",
             "options": [
-              "Blue",
-              "Yellow"
+              "KM-1404-Blue",
+              "KM-1404-Yellow"
             ]
           }
         ],
@@ -531,7 +545,7 @@
         "image": "assets/images/product-p9-main.jpg",
         "gallery": "assets/images/product-p9-g1.jpg,assets/images/product-p9-g2.jpg,assets/images/product-p9-g3.jpg,assets/images/product-p9-g4.jpg,assets/images/product-p9-g5.jpg,assets/images/product-p9-g6.jpg,assets/images/product-p9-g7.jpg,assets/images/product-p9-g8.jpg",
         "detailImages": "assets/images/product-p9-d1.jpg,assets/images/product-p9-d2.jpg,assets/images/product-p9-d3.jpg,assets/images/product-p9-d4.jpg,assets/images/product-p9-d5.jpg,assets/images/product-p9-d6.jpg,assets/images/product-p9-d7.jpg,assets/images/product-p9-d8.jpg,assets/images/product-p9-d9.jpg",
-        "price": 23.13,
+        "price": 23.0,
         "term": "EXW",
         "unit": "pcs",
         "moq": 40,
@@ -568,7 +582,7 @@
           {
             "name": "Color",
             "options": [
-              "Yellow"
+              "KM-1566-Yellow"
             ]
           }
         ],
@@ -582,7 +596,7 @@
         "image": "assets/images/product-p10-main.jpg",
         "gallery": "assets/images/product-p10-g1.jpg,assets/images/product-p10-g2.jpg,assets/images/product-p10-g3.jpg,assets/images/product-p10-g4.jpg,assets/images/product-p10-g5.jpg,assets/images/product-p10-g6.jpg,assets/images/product-p10-g7.jpg,assets/images/product-p10-g8.jpg,assets/images/product-p10-g9.jpg",
         "detailImages": "assets/images/product-p10-d1.jpg,assets/images/product-p10-d2.jpg,assets/images/product-p10-d3.jpg,assets/images/product-p10-d4.jpg,assets/images/product-p10-d5.jpg,assets/images/product-p10-d6.jpg,assets/images/product-p10-d7.jpg,assets/images/product-p10-d8.jpg,assets/images/product-p10-d9.jpg,assets/images/product-p10-d10.jpg,assets/images/product-p10-d11.jpg,assets/images/product-p10-d12.jpg",
-        "price": 15.72,
+        "price": 15.8,
         "term": "EXW",
         "unit": "pcs",
         "moq": 40,
@@ -619,8 +633,8 @@
           {
             "name": "Color",
             "options": [
-              "Gray",
-              "Silver"
+              "KM-1592-Gray",
+              "KM-1592-Silver"
             ]
           }
         ],
@@ -632,9 +646,9 @@
         "name": "KM-1593 Electric Hair Clipper 9000RPM for Barbershop",
         "category": "hair-clipper",
         "image": "assets/images/product-p11-main.jpg",
-        "gallery": "assets/images/product-p11-g1.jpg,assets/images/product-p11-g2.jpg,assets/images/product-p11-g3.jpg,assets/images/product-p11-g4.jpg,assets/images/product-p11-g5.jpg,assets/images/product-p11-g6.jpg,assets/images/product-p11-g7.jpg,assets/images/product-p11-g8.jpg,assets/images/product-p11-g9.jpg,assets/images/product-p11-g10.jpg,assets/images/product-p11-g11.jpg",
+        "gallery": "assets/images/product-p11-g1.jpg,assets/images/product-p11-g2.jpg,assets/images/product-p11-g3.jpg,assets/images/product-p11-g4.jpg,assets/images/product-p11-g5.jpg,assets/images/product-p11-g6.jpg,assets/images/product-p11-g7.jpg,assets/images/product-p11-g8.jpg,assets/images/product-p11-g9.jpg,assets/images/product-p11-g10.jpg,assets/images/product-p11-g11.jpg,assets/images/product-p11-g12.jpg",
         "detailImages": "",
-        "price": 31.43,
+        "price": 31.5,
         "term": "EXW",
         "unit": "pcs",
         "moq": 200,
@@ -670,9 +684,9 @@
           {
             "name": "Color",
             "options": [
-              "Green",
-              "Yellow",
-              "White"
+              "KM-1593-Green",
+              "KM-1593-Yellow",
+              "KM-1593-White"
             ]
           }
         ],
@@ -686,7 +700,7 @@
         "image": "assets/images/product-p12-main.jpg",
         "gallery": "assets/images/product-p12-g1.jpg,assets/images/product-p12-g2.jpg,assets/images/product-p12-g3.jpg,assets/images/product-p12-g4.jpg,assets/images/product-p12-g5.jpg,assets/images/product-p12-g6.jpg,assets/images/product-p12-g7.jpg,assets/images/product-p12-g8.jpg",
         "detailImages": "assets/images/product-p12-d1.jpg,assets/images/product-p12-d2.jpg,assets/images/product-p12-d3.jpg,assets/images/product-p12-d4.jpg,assets/images/product-p12-d5.jpg,assets/images/product-p12-d6.jpg,assets/images/product-p12-d7.jpg,assets/images/product-p12-d8.jpg,assets/images/product-p12-d9.jpg,assets/images/product-p12-d10.jpg,assets/images/product-p12-d11.jpg,assets/images/product-p12-d12.jpg",
-        "price": 26.49,
+        "price": 26.5,
         "term": "EXW",
         "unit": "pcs",
         "moq": 24,
@@ -723,9 +737,9 @@
           {
             "name": "Color",
             "options": [
-              "Green",
-              "Yellow",
-              "White"
+              "KM-1595-Green",
+              "KM-1595-Yellow",
+              "KM-1595-White"
             ]
           }
         ],
@@ -739,7 +753,7 @@
         "image": "assets/images/product-p13-main.jpg",
         "gallery": "assets/images/product-p13-g1.jpg,assets/images/product-p13-g2.jpg,assets/images/product-p13-g3.jpg,assets/images/product-p13-g4.jpg,assets/images/product-p13-g5.jpg,assets/images/product-p13-g6.jpg,assets/images/product-p13-g7.jpg",
         "detailImages": "assets/images/product-p13-d1.jpg,assets/images/product-p13-d2.jpg,assets/images/product-p13-d3.jpg,assets/images/product-p13-d4.jpg,assets/images/product-p13-d5.jpg,assets/images/product-p13-d6.jpg,assets/images/product-p13-d7.jpg,assets/images/product-p13-d8.jpg,assets/images/product-p13-d9.jpg",
-        "price": 7.97,
+        "price": 8.0,
         "term": "EXW",
         "unit": "pcs",
         "moq": 40,
@@ -776,7 +790,7 @@
           {
             "name": "Color",
             "options": [
-              "White"
+              "KM-1679-White"
             ]
           }
         ],
@@ -790,7 +804,7 @@
         "image": "assets/images/product-p14-main.jpg",
         "gallery": "assets/images/product-p14-g1.jpg,assets/images/product-p14-g2.jpg,assets/images/product-p14-g3.jpg,assets/images/product-p14-g4.jpg,assets/images/product-p14-g5.jpg,assets/images/product-p14-g6.jpg",
         "detailImages": "assets/images/product-p14-d1.jpg,assets/images/product-p14-d2.jpg,assets/images/product-p14-d3.jpg,assets/images/product-p14-d4.jpg,assets/images/product-p14-d5.jpg,assets/images/product-p14-d6.jpg,assets/images/product-p14-d7.jpg,assets/images/product-p14-d8.jpg,assets/images/product-p14-d9.jpg,assets/images/product-p14-d10.jpg",
-        "price": 29.64,
+        "price": 29.5,
         "term": "EXW",
         "unit": "pcs",
         "moq": 20,
@@ -831,9 +845,9 @@
         "name": "KM-1685 Electric Hair Clipper 9000RPM Ceramic Blade for Barbershop",
         "category": "hair-clipper",
         "image": "assets/images/product-p15-main.jpg",
-        "gallery": "assets/images/product-p15-g1.jpg,assets/images/product-p15-g2.jpg,assets/images/product-p15-g3.jpg,assets/images/product-p15-g4.jpg,assets/images/product-p15-g5.jpg,assets/images/product-p15-g6.jpg,assets/images/product-p15-g7.jpg",
+        "gallery": "assets/images/product-p15-g1.jpg,assets/images/product-p15-g2.jpg,assets/images/product-p15-g3.jpg,assets/images/product-p15-g4.jpg,assets/images/product-p15-g5.jpg,assets/images/product-p15-g6.jpg,assets/images/product-p15-g7.jpg,assets/images/product-p15-g8.jpg",
         "detailImages": "assets/images/product-p15-d1.jpg,assets/images/product-p15-d2.jpg,assets/images/product-p15-d3.jpg,assets/images/product-p15-d4.jpg,assets/images/product-p15-d5.jpg,assets/images/product-p15-d6.jpg,assets/images/product-p15-d7.jpg,assets/images/product-p15-d8.jpg,assets/images/product-p15-d9.jpg,assets/images/product-p15-d10.jpg,assets/images/product-p15-d11.jpg,assets/images/product-p15-d12.jpg,assets/images/product-p15-d13.jpg",
-        "price": 28.74,
+        "price": 28.8,
         "term": "EXW",
         "unit": "pcs",
         "moq": 24,
@@ -870,8 +884,8 @@
           {
             "name": "Color",
             "options": [
-              "Black",
-              "Blue"
+              "KM-1685-Black",
+              "KM-1685-Blue"
             ]
           }
         ],
@@ -885,7 +899,7 @@
         "image": "assets/images/product-p16-main.jpg",
         "gallery": "assets/images/product-p16-g1.jpg,assets/images/product-p16-g2.jpg,assets/images/product-p16-g3.jpg,assets/images/product-p16-g4.jpg,assets/images/product-p16-g5.jpg,assets/images/product-p16-g6.jpg,assets/images/product-p16-g7.jpg,assets/images/product-p16-g8.jpg,assets/images/product-p16-g9.jpg,assets/images/product-p16-g10.jpg,assets/images/product-p16-g11.jpg",
         "detailImages": "assets/images/product-p16-d1.jpg,assets/images/product-p16-d2.jpg,assets/images/product-p16-d3.jpg,assets/images/product-p16-d4.jpg,assets/images/product-p16-d5.jpg,assets/images/product-p16-d6.jpg,assets/images/product-p16-d7.jpg,assets/images/product-p16-d8.jpg,assets/images/product-p16-d9.jpg,assets/images/product-p16-d10.jpg,assets/images/product-p16-d11.jpg,assets/images/product-p16-d12.jpg",
-        "price": 9.88,
+        "price": 9.8,
         "term": "EXW",
         "unit": "pcs",
         "moq": 60,
@@ -922,8 +936,8 @@
           {
             "name": "Color",
             "options": [
-              "Pink",
-              "Yellow"
+              "KM-1688-Pink",
+              "KM-1688-Yellow"
             ]
           }
         ],
@@ -935,9 +949,9 @@
         "name": "KM-1692 Electric Hair Clipper 9000RPM Ceramic Blade for Barbershop",
         "category": "hair-clipper",
         "image": "assets/images/product-p17-main.jpg",
-        "gallery": "assets/images/product-p17-g1.jpg,assets/images/product-p17-g2.jpg,assets/images/product-p17-g3.jpg,assets/images/product-p17-g4.jpg,assets/images/product-p17-g5.jpg,assets/images/product-p17-g6.jpg,assets/images/product-p17-g7.jpg",
+        "gallery": "assets/images/product-p17-g1.jpg,assets/images/product-p17-g2.jpg,assets/images/product-p17-g3.jpg,assets/images/product-p17-g4.jpg,assets/images/product-p17-g5.jpg,assets/images/product-p17-g6.jpg,assets/images/product-p17-g7.jpg,assets/images/product-p17-g8.jpg",
         "detailImages": "assets/images/product-p17-d1.jpg,assets/images/product-p17-d2.jpg,assets/images/product-p17-d3.jpg,assets/images/product-p17-d4.jpg,assets/images/product-p17-d5.jpg,assets/images/product-p17-d6.jpg,assets/images/product-p17-d7.jpg,assets/images/product-p17-d8.jpg,assets/images/product-p17-d9.jpg,assets/images/product-p17-d10.jpg,assets/images/product-p17-d11.jpg,assets/images/product-p17-d12.jpg,assets/images/product-p17-d13.jpg,assets/images/product-p17-d14.jpg,assets/images/product-p17-d15.jpg",
-        "price": 39.29,
+        "price": 39.5,
         "term": "EXW",
         "unit": "pcs",
         "moq": 24,
@@ -974,8 +988,8 @@
           {
             "name": "Color",
             "options": [
-              "Black",
-              "Blue"
+              "KM-1692-Black",
+              "KM-1692-Blue"
             ]
           }
         ],
@@ -989,7 +1003,7 @@
         "image": "assets/images/product-p18-main.jpg",
         "gallery": "assets/images/product-p18-g1.jpg,assets/images/product-p18-g2.jpg,assets/images/product-p18-g3.jpg,assets/images/product-p18-g4.jpg,assets/images/product-p18-g5.jpg,assets/images/product-p18-g6.jpg",
         "detailImages": "assets/images/product-p18-d1.jpg,assets/images/product-p18-d2.jpg,assets/images/product-p18-d3.jpg,assets/images/product-p18-d4.jpg,assets/images/product-p18-d5.jpg,assets/images/product-p18-d6.jpg,assets/images/product-p18-d7.jpg,assets/images/product-p18-d8.jpg,assets/images/product-p18-d9.jpg,assets/images/product-p18-d10.jpg,assets/images/product-p18-d11.jpg,assets/images/product-p18-d12.jpg,assets/images/product-p18-d13.jpg,assets/images/product-p18-d14.jpg",
-        "price": 10.55,
+        "price": 10.5,
         "term": "EXW",
         "unit": "pcs",
         "moq": 40,
@@ -1026,10 +1040,10 @@
           {
             "name": "Color",
             "options": [
-              "Yellow",
-              "Green",
-              "Purple",
-              "Blue"
+              "KM-1693-Yellow",
+              "KM-1693-Green",
+              "KM-1693-Purple",
+              "KM-1693-Blue"
             ]
           }
         ],
@@ -1041,9 +1055,9 @@
         "name": "KM-1736 Electric Hair Clipper 8000RPM Type-C Charging USB Charging for Barbershop",
         "category": "hair-clipper",
         "image": "assets/images/product-p19-main.jpg",
-        "gallery": "assets/images/product-p19-g1.jpg,assets/images/product-p19-g2.jpg,assets/images/product-p19-g3.jpg,assets/images/product-p19-g4.jpg,assets/images/product-p19-g5.jpg,assets/images/product-p19-g6.jpg,assets/images/product-p19-g7.jpg,assets/images/product-p19-g8.jpg,assets/images/product-p19-g9.jpg",
+        "gallery": "assets/images/product-p19-g1.jpg,assets/images/product-p19-g2.jpg,assets/images/product-p19-g3.jpg,assets/images/product-p19-g4.jpg,assets/images/product-p19-g5.jpg,assets/images/product-p19-g6.jpg,assets/images/product-p19-g7.jpg,assets/images/product-p19-g8.jpg,assets/images/product-p19-g9.jpg,assets/images/product-p19-g10.jpg",
         "detailImages": "assets/images/product-p19-d1.jpg,assets/images/product-p19-d2.jpg,assets/images/product-p19-d3.jpg,assets/images/product-p19-d4.jpg,assets/images/product-p19-d5.jpg,assets/images/product-p19-d6.jpg,assets/images/product-p19-d7.jpg,assets/images/product-p19-d8.jpg,assets/images/product-p19-d9.jpg,assets/images/product-p19-d10.jpg,assets/images/product-p19-d11.jpg,assets/images/product-p19-d12.jpg",
-        "price": 27.17,
+        "price": 27.0,
         "term": "EXW",
         "unit": "pcs",
         "moq": 24,
@@ -1080,7 +1094,7 @@
           {
             "name": "Color",
             "options": [
-              "Green"
+              "KM-1736-Green"
             ]
           }
         ],
@@ -1093,8 +1107,8 @@
         "category": "hair-clipper",
         "image": "assets/images/product-p20-main.jpg",
         "gallery": "assets/images/product-p20-g1.jpg,assets/images/product-p20-g2.jpg,assets/images/product-p20-g3.jpg,assets/images/product-p20-g4.jpg,assets/images/product-p20-g5.jpg,assets/images/product-p20-g6.jpg,assets/images/product-p20-g7.jpg,assets/images/product-p20-g8.jpg,assets/images/product-p20-g9.jpg,assets/images/product-p20-g10.jpg,assets/images/product-p20-g11.jpg,assets/images/product-p20-g12.jpg,assets/images/product-p20-g13.jpg,assets/images/product-p20-g14.jpg,assets/images/product-p20-g15.jpg,assets/images/product-p20-g16.jpg",
-        "detailImages": "",
-        "price": 10.55,
+        "detailImages": "assets/images/product-p20-d1.jpg,assets/images/product-p20-d2.jpg,assets/images/product-p20-d3.jpg,assets/images/product-p20-d4.jpg,assets/images/product-p20-d5.jpg,assets/images/product-p20-d6.jpg,assets/images/product-p20-d7.jpg,assets/images/product-p20-d8.jpg,assets/images/product-p20-d9.jpg",
+        "price": 10.5,
         "term": "EXW",
         "unit": "pcs",
         "moq": 200,
@@ -1130,8 +1144,8 @@
           {
             "name": "Color",
             "options": [
-              "Green",
-              "Blue"
+              "KM-1739-Green",
+              "KM-1739-Blue"
             ]
           }
         ],
@@ -1145,7 +1159,7 @@
         "image": "assets/images/product-p21-main.jpg",
         "gallery": "assets/images/product-p21-g1.jpg,assets/images/product-p21-g2.jpg,assets/images/product-p21-g3.jpg,assets/images/product-p21-g4.jpg,assets/images/product-p21-g5.jpg,assets/images/product-p21-g6.jpg,assets/images/product-p21-g7.jpg",
         "detailImages": "assets/images/product-p21-d1.jpg,assets/images/product-p21-d2.jpg,assets/images/product-p21-d3.jpg,assets/images/product-p21-d4.jpg,assets/images/product-p21-d5.jpg,assets/images/product-p21-d6.jpg,assets/images/product-p21-d7.jpg,assets/images/product-p21-d8.jpg,assets/images/product-p21-d9.jpg",
-        "price": 6.96,
+        "price": 7.0,
         "term": "EXW",
         "unit": "pcs",
         "moq": 40,
@@ -1182,8 +1196,8 @@
           {
             "name": "Color",
             "options": [
-              "Yellow",
-              "Black"
+              "KM-1743-Yellow",
+              "KM-1743-Black"
             ]
           }
         ],
@@ -1195,9 +1209,9 @@
         "name": "KM-1776 Electric Hair Clipper 12000RPM Type-C Charging Ceramic Blade for Barbershop",
         "category": "hair-clipper",
         "image": "assets/images/product-p22-main.jpg",
-        "gallery": "assets/images/product-p22-g1.jpg,assets/images/product-p22-g2.jpg,assets/images/product-p22-g3.jpg,assets/images/product-p22-g4.jpg,assets/images/product-p22-g5.jpg,assets/images/product-p22-g6.jpg,assets/images/product-p22-g7.jpg,assets/images/product-p22-g8.jpg,assets/images/product-p22-g9.jpg",
+        "gallery": "assets/images/product-p22-g1.jpg,assets/images/product-p22-g2.jpg,assets/images/product-p22-g3.jpg,assets/images/product-p22-g4.jpg,assets/images/product-p22-g5.jpg,assets/images/product-p22-g6.jpg,assets/images/product-p22-g7.jpg,assets/images/product-p22-g8.jpg,assets/images/product-p22-g9.jpg,assets/images/product-p22-g10.jpg",
         "detailImages": "assets/images/product-p22-d1.jpg,assets/images/product-p22-d2.jpg,assets/images/product-p22-d3.jpg,assets/images/product-p22-d4.jpg,assets/images/product-p22-d5.jpg,assets/images/product-p22-d6.jpg,assets/images/product-p22-d7.jpg,assets/images/product-p22-d8.jpg,assets/images/product-p22-d9.jpg,assets/images/product-p22-d10.jpg,assets/images/product-p22-d11.jpg",
-        "price": 21.78,
+        "price": 21.8,
         "term": "EXW",
         "unit": "pcs",
         "moq": 40,
@@ -1238,9 +1252,9 @@
         "name": "KM-1783 Electric Hair Clipper 7000RPM Type-C Charging for Barbershop",
         "category": "hair-clipper",
         "image": "assets/images/product-p23-main.jpg",
-        "gallery": "assets/images/product-p23-g1.jpg,assets/images/product-p23-g2.jpg,assets/images/product-p23-g3.jpg,assets/images/product-p23-g4.jpg,assets/images/product-p23-g5.jpg,assets/images/product-p23-g6.jpg,assets/images/product-p23-g7.jpg,assets/images/product-p23-g8.jpg,assets/images/product-p23-g9.jpg",
+        "gallery": "assets/images/product-p23-g1.jpg,assets/images/product-p23-g2.jpg,assets/images/product-p23-g3.jpg,assets/images/product-p23-g4.jpg,assets/images/product-p23-g5.jpg,assets/images/product-p23-g6.jpg,assets/images/product-p23-g7.jpg,assets/images/product-p23-g8.jpg,assets/images/product-p23-g9.jpg,assets/images/product-p23-g10.jpg",
         "detailImages": "assets/images/product-p23-d1.jpg,assets/images/product-p23-d2.jpg,assets/images/product-p23-d3.jpg,assets/images/product-p23-d4.jpg,assets/images/product-p23-d5.jpg,assets/images/product-p23-d6.jpg,assets/images/product-p23-d7.jpg,assets/images/product-p23-d8.jpg,assets/images/product-p23-d9.jpg,assets/images/product-p23-d10.jpg",
-        "price": 15.72,
+        "price": 15.8,
         "term": "EXW",
         "unit": "pcs",
         "moq": 30,
@@ -1277,8 +1291,8 @@
           {
             "name": "Color",
             "options": [
-              "Red",
-              "Yellow"
+              "KM-1783-Red",
+              "KM-1783-Yellow"
             ]
           }
         ],
@@ -1290,9 +1304,9 @@
         "name": "KM-1787 Electric Hair Clipper 9000RPM USB Charging for Barbershop",
         "category": "hair-clipper",
         "image": "assets/images/product-p24-main.jpg",
-        "gallery": "assets/images/product-p24-g1.jpg,assets/images/product-p24-g2.jpg,assets/images/product-p24-g3.jpg,assets/images/product-p24-g4.jpg,assets/images/product-p24-g5.jpg,assets/images/product-p24-g6.jpg",
+        "gallery": "assets/images/product-p24-g1.jpg,assets/images/product-p24-g2.jpg,assets/images/product-p24-g3.jpg,assets/images/product-p24-g4.jpg,assets/images/product-p24-g5.jpg,assets/images/product-p24-g6.jpg,assets/images/product-p24-g7.jpg",
         "detailImages": "assets/images/product-p24-d1.jpg,assets/images/product-p24-d2.jpg,assets/images/product-p24-d3.jpg,assets/images/product-p24-d4.jpg,assets/images/product-p24-d5.jpg,assets/images/product-p24-d6.jpg,assets/images/product-p24-d7.jpg,assets/images/product-p24-d8.jpg,assets/images/product-p24-d9.jpg,assets/images/product-p24-d10.jpg,assets/images/product-p24-d11.jpg",
-        "price": 23.13,
+        "price": 23.0,
         "term": "EXW",
         "unit": "pcs",
         "moq": 40,
@@ -1335,7 +1349,7 @@
         "image": "assets/images/product-p25-main.jpg",
         "gallery": "assets/images/product-p25-g1.jpg,assets/images/product-p25-g2.jpg,assets/images/product-p25-g3.jpg,assets/images/product-p25-g4.jpg,assets/images/product-p25-g5.jpg,assets/images/product-p25-g6.jpg,assets/images/product-p25-g7.jpg",
         "detailImages": "assets/images/product-p25-d1.jpg,assets/images/product-p25-d2.jpg,assets/images/product-p25-d3.jpg,assets/images/product-p25-d4.jpg,assets/images/product-p25-d5.jpg,assets/images/product-p25-d6.jpg,assets/images/product-p25-d7.jpg,assets/images/product-p25-d8.jpg,assets/images/product-p25-d9.jpg,assets/images/product-p25-d10.jpg",
-        "price": 14.37,
+        "price": 14.5,
         "term": "EXW",
         "unit": "pcs",
         "moq": 24,
@@ -1372,7 +1386,7 @@
           {
             "name": "Color",
             "options": [
-              "Yellow"
+              "KM-1806-Yellow"
             ]
           }
         ],
@@ -1386,7 +1400,7 @@
         "image": "assets/images/product-p26-main.jpg",
         "gallery": "assets/images/product-p26-g1.jpg,assets/images/product-p26-g2.jpg,assets/images/product-p26-g3.jpg,assets/images/product-p26-g4.jpg,assets/images/product-p26-g5.jpg,assets/images/product-p26-g6.jpg",
         "detailImages": "assets/images/product-p26-d1.jpg,assets/images/product-p26-d2.jpg,assets/images/product-p26-d3.jpg,assets/images/product-p26-d4.jpg,assets/images/product-p26-d5.jpg,assets/images/product-p26-d6.jpg,assets/images/product-p26-d7.jpg,assets/images/product-p26-d8.jpg,assets/images/product-p26-d9.jpg",
-        "price": 13.25,
+        "price": 13.0,
         "term": "EXW",
         "unit": "pcs",
         "moq": 40,
@@ -1427,9 +1441,9 @@
         "name": "KM-1808 Electric Hair Clipper 7500RPM USB Charging for Barbershop",
         "category": "hair-clipper",
         "image": "assets/images/product-p27-main.jpg",
-        "gallery": "assets/images/product-p27-g1.jpg,assets/images/product-p27-g2.jpg,assets/images/product-p27-g3.jpg,assets/images/product-p27-g4.jpg,assets/images/product-p27-g5.jpg,assets/images/product-p27-g6.jpg,assets/images/product-p27-g7.jpg,assets/images/product-p27-g8.jpg,assets/images/product-p27-g9.jpg",
-        "detailImages": "assets/images/product-p27-d1.jpg,assets/images/product-p27-d2.jpg,assets/images/product-p27-d3.jpg,assets/images/product-p27-d4.jpg,assets/images/product-p27-d5.jpg,assets/images/product-p27-d6.jpg,assets/images/product-p27-d7.jpg,assets/images/product-p27-d8.jpg,assets/images/product-p27-d9.jpg,assets/images/product-p27-d10.jpg,assets/images/product-p27-d11.jpg,assets/images/product-p27-d12.jpg,assets/images/product-p27-d13.jpg,assets/images/product-p27-d14.jpg",
-        "price": 24.92,
+        "gallery": "assets/images/product-p27-g1.jpg,assets/images/product-p27-g2.jpg,assets/images/product-p27-g3.jpg,assets/images/product-p27-g4.jpg,assets/images/product-p27-g5.jpg,assets/images/product-p27-g6.jpg,assets/images/product-p27-g7.jpg,assets/images/product-p27-g8.jpg,assets/images/product-p27-g9.jpg,assets/images/product-p27-g10.jpg",
+        "detailImages": "assets/images/product-p27-d1.jpg,assets/images/product-p27-d2.jpg,assets/images/product-p27-d3.jpg,assets/images/product-p27-d4.jpg,assets/images/product-p27-d5.jpg,assets/images/product-p27-d6.jpg,assets/images/product-p27-d7.jpg,assets/images/product-p27-d8.jpg,assets/images/product-p27-d9.jpg,assets/images/product-p27-d10.jpg,assets/images/product-p27-d11.jpg,assets/images/product-p27-d12.jpg,assets/images/product-p27-d13.jpg,assets/images/product-p27-d14.jpg,assets/images/product-p27-d15.jpg",
+        "price": 25.0,
         "term": "EXW",
         "unit": "pcs",
         "moq": 40,
@@ -1472,7 +1486,7 @@
         "image": "assets/images/product-p28-main.jpg",
         "gallery": "assets/images/product-p28-g1.jpg,assets/images/product-p28-g2.jpg,assets/images/product-p28-g3.jpg,assets/images/product-p28-g4.jpg,assets/images/product-p28-g5.jpg,assets/images/product-p28-g6.jpg",
         "detailImages": "assets/images/product-p28-d1.jpg,assets/images/product-p28-d2.jpg,assets/images/product-p28-d3.jpg,assets/images/product-p28-d4.jpg,assets/images/product-p28-d5.jpg,assets/images/product-p28-d6.jpg,assets/images/product-p28-d7.jpg,assets/images/product-p28-d8.jpg,assets/images/product-p28-d9.jpg,assets/images/product-p28-d10.jpg,assets/images/product-p28-d11.jpg",
-        "price": 16.17,
+        "price": 16.0,
         "term": "EXW",
         "unit": "pcs",
         "moq": 24,
@@ -1509,7 +1523,7 @@
           {
             "name": "Color",
             "options": [
-              "Gold"
+              "KM-1823-Gold"
             ]
           }
         ],
@@ -1523,7 +1537,7 @@
         "image": "assets/images/product-p29-main.jpg",
         "gallery": "assets/images/product-p29-g1.jpg,assets/images/product-p29-g2.jpg,assets/images/product-p29-g3.jpg,assets/images/product-p29-g4.jpg,assets/images/product-p29-g5.jpg,assets/images/product-p29-g6.jpg",
         "detailImages": "assets/images/product-p29-d1.jpg,assets/images/product-p29-d2.jpg,assets/images/product-p29-d3.jpg,assets/images/product-p29-d4.jpg,assets/images/product-p29-d5.jpg,assets/images/product-p29-d6.jpg,assets/images/product-p29-d7.jpg,assets/images/product-p29-d8.jpg,assets/images/product-p29-d9.jpg,assets/images/product-p29-d10.jpg,assets/images/product-p29-d11.jpg",
-        "price": 14.71,
+        "price": 14.8,
         "term": "EXW",
         "unit": "pcs",
         "moq": 24,
@@ -1566,7 +1580,7 @@
         "image": "assets/images/product-p30-main.jpg",
         "gallery": "assets/images/product-p30-g1.jpg,assets/images/product-p30-g2.jpg,assets/images/product-p30-g3.jpg,assets/images/product-p30-g4.jpg,assets/images/product-p30-g5.jpg,assets/images/product-p30-g6.jpg",
         "detailImages": "assets/images/product-p30-d1.jpg,assets/images/product-p30-d2.jpg,assets/images/product-p30-d3.jpg,assets/images/product-p30-d4.jpg,assets/images/product-p30-d5.jpg,assets/images/product-p30-d6.jpg,assets/images/product-p30-d7.jpg,assets/images/product-p30-d8.jpg,assets/images/product-p30-d9.jpg,assets/images/product-p30-d10.jpg,assets/images/product-p30-d11.jpg",
-        "price": 13.25,
+        "price": 13.0,
         "term": "EXW",
         "unit": "pcs",
         "moq": 24,
@@ -1603,7 +1617,7 @@
           {
             "name": "Color",
             "options": [
-              "Gold"
+              "KM-1831-Gold"
             ]
           }
         ],
@@ -1617,7 +1631,7 @@
         "image": "assets/images/product-p31-main.jpg",
         "gallery": "assets/images/product-p31-g1.jpg,assets/images/product-p31-g2.jpg,assets/images/product-p31-g3.jpg,assets/images/product-p31-g4.jpg,assets/images/product-p31-g5.jpg,assets/images/product-p31-g6.jpg",
         "detailImages": "assets/images/product-p31-d1.jpg,assets/images/product-p31-d2.jpg,assets/images/product-p31-d3.jpg,assets/images/product-p31-d4.jpg,assets/images/product-p31-d5.jpg,assets/images/product-p31-d6.jpg,assets/images/product-p31-d7.jpg,assets/images/product-p31-d8.jpg,assets/images/product-p31-d9.jpg",
-        "price": 30.98,
+        "price": 31.0,
         "term": "EXW",
         "unit": "pcs",
         "moq": 24,
@@ -1654,7 +1668,7 @@
           {
             "name": "Color",
             "options": [
-              "Green"
+              "KM-1862-Green"
             ]
           }
         ],
@@ -1668,7 +1682,7 @@
         "image": "assets/images/product-p32-main.jpg",
         "gallery": "assets/images/product-p32-g1.jpg,assets/images/product-p32-g2.jpg,assets/images/product-p32-g3.jpg,assets/images/product-p32-g4.jpg,assets/images/product-p32-g5.jpg,assets/images/product-p32-g6.jpg,assets/images/product-p32-g7.jpg",
         "detailImages": "assets/images/product-p32-d1.jpg,assets/images/product-p32-d2.jpg,assets/images/product-p32-d3.jpg,assets/images/product-p32-d4.jpg,assets/images/product-p32-d5.jpg,assets/images/product-p32-d6.jpg,assets/images/product-p32-d7.jpg,assets/images/product-p32-d8.jpg,assets/images/product-p32-d9.jpg",
-        "price": 23.57,
+        "price": 23.5,
         "term": "EXW",
         "unit": "pcs",
         "moq": 24,
@@ -1705,7 +1719,7 @@
           {
             "name": "Color",
             "options": [
-              "Green"
+              "KM-1863-Green"
             ]
           }
         ],
@@ -1719,7 +1733,7 @@
         "image": "assets/images/product-p33-main.jpg",
         "gallery": "assets/images/product-p33-g1.jpg,assets/images/product-p33-g2.jpg,assets/images/product-p33-g3.jpg,assets/images/product-p33-g4.jpg,assets/images/product-p33-g5.jpg,assets/images/product-p33-g6.jpg,assets/images/product-p33-g7.jpg,assets/images/product-p33-g8.jpg",
         "detailImages": "assets/images/product-p33-d1.jpg,assets/images/product-p33-d2.jpg,assets/images/product-p33-d3.jpg,assets/images/product-p33-d4.jpg,assets/images/product-p33-d5.jpg,assets/images/product-p33-d6.jpg,assets/images/product-p33-d7.jpg,assets/images/product-p33-d8.jpg,assets/images/product-p33-d9.jpg,assets/images/product-p33-d10.jpg",
-        "price": 15.27,
+        "price": 15.5,
         "term": "EXW",
         "unit": "pcs",
         "moq": 40,
@@ -1756,7 +1770,7 @@
           {
             "name": "Color",
             "options": [
-              "Yellow"
+              "KM-1878-Yellow"
             ]
           }
         ],
@@ -1768,9 +1782,9 @@
         "name": "KM-1883 Electric Hair Clipper 9000RPM Ceramic Blade for Barbershop",
         "category": "hair-clipper",
         "image": "assets/images/product-p34-main.jpg",
-        "gallery": "assets/images/product-p34-g1.jpg,assets/images/product-p34-g2.jpg,assets/images/product-p34-g3.jpg,assets/images/product-p34-g4.jpg,assets/images/product-p34-g5.jpg,assets/images/product-p34-g6.jpg,assets/images/product-p34-g7.jpg,assets/images/product-p34-g8.jpg,assets/images/product-p34-g9.jpg",
+        "gallery": "assets/images/product-p34-g1.jpg,assets/images/product-p34-g2.jpg,assets/images/product-p34-g3.jpg,assets/images/product-p34-g4.jpg,assets/images/product-p34-g5.jpg,assets/images/product-p34-g6.jpg,assets/images/product-p34-g7.jpg,assets/images/product-p34-g8.jpg,assets/images/product-p34-g9.jpg,assets/images/product-p34-g10.jpg",
         "detailImages": "assets/images/product-p34-d1.jpg,assets/images/product-p34-d2.jpg,assets/images/product-p34-d3.jpg,assets/images/product-p34-d4.jpg,assets/images/product-p34-d5.jpg,assets/images/product-p34-d6.jpg,assets/images/product-p34-d7.jpg,assets/images/product-p34-d8.jpg,assets/images/product-p34-d9.jpg,assets/images/product-p34-d10.jpg,assets/images/product-p34-d11.jpg,assets/images/product-p34-d12.jpg,assets/images/product-p34-d13.jpg",
-        "price": 21.55,
+        "price": 21.5,
         "term": "EXW",
         "unit": "pcs",
         "moq": 24,
@@ -1811,9 +1825,9 @@
         "name": "KM-1911 Electric Hair Clipper 8000RPM USB Charging for Barbershop",
         "category": "hair-clipper",
         "image": "assets/images/product-p35-main.jpg",
-        "gallery": "assets/images/product-p35-g1.jpg,assets/images/product-p35-g2.jpg,assets/images/product-p35-g3.jpg,assets/images/product-p35-g4.jpg,assets/images/product-p35-g5.jpg,assets/images/product-p35-g6.jpg,assets/images/product-p35-g7.jpg,assets/images/product-p35-g8.jpg,assets/images/product-p35-g9.jpg",
+        "gallery": "assets/images/product-p35-g1.jpg,assets/images/product-p35-g2.jpg,assets/images/product-p35-g3.jpg,assets/images/product-p35-g4.jpg,assets/images/product-p35-g5.jpg,assets/images/product-p35-g6.jpg,assets/images/product-p35-g7.jpg,assets/images/product-p35-g8.jpg,assets/images/product-p35-g9.jpg,assets/images/product-p35-g10.jpg,assets/images/product-p35-g11.jpg",
         "detailImages": "assets/images/product-p35-d1.jpg,assets/images/product-p35-d2.jpg,assets/images/product-p35-d3.jpg,assets/images/product-p35-d4.jpg,assets/images/product-p35-d5.jpg,assets/images/product-p35-d6.jpg,assets/images/product-p35-d7.jpg,assets/images/product-p35-d8.jpg,assets/images/product-p35-d9.jpg,assets/images/product-p35-d10.jpg",
-        "price": 23.13,
+        "price": 23.0,
         "term": "EXW",
         "unit": "pcs",
         "moq": 20,
@@ -1850,8 +1864,8 @@
           {
             "name": "Color",
             "options": [
-              "Blue",
-              "Gold"
+              "KM-1911-Blue",
+              "KM-1911-Gold"
             ]
           }
         ],
@@ -1863,9 +1877,9 @@
         "name": "KM-1912 Electric Hair Clipper 8000RPM USB Charging for Barbershop",
         "category": "hair-clipper",
         "image": "assets/images/product-p36-main.jpg",
-        "gallery": "assets/images/product-p36-g1.jpg,assets/images/product-p36-g2.jpg,assets/images/product-p36-g3.jpg,assets/images/product-p36-g4.jpg,assets/images/product-p36-g5.jpg,assets/images/product-p36-g6.jpg,assets/images/product-p36-g7.jpg,assets/images/product-p36-g8.jpg,assets/images/product-p36-g9.jpg",
+        "gallery": "assets/images/product-p36-g1.jpg,assets/images/product-p36-g2.jpg,assets/images/product-p36-g3.jpg,assets/images/product-p36-g4.jpg,assets/images/product-p36-g5.jpg,assets/images/product-p36-g6.jpg,assets/images/product-p36-g7.jpg,assets/images/product-p36-g8.jpg,assets/images/product-p36-g9.jpg,assets/images/product-p36-g10.jpg",
         "detailImages": "assets/images/product-p36-d1.jpg,assets/images/product-p36-d2.jpg,assets/images/product-p36-d3.jpg,assets/images/product-p36-d4.jpg,assets/images/product-p36-d5.jpg,assets/images/product-p36-d6.jpg,assets/images/product-p36-d7.jpg,assets/images/product-p36-d8.jpg,assets/images/product-p36-d9.jpg,assets/images/product-p36-d10.jpg,assets/images/product-p36-d11.jpg",
-        "price": 19.76,
+        "price": 19.8,
         "term": "EXW",
         "unit": "pcs",
         "moq": 20,
@@ -1902,8 +1916,8 @@
           {
             "name": "Color",
             "options": [
-              "Blue",
-              "Gold"
+              "KM-1912-Blue",
+              "KM-1912-Gold"
             ]
           }
         ],
@@ -1915,9 +1929,9 @@
         "name": "KM-1920 Electric Hair Clipper 9000RPM Type-C Charging Ceramic Blade for Barbershop",
         "category": "hair-clipper",
         "image": "assets/images/product-p37-main.jpg",
-        "gallery": "assets/images/product-p37-g1.jpg,assets/images/product-p37-g2.jpg,assets/images/product-p37-g3.jpg,assets/images/product-p37-g4.jpg,assets/images/product-p37-g5.jpg,assets/images/product-p37-g6.jpg",
+        "gallery": "assets/images/product-p37-g1.jpg,assets/images/product-p37-g2.jpg,assets/images/product-p37-g3.jpg,assets/images/product-p37-g4.jpg,assets/images/product-p37-g5.jpg,assets/images/product-p37-g6.jpg,assets/images/product-p37-g7.jpg",
         "detailImages": "assets/images/product-p37-d1.jpg,assets/images/product-p37-d2.jpg,assets/images/product-p37-d3.jpg,assets/images/product-p37-d4.jpg,assets/images/product-p37-d5.jpg,assets/images/product-p37-d6.jpg,assets/images/product-p37-d7.jpg,assets/images/product-p37-d8.jpg,assets/images/product-p37-d9.jpg,assets/images/product-p37-d10.jpg,assets/images/product-p37-d11.jpg,assets/images/product-p37-d12.jpg,assets/images/product-p37-d13.jpg",
-        "price": 33.45,
+        "price": 33.5,
         "term": "EXW",
         "unit": "pcs",
         "moq": 20,
@@ -1958,9 +1972,9 @@
         "name": "KM-1921 Electric Hair Clipper 9000RPM USB Charging for Barbershop",
         "category": "hair-clipper",
         "image": "assets/images/product-p38-main.jpg",
-        "gallery": "assets/images/product-p38-g1.jpg,assets/images/product-p38-g2.jpg,assets/images/product-p38-g3.jpg,assets/images/product-p38-g4.jpg,assets/images/product-p38-g5.jpg,assets/images/product-p38-g6.jpg",
+        "gallery": "assets/images/product-p38-g1.jpg,assets/images/product-p38-g2.jpg,assets/images/product-p38-g3.jpg,assets/images/product-p38-g4.jpg,assets/images/product-p38-g5.jpg,assets/images/product-p38-g6.jpg,assets/images/product-p38-g7.jpg",
         "detailImages": "assets/images/product-p38-d1.jpg,assets/images/product-p38-d2.jpg,assets/images/product-p38-d3.jpg,assets/images/product-p38-d4.jpg,assets/images/product-p38-d5.jpg,assets/images/product-p38-d6.jpg,assets/images/product-p38-d7.jpg,assets/images/product-p38-d8.jpg,assets/images/product-p38-d9.jpg,assets/images/product-p38-d10.jpg,assets/images/product-p38-d11.jpg",
-        "price": 30.98,
+        "price": 31.0,
         "term": "EXW",
         "unit": "pcs",
         "moq": 20,
@@ -2003,7 +2017,7 @@
         "image": "assets/images/product-p39-main.jpg",
         "gallery": "assets/images/product-p39-g1.jpg,assets/images/product-p39-g2.jpg,assets/images/product-p39-g3.jpg,assets/images/product-p39-g4.jpg,assets/images/product-p39-g5.jpg,assets/images/product-p39-g6.jpg,assets/images/product-p39-g7.jpg,assets/images/product-p39-g8.jpg",
         "detailImages": "assets/images/product-p39-d1.jpg,assets/images/product-p39-d2.jpg,assets/images/product-p39-d3.jpg,assets/images/product-p39-d4.jpg,assets/images/product-p39-d5.jpg,assets/images/product-p39-d6.jpg,assets/images/product-p39-d7.jpg,assets/images/product-p39-d8.jpg,assets/images/product-p39-d9.jpg,assets/images/product-p39-d10.jpg,assets/images/product-p39-d11.jpg",
-        "price": 24.7,
+        "price": 24.8,
         "term": "EXW",
         "unit": "pcs",
         "moq": 20,
@@ -2046,7 +2060,7 @@
         "image": "assets/images/product-p40-main.jpg",
         "gallery": "assets/images/product-p40-g1.jpg,assets/images/product-p40-g2.jpg,assets/images/product-p40-g3.jpg,assets/images/product-p40-g4.jpg,assets/images/product-p40-g5.jpg,assets/images/product-p40-g6.jpg,assets/images/product-p40-g7.jpg,assets/images/product-p40-g8.jpg,assets/images/product-p40-g9.jpg,assets/images/product-p40-g10.jpg,assets/images/product-p40-g11.jpg",
         "detailImages": "assets/images/product-p40-d1.jpg,assets/images/product-p40-d2.jpg,assets/images/product-p40-d3.jpg,assets/images/product-p40-d4.jpg,assets/images/product-p40-d5.jpg,assets/images/product-p40-d6.jpg,assets/images/product-p40-d7.jpg,assets/images/product-p40-d8.jpg,assets/images/product-p40-d9.jpg,assets/images/product-p40-d10.jpg,assets/images/product-p40-d11.jpg,assets/images/product-p40-d12.jpg,assets/images/product-p40-d13.jpg,assets/images/product-p40-d14.jpg",
-        "price": 22.9,
+        "price": 23.0,
         "term": "EXW",
         "unit": "pcs",
         "moq": 40,
@@ -2083,9 +2097,9 @@
           {
             "name": "Color",
             "options": [
-              "Green",
-              "Pink",
-              "Yellow"
+              "KM-1960-Green",
+              "KM-1960-Pink",
+              "KM-1960-Yellow"
             ]
           }
         ],
@@ -2099,7 +2113,7 @@
         "image": "assets/images/product-p41-main.jpg",
         "gallery": "assets/images/product-p41-g1.jpg,assets/images/product-p41-g2.jpg,assets/images/product-p41-g3.jpg,assets/images/product-p41-g4.jpg,assets/images/product-p41-g5.jpg,assets/images/product-p41-g6.jpg,assets/images/product-p41-g7.jpg,assets/images/product-p41-g8.jpg,assets/images/product-p41-g9.jpg,assets/images/product-p41-g10.jpg,assets/images/product-p41-g11.jpg",
         "detailImages": "assets/images/product-p41-d1.jpg,assets/images/product-p41-d2.jpg,assets/images/product-p41-d3.jpg,assets/images/product-p41-d4.jpg,assets/images/product-p41-d5.jpg,assets/images/product-p41-d6.jpg,assets/images/product-p41-d7.jpg,assets/images/product-p41-d8.jpg,assets/images/product-p41-d9.jpg,assets/images/product-p41-d10.jpg,assets/images/product-p41-d11.jpg,assets/images/product-p41-d12.jpg",
-        "price": 16.39,
+        "price": 16.5,
         "term": "EXW",
         "unit": "pcs",
         "moq": 20,
@@ -2136,9 +2150,9 @@
           {
             "name": "Color",
             "options": [
-              "Green",
-              "Pink",
-              "Yellow"
+              "KM-1961-Green",
+              "KM-1961-Pink",
+              "KM-1961-Yellow"
             ]
           }
         ],
@@ -2152,7 +2166,7 @@
         "image": "assets/images/product-p42-main.jpg",
         "gallery": "assets/images/product-p42-g1.jpg,assets/images/product-p42-g2.jpg,assets/images/product-p42-g3.jpg,assets/images/product-p42-g4.jpg,assets/images/product-p42-g5.jpg,assets/images/product-p42-g6.jpg",
         "detailImages": "assets/images/product-p42-d1.jpg,assets/images/product-p42-d2.jpg,assets/images/product-p42-d3.jpg,assets/images/product-p42-d4.jpg,assets/images/product-p42-d5.jpg,assets/images/product-p42-d6.jpg,assets/images/product-p42-d7.jpg,assets/images/product-p42-d8.jpg,assets/images/product-p42-d9.jpg,assets/images/product-p42-d10.jpg",
-        "price": 18.19,
+        "price": 18.0,
         "term": "EXW",
         "unit": "pcs",
         "moq": 20,
@@ -2189,7 +2203,7 @@
           {
             "name": "Color",
             "options": [
-              "Gold"
+              "KM-1976-Gold"
             ]
           }
         ],
@@ -2201,9 +2215,9 @@
         "name": "KM-1977 Electric Hair Clipper 7000RPM Type-C Charging for Barbershop",
         "category": "hair-clipper",
         "image": "assets/images/product-p43-main.jpg",
-        "gallery": "assets/images/product-p43-g1.jpg,assets/images/product-p43-g2.jpg,assets/images/product-p43-g3.jpg,assets/images/product-p43-g4.jpg,assets/images/product-p43-g5.jpg,assets/images/product-p43-g6.jpg",
+        "gallery": "assets/images/product-p43-g1.jpg,assets/images/product-p43-g2.jpg,assets/images/product-p43-g3.jpg,assets/images/product-p43-g4.jpg,assets/images/product-p43-g5.jpg,assets/images/product-p43-g6.jpg,assets/images/product-p43-g7.jpg",
         "detailImages": "assets/images/product-p43-d1.jpg,assets/images/product-p43-d2.jpg,assets/images/product-p43-d3.jpg,assets/images/product-p43-d4.jpg,assets/images/product-p43-d5.jpg,assets/images/product-p43-d6.jpg,assets/images/product-p43-d7.jpg,assets/images/product-p43-d8.jpg,assets/images/product-p43-d9.jpg,assets/images/product-p43-d10.jpg",
-        "price": 18.19,
+        "price": 18.0,
         "term": "EXW",
         "unit": "pcs",
         "moq": 20,
@@ -2240,7 +2254,7 @@
           {
             "name": "Color",
             "options": [
-              "Silver"
+              "KM-1977-Silver"
             ]
           }
         ],
@@ -2252,9 +2266,9 @@
         "name": "KM-1984 Electric Hair Clipper Cordless Rechargeable for Barbershop",
         "category": "hair-clipper",
         "image": "assets/images/product-p44-main.jpg",
-        "gallery": "assets/images/product-p44-g1.jpg,assets/images/product-p44-g2.jpg,assets/images/product-p44-g3.jpg,assets/images/product-p44-g4.jpg,assets/images/product-p44-g5.jpg,assets/images/product-p44-g6.jpg,assets/images/product-p44-g7.jpg,assets/images/product-p44-g8.jpg,assets/images/product-p44-g9.jpg,assets/images/product-p44-g10.jpg",
+        "gallery": "assets/images/product-p44-g1.jpg,assets/images/product-p44-g2.jpg,assets/images/product-p44-g3.jpg,assets/images/product-p44-g4.jpg,assets/images/product-p44-g5.jpg,assets/images/product-p44-g6.jpg,assets/images/product-p44-g7.jpg,assets/images/product-p44-g8.jpg,assets/images/product-p44-g9.jpg,assets/images/product-p44-g10.jpg,assets/images/product-p44-g11.jpg",
         "detailImages": "assets/images/product-p44-d1.jpg,assets/images/product-p44-d2.jpg,assets/images/product-p44-d3.jpg,assets/images/product-p44-d4.jpg,assets/images/product-p44-d5.jpg,assets/images/product-p44-d6.jpg,assets/images/product-p44-d7.jpg,assets/images/product-p44-d8.jpg,assets/images/product-p44-d9.jpg,assets/images/product-p44-d10.jpg,assets/images/product-p44-d11.jpg,assets/images/product-p44-d12.jpg,assets/images/product-p44-d13.jpg,assets/images/product-p44-d14.jpg,assets/images/product-p44-d15.jpg,assets/images/product-p44-d16.jpg,assets/images/product-p44-d17.jpg,assets/images/product-p44-d18.jpg,assets/images/product-p44-d19.jpg,assets/images/product-p44-d20.jpg,assets/images/product-p44-d21.jpg,assets/images/product-p44-d22.jpg",
-        "price": 20.21,
+        "price": 20.0,
         "term": "EXW",
         "unit": "pcs",
         "moq": 200,
@@ -2290,7 +2304,7 @@
           {
             "name": "Color",
             "options": [
-              "Gold"
+              "KM-1984-Gold"
             ]
           }
         ],
@@ -2304,7 +2318,7 @@
         "image": "assets/images/product-p45-main.jpg",
         "gallery": "assets/images/product-p45-g1.jpg,assets/images/product-p45-g2.jpg,assets/images/product-p45-g3.jpg",
         "detailImages": "assets/images/product-p45-d1.jpg",
-        "price": 20.21,
+        "price": 20.0,
         "term": "EXW",
         "unit": "pcs",
         "moq": 200,
@@ -2340,8 +2354,8 @@
           {
             "name": "Color",
             "options": [
-              "Gold",
-              "Silver"
+              "KM-1986-Gold",
+              "KM-1986-Silver"
             ]
           }
         ],
@@ -2355,7 +2369,7 @@
         "image": "assets/images/product-p46-main.jpg",
         "gallery": "assets/images/product-p46-g1.jpg,assets/images/product-p46-g2.jpg,assets/images/product-p46-g3.jpg,assets/images/product-p46-g4.jpg,assets/images/product-p46-g5.jpg,assets/images/product-p46-g6.jpg,assets/images/product-p46-g7.jpg,assets/images/product-p46-g8.jpg,assets/images/product-p46-g9.jpg,assets/images/product-p46-g10.jpg,assets/images/product-p46-g11.jpg,assets/images/product-p46-g12.jpg,assets/images/product-p46-g13.jpg",
         "detailImages": "assets/images/product-p46-d1.jpg,assets/images/product-p46-d2.jpg,assets/images/product-p46-d3.jpg,assets/images/product-p46-d4.jpg,assets/images/product-p46-d5.jpg,assets/images/product-p46-d6.jpg,assets/images/product-p46-d7.jpg,assets/images/product-p46-d8.jpg,assets/images/product-p46-d9.jpg,assets/images/product-p46-d10.jpg,assets/images/product-p46-d11.jpg,assets/images/product-p46-d12.jpg,assets/images/product-p46-d13.jpg,assets/images/product-p46-d14.jpg,assets/images/product-p46-d15.jpg",
-        "price": 18.19,
+        "price": 18.0,
         "term": "EXW",
         "unit": "pcs",
         "moq": 20,
@@ -2392,7 +2406,7 @@
           {
             "name": "Color",
             "options": [
-              "Gold"
+              "KM-1987-Gold"
             ]
           }
         ],
@@ -2404,9 +2418,9 @@
         "name": "KM-2121 Electric Hair Clipper 9000RPM Cordless Type-C Charging USB Charging for Barbershop",
         "category": "hair-clipper",
         "image": "assets/images/product-p47-main.jpg",
-        "gallery": "assets/images/product-p47-g1.jpg,assets/images/product-p47-g2.jpg,assets/images/product-p47-g3.jpg,assets/images/product-p47-g4.jpg,assets/images/product-p47-g5.jpg,assets/images/product-p47-g6.jpg,assets/images/product-p47-g7.jpg",
+        "gallery": "assets/images/product-p47-g1.jpg,assets/images/product-p47-g2.jpg,assets/images/product-p47-g3.jpg,assets/images/product-p47-g4.jpg,assets/images/product-p47-g5.jpg,assets/images/product-p47-g6.jpg,assets/images/product-p47-g7.jpg,assets/images/product-p47-g8.jpg",
         "detailImages": "assets/images/product-p47-d1.jpg,assets/images/product-p47-d2.jpg,assets/images/product-p47-d3.jpg,assets/images/product-p47-d4.jpg,assets/images/product-p47-d5.jpg,assets/images/product-p47-d6.jpg,assets/images/product-p47-d7.jpg,assets/images/product-p47-d8.jpg,assets/images/product-p47-d9.jpg,assets/images/product-p47-d10.jpg",
-        "price": 20.66,
+        "price": 20.8,
         "term": "EXW",
         "unit": "pcs",
         "moq": 16,
@@ -2443,8 +2457,8 @@
           {
             "name": "Color",
             "options": [
-              "Pink",
-              "Black"
+              "KM-2121-Pink",
+              "KM-2121-Black"
             ]
           }
         ],
@@ -2456,9 +2470,9 @@
         "name": "KM-2150 Electric Hair Clipper 6000RPM Cordless USB Charging for Barbershop",
         "category": "hair-clipper",
         "image": "assets/images/product-p48-main.jpg",
-        "gallery": "assets/images/product-p48-g1.jpg,assets/images/product-p48-g2.jpg,assets/images/product-p48-g3.jpg,assets/images/product-p48-g4.jpg,assets/images/product-p48-g5.jpg,assets/images/product-p48-g6.jpg,assets/images/product-p48-g7.jpg,assets/images/product-p48-g8.jpg,assets/images/product-p48-g9.jpg,assets/images/product-p48-g10.jpg,assets/images/product-p48-g11.jpg",
+        "gallery": "assets/images/product-p48-g1.jpg,assets/images/product-p48-g2.jpg,assets/images/product-p48-g3.jpg,assets/images/product-p48-g4.jpg,assets/images/product-p48-g5.jpg,assets/images/product-p48-g6.jpg,assets/images/product-p48-g7.jpg,assets/images/product-p48-g8.jpg,assets/images/product-p48-g9.jpg,assets/images/product-p48-g10.jpg,assets/images/product-p48-g11.jpg,assets/images/product-p48-g12.jpg",
         "detailImages": "assets/images/product-p48-d1.jpg,assets/images/product-p48-d2.jpg,assets/images/product-p48-d3.jpg,assets/images/product-p48-d4.jpg,assets/images/product-p48-d5.jpg,assets/images/product-p48-d6.jpg,assets/images/product-p48-d7.jpg,assets/images/product-p48-d8.jpg,assets/images/product-p48-d9.jpg,assets/images/product-p48-d10.jpg,assets/images/product-p48-d11.jpg,assets/images/product-p48-d12.jpg",
-        "price": 8.31,
+        "price": 8.5,
         "term": "EXW",
         "unit": "pcs",
         "moq": 40,
@@ -2499,9 +2513,9 @@
         "name": "KM-2151 Electric Hair Clipper Cordless USB Charging for Barbershop",
         "category": "hair-clipper",
         "image": "assets/images/product-p49-main.jpg",
-        "gallery": "assets/images/product-p49-g1.jpg,assets/images/product-p49-g2.jpg,assets/images/product-p49-g3.jpg,assets/images/product-p49-g4.jpg,assets/images/product-p49-g5.jpg,assets/images/product-p49-g6.jpg,assets/images/product-p49-g7.jpg,assets/images/product-p49-g8.jpg,assets/images/product-p49-g9.jpg",
+        "gallery": "assets/images/product-p49-g1.jpg,assets/images/product-p49-g2.jpg,assets/images/product-p49-g3.jpg,assets/images/product-p49-g4.jpg,assets/images/product-p49-g5.jpg,assets/images/product-p49-g6.jpg,assets/images/product-p49-g7.jpg,assets/images/product-p49-g8.jpg,assets/images/product-p49-g9.jpg,assets/images/product-p49-g10.jpg",
         "detailImages": "assets/images/product-p49-d1.jpg,assets/images/product-p49-d2.jpg,assets/images/product-p49-d3.jpg,assets/images/product-p49-d4.jpg,assets/images/product-p49-d5.jpg,assets/images/product-p49-d6.jpg,assets/images/product-p49-d7.jpg,assets/images/product-p49-d8.jpg,assets/images/product-p49-d9.jpg,assets/images/product-p49-d10.jpg,assets/images/product-p49-d11.jpg",
-        "price": 8.08,
+        "price": 8.0,
         "term": "EXW",
         "unit": "pcs",
         "moq": 40,
@@ -2538,7 +2552,7 @@
           {
             "name": "Color",
             "options": [
-              "Black"
+              "KM-2151-Black"
             ]
           }
         ],
@@ -2550,7 +2564,7 @@
         "name": "KM-2153 Electric Hair Clipper 7000RPM Cordless Type-C Charging USB Charging for Barbershop",
         "category": "hair-clipper",
         "image": "assets/images/product-p50-main.jpg",
-        "gallery": "assets/images/product-p50-g1.jpg,assets/images/product-p50-g2.jpg,assets/images/product-p50-g3.jpg,assets/images/product-p50-g4.jpg,assets/images/product-p50-g5.jpg,assets/images/product-p50-g6.jpg,assets/images/product-p50-g7.jpg,assets/images/product-p50-g8.jpg,assets/images/product-p50-g9.jpg,assets/images/product-p50-g10.jpg",
+        "gallery": "assets/images/product-p50-g1.jpg,assets/images/product-p50-g2.jpg,assets/images/product-p50-g3.jpg,assets/images/product-p50-g4.jpg,assets/images/product-p50-g5.jpg,assets/images/product-p50-g6.jpg,assets/images/product-p50-g7.jpg,assets/images/product-p50-g8.jpg,assets/images/product-p50-g9.jpg,assets/images/product-p50-g10.jpg,assets/images/product-p50-g11.jpg",
         "detailImages": "assets/images/product-p50-d1.jpg,assets/images/product-p50-d2.jpg,assets/images/product-p50-d3.jpg,assets/images/product-p50-d4.jpg,assets/images/product-p50-d5.jpg,assets/images/product-p50-d6.jpg,assets/images/product-p50-d7.jpg,assets/images/product-p50-d8.jpg,assets/images/product-p50-d9.jpg,assets/images/product-p50-d10.jpg,assets/images/product-p50-d11.jpg",
         "price": 12.8,
         "term": "EXW",
@@ -2589,9 +2603,9 @@
           {
             "name": "Color",
             "options": [
-              "Black",
-              "Yellow",
-              "Gray"
+              "KM-2153-Black",
+              "KM-2153-Yellow",
+              "KM-2153-Gray"
             ]
           }
         ],
@@ -2603,9 +2617,9 @@
         "name": "KM-2159 Electric Hair Clipper 7500RPM Cordless Type-C Charging Ceramic Blade for Barbershop",
         "category": "hair-clipper",
         "image": "assets/images/product-p51-main.jpg",
-        "gallery": "assets/images/product-p51-g1.jpg,assets/images/product-p51-g2.jpg,assets/images/product-p51-g3.jpg,assets/images/product-p51-g4.jpg,assets/images/product-p51-g5.jpg,assets/images/product-p51-g6.jpg,assets/images/product-p51-g7.jpg,assets/images/product-p51-g8.jpg,assets/images/product-p51-g9.jpg",
+        "gallery": "assets/images/product-p51-g1.jpg,assets/images/product-p51-g2.jpg,assets/images/product-p51-g3.jpg,assets/images/product-p51-g4.jpg,assets/images/product-p51-g5.jpg,assets/images/product-p51-g6.jpg,assets/images/product-p51-g7.jpg,assets/images/product-p51-g8.jpg,assets/images/product-p51-g9.jpg,assets/images/product-p51-g10.jpg",
         "detailImages": "assets/images/product-p51-d1.jpg,assets/images/product-p51-d2.jpg,assets/images/product-p51-d3.jpg,assets/images/product-p51-d4.jpg,assets/images/product-p51-d5.jpg,assets/images/product-p51-d6.jpg,assets/images/product-p51-d7.jpg,assets/images/product-p51-d8.jpg,assets/images/product-p51-d9.jpg,assets/images/product-p51-d10.jpg,assets/images/product-p51-d11.jpg,assets/images/product-p51-d12.jpg",
-        "price": 13.02,
+        "price": 13.0,
         "term": "EXW",
         "unit": "pcs",
         "moq": 40,
@@ -2646,9 +2660,9 @@
         "name": "KM-2160 Electric Hair Clipper 8000RPM Cordless Ceramic Blade for Barbershop",
         "category": "hair-clipper",
         "image": "assets/images/product-p52-main.jpg",
-        "gallery": "assets/images/product-p52-g1.jpg,assets/images/product-p52-g2.jpg,assets/images/product-p52-g3.jpg,assets/images/product-p52-g4.jpg,assets/images/product-p52-g5.jpg,assets/images/product-p52-g6.jpg,assets/images/product-p52-g7.jpg,assets/images/product-p52-g8.jpg,assets/images/product-p52-g9.jpg",
+        "gallery": "assets/images/product-p52-g1.jpg,assets/images/product-p52-g2.jpg,assets/images/product-p52-g3.jpg,assets/images/product-p52-g4.jpg,assets/images/product-p52-g5.jpg,assets/images/product-p52-g6.jpg,assets/images/product-p52-g7.jpg,assets/images/product-p52-g8.jpg,assets/images/product-p52-g9.jpg,assets/images/product-p52-g10.jpg",
         "detailImages": "assets/images/product-p52-d1.jpg,assets/images/product-p52-d2.jpg,assets/images/product-p52-d3.jpg,assets/images/product-p52-d4.jpg,assets/images/product-p52-d5.jpg,assets/images/product-p52-d6.jpg,assets/images/product-p52-d7.jpg,assets/images/product-p52-d8.jpg,assets/images/product-p52-d9.jpg,assets/images/product-p52-d10.jpg,assets/images/product-p52-d11.jpg,assets/images/product-p52-d12.jpg,assets/images/product-p52-d13.jpg",
-        "price": 15.72,
+        "price": 15.8,
         "term": "EXW",
         "unit": "pcs",
         "moq": 40,
@@ -2689,9 +2703,9 @@
         "name": "KM-2230 Electric Hair Clipper Cordless USB Charging for Barbershop",
         "category": "hair-clipper",
         "image": "assets/images/product-p53-main.jpg",
-        "gallery": "assets/images/product-p53-g1.jpg,assets/images/product-p53-g2.jpg,assets/images/product-p53-g3.jpg,assets/images/product-p53-g4.jpg,assets/images/product-p53-g5.jpg,assets/images/product-p53-g6.jpg",
+        "gallery": "assets/images/product-p53-g1.jpg,assets/images/product-p53-g2.jpg,assets/images/product-p53-g3.jpg,assets/images/product-p53-g4.jpg,assets/images/product-p53-g5.jpg,assets/images/product-p53-g6.jpg,assets/images/product-p53-g7.jpg,assets/images/product-p53-g8.jpg",
         "detailImages": "assets/images/product-p53-d1.jpg,assets/images/product-p53-d2.jpg,assets/images/product-p53-d3.jpg,assets/images/product-p53-d4.jpg,assets/images/product-p53-d5.jpg,assets/images/product-p53-d6.jpg,assets/images/product-p53-d7.jpg,assets/images/product-p53-d8.jpg,assets/images/product-p53-d9.jpg,assets/images/product-p53-d10.jpg",
-        "price": 28.74,
+        "price": 28.8,
         "term": "EXW",
         "unit": "pcs",
         "moq": 200,
@@ -2727,8 +2741,8 @@
           {
             "name": "Color",
             "options": [
-              "Gold",
-              "Silver"
+              "KM-2230-Gold",
+              "KM-2230-Silver"
             ]
           }
         ],
@@ -2742,7 +2756,7 @@
         "image": "assets/images/product-p54-main.jpg",
         "gallery": "assets/images/product-p54-g1.jpg,assets/images/product-p54-g2.jpg,assets/images/product-p54-g3.jpg,assets/images/product-p54-g4.jpg,assets/images/product-p54-g5.jpg,assets/images/product-p54-g6.jpg",
         "detailImages": "assets/images/product-p54-d1.jpg,assets/images/product-p54-d2.jpg,assets/images/product-p54-d3.jpg,assets/images/product-p54-d4.jpg,assets/images/product-p54-d5.jpg,assets/images/product-p54-d6.jpg,assets/images/product-p54-d7.jpg,assets/images/product-p54-d8.jpg,assets/images/product-p54-d9.jpg,assets/images/product-p54-d10.jpg",
-        "price": 56.58,
+        "price": 56.5,
         "term": "EXW",
         "unit": "pcs",
         "moq": 24,
@@ -2785,7 +2799,7 @@
         "image": "assets/images/product-p55-main.jpg",
         "gallery": "assets/images/product-p55-g1.jpg,assets/images/product-p55-g2.jpg,assets/images/product-p55-g3.jpg,assets/images/product-p55-g4.jpg,assets/images/product-p55-g5.jpg",
         "detailImages": "assets/images/product-p55-d1.jpg,assets/images/product-p55-d2.jpg,assets/images/product-p55-d3.jpg,assets/images/product-p55-d4.jpg,assets/images/product-p55-d5.jpg,assets/images/product-p55-d6.jpg,assets/images/product-p55-d7.jpg,assets/images/product-p55-d8.jpg,assets/images/product-p55-d9.jpg",
-        "price": 28.29,
+        "price": 28.5,
         "term": "EXW",
         "unit": "pcs",
         "moq": 200,
@@ -2864,7 +2878,7 @@
           {
             "name": "Color",
             "options": [
-              "Gray"
+              "KM-2288-Gray"
             ]
           }
         ],
@@ -2878,7 +2892,7 @@
         "image": "assets/images/product-p57-main.jpg",
         "gallery": "assets/images/product-p57-g1.jpg,assets/images/product-p57-g2.jpg,assets/images/product-p57-g3.jpg,assets/images/product-p57-g4.jpg,assets/images/product-p57-g5.jpg,assets/images/product-p57-g6.jpg",
         "detailImages": "assets/images/product-p57-d1.jpg,assets/images/product-p57-d2.jpg,assets/images/product-p57-d3.jpg,assets/images/product-p57-d4.jpg,assets/images/product-p57-d5.jpg,assets/images/product-p57-d6.jpg,assets/images/product-p57-d7.jpg,assets/images/product-p57-d8.jpg,assets/images/product-p57-d9.jpg,assets/images/product-p57-d10.jpg",
-        "price": 13.02,
+        "price": 13.0,
         "term": "EXW",
         "unit": "pcs",
         "moq": 40,
@@ -2915,7 +2929,7 @@
           {
             "name": "Color",
             "options": [
-              "Gray"
+              "KM-2289-Gray"
             ]
           }
         ],
@@ -2929,7 +2943,7 @@
         "image": "assets/images/product-p58-main.jpg",
         "gallery": "assets/images/product-p58-g1.jpg,assets/images/product-p58-g2.jpg,assets/images/product-p58-g3.jpg,assets/images/product-p58-g4.jpg,assets/images/product-p58-g5.jpg,assets/images/product-p58-g6.jpg,assets/images/product-p58-g7.jpg",
         "detailImages": "assets/images/product-p58-d1.jpg,assets/images/product-p58-d2.jpg,assets/images/product-p58-d3.jpg,assets/images/product-p58-d4.jpg,assets/images/product-p58-d5.jpg,assets/images/product-p58-d6.jpg,assets/images/product-p58-d7.jpg,assets/images/product-p58-d8.jpg,assets/images/product-p58-d9.jpg,assets/images/product-p58-d10.jpg",
-        "price": 14.59,
+        "price": 14.5,
         "term": "EXW",
         "unit": "pcs",
         "moq": 36,
@@ -2972,7 +2986,7 @@
         "image": "assets/images/product-p59-main.jpg",
         "gallery": "assets/images/product-p59-g1.jpg,assets/images/product-p59-g2.jpg,assets/images/product-p59-g3.jpg,assets/images/product-p59-g4.jpg,assets/images/product-p59-g5.jpg,assets/images/product-p59-g6.jpg",
         "detailImages": "assets/images/product-p59-d1.jpg,assets/images/product-p59-d2.jpg,assets/images/product-p59-d3.jpg,assets/images/product-p59-d4.jpg,assets/images/product-p59-d5.jpg,assets/images/product-p59-d6.jpg,assets/images/product-p59-d7.jpg,assets/images/product-p59-d8.jpg,assets/images/product-p59-d9.jpg,assets/images/product-p59-d10.jpg,assets/images/product-p59-d11.jpg",
-        "price": 23.57,
+        "price": 23.5,
         "term": "EXW",
         "unit": "pcs",
         "moq": 48,
@@ -3009,7 +3023,7 @@
           {
             "name": "Color",
             "options": [
-              "Gold"
+              "KM-2350-Gold"
             ]
           }
         ],
@@ -3023,7 +3037,7 @@
         "image": "assets/images/product-p60-main.jpg",
         "gallery": "assets/images/product-p60-g1.jpg,assets/images/product-p60-g2.jpg,assets/images/product-p60-g3.jpg,assets/images/product-p60-g4.jpg",
         "detailImages": "assets/images/product-p60-d1.jpg,assets/images/product-p60-d2.jpg,assets/images/product-p60-d3.jpg,assets/images/product-p60-d4.jpg,assets/images/product-p60-d5.jpg,assets/images/product-p60-d6.jpg,assets/images/product-p60-d7.jpg,assets/images/product-p60-d8.jpg,assets/images/product-p60-d9.jpg,assets/images/product-p60-d10.jpg,assets/images/product-p60-d11.jpg",
-        "price": 24.7,
+        "price": 24.8,
         "term": "EXW",
         "unit": "pcs",
         "moq": 48,
@@ -3060,7 +3074,7 @@
           {
             "name": "Color",
             "options": [
-              "Black"
+              "KM-2351-Black"
             ]
           }
         ],
@@ -3072,9 +3086,9 @@
         "name": "KM-2374 Electric Hair Clipper 8800RPM Cordless for Barbershop",
         "category": "hair-clipper",
         "image": "assets/images/product-p61-main.jpg",
-        "gallery": "assets/images/product-p61-g1.jpg,assets/images/product-p61-g2.jpg,assets/images/product-p61-g3.jpg,assets/images/product-p61-g4.jpg,assets/images/product-p61-g5.jpg,assets/images/product-p61-g6.jpg,assets/images/product-p61-g7.jpg,assets/images/product-p61-g8.jpg,assets/images/product-p61-g9.jpg",
+        "gallery": "assets/images/product-p61-g1.jpg,assets/images/product-p61-g2.jpg,assets/images/product-p61-g3.jpg,assets/images/product-p61-g4.jpg,assets/images/product-p61-g5.jpg,assets/images/product-p61-g6.jpg,assets/images/product-p61-g7.jpg,assets/images/product-p61-g8.jpg,assets/images/product-p61-g9.jpg,assets/images/product-p61-g10.jpg",
         "detailImages": "assets/images/product-p61-d1.jpg,assets/images/product-p61-d2.jpg,assets/images/product-p61-d3.jpg,assets/images/product-p61-d4.jpg,assets/images/product-p61-d5.jpg,assets/images/product-p61-d6.jpg,assets/images/product-p61-d7.jpg,assets/images/product-p61-d8.jpg,assets/images/product-p61-d9.jpg,assets/images/product-p61-d10.jpg,assets/images/product-p61-d11.jpg,assets/images/product-p61-d12.jpg",
-        "price": 73.87,
+        "price": 73.8,
         "term": "EXW",
         "unit": "pcs",
         "moq": 24,
@@ -3111,7 +3125,7 @@
           {
             "name": "Color",
             "options": [
-              "White"
+              "KM-2374-White"
             ]
           }
         ],
@@ -3123,9 +3137,9 @@
         "name": "KM-2381 Electric Hair Clipper Cordless for Barbershop",
         "category": "hair-clipper",
         "image": "assets/images/product-p62-main.jpg",
-        "gallery": "assets/images/product-p62-g1.jpg,assets/images/product-p62-g2.jpg,assets/images/product-p62-g3.jpg,assets/images/product-p62-g4.jpg,assets/images/product-p62-g5.jpg,assets/images/product-p62-g6.jpg,assets/images/product-p62-g7.jpg,assets/images/product-p62-g8.jpg,assets/images/product-p62-g9.jpg,assets/images/product-p62-g10.jpg",
+        "gallery": "assets/images/product-p62-g1.jpg,assets/images/product-p62-g2.jpg,assets/images/product-p62-g3.jpg,assets/images/product-p62-g4.jpg,assets/images/product-p62-g5.jpg,assets/images/product-p62-g6.jpg,assets/images/product-p62-g7.jpg,assets/images/product-p62-g8.jpg,assets/images/product-p62-g9.jpg,assets/images/product-p62-g10.jpg,assets/images/product-p62-g11.jpg",
         "detailImages": "assets/images/product-p62-d1.jpg,assets/images/product-p62-d2.jpg,assets/images/product-p62-d3.jpg,assets/images/product-p62-d4.jpg,assets/images/product-p62-d5.jpg,assets/images/product-p62-d6.jpg,assets/images/product-p62-d7.jpg,assets/images/product-p62-d8.jpg,assets/images/product-p62-d9.jpg,assets/images/product-p62-d10.jpg,assets/images/product-p62-d11.jpg,assets/images/product-p62-d12.jpg,assets/images/product-p62-d13.jpg",
-        "price": 41.54,
+        "price": 41.5,
         "term": "EXW",
         "unit": "pcs",
         "moq": 24,
@@ -3162,8 +3176,8 @@
           {
             "name": "Color",
             "options": [
-              "Blue",
-              "Silver"
+              "KM-2381-Blue",
+              "KM-2381-Silver"
             ]
           }
         ],
@@ -3177,7 +3191,7 @@
         "image": "assets/images/product-p63-main.jpg",
         "gallery": "assets/images/product-p63-g1.jpg,assets/images/product-p63-g2.jpg,assets/images/product-p63-g3.jpg,assets/images/product-p63-g4.jpg,assets/images/product-p63-g5.jpg,assets/images/product-p63-g6.jpg,assets/images/product-p63-g7.jpg,assets/images/product-p63-g8.jpg,assets/images/product-p63-g9.jpg,assets/images/product-p63-g10.jpg",
         "detailImages": "assets/images/product-p63-d1.jpg,assets/images/product-p63-d2.jpg,assets/images/product-p63-d3.jpg,assets/images/product-p63-d4.jpg,assets/images/product-p63-d5.jpg,assets/images/product-p63-d6.jpg,assets/images/product-p63-d7.jpg,assets/images/product-p63-d8.jpg,assets/images/product-p63-d9.jpg,assets/images/product-p63-d10.jpg,assets/images/product-p63-d11.jpg,assets/images/product-p63-d12.jpg",
-        "price": 28.96,
+        "price": 29.0,
         "term": "EXW",
         "unit": "pcs",
         "moq": 24,
@@ -3214,8 +3228,8 @@
           {
             "name": "Color",
             "options": [
-              "White",
-              "Yellow"
+              "KM-2382-White",
+              "KM-2382-Yellow"
             ]
           }
         ],
@@ -3227,9 +3241,9 @@
         "name": "KM-2383 Electric Hair Clipper 8000RPM Cordless Type-C Charging USB Charging for Barbershop",
         "category": "hair-clipper",
         "image": "assets/images/product-p64-main.jpg",
-        "gallery": "assets/images/product-p64-g1.jpg,assets/images/product-p64-g2.jpg,assets/images/product-p64-g3.jpg,assets/images/product-p64-g4.jpg,assets/images/product-p64-g5.jpg,assets/images/product-p64-g6.jpg,assets/images/product-p64-g7.jpg,assets/images/product-p64-g8.jpg,assets/images/product-p64-g9.jpg",
+        "gallery": "assets/images/product-p64-g1.jpg,assets/images/product-p64-g2.jpg,assets/images/product-p64-g3.jpg,assets/images/product-p64-g4.jpg,assets/images/product-p64-g5.jpg,assets/images/product-p64-g6.jpg,assets/images/product-p64-g7.jpg,assets/images/product-p64-g8.jpg,assets/images/product-p64-g9.jpg,assets/images/product-p64-g10.jpg",
         "detailImages": "assets/images/product-p64-d1.jpg,assets/images/product-p64-d2.jpg,assets/images/product-p64-d3.jpg,assets/images/product-p64-d4.jpg,assets/images/product-p64-d5.jpg,assets/images/product-p64-d6.jpg,assets/images/product-p64-d7.jpg,assets/images/product-p64-d8.jpg,assets/images/product-p64-d9.jpg,assets/images/product-p64-d10.jpg",
-        "price": 24.7,
+        "price": 24.8,
         "term": "EXW",
         "unit": "pcs",
         "moq": 40,
@@ -3266,8 +3280,8 @@
           {
             "name": "Color",
             "options": [
-              "Yellow",
-              "White"
+              "KM-2383-Yellow",
+              "KM-2383-White"
             ]
           }
         ],
@@ -3279,9 +3293,9 @@
         "name": "KM-2384 Electric Hair Clipper Cordless for Barbershop",
         "category": "hair-clipper",
         "image": "assets/images/product-p65-main.jpg",
-        "gallery": "assets/images/product-p65-g1.jpg,assets/images/product-p65-g2.jpg,assets/images/product-p65-g3.jpg,assets/images/product-p65-g4.jpg,assets/images/product-p65-g5.jpg,assets/images/product-p65-g6.jpg,assets/images/product-p65-g7.jpg,assets/images/product-p65-g8.jpg,assets/images/product-p65-g9.jpg,assets/images/product-p65-g10.jpg",
+        "gallery": "assets/images/product-p65-g1.jpg,assets/images/product-p65-g2.jpg,assets/images/product-p65-g3.jpg,assets/images/product-p65-g4.jpg,assets/images/product-p65-g5.jpg,assets/images/product-p65-g6.jpg,assets/images/product-p65-g7.jpg,assets/images/product-p65-g8.jpg,assets/images/product-p65-g9.jpg,assets/images/product-p65-g10.jpg,assets/images/product-p65-g11.jpg",
         "detailImages": "assets/images/product-p65-d1.jpg,assets/images/product-p65-d2.jpg,assets/images/product-p65-d3.jpg,assets/images/product-p65-d4.jpg,assets/images/product-p65-d5.jpg,assets/images/product-p65-d6.jpg,assets/images/product-p65-d7.jpg,assets/images/product-p65-d8.jpg,assets/images/product-p65-d9.jpg,assets/images/product-p65-d10.jpg,assets/images/product-p65-d11.jpg,assets/images/product-p65-d12.jpg",
-        "price": 33.68,
+        "price": 33.8,
         "term": "EXW",
         "unit": "pcs",
         "moq": 24,
@@ -3318,8 +3332,8 @@
           {
             "name": "Color",
             "options": [
-              "Blue",
-              "Gray"
+              "KM-2384-Blue",
+              "KM-2384-Gray"
             ]
           }
         ],
@@ -3331,9 +3345,9 @@
         "name": "KM-5011 Electric Hair Clipper Type-C Charging for Barbershop",
         "category": "hair-clipper",
         "image": "assets/images/product-p66-main.jpg",
-        "gallery": "assets/images/product-p66-g1.jpg,assets/images/product-p66-g2.jpg,assets/images/product-p66-g3.jpg,assets/images/product-p66-g4.jpg,assets/images/product-p66-g5.jpg,assets/images/product-p66-g6.jpg,assets/images/product-p66-g7.jpg,assets/images/product-p66-g8.jpg,assets/images/product-p66-g9.jpg",
+        "gallery": "assets/images/product-p66-g1.jpg,assets/images/product-p66-g2.jpg,assets/images/product-p66-g3.jpg,assets/images/product-p66-g4.jpg,assets/images/product-p66-g5.jpg,assets/images/product-p66-g6.jpg,assets/images/product-p66-g7.jpg,assets/images/product-p66-g8.jpg,assets/images/product-p66-g9.jpg,assets/images/product-p66-g10.jpg",
         "detailImages": "assets/images/product-p66-d1.jpg,assets/images/product-p66-d2.jpg,assets/images/product-p66-d3.jpg,assets/images/product-p66-d4.jpg,assets/images/product-p66-d5.jpg,assets/images/product-p66-d6.jpg,assets/images/product-p66-d7.jpg,assets/images/product-p66-d8.jpg,assets/images/product-p66-d9.jpg,assets/images/product-p66-d10.jpg",
-        "price": 7.63,
+        "price": 7.5,
         "term": "EXW",
         "unit": "pcs",
         "moq": 60,
@@ -3370,8 +3384,8 @@
           {
             "name": "Color",
             "options": [
-              "Black",
-              "Orange"
+              "KM-5011-Black",
+              "KM-5011-Orange"
             ]
           }
         ],
@@ -3383,9 +3397,9 @@
         "name": "KM-5012 Electric Hair Clipper 6000RPM Cordless USB Charging Ceramic Blade for Barbershop",
         "category": "hair-clipper",
         "image": "assets/images/product-p67-main.jpg",
-        "gallery": "assets/images/product-p67-g1.jpg,assets/images/product-p67-g2.jpg,assets/images/product-p67-g3.jpg,assets/images/product-p67-g4.jpg,assets/images/product-p67-g5.jpg,assets/images/product-p67-g6.jpg,assets/images/product-p67-g7.jpg,assets/images/product-p67-g8.jpg,assets/images/product-p67-g9.jpg,assets/images/product-p67-g10.jpg",
+        "gallery": "assets/images/product-p67-g1.jpg,assets/images/product-p67-g2.jpg,assets/images/product-p67-g3.jpg,assets/images/product-p67-g4.jpg,assets/images/product-p67-g5.jpg,assets/images/product-p67-g6.jpg,assets/images/product-p67-g7.jpg,assets/images/product-p67-g8.jpg,assets/images/product-p67-g9.jpg,assets/images/product-p67-g10.jpg,assets/images/product-p67-g11.jpg",
         "detailImages": "assets/images/product-p67-d1.jpg,assets/images/product-p67-d2.jpg,assets/images/product-p67-d3.jpg,assets/images/product-p67-d4.jpg,assets/images/product-p67-d5.jpg,assets/images/product-p67-d6.jpg,assets/images/product-p67-d7.jpg,assets/images/product-p67-d8.jpg,assets/images/product-p67-d9.jpg,assets/images/product-p67-d10.jpg,assets/images/product-p67-d11.jpg,assets/images/product-p67-d12.jpg,assets/images/product-p67-d13.jpg,assets/images/product-p67-d14.jpg,assets/images/product-p67-d15.jpg,assets/images/product-p67-d16.jpg,assets/images/product-p67-d17.jpg,assets/images/product-p67-d18.jpg,assets/images/product-p67-d19.jpg,assets/images/product-p67-d20.jpg,assets/images/product-p67-d21.jpg,assets/images/product-p67-d22.jpg",
-        "price": 9.43,
+        "price": 9.5,
         "term": "EXW",
         "unit": "pcs",
         "moq": 40,
@@ -3422,9 +3436,9 @@
           {
             "name": "Color",
             "options": [
-              "Black",
-              "Gold",
-              "Orange"
+              "KM-5012-Black",
+              "KM-5012-Gold",
+              "KM-5012-Orange"
             ]
           }
         ],
@@ -3438,7 +3452,7 @@
         "image": "assets/images/product-p68-main.jpg",
         "gallery": "assets/images/product-p68-g1.jpg,assets/images/product-p68-g2.jpg,assets/images/product-p68-g3.jpg,assets/images/product-p68-g4.jpg,assets/images/product-p68-g5.jpg,assets/images/product-p68-g6.jpg,assets/images/product-p68-g7.jpg",
         "detailImages": "assets/images/product-p68-d1.jpg,assets/images/product-p68-d2.jpg,assets/images/product-p68-d3.jpg,assets/images/product-p68-d4.jpg,assets/images/product-p68-d5.jpg,assets/images/product-p68-d6.jpg,assets/images/product-p68-d7.jpg,assets/images/product-p68-d8.jpg,assets/images/product-p68-d9.jpg,assets/images/product-p68-d10.jpg",
-        "price": 6.51,
+        "price": 6.5,
         "term": "EXW",
         "unit": "pcs",
         "moq": 60,
@@ -3475,8 +3489,8 @@
           {
             "name": "Color",
             "options": [
-              "Gold",
-              "Black"
+              "KM-510-Gold",
+              "KM-510-Black"
             ]
           }
         ],
@@ -3490,7 +3504,7 @@
         "image": "assets/images/product-p69-main.jpg",
         "gallery": "assets/images/product-p69-g1.jpg,assets/images/product-p69-g2.jpg,assets/images/product-p69-g3.jpg,assets/images/product-p69-g4.jpg,assets/images/product-p69-g5.jpg,assets/images/product-p69-g6.jpg",
         "detailImages": "assets/images/product-p69-d1.jpg,assets/images/product-p69-d2.jpg,assets/images/product-p69-d3.jpg,assets/images/product-p69-d4.jpg,assets/images/product-p69-d5.jpg,assets/images/product-p69-d6.jpg,assets/images/product-p69-d7.jpg,assets/images/product-p69-d8.jpg,assets/images/product-p69-d9.jpg,assets/images/product-p69-d10.jpg,assets/images/product-p69-d11.jpg,assets/images/product-p69-d12.jpg",
-        "price": 9.88,
+        "price": 9.8,
         "term": "EXW",
         "unit": "pcs",
         "moq": 24,
@@ -3527,7 +3541,7 @@
           {
             "name": "Color",
             "options": [
-              "Yellow"
+              "KM-709A-Yellow"
             ]
           }
         ],
@@ -3537,11 +3551,11 @@
       {
         "id": "p70",
         "name": "KM-8551 Electric Hair Clipper 9000RPM USB Charging for Barbershop",
-        "category": "hair-clipper",
+        "category": "gift-set",
         "image": "assets/images/product-p70-main.jpg",
         "gallery": "assets/images/product-p70-g1.jpg,assets/images/product-p70-g2.jpg,assets/images/product-p70-g3.jpg,assets/images/product-p70-g4.jpg,assets/images/product-p70-g5.jpg,assets/images/product-p70-g6.jpg,assets/images/product-p70-g7.jpg,assets/images/product-p70-g8.jpg",
         "detailImages": "assets/images/product-p70-d1.jpg,assets/images/product-p70-d2.jpg,assets/images/product-p70-d3.jpg,assets/images/product-p70-d4.jpg,assets/images/product-p70-d5.jpg,assets/images/product-p70-d6.jpg,assets/images/product-p70-d7.jpg,assets/images/product-p70-d8.jpg,assets/images/product-p70-d9.jpg,assets/images/product-p70-d10.jpg,assets/images/product-p70-d11.jpg",
-        "price": 46.92,
+        "price": 47.0,
         "term": "EXW",
         "unit": "pcs",
         "moq": 16,
@@ -3578,7 +3592,7 @@
           {
             "name": "Color",
             "options": [
-              "Gold"
+              "KM-8551-Gold"
             ]
           }
         ],
@@ -3588,11 +3602,11 @@
       {
         "id": "p71",
         "name": "KM-8567 Electric Hair Clipper 9900RPM USB Charging for Barbershop",
-        "category": "hair-clipper",
+        "category": "gift-set",
         "image": "assets/images/product-p71-main.jpg",
-        "gallery": "assets/images/product-p71-g1.jpg,assets/images/product-p71-g2.jpg,assets/images/product-p71-g3.jpg,assets/images/product-p71-g4.jpg,assets/images/product-p71-g5.jpg,assets/images/product-p71-g6.jpg,assets/images/product-p71-g7.jpg,assets/images/product-p71-g8.jpg,assets/images/product-p71-g9.jpg",
+        "gallery": "assets/images/product-p71-g1.jpg,assets/images/product-p71-g2.jpg,assets/images/product-p71-g3.jpg,assets/images/product-p71-g4.jpg,assets/images/product-p71-g5.jpg,assets/images/product-p71-g6.jpg,assets/images/product-p71-g7.jpg,assets/images/product-p71-g8.jpg,assets/images/product-p71-g9.jpg,assets/images/product-p71-g10.jpg",
         "detailImages": "assets/images/product-p71-d1.jpg,assets/images/product-p71-d2.jpg,assets/images/product-p71-d3.jpg,assets/images/product-p71-d4.jpg,assets/images/product-p71-d5.jpg,assets/images/product-p71-d6.jpg,assets/images/product-p71-d7.jpg,assets/images/product-p71-d8.jpg,assets/images/product-p71-d9.jpg,assets/images/product-p71-d10.jpg,assets/images/product-p71-d11.jpg,assets/images/product-p71-d12.jpg,assets/images/product-p71-d13.jpg,assets/images/product-p71-d14.jpg",
-        "price": 71.85,
+        "price": 71.8,
         "term": "EXW",
         "unit": "pcs",
         "moq": 40,
@@ -3631,11 +3645,11 @@
       {
         "id": "p72",
         "name": "KM-8572 Electric Hair Clipper 8800RPM Low Noise Ionic for Barbershop",
-        "category": "hair-clipper",
+        "category": "gift-set",
         "image": "assets/images/product-p72-main.jpg",
         "gallery": "assets/images/product-p72-g1.jpg,assets/images/product-p72-g2.jpg,assets/images/product-p72-g3.jpg,assets/images/product-p72-g4.jpg,assets/images/product-p72-g5.jpg,assets/images/product-p72-g6.jpg,assets/images/product-p72-g7.jpg,assets/images/product-p72-g8.jpg,assets/images/product-p72-g9.jpg,assets/images/product-p72-g10.jpg,assets/images/product-p72-g11.jpg,assets/images/product-p72-g12.jpg,assets/images/product-p72-g13.jpg,assets/images/product-p72-g14.jpg",
         "detailImages": "assets/images/product-p72-d1.jpg,assets/images/product-p72-d2.jpg,assets/images/product-p72-d3.jpg,assets/images/product-p72-d4.jpg,assets/images/product-p72-d5.jpg,assets/images/product-p72-d6.jpg,assets/images/product-p72-d7.jpg,assets/images/product-p72-d8.jpg,assets/images/product-p72-d9.jpg,assets/images/product-p72-d10.jpg,assets/images/product-p72-d11.jpg,assets/images/product-p72-d12.jpg,assets/images/product-p72-d13.jpg,assets/images/product-p72-d14.jpg,assets/images/product-p72-d15.jpg",
-        "price": 160.53,
+        "price": 160.5,
         "term": "EXW",
         "unit": "pcs",
         "moq": 10,
@@ -3676,9 +3690,9 @@
         "name": "KM-8578 Electric Hair Clipper 8000RPM USB Charging Low Noise Ceramic Blade for Barbershop",
         "category": "hair-clipper",
         "image": "assets/images/product-p73-main.jpg",
-        "gallery": "assets/images/product-p73-g1.jpg,assets/images/product-p73-g2.jpg,assets/images/product-p73-g3.jpg,assets/images/product-p73-g4.jpg,assets/images/product-p73-g5.jpg,assets/images/product-p73-g6.jpg,assets/images/product-p73-g7.jpg,assets/images/product-p73-g8.jpg,assets/images/product-p73-g9.jpg,assets/images/product-p73-g10.jpg",
+        "gallery": "assets/images/product-p73-g1.jpg,assets/images/product-p73-g2.jpg,assets/images/product-p73-g3.jpg,assets/images/product-p73-g4.jpg,assets/images/product-p73-g5.jpg,assets/images/product-p73-g6.jpg,assets/images/product-p73-g7.jpg,assets/images/product-p73-g8.jpg,assets/images/product-p73-g9.jpg,assets/images/product-p73-g10.jpg,assets/images/product-p73-g11.jpg",
         "detailImages": "assets/images/product-p73-d1.jpg,assets/images/product-p73-d2.jpg,assets/images/product-p73-d3.jpg,assets/images/product-p73-d4.jpg,assets/images/product-p73-d5.jpg,assets/images/product-p73-d6.jpg,assets/images/product-p73-d7.jpg,assets/images/product-p73-d8.jpg,assets/images/product-p73-d9.jpg,assets/images/product-p73-d10.jpg,assets/images/product-p73-d11.jpg,assets/images/product-p73-d12.jpg,assets/images/product-p73-d13.jpg,assets/images/product-p73-d14.jpg,assets/images/product-p73-d15.jpg",
-        "price": 25.59,
+        "price": 25.5,
         "term": "EXW",
         "unit": "pcs",
         "moq": 20,
@@ -3715,8 +3729,8 @@
           {
             "name": "Color",
             "options": [
-              "Blue",
-              "Gold"
+              "KM-8578-Blue",
+              "KM-8578-Gold"
             ]
           }
         ],
@@ -3730,7 +3744,7 @@
         "image": "assets/images/product-p74-main.jpg",
         "gallery": "assets/images/product-p74-g1.jpg,assets/images/product-p74-g2.jpg,assets/images/product-p74-g3.jpg,assets/images/product-p74-g4.jpg,assets/images/product-p74-g5.jpg,assets/images/product-p74-g6.jpg",
         "detailImages": "assets/images/product-p74-d1.jpg,assets/images/product-p74-d2.jpg,assets/images/product-p74-d3.jpg,assets/images/product-p74-d4.jpg,assets/images/product-p74-d5.jpg,assets/images/product-p74-d6.jpg,assets/images/product-p74-d7.jpg,assets/images/product-p74-d8.jpg,assets/images/product-p74-d9.jpg,assets/images/product-p74-d10.jpg",
-        "price": 23.13,
+        "price": 23.0,
         "term": "EXW",
         "unit": "pcs",
         "moq": 20,
@@ -3767,7 +3781,7 @@
           {
             "name": "Color",
             "options": [
-              "Yellow"
+              "KM-90-4-Yellow"
             ]
           }
         ],
@@ -3781,7 +3795,7 @@
         "image": "assets/images/product-p75-main.jpg",
         "gallery": "assets/images/product-p75-g1.jpg,assets/images/product-p75-g2.jpg,assets/images/product-p75-g3.jpg,assets/images/product-p75-g4.jpg,assets/images/product-p75-g5.jpg,assets/images/product-p75-g6.jpg",
         "detailImages": "assets/images/product-p75-d1.jpg,assets/images/product-p75-d2.jpg,assets/images/product-p75-d3.jpg,assets/images/product-p75-d4.jpg,assets/images/product-p75-d5.jpg,assets/images/product-p75-d6.jpg,assets/images/product-p75-d7.jpg,assets/images/product-p75-d8.jpg,assets/images/product-p75-d9.jpg,assets/images/product-p75-d10.jpg,assets/images/product-p75-d11.jpg",
-        "price": 17.06,
+        "price": 17.0,
         "term": "EXW",
         "unit": "pcs",
         "moq": 32,
@@ -3822,9 +3836,9 @@
         "name": "KM-PG2299 Electric Hair Clipper 7500RPM Type-C Charging Ceramic Blade for Barbershop",
         "category": "hair-clipper",
         "image": "assets/images/product-p76-main.jpg",
-        "gallery": "assets/images/product-p76-g1.jpg,assets/images/product-p76-g2.jpg,assets/images/product-p76-g3.jpg,assets/images/product-p76-g4.jpg,assets/images/product-p76-g5.jpg",
+        "gallery": "assets/images/product-p76-g1.jpg,assets/images/product-p76-g2.jpg,assets/images/product-p76-g3.jpg,assets/images/product-p76-g4.jpg,assets/images/product-p76-g5.jpg,assets/images/product-p76-g6.jpg",
         "detailImages": "assets/images/product-p76-d1.jpg,assets/images/product-p76-d2.jpg,assets/images/product-p76-d3.jpg,assets/images/product-p76-d4.jpg,assets/images/product-p76-d5.jpg,assets/images/product-p76-d6.jpg,assets/images/product-p76-d7.jpg,assets/images/product-p76-d8.jpg,assets/images/product-p76-d9.jpg",
-        "price": 9.77,
+        "price": 9.8,
         "term": "EXW",
         "unit": "pcs",
         "moq": 40,
@@ -3861,7 +3875,7 @@
           {
             "name": "Color",
             "options": [
-              "Black"
+              "KM-PG2299-Black"
             ]
           }
         ],
@@ -3873,9 +3887,9 @@
         "name": "PROKM-1380 Electric Hair Clipper 8000RPM USB Charging for Barbershop",
         "category": "hair-clipper",
         "image": "assets/images/product-p77-main.jpg",
-        "gallery": "assets/images/product-p77-g1.jpg,assets/images/product-p77-g2.jpg,assets/images/product-p77-g3.jpg,assets/images/product-p77-g4.jpg,assets/images/product-p77-g5.jpg,assets/images/product-p77-g6.jpg,assets/images/product-p77-g7.jpg,assets/images/product-p77-g8.jpg,assets/images/product-p77-g9.jpg",
+        "gallery": "assets/images/product-p77-g1.jpg,assets/images/product-p77-g2.jpg,assets/images/product-p77-g3.jpg,assets/images/product-p77-g4.jpg,assets/images/product-p77-g5.jpg,assets/images/product-p77-g6.jpg,assets/images/product-p77-g7.jpg,assets/images/product-p77-g8.jpg,assets/images/product-p77-g9.jpg,assets/images/product-p77-g10.jpg",
         "detailImages": "assets/images/product-p77-d1.jpg,assets/images/product-p77-d2.jpg,assets/images/product-p77-d3.jpg,assets/images/product-p77-d4.jpg,assets/images/product-p77-d5.jpg,assets/images/product-p77-d6.jpg,assets/images/product-p77-d7.jpg,assets/images/product-p77-d8.jpg,assets/images/product-p77-d9.jpg,assets/images/product-p77-d10.jpg",
-        "price": 29.64,
+        "price": 29.5,
         "term": "EXW",
         "unit": "pcs",
         "moq": 20,
@@ -3912,8 +3926,8 @@
           {
             "name": "Color",
             "options": [
-              "Red",
-              "Green"
+              "PROKM-1380-Red",
+              "PROKM-1380-Green"
             ]
           }
         ],
@@ -3925,9 +3939,9 @@
         "name": "PROKM-1381 Electric Hair Clipper 8500RPM USB Charging for Barbershop",
         "category": "hair-clipper",
         "image": "assets/images/product-p78-main.jpg",
-        "gallery": "assets/images/product-p78-g1.jpg,assets/images/product-p78-g2.jpg,assets/images/product-p78-g3.jpg,assets/images/product-p78-g4.jpg,assets/images/product-p78-g5.jpg,assets/images/product-p78-g6.jpg,assets/images/product-p78-g7.jpg,assets/images/product-p78-g8.jpg,assets/images/product-p78-g9.jpg",
+        "gallery": "assets/images/product-p78-g1.jpg,assets/images/product-p78-g2.jpg,assets/images/product-p78-g3.jpg,assets/images/product-p78-g4.jpg,assets/images/product-p78-g5.jpg,assets/images/product-p78-g6.jpg,assets/images/product-p78-g7.jpg,assets/images/product-p78-g8.jpg,assets/images/product-p78-g9.jpg,assets/images/product-p78-g10.jpg",
         "detailImages": "assets/images/product-p78-d1.jpg,assets/images/product-p78-d2.jpg,assets/images/product-p78-d3.jpg,assets/images/product-p78-d4.jpg,assets/images/product-p78-d5.jpg,assets/images/product-p78-d6.jpg,assets/images/product-p78-d7.jpg,assets/images/product-p78-d8.jpg,assets/images/product-p78-d9.jpg,assets/images/product-p78-d10.jpg,assets/images/product-p78-d11.jpg",
-        "price": 22.45,
+        "price": 22.5,
         "term": "EXW",
         "unit": "pcs",
         "moq": 20,
@@ -3964,8 +3978,8 @@
           {
             "name": "Color",
             "options": [
-              "Yellow",
-              "Green"
+              "PROKM-1381-Yellow",
+              "PROKM-1381-Green"
             ]
           }
         ],
@@ -3977,9 +3991,9 @@
         "name": "PROKM-1382 Electric Hair Clipper 8000RPM USB Charging Ceramic Blade for Barbershop",
         "category": "hair-clipper",
         "image": "assets/images/product-p79-main.jpg",
-        "gallery": "assets/images/product-p79-g1.jpg,assets/images/product-p79-g2.jpg,assets/images/product-p79-g3.jpg,assets/images/product-p79-g4.jpg,assets/images/product-p79-g5.jpg,assets/images/product-p79-g6.jpg,assets/images/product-p79-g7.jpg,assets/images/product-p79-g8.jpg,assets/images/product-p79-g9.jpg,assets/images/product-p79-g10.jpg,assets/images/product-p79-g11.jpg",
+        "gallery": "assets/images/product-p79-g1.jpg,assets/images/product-p79-g2.jpg,assets/images/product-p79-g3.jpg,assets/images/product-p79-g4.jpg,assets/images/product-p79-g5.jpg,assets/images/product-p79-g6.jpg,assets/images/product-p79-g7.jpg,assets/images/product-p79-g8.jpg,assets/images/product-p79-g9.jpg,assets/images/product-p79-g10.jpg,assets/images/product-p79-g11.jpg,assets/images/product-p79-g12.jpg",
         "detailImages": "assets/images/product-p79-d1.jpg,assets/images/product-p79-d2.jpg,assets/images/product-p79-d3.jpg,assets/images/product-p79-d4.jpg,assets/images/product-p79-d5.jpg,assets/images/product-p79-d6.jpg,assets/images/product-p79-d7.jpg,assets/images/product-p79-d8.jpg,assets/images/product-p79-d9.jpg,assets/images/product-p79-d10.jpg,assets/images/product-p79-d11.jpg,assets/images/product-p79-d12.jpg,assets/images/product-p79-d13.jpg",
-        "price": 32.56,
+        "price": 32.5,
         "term": "EXW",
         "unit": "pcs",
         "moq": 20,
@@ -4020,9 +4034,9 @@
         "name": "PROKM-1423 Electric Hair Clipper 10000RPM Type-C Charging for Barbershop",
         "category": "hair-clipper",
         "image": "assets/images/product-p80-main.jpg",
-        "gallery": "assets/images/product-p80-g1.jpg,assets/images/product-p80-g2.jpg,assets/images/product-p80-g3.jpg,assets/images/product-p80-g4.jpg,assets/images/product-p80-g5.jpg,assets/images/product-p80-g6.jpg,assets/images/product-p80-g7.jpg,assets/images/product-p80-g8.jpg",
+        "gallery": "assets/images/product-p80-g1.jpg,assets/images/product-p80-g2.jpg,assets/images/product-p80-g3.jpg,assets/images/product-p80-g4.jpg,assets/images/product-p80-g5.jpg,assets/images/product-p80-g6.jpg,assets/images/product-p80-g7.jpg,assets/images/product-p80-g8.jpg,assets/images/product-p80-g9.jpg",
         "detailImages": "assets/images/product-p80-d1.jpg,assets/images/product-p80-d2.jpg,assets/images/product-p80-d3.jpg,assets/images/product-p80-d4.jpg,assets/images/product-p80-d5.jpg,assets/images/product-p80-d6.jpg,assets/images/product-p80-d7.jpg,assets/images/product-p80-d8.jpg,assets/images/product-p80-d9.jpg,assets/images/product-p80-d10.jpg,assets/images/product-p80-d11.jpg,assets/images/product-p80-d12.jpg,assets/images/product-p80-d13.jpg,assets/images/product-p80-d14.jpg,assets/images/product-p80-d15.jpg",
-        "price": 35.92,
+        "price": 36.0,
         "term": "EXW",
         "unit": "pcs",
         "moq": 20,
@@ -4059,9 +4073,9 @@
           {
             "name": "Color",
             "options": [
-              "橘色",
-              "White",
-              "Yellow"
+              "PROKM-1423-橘色",
+              "PROKM-1423-White",
+              "PROKM-1423-Yellow"
             ]
           }
         ],
@@ -4073,7 +4087,7 @@
         "name": "PROKM-2161 Electric Hair Clipper 7000RPM for Barbershop",
         "category": "hair-clipper",
         "image": "assets/images/product-p81-main.jpg",
-        "gallery": "assets/images/product-p81-g1.jpg,assets/images/product-p81-g2.jpg,assets/images/product-p81-g3.jpg,assets/images/product-p81-g4.jpg,assets/images/product-p81-g5.jpg,assets/images/product-p81-g6.jpg,assets/images/product-p81-g7.jpg,assets/images/product-p81-g8.jpg,assets/images/product-p81-g9.jpg,assets/images/product-p81-g10.jpg",
+        "gallery": "assets/images/product-p81-g1.jpg,assets/images/product-p81-g2.jpg,assets/images/product-p81-g3.jpg,assets/images/product-p81-g4.jpg,assets/images/product-p81-g5.jpg,assets/images/product-p81-g6.jpg,assets/images/product-p81-g7.jpg,assets/images/product-p81-g8.jpg,assets/images/product-p81-g9.jpg,assets/images/product-p81-g10.jpg,assets/images/product-p81-g11.jpg",
         "detailImages": "assets/images/product-p81-d1.jpg,assets/images/product-p81-d2.jpg,assets/images/product-p81-d3.jpg,assets/images/product-p81-d4.jpg,assets/images/product-p81-d5.jpg,assets/images/product-p81-d6.jpg,assets/images/product-p81-d7.jpg,assets/images/product-p81-d8.jpg,assets/images/product-p81-d9.jpg,assets/images/product-p81-d10.jpg,assets/images/product-p81-d11.jpg,assets/images/product-p81-d12.jpg,assets/images/product-p81-d13.jpg",
         "price": 22.0,
         "term": "EXW",
@@ -4112,8 +4126,8 @@
           {
             "name": "Color",
             "options": [
-              "Yellow",
-              "Blue"
+              "PROKM-2161-Yellow",
+              "PROKM-2161-Blue"
             ]
           }
         ],
@@ -4127,7 +4141,7 @@
         "image": "assets/images/product-p82-main.jpg",
         "gallery": "assets/images/product-p82-g1.jpg,assets/images/product-p82-g2.jpg,assets/images/product-p82-g3.jpg,assets/images/product-p82-g4.jpg,assets/images/product-p82-g5.jpg,assets/images/product-p82-g6.jpg,assets/images/product-p82-g7.jpg,assets/images/product-p82-g8.jpg,assets/images/product-p82-g9.jpg",
         "detailImages": "assets/images/product-p82-d1.jpg,assets/images/product-p82-d2.jpg,assets/images/product-p82-d3.jpg,assets/images/product-p82-d4.jpg,assets/images/product-p82-d5.jpg,assets/images/product-p82-d6.jpg,assets/images/product-p82-d7.jpg,assets/images/product-p82-d8.jpg,assets/images/product-p82-d9.jpg,assets/images/product-p82-d10.jpg,assets/images/product-p82-d11.jpg,assets/images/product-p82-d12.jpg,assets/images/product-p82-d13.jpg",
-        "price": 36.15,
+        "price": 36.0,
         "term": "EXW",
         "unit": "pcs",
         "moq": 20,
@@ -4164,7 +4178,7 @@
           {
             "name": "Color",
             "options": [
-              "Red"
+              "PROKM-488-Red"
             ]
           }
         ],
@@ -4178,7 +4192,7 @@
         "image": "assets/images/product-p83-main.jpg",
         "gallery": "assets/images/product-p83-g1.jpg,assets/images/product-p83-g2.jpg,assets/images/product-p83-g3.jpg,assets/images/product-p83-g4.jpg,assets/images/product-p83-g5.jpg",
         "detailImages": "assets/images/product-p83-d1.jpg,assets/images/product-p83-d2.jpg,assets/images/product-p83-d3.jpg,assets/images/product-p83-d4.jpg,assets/images/product-p83-d5.jpg,assets/images/product-p83-d6.jpg,assets/images/product-p83-d7.jpg,assets/images/product-p83-d8.jpg,assets/images/product-p83-d9.jpg",
-        "price": 29.41,
+        "price": 29.5,
         "term": "EXW",
         "unit": "pcs",
         "moq": 24,
@@ -4215,7 +4229,7 @@
           {
             "name": "Color",
             "options": [
-              "Black"
+              "KM-1858-Black"
             ]
           }
         ],
@@ -4227,9 +4241,9 @@
         "name": "KM-1394 Electric Shaver 8500RPM USB Charging Washable for Men",
         "category": "shaver",
         "image": "assets/images/product-p84-main.jpg",
-        "gallery": "assets/images/product-p84-g1.jpg,assets/images/product-p84-g2.jpg,assets/images/product-p84-g3.jpg,assets/images/product-p84-g4.jpg,assets/images/product-p84-g5.jpg,assets/images/product-p84-g6.jpg,assets/images/product-p84-g7.jpg,assets/images/product-p84-g8.jpg,assets/images/product-p84-g9.jpg",
+        "gallery": "assets/images/product-p84-g1.jpg,assets/images/product-p84-g2.jpg,assets/images/product-p84-g3.jpg,assets/images/product-p84-g4.jpg,assets/images/product-p84-g5.jpg,assets/images/product-p84-g6.jpg,assets/images/product-p84-g7.jpg,assets/images/product-p84-g8.jpg,assets/images/product-p84-g9.jpg,assets/images/product-p84-g10.jpg",
         "detailImages": "assets/images/product-p84-d1.jpg,assets/images/product-p84-d2.jpg,assets/images/product-p84-d3.jpg,assets/images/product-p84-d4.jpg,assets/images/product-p84-d5.jpg,assets/images/product-p84-d6.jpg,assets/images/product-p84-d7.jpg,assets/images/product-p84-d8.jpg,assets/images/product-p84-d9.jpg,assets/images/product-p84-d10.jpg,assets/images/product-p84-d11.jpg,assets/images/product-p84-d12.jpg",
-        "price": 16.39,
+        "price": 16.5,
         "term": "EXW",
         "unit": "pcs",
         "moq": 20,
@@ -4270,9 +4284,9 @@
         "name": "KM-8573 Electric Shaver 7000RPM USB Charging for Men",
         "category": "shaver",
         "image": "assets/images/product-p85-main.jpg",
-        "gallery": "assets/images/product-p85-g1.jpg,assets/images/product-p85-g2.jpg,assets/images/product-p85-g3.jpg,assets/images/product-p85-g4.jpg,assets/images/product-p85-g5.jpg,assets/images/product-p85-g6.jpg,assets/images/product-p85-g7.jpg,assets/images/product-p85-g8.jpg,assets/images/product-p85-g9.jpg",
+        "gallery": "assets/images/product-p85-g1.jpg,assets/images/product-p85-g2.jpg,assets/images/product-p85-g3.jpg,assets/images/product-p85-g4.jpg,assets/images/product-p85-g5.jpg,assets/images/product-p85-g6.jpg,assets/images/product-p85-g7.jpg,assets/images/product-p85-g8.jpg,assets/images/product-p85-g9.jpg,assets/images/product-p85-g10.jpg",
         "detailImages": "assets/images/product-p85-d1.jpg,assets/images/product-p85-d2.jpg,assets/images/product-p85-d3.jpg,assets/images/product-p85-d4.jpg,assets/images/product-p85-d5.jpg,assets/images/product-p85-d6.jpg,assets/images/product-p85-d7.jpg,assets/images/product-p85-d8.jpg,assets/images/product-p85-d9.jpg,assets/images/product-p85-d10.jpg,assets/images/product-p85-d11.jpg",
-        "price": 15.27,
+        "price": 15.5,
         "term": "EXW",
         "unit": "pcs",
         "moq": 20,
@@ -4309,8 +4323,8 @@
           {
             "name": "Color",
             "options": [
-              "Gold",
-              "Silver"
+              "KM-8573-Gold",
+              "KM-8573-Silver"
             ]
           }
         ],
@@ -4364,9 +4378,9 @@
         "name": "KM-T299 Electric Shaver 7500RPM Rechargeable Type-C Charging for Men",
         "category": "shaver",
         "image": "assets/images/product-p87-main.jpg",
-        "gallery": "assets/images/product-p87-g1.jpg,assets/images/product-p87-g2.jpg,assets/images/product-p87-g3.jpg,assets/images/product-p87-g4.jpg,assets/images/product-p87-g5.jpg,assets/images/product-p87-g6.jpg,assets/images/product-p87-g7.jpg",
+        "gallery": "assets/images/product-p87-g1.jpg,assets/images/product-p87-g2.jpg,assets/images/product-p87-g3.jpg,assets/images/product-p87-g4.jpg,assets/images/product-p87-g5.jpg,assets/images/product-p87-g6.jpg,assets/images/product-p87-g7.jpg,assets/images/product-p87-g8.jpg",
         "detailImages": "assets/images/product-p87-d1.jpg,assets/images/product-p87-d2.jpg,assets/images/product-p87-d3.jpg,assets/images/product-p87-d4.jpg,assets/images/product-p87-d5.jpg,assets/images/product-p87-d6.jpg,assets/images/product-p87-d7.jpg,assets/images/product-p87-d8.jpg,assets/images/product-p87-d9.jpg,assets/images/product-p87-d10.jpg,assets/images/product-p87-d11.jpg,assets/images/product-p87-d12.jpg,assets/images/product-p87-d13.jpg,assets/images/product-p87-d14.jpg,assets/images/product-p87-d15.jpg",
-        "price": 20.43,
+        "price": 20.5,
         "term": "EXW",
         "unit": "pcs",
         "moq": 40,
@@ -4403,8 +4417,8 @@
           {
             "name": "Color",
             "options": [
-              "Red",
-              "Green"
+              "KM-T299-Red",
+              "KM-T299-Green"
             ]
           }
         ],
@@ -4418,7 +4432,7 @@
         "image": "assets/images/product-p88-main.jpg",
         "gallery": "assets/images/product-p88-g1.jpg,assets/images/product-p88-g2.jpg,assets/images/product-p88-g3.jpg,assets/images/product-p88-g4.jpg,assets/images/product-p88-g5.jpg,assets/images/product-p88-g6.jpg,assets/images/product-p88-g7.jpg",
         "detailImages": "assets/images/product-p88-d1.jpg,assets/images/product-p88-d2.jpg,assets/images/product-p88-d3.jpg,assets/images/product-p88-d4.jpg,assets/images/product-p88-d5.jpg,assets/images/product-p88-d6.jpg,assets/images/product-p88-d7.jpg,assets/images/product-p88-d8.jpg,assets/images/product-p88-d9.jpg,assets/images/product-p88-d10.jpg",
-        "price": 8.98,
+        "price": 9.0,
         "term": "EXW",
         "unit": "pcs",
         "moq": 40,
@@ -4455,8 +4469,8 @@
           {
             "name": "Color",
             "options": [
-              "Yellow",
-              "Blue"
+              "KM-T389-Yellow",
+              "KM-T389-Blue"
             ]
           }
         ],
@@ -4468,7 +4482,7 @@
         "name": "KM-T400 Electric Shaver 9000RPM Type-C Charging for Men",
         "category": "shaver",
         "image": "assets/images/product-p89-main.jpg",
-        "gallery": "assets/images/product-p89-g1.jpg,assets/images/product-p89-g2.jpg,assets/images/product-p89-g3.jpg,assets/images/product-p89-g4.jpg,assets/images/product-p89-g5.jpg,assets/images/product-p89-g6.jpg,assets/images/product-p89-g7.jpg,assets/images/product-p89-g8.jpg",
+        "gallery": "assets/images/product-p89-g1.jpg,assets/images/product-p89-g2.jpg,assets/images/product-p89-g3.jpg,assets/images/product-p89-g4.jpg,assets/images/product-p89-g5.jpg,assets/images/product-p89-g6.jpg,assets/images/product-p89-g7.jpg,assets/images/product-p89-g8.jpg,assets/images/product-p89-g9.jpg",
         "detailImages": "assets/images/product-p89-d1.jpg,assets/images/product-p89-d2.jpg,assets/images/product-p89-d3.jpg,assets/images/product-p89-d4.jpg,assets/images/product-p89-d5.jpg,assets/images/product-p89-d6.jpg,assets/images/product-p89-d7.jpg,assets/images/product-p89-d8.jpg,assets/images/product-p89-d9.jpg,assets/images/product-p89-d10.jpg,assets/images/product-p89-d11.jpg,assets/images/product-p89-d12.jpg,assets/images/product-p89-d13.jpg",
         "term": "EXW",
         "unit": "pcs",
@@ -4506,22 +4520,23 @@
           {
             "name": "Color",
             "options": [
-              "Blue",
-              "Purple"
+              "KM-T400-Blue",
+              "KM-T400-Purple"
             ]
           }
         ],
         "datasheet": "",
-        "certFile": ""
+        "certFile": "",
+        "price": 20.0
       },
       {
         "id": "p90",
         "name": "KM-T402 Electric Shaver USB Charging Washable for Men",
         "category": "shaver",
         "image": "assets/images/product-p90-main.jpg",
-        "gallery": "assets/images/product-p90-g1.jpg,assets/images/product-p90-g2.jpg,assets/images/product-p90-g3.jpg,assets/images/product-p90-g4.jpg,assets/images/product-p90-g5.jpg,assets/images/product-p90-g6.jpg",
+        "gallery": "assets/images/product-p90-g1.jpg,assets/images/product-p90-g2.jpg,assets/images/product-p90-g3.jpg,assets/images/product-p90-g4.jpg,assets/images/product-p90-g5.jpg,assets/images/product-p90-g6.jpg,assets/images/product-p90-g7.jpg",
         "detailImages": "",
-        "price": 21.78,
+        "price": 21.8,
         "term": "EXW",
         "unit": "pcs",
         "moq": 200,
@@ -4557,7 +4572,7 @@
           {
             "name": "Color",
             "options": [
-              "Silver"
+              "KM-T402-Silver"
             ]
           }
         ],
@@ -4571,7 +4586,7 @@
         "image": "assets/images/product-p91-main.jpg",
         "gallery": "assets/images/product-p91-g1.jpg,assets/images/product-p91-g2.jpg,assets/images/product-p91-g3.jpg,assets/images/product-p91-g4.jpg,assets/images/product-p91-g5.jpg,assets/images/product-p91-g6.jpg",
         "detailImages": "assets/images/product-p91-d1.jpg,assets/images/product-p91-d2.jpg,assets/images/product-p91-d3.jpg,assets/images/product-p91-d4.jpg,assets/images/product-p91-d5.jpg,assets/images/product-p91-d6.jpg,assets/images/product-p91-d7.jpg,assets/images/product-p91-d8.jpg,assets/images/product-p91-d9.jpg,assets/images/product-p91-d10.jpg,assets/images/product-p91-d11.jpg,assets/images/product-p91-d12.jpg",
-        "price": 45.35,
+        "price": 45.5,
         "term": "EXW",
         "unit": "pcs",
         "moq": 24,
@@ -4608,7 +4623,7 @@
           {
             "name": "Color",
             "options": [
-              "Gold"
+              "KM-T409-Gold"
             ]
           }
         ],
@@ -4622,7 +4637,7 @@
         "image": "assets/images/product-p92-main.jpg",
         "gallery": "assets/images/product-p92-g1.jpg,assets/images/product-p92-g2.jpg,assets/images/product-p92-g3.jpg,assets/images/product-p92-g4.jpg,assets/images/product-p92-g5.jpg,assets/images/product-p92-g6.jpg",
         "detailImages": "assets/images/product-p92-d1.jpg,assets/images/product-p92-d2.jpg,assets/images/product-p92-d3.jpg,assets/images/product-p92-d4.jpg,assets/images/product-p92-d5.jpg,assets/images/product-p92-d6.jpg,assets/images/product-p92-d7.jpg,assets/images/product-p92-d8.jpg,assets/images/product-p92-d9.jpg,assets/images/product-p92-d10.jpg,assets/images/product-p92-d11.jpg,assets/images/product-p92-d12.jpg,assets/images/product-p92-d13.jpg,assets/images/product-p92-d14.jpg,assets/images/product-p92-d15.jpg",
-        "price": 17.29,
+        "price": 17.5,
         "term": "EXW",
         "unit": "pcs",
         "moq": 32,
@@ -4665,7 +4680,7 @@
         "image": "assets/images/product-p93-main.jpg",
         "gallery": "assets/images/product-p93-g1.jpg,assets/images/product-p93-g2.jpg,assets/images/product-p93-g3.jpg,assets/images/product-p93-g4.jpg,assets/images/product-p93-g5.jpg,assets/images/product-p93-g6.jpg,assets/images/product-p93-g7.jpg,assets/images/product-p93-g8.jpg",
         "detailImages": "assets/images/product-p93-d1.jpg,assets/images/product-p93-d2.jpg,assets/images/product-p93-d3.jpg,assets/images/product-p93-d4.jpg,assets/images/product-p93-d5.jpg,assets/images/product-p93-d6.jpg,assets/images/product-p93-d7.jpg,assets/images/product-p93-d8.jpg,assets/images/product-p93-d9.jpg,assets/images/product-p93-d10.jpg,assets/images/product-p93-d11.jpg",
-        "price": 17.06,
+        "price": 17.0,
         "term": "EXW",
         "unit": "pcs",
         "moq": 40,
@@ -4749,9 +4764,9 @@
         "name": "KM-T425 Electric Shaver 7500RPM Type-C Charging Washable for Men",
         "category": "shaver",
         "image": "assets/images/product-p95-main.jpg",
-        "gallery": "assets/images/product-p95-g1.jpg,assets/images/product-p95-g2.jpg,assets/images/product-p95-g3.jpg,assets/images/product-p95-g4.jpg,assets/images/product-p95-g5.jpg,assets/images/product-p95-g6.jpg,assets/images/product-p95-g7.jpg,assets/images/product-p95-g8.jpg,assets/images/product-p95-g9.jpg,assets/images/product-p95-g10.jpg",
+        "gallery": "assets/images/product-p95-g1.jpg,assets/images/product-p95-g2.jpg,assets/images/product-p95-g3.jpg,assets/images/product-p95-g4.jpg,assets/images/product-p95-g5.jpg,assets/images/product-p95-g6.jpg,assets/images/product-p95-g7.jpg,assets/images/product-p95-g8.jpg,assets/images/product-p95-g9.jpg,assets/images/product-p95-g10.jpg,assets/images/product-p95-g11.jpg",
         "detailImages": "assets/images/product-p95-d1.jpg,assets/images/product-p95-d2.jpg,assets/images/product-p95-d3.jpg,assets/images/product-p95-d4.jpg,assets/images/product-p95-d5.jpg,assets/images/product-p95-d6.jpg,assets/images/product-p95-d7.jpg,assets/images/product-p95-d8.jpg,assets/images/product-p95-d9.jpg,assets/images/product-p95-d10.jpg,assets/images/product-p95-d11.jpg,assets/images/product-p95-d12.jpg,assets/images/product-p95-d13.jpg",
-        "price": 16.39,
+        "price": 16.5,
         "term": "EXW",
         "unit": "pcs",
         "moq": 40,
@@ -4788,8 +4803,8 @@
           {
             "name": "Color",
             "options": [
-              "Gold",
-              "Green"
+              "KM-T425-Gold",
+              "KM-T425-Green"
             ]
           }
         ],
@@ -4803,7 +4818,7 @@
         "image": "assets/images/product-p96-main.jpg",
         "gallery": "assets/images/product-p96-g1.jpg,assets/images/product-p96-g2.jpg,assets/images/product-p96-g3.jpg,assets/images/product-p96-g4.jpg,assets/images/product-p96-g5.jpg,assets/images/product-p96-g6.jpg,assets/images/product-p96-g7.jpg,assets/images/product-p96-g8.jpg,assets/images/product-p96-g9.jpg,assets/images/product-p96-g10.jpg",
         "detailImages": "assets/images/product-p96-d1.jpg,assets/images/product-p96-d2.jpg,assets/images/product-p96-d3.jpg,assets/images/product-p96-d4.jpg,assets/images/product-p96-d5.jpg,assets/images/product-p96-d6.jpg,assets/images/product-p96-d7.jpg,assets/images/product-p96-d8.jpg,assets/images/product-p96-d9.jpg,assets/images/product-p96-d10.jpg,assets/images/product-p96-d11.jpg,assets/images/product-p96-d12.jpg,assets/images/product-p96-d13.jpg",
-        "price": 18.86,
+        "price": 18.8,
         "term": "EXW",
         "unit": "pcs",
         "moq": 40,
@@ -4840,8 +4855,8 @@
           {
             "name": "Color",
             "options": [
-              "Gray",
-              "Blue"
+              "KM-T432-Gray",
+              "KM-T432-Blue"
             ]
           }
         ],
@@ -4855,7 +4870,7 @@
         "image": "assets/images/product-p97-main.jpg",
         "gallery": "assets/images/product-p97-g1.jpg,assets/images/product-p97-g2.jpg,assets/images/product-p97-g3.jpg,assets/images/product-p97-g4.jpg,assets/images/product-p97-g5.jpg,assets/images/product-p97-g6.jpg,assets/images/product-p97-g7.jpg,assets/images/product-p97-g8.jpg,assets/images/product-p97-g9.jpg",
         "detailImages": "assets/images/product-p97-d1.jpg,assets/images/product-p97-d2.jpg,assets/images/product-p97-d3.jpg,assets/images/product-p97-d4.jpg,assets/images/product-p97-d5.jpg,assets/images/product-p97-d6.jpg,assets/images/product-p97-d7.jpg,assets/images/product-p97-d8.jpg,assets/images/product-p97-d9.jpg,assets/images/product-p97-d10.jpg,assets/images/product-p97-d11.jpg",
-        "price": 10.55,
+        "price": 10.5,
         "term": "EXW",
         "unit": "pcs",
         "moq": 32,
@@ -4898,7 +4913,7 @@
         "image": "assets/images/product-p98-main.jpg",
         "gallery": "assets/images/product-p98-g1.jpg,assets/images/product-p98-g2.jpg,assets/images/product-p98-g3.jpg,assets/images/product-p98-g4.jpg,assets/images/product-p98-g5.jpg,assets/images/product-p98-g6.jpg",
         "detailImages": "assets/images/product-p98-d1.jpg,assets/images/product-p98-d2.jpg,assets/images/product-p98-d3.jpg,assets/images/product-p98-d4.jpg,assets/images/product-p98-d5.jpg,assets/images/product-p98-d6.jpg,assets/images/product-p98-d7.jpg,assets/images/product-p98-d8.jpg,assets/images/product-p98-d9.jpg,assets/images/product-p98-d10.jpg",
-        "price": 17.06,
+        "price": 17.0,
         "term": "EXW",
         "unit": "pcs",
         "moq": 24,
@@ -4941,7 +4956,7 @@
         "image": "assets/images/product-p99-main.jpg",
         "gallery": "assets/images/product-p99-g1.jpg,assets/images/product-p99-g2.jpg,assets/images/product-p99-g3.jpg,assets/images/product-p99-g4.jpg,assets/images/product-p99-g5.jpg,assets/images/product-p99-g6.jpg,assets/images/product-p99-g7.jpg",
         "detailImages": "assets/images/product-p99-d1.jpg,assets/images/product-p99-d2.jpg,assets/images/product-p99-d3.jpg,assets/images/product-p99-d4.jpg,assets/images/product-p99-d5.jpg,assets/images/product-p99-d6.jpg,assets/images/product-p99-d7.jpg,assets/images/product-p99-d8.jpg",
-        "price": 4.38,
+        "price": 4.5,
         "term": "EXW",
         "unit": "pcs",
         "moq": 100,
@@ -4982,9 +4997,9 @@
         "name": "KM-7120 Hair Removal Epilator Type-C Charging for Women",
         "category": "beauty",
         "image": "assets/images/product-p100-main.jpg",
-        "gallery": "assets/images/product-p100-g1.jpg,assets/images/product-p100-g2.jpg,assets/images/product-p100-g3.jpg,assets/images/product-p100-g4.jpg,assets/images/product-p100-g5.jpg,assets/images/product-p100-g6.jpg,assets/images/product-p100-g7.jpg,assets/images/product-p100-g8.jpg",
+        "gallery": "assets/images/product-p100-g1.jpg,assets/images/product-p100-g2.jpg,assets/images/product-p100-g3.jpg,assets/images/product-p100-g4.jpg,assets/images/product-p100-g5.jpg,assets/images/product-p100-g6.jpg,assets/images/product-p100-g7.jpg,assets/images/product-p100-g8.jpg,assets/images/product-p100-g9.jpg",
         "detailImages": "assets/images/product-p100-d1.jpg,assets/images/product-p100-d2.jpg,assets/images/product-p100-d3.jpg,assets/images/product-p100-d4.jpg,assets/images/product-p100-d5.jpg,assets/images/product-p100-d6.jpg,assets/images/product-p100-d7.jpg,assets/images/product-p100-d8.jpg,assets/images/product-p100-d9.jpg,assets/images/product-p100-d10.jpg",
-        "price": 9.88,
+        "price": 9.8,
         "term": "EXW",
         "unit": "pcs",
         "moq": 48,
@@ -5027,7 +5042,7 @@
         "image": "assets/images/product-p101-main.jpg",
         "gallery": "assets/images/product-p101-g1.jpg,assets/images/product-p101-g2.jpg,assets/images/product-p101-g3.jpg,assets/images/product-p101-g4.jpg,assets/images/product-p101-g5.jpg,assets/images/product-p101-g6.jpg,assets/images/product-p101-g7.jpg,assets/images/product-p101-g8.jpg,assets/images/product-p101-g9.jpg",
         "detailImages": "assets/images/product-p101-d1.jpg,assets/images/product-p101-d2.jpg,assets/images/product-p101-d3.jpg,assets/images/product-p101-d4.jpg,assets/images/product-p101-d5.jpg,assets/images/product-p101-d6.jpg,assets/images/product-p101-d7.jpg,assets/images/product-p101-d8.jpg,assets/images/product-p101-d9.jpg,assets/images/product-p101-d10.jpg,assets/images/product-p101-d11.jpg,assets/images/product-p101-d12.jpg,assets/images/product-p101-d13.jpg",
-        "price": 13.7,
+        "price": 13.8,
         "term": "EXW",
         "unit": "pcs",
         "moq": 20,
@@ -5070,7 +5085,7 @@
         "image": "assets/images/product-p102-main.jpg",
         "gallery": "assets/images/product-p102-g1.jpg,assets/images/product-p102-g2.jpg,assets/images/product-p102-g3.jpg,assets/images/product-p102-g4.jpg,assets/images/product-p102-g5.jpg,assets/images/product-p102-g6.jpg,assets/images/product-p102-g7.jpg,assets/images/product-p102-g8.jpg,assets/images/product-p102-g9.jpg",
         "detailImages": "assets/images/product-p102-d1.jpg,assets/images/product-p102-d2.jpg,assets/images/product-p102-d3.jpg,assets/images/product-p102-d4.jpg,assets/images/product-p102-d5.jpg,assets/images/product-p102-d6.jpg,assets/images/product-p102-d7.jpg,assets/images/product-p102-d8.jpg,assets/images/product-p102-d9.jpg,assets/images/product-p102-d10.jpg,assets/images/product-p102-d11.jpg,assets/images/product-p102-d12.jpg,assets/images/product-p102-d13.jpg,assets/images/product-p102-d14.jpg",
-        "price": 26.04,
+        "price": 26.0,
         "term": "EXW",
         "unit": "pcs",
         "moq": 200,
@@ -5112,7 +5127,7 @@
         "image": "assets/images/product-p103-main.jpg",
         "gallery": "assets/images/product-p103-g1.jpg,assets/images/product-p103-g2.jpg,assets/images/product-p103-g3.jpg,assets/images/product-p103-g4.jpg,assets/images/product-p103-g5.jpg,assets/images/product-p103-g6.jpg,assets/images/product-p103-g7.jpg,assets/images/product-p103-g8.jpg",
         "detailImages": "",
-        "price": 19.08,
+        "price": 19.0,
         "term": "EXW",
         "unit": "pcs",
         "moq": 200,
@@ -5154,7 +5169,7 @@
         "image": "assets/images/product-p104-main.jpg",
         "gallery": "assets/images/product-p104-g1.jpg,assets/images/product-p104-g2.jpg,assets/images/product-p104-g3.jpg,assets/images/product-p104-g4.jpg,assets/images/product-p104-g5.jpg,assets/images/product-p104-g6.jpg,assets/images/product-p104-g7.jpg,assets/images/product-p104-g8.jpg,assets/images/product-p104-g9.jpg",
         "detailImages": "",
-        "price": 13.92,
+        "price": 14.0,
         "term": "EXW",
         "unit": "pcs",
         "moq": 16,
@@ -5195,9 +5210,9 @@
         "name": "KM-6921 Hair Dryer 000RPM 1300W Low Noise for Salon & Home Use",
         "category": "hair-dryer",
         "image": "assets/images/product-p105-main.jpg",
-        "gallery": "assets/images/product-p105-g1.jpg,assets/images/product-p105-g2.jpg,assets/images/product-p105-g3.jpg,assets/images/product-p105-g4.jpg,assets/images/product-p105-g5.jpg,assets/images/product-p105-g6.jpg,assets/images/product-p105-g7.jpg",
+        "gallery": "assets/images/product-p105-g1.jpg,assets/images/product-p105-g2.jpg,assets/images/product-p105-g3.jpg,assets/images/product-p105-g4.jpg,assets/images/product-p105-g5.jpg,assets/images/product-p105-g6.jpg,assets/images/product-p105-g7.jpg,assets/images/product-p105-g8.jpg",
         "detailImages": "assets/images/product-p105-d1.jpg,assets/images/product-p105-d2.jpg,assets/images/product-p105-d3.jpg,assets/images/product-p105-d4.jpg,assets/images/product-p105-d5.jpg,assets/images/product-p105-d6.jpg,assets/images/product-p105-d7.jpg,assets/images/product-p105-d8.jpg,assets/images/product-p105-d9.jpg,assets/images/product-p105-d10.jpg,assets/images/product-p105-d11.jpg,assets/images/product-p105-d12.jpg,assets/images/product-p105-d13.jpg,assets/images/product-p105-d14.jpg,assets/images/product-p105-d15.jpg",
-        "price": 27.62,
+        "price": 27.5,
         "term": "EXW",
         "unit": "pcs",
         "moq": 20,
@@ -5238,9 +5253,9 @@
         "name": "KM-B5 Hair Dryer 000RPM Rechargeable Type-C Charging for Salon & Home Use",
         "category": "hair-dryer",
         "image": "assets/images/product-p106-main.jpg",
-        "gallery": "assets/images/product-p106-g1.jpg,assets/images/product-p106-g2.jpg,assets/images/product-p106-g3.jpg,assets/images/product-p106-g4.jpg,assets/images/product-p106-g5.jpg,assets/images/product-p106-g6.jpg,assets/images/product-p106-g7.jpg,assets/images/product-p106-g8.jpg,assets/images/product-p106-g9.jpg,assets/images/product-p106-g10.jpg,assets/images/product-p106-g11.jpg",
+        "gallery": "assets/images/product-p106-g1.jpg,assets/images/product-p106-g2.jpg,assets/images/product-p106-g3.jpg,assets/images/product-p106-g4.jpg,assets/images/product-p106-g5.jpg,assets/images/product-p106-g6.jpg,assets/images/product-p106-g7.jpg,assets/images/product-p106-g8.jpg,assets/images/product-p106-g9.jpg,assets/images/product-p106-g10.jpg,assets/images/product-p106-g11.jpg,assets/images/product-p106-g12.jpg",
         "detailImages": "assets/images/product-p106-d1.jpg,assets/images/product-p106-d2.jpg,assets/images/product-p106-d3.jpg,assets/images/product-p106-d4.jpg,assets/images/product-p106-d5.jpg,assets/images/product-p106-d6.jpg,assets/images/product-p106-d7.jpg,assets/images/product-p106-d8.jpg,assets/images/product-p106-d9.jpg,assets/images/product-p106-d10.jpg,assets/images/product-p106-d11.jpg,assets/images/product-p106-d12.jpg",
-        "price": 14.59,
+        "price": 14.5,
         "term": "EXW",
         "unit": "pcs",
         "moq": 60,
@@ -5277,9 +5292,9 @@
           {
             "name": "Color",
             "options": [
-              "Purple",
-              "Yellow",
-              "Red"
+              "KM-B5-Purple",
+              "KM-B5-Yellow",
+              "KM-B5-Red"
             ]
           }
         ],
@@ -5291,9 +5306,9 @@
         "name": "KM-M02 Hair Dryer 000RPM 1600W Ionic for Salon & Home Use",
         "category": "hair-dryer",
         "image": "assets/images/product-p107-main.jpg",
-        "gallery": "assets/images/product-p107-g1.jpg,assets/images/product-p107-g2.jpg,assets/images/product-p107-g3.jpg,assets/images/product-p107-g4.jpg,assets/images/product-p107-g5.jpg,assets/images/product-p107-g6.jpg,assets/images/product-p107-g7.jpg",
+        "gallery": "assets/images/product-p107-g1.jpg,assets/images/product-p107-g2.jpg,assets/images/product-p107-g3.jpg,assets/images/product-p107-g4.jpg,assets/images/product-p107-g5.jpg,assets/images/product-p107-g6.jpg,assets/images/product-p107-g7.jpg,assets/images/product-p107-g8.jpg",
         "detailImages": "assets/images/product-p107-d1.jpg,assets/images/product-p107-d2.jpg,assets/images/product-p107-d3.jpg,assets/images/product-p107-d4.jpg,assets/images/product-p107-d5.jpg,assets/images/product-p107-d6.jpg,assets/images/product-p107-d7.jpg,assets/images/product-p107-d8.jpg,assets/images/product-p107-d9.jpg,assets/images/product-p107-d10.jpg,assets/images/product-p107-d11.jpg,assets/images/product-p107-d12.jpg,assets/images/product-p107-d13.jpg",
-        "price": 18.63,
+        "price": 18.5,
         "term": "EXW",
         "unit": "pcs",
         "moq": 200,
@@ -5335,7 +5350,7 @@
         "image": "assets/images/product-p108-main.jpg",
         "gallery": "assets/images/product-p108-g1.jpg,assets/images/product-p108-g2.jpg,assets/images/product-p108-g3.jpg,assets/images/product-p108-g4.jpg,assets/images/product-p108-g5.jpg,assets/images/product-p108-g6.jpg,assets/images/product-p108-g7.jpg",
         "detailImages": "assets/images/product-p108-d1.jpg,assets/images/product-p108-d2.jpg,assets/images/product-p108-d3.jpg,assets/images/product-p108-d4.jpg,assets/images/product-p108-d5.jpg,assets/images/product-p108-d6.jpg,assets/images/product-p108-d7.jpg,assets/images/product-p108-d8.jpg,assets/images/product-p108-d9.jpg,assets/images/product-p108-d10.jpg",
-        "price": 10.78,
+        "price": 10.8,
         "term": "EXW",
         "unit": "pcs",
         "moq": 40,
@@ -5377,8 +5392,8 @@
         "category": "hairstyling",
         "image": "assets/images/product-p109-main.jpg",
         "gallery": "assets/images/product-p109-g1.jpg,assets/images/product-p109-g2.jpg,assets/images/product-p109-g3.jpg,assets/images/product-p109-g4.jpg,assets/images/product-p109-g5.jpg,assets/images/product-p109-g6.jpg,assets/images/product-p109-g7.jpg,assets/images/product-p109-g8.jpg,assets/images/product-p109-g9.jpg",
-        "detailImages": "",
-        "price": 13.25,
+        "detailImages": "assets/images/product-p109-d1.jpg,assets/images/product-p109-d2.jpg,assets/images/product-p109-d3.jpg,assets/images/product-p109-d4.jpg,assets/images/product-p109-d5.jpg,assets/images/product-p109-d6.jpg,assets/images/product-p109-d7.jpg,assets/images/product-p109-d8.jpg,assets/images/product-p109-d9.jpg,assets/images/product-p109-d10.jpg,assets/images/product-p109-d11.jpg",
+        "price": 13.0,
         "term": "EXW",
         "unit": "pcs",
         "moq": 40,
@@ -5417,11 +5432,11 @@
       {
         "id": "p110",
         "name": "KM-569 Kids Hair Clipper Type-C Charging Ceramic Blade for Kids",
-        "category": "kids-clipper",
+        "category": "hair-clipper",
         "image": "assets/images/product-p110-main.jpg",
         "gallery": "assets/images/product-p110-g1.jpg,assets/images/product-p110-g2.jpg,assets/images/product-p110-g3.jpg,assets/images/product-p110-g4.jpg,assets/images/product-p110-g5.jpg,assets/images/product-p110-g6.jpg",
-        "detailImages": "assets/images/product-p110-d1.jpg,assets/images/product-p110-d2.jpg,assets/images/product-p110-d3.jpg,assets/images/product-p110-d4.jpg,assets/images/product-p110-d5.jpg,assets/images/product-p110-d6.jpg,assets/images/product-p110-d7.jpg,assets/images/product-p110-d8.jpg,assets/images/product-p110-d9.jpg,assets/images/product-p110-d10.jpg,assets/images/product-p110-d11.jpg",
-        "price": 6.74,
+        "detailImages": "assets/images/product-p110-d1.jpg,assets/images/product-p110-d2.jpg,assets/images/product-p110-d3.jpg,assets/images/product-p110-d4.jpg,assets/images/product-p110-d5.jpg,assets/images/product-p110-d6.jpg,assets/images/product-p110-d7.jpg,assets/images/product-p110-d8.jpg,assets/images/product-p110-d9.jpg,assets/images/product-p110-d10.jpg,assets/images/product-p110-d11.jpg,assets/images/product-p110-d12.jpg",
+        "price": 6.8,
         "term": "EXW",
         "unit": "pcs",
         "moq": 60,
@@ -5460,11 +5475,11 @@
       {
         "id": "p111",
         "name": "KM-963 Kids Hair Clipper USB Charging for Kids",
-        "category": "kids-clipper",
+        "category": "hair-clipper",
         "image": "assets/images/product-p111-main.jpg",
         "gallery": "assets/images/product-p111-g1.jpg,assets/images/product-p111-g2.jpg,assets/images/product-p111-g3.jpg,assets/images/product-p111-g4.jpg,assets/images/product-p111-g5.jpg,assets/images/product-p111-g6.jpg",
         "detailImages": "assets/images/product-p111-d1.jpg,assets/images/product-p111-d2.jpg,assets/images/product-p111-d3.jpg,assets/images/product-p111-d4.jpg,assets/images/product-p111-d5.jpg,assets/images/product-p111-d6.jpg,assets/images/product-p111-d7.jpg,assets/images/product-p111-d8.jpg,assets/images/product-p111-d9.jpg,assets/images/product-p111-d10.jpg,assets/images/product-p111-d11.jpg",
-        "price": 7.86,
+        "price": 7.8,
         "term": "EXW",
         "unit": "pcs",
         "moq": 200,
@@ -5502,11 +5517,11 @@
       {
         "id": "p112",
         "name": "KM-965 Kids Hair Clipper USB Charging Washable Low Noise Ceramic Blade for Kids",
-        "category": "kids-clipper",
+        "category": "hair-clipper",
         "image": "assets/images/product-p112-main.jpg",
         "gallery": "assets/images/product-p112-g1.jpg,assets/images/product-p112-g2.jpg,assets/images/product-p112-g3.jpg,assets/images/product-p112-g4.jpg,assets/images/product-p112-g5.jpg,assets/images/product-p112-g6.jpg,assets/images/product-p112-g7.jpg",
         "detailImages": "assets/images/product-p112-d1.jpg,assets/images/product-p112-d2.jpg,assets/images/product-p112-d3.jpg,assets/images/product-p112-d4.jpg,assets/images/product-p112-d5.jpg,assets/images/product-p112-d6.jpg,assets/images/product-p112-d7.jpg,assets/images/product-p112-d8.jpg,assets/images/product-p112-d9.jpg,assets/images/product-p112-d10.jpg,assets/images/product-p112-d11.jpg",
-        "price": 8.31,
+        "price": 8.5,
         "term": "EXW",
         "unit": "pcs",
         "moq": 48,
@@ -5549,7 +5564,7 @@
         "image": "assets/images/product-p113-main.jpg",
         "gallery": "assets/images/product-p113-g1.jpg,assets/images/product-p113-g2.jpg,assets/images/product-p113-g3.jpg,assets/images/product-p113-g4.jpg,assets/images/product-p113-g5.jpg,assets/images/product-p113-g6.jpg,assets/images/product-p113-g7.jpg",
         "detailImages": "assets/images/product-p113-d1.jpg,assets/images/product-p113-d2.jpg,assets/images/product-p113-d3.jpg,assets/images/product-p113-d4.jpg,assets/images/product-p113-d5.jpg,assets/images/product-p113-d6.jpg,assets/images/product-p113-d7.jpg,assets/images/product-p113-d8.jpg,assets/images/product-p113-d9.jpg",
-        "price": 17.96,
+        "price": 18.0,
         "term": "EXW",
         "unit": "pcs",
         "moq": 20,
@@ -5592,7 +5607,7 @@
         "image": "assets/images/product-p114-main.jpg",
         "gallery": "assets/images/product-p114-g1.jpg,assets/images/product-p114-g2.jpg,assets/images/product-p114-g3.jpg,assets/images/product-p114-g4.jpg,assets/images/product-p114-g5.jpg,assets/images/product-p114-g6.jpg,assets/images/product-p114-g7.jpg,assets/images/product-p114-g8.jpg",
         "detailImages": "assets/images/product-p114-d1.jpg,assets/images/product-p114-d2.jpg,assets/images/product-p114-d3.jpg,assets/images/product-p114-d4.jpg,assets/images/product-p114-d5.jpg,assets/images/product-p114-d6.jpg,assets/images/product-p114-d7.jpg,assets/images/product-p114-d8.jpg,assets/images/product-p114-d9.jpg",
-        "price": 13.02,
+        "price": 13.0,
         "term": "EXW",
         "unit": "pcs",
         "moq": 40,
@@ -5635,7 +5650,7 @@
         "image": "assets/images/product-p115-main.jpg",
         "gallery": "assets/images/product-p115-g1.jpg,assets/images/product-p115-g2.jpg,assets/images/product-p115-g3.jpg,assets/images/product-p115-g4.jpg,assets/images/product-p115-g5.jpg,assets/images/product-p115-g6.jpg",
         "detailImages": "assets/images/product-p115-d1.jpg,assets/images/product-p115-d2.jpg,assets/images/product-p115-d3.jpg,assets/images/product-p115-d4.jpg,assets/images/product-p115-d5.jpg,assets/images/product-p115-d6.jpg,assets/images/product-p115-d7.jpg,assets/images/product-p115-d8.jpg,assets/images/product-p115-d9.jpg,assets/images/product-p115-d10.jpg",
-        "price": 52.76,
+        "price": 52.8,
         "term": "EXW",
         "unit": "pcs",
         "moq": 24,
@@ -5678,7 +5693,7 @@
         "image": "assets/images/product-p116-main.jpg",
         "gallery": "assets/images/product-p116-g1.jpg,assets/images/product-p116-g2.jpg,assets/images/product-p116-g3.jpg,assets/images/product-p116-g4.jpg,assets/images/product-p116-g5.jpg,assets/images/product-p116-g6.jpg,assets/images/product-p116-g7.jpg",
         "detailImages": "assets/images/product-p116-d1.jpg,assets/images/product-p116-d2.jpg,assets/images/product-p116-d3.jpg,assets/images/product-p116-d4.jpg,assets/images/product-p116-d5.jpg,assets/images/product-p116-d6.jpg,assets/images/product-p116-d7.jpg,assets/images/product-p116-d8.jpg,assets/images/product-p116-d9.jpg,assets/images/product-p116-d10.jpg,assets/images/product-p116-d11.jpg",
-        "price": 15.27,
+        "price": 15.5,
         "term": "EXW",
         "unit": "pcs",
         "moq": 24,
@@ -5721,7 +5736,7 @@
         "image": "assets/images/product-p117-main.jpg",
         "gallery": "assets/images/product-p117-g1.jpg,assets/images/product-p117-g2.jpg,assets/images/product-p117-g3.jpg,assets/images/product-p117-g4.jpg,assets/images/product-p117-g5.jpg,assets/images/product-p117-g6.jpg",
         "detailImages": "assets/images/product-p117-d1.jpg,assets/images/product-p117-d2.jpg,assets/images/product-p117-d3.jpg,assets/images/product-p117-d4.jpg,assets/images/product-p117-d5.jpg,assets/images/product-p117-d6.jpg,assets/images/product-p117-d7.jpg,assets/images/product-p117-d8.jpg,assets/images/product-p117-d9.jpg,assets/images/product-p117-d10.jpg,assets/images/product-p117-d11.jpg,assets/images/product-p117-d12.jpg",
-        "price": 62.86,
+        "price": 63.8,
         "term": "EXW",
         "unit": "pcs",
         "moq": 4,
@@ -5764,7 +5779,7 @@
         "image": "assets/images/product-p118-main.jpg",
         "gallery": "assets/images/product-p118-g1.jpg,assets/images/product-p118-g2.jpg,assets/images/product-p118-g3.jpg,assets/images/product-p118-g4.jpg,assets/images/product-p118-g5.jpg,assets/images/product-p118-g6.jpg",
         "detailImages": "assets/images/product-p118-d1.jpg,assets/images/product-p118-d2.jpg,assets/images/product-p118-d3.jpg,assets/images/product-p118-d4.jpg,assets/images/product-p118-d5.jpg,assets/images/product-p118-d6.jpg,assets/images/product-p118-d7.jpg,assets/images/product-p118-d8.jpg,assets/images/product-p118-d9.jpg,assets/images/product-p118-d10.jpg,assets/images/product-p118-d11.jpg,assets/images/product-p118-d12.jpg,assets/images/product-p118-d13.jpg,assets/images/product-p118-d14.jpg,assets/images/product-p118-d15.jpg",
-        "price": 60.62,
+        "price": 60.5,
         "term": "EXW",
         "unit": "pcs",
         "moq": 1,
@@ -5807,7 +5822,7 @@
         "image": "assets/images/product-p119-main.jpg",
         "gallery": "assets/images/product-p119-g1.jpg,assets/images/product-p119-g2.jpg,assets/images/product-p119-g3.jpg,assets/images/product-p119-g4.jpg,assets/images/product-p119-g5.jpg,assets/images/product-p119-g6.jpg",
         "detailImages": "assets/images/product-p119-d1.jpg,assets/images/product-p119-d2.jpg,assets/images/product-p119-d3.jpg,assets/images/product-p119-d4.jpg,assets/images/product-p119-d5.jpg,assets/images/product-p119-d6.jpg,assets/images/product-p119-d7.jpg,assets/images/product-p119-d8.jpg,assets/images/product-p119-d9.jpg,assets/images/product-p119-d10.jpg,assets/images/product-p119-d11.jpg",
-        "price": 10.1,
+        "price": 11.0,
         "term": "EXW",
         "unit": "pcs",
         "moq": 24,
@@ -5893,7 +5908,7 @@
         "image": "assets/images/product-p121-main.jpg",
         "gallery": "assets/images/product-p121-g1.jpg,assets/images/product-p121-g2.jpg,assets/images/product-p121-g3.jpg,assets/images/product-p121-g4.jpg,assets/images/product-p121-g5.jpg,assets/images/product-p121-g6.jpg,assets/images/product-p121-g7.jpg,assets/images/product-p121-g8.jpg,assets/images/product-p121-g9.jpg",
         "detailImages": "assets/images/product-p121-d1.jpg,assets/images/product-p121-d2.jpg,assets/images/product-p121-d3.jpg,assets/images/product-p121-d4.jpg,assets/images/product-p121-d5.jpg,assets/images/product-p121-d6.jpg,assets/images/product-p121-d7.jpg,assets/images/product-p121-d8.jpg,assets/images/product-p121-d9.jpg,assets/images/product-p121-d10.jpg,assets/images/product-p121-d11.jpg,assets/images/product-p121-d12.jpg,assets/images/product-p121-d13.jpg",
-        "price": 36.15,
+        "price": 36.0,
         "term": "EXW",
         "unit": "pcs",
         "moq": 20,
@@ -5926,6 +5941,3690 @@
           "fr": "",
           "pt": ""
         },
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p122",
+        "name": "KM-1113 Electric Hair Clipper T-Blade Outliner LCD Display Type-C Charging for Barbershop",
+        "category": "hair-clipper",
+        "image": "assets/images/p122-main.jpg",
+        "gallery": "assets/images/p122-g1.jpg,assets/images/p122-g2.jpg,assets/images/p122-g3.jpg,assets/images/p122-g4.jpg,assets/images/p122-g5.jpg",
+        "detailImages": "assets/images/p122-d1.jpg,assets/images/p122-d2.jpg,assets/images/p122-d3.jpg,assets/images/p122-d4.jpg,assets/images/p122-d5.jpg,assets/images/p122-d6.jpg,assets/images/p122-d7.jpg,assets/images/p122-d8.jpg,assets/images/p122-d9.jpg,assets/images/p122-d10.jpg,assets/images/p122-d11.jpg,assets/images/p122-d12.jpg,assets/images/p122-d13.jpg,assets/images/p122-d14.jpg",
+        "price": 7.0,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 60,
+        "packing": 60,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V/1A (Type-C)",
+        "material": "ABS body with fine steel cutter head",
+        "capacity": "Type-C charging 路 fine steel cutter 路 LCD power-left display 路 single gross weight 375g 路 carton 38.5x35.2x43.4cm",
+        "certs": "",
+        "features": "T-blade outliner for detailing and carving\nLCD digital power-left display\nType-C fast charging, one-button start\nFine steel cutter, long endurance battery\n60 pcs per carton",
+        "names": {
+          "en": "KM-1113 Electric Hair Clipper T-Blade Outliner LCD Display Type-C Charging for Barbershop",
+          "zh": "KM-1113 电动理发器 T型刀头修边 LED显示 Type-C充电",
+          "vi": "KM-1113 Tông đơ cắt tóc",
+          "th": "KM-1113 กรรไกรตัดผม",
+          "id": "KM-1113 Pemotong Rambut",
+          "es": "KM-1113 Cortapelos",
+          "fr": "KM-1113 Tondeuses à Cheveux",
+          "pt": "KM-1113 Máquinas de Cortar Cabelo"
+        },
+        "desc": {
+          "en": "The KM-1113 T-blade hair clipper features an LCD power display, Type-C charging and a fine steel cutter head, ideal for barbershop detailing and home trimming.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p123",
+        "name": "KM-1368 Electric Hair Clipper 7500RPM LED Display Precision Steel Blade USB Charging for Barbershop",
+        "category": "hair-clipper",
+        "image": "assets/images/p123-main.jpg",
+        "gallery": "assets/images/p123-g1.jpg,assets/images/p123-g2.jpg,assets/images/p123-g3.jpg,assets/images/p123-g4.jpg,assets/images/p123-g5.jpg,assets/images/p123-g6.jpg,assets/images/p123-g7.jpg,assets/images/p123-g8.jpg,assets/images/p123-g9.jpg",
+        "detailImages": "assets/images/p123-d1.jpg,assets/images/p123-d2.jpg,assets/images/p123-d3.jpg,assets/images/p123-d4.jpg,assets/images/p123-d5.jpg,assets/images/p123-d6.jpg,assets/images/p123-d7.jpg,assets/images/p123-d8.jpg,assets/images/p123-d9.jpg,assets/images/p123-d10.jpg,assets/images/p123-d11.jpg,assets/images/p123-d12.jpg",
+        "price": 10.8,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 40,
+        "packing": 40,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V/1A (USB)",
+        "material": "ABS body with precision steel blade",
+        "capacity": "Motor 7500RPM 路 precision steel blade 路 USB charging 路 single gross weight 654g 路 carton 49.5x39.5x47cm",
+        "certs": "CE,ROHS,FCC",
+        "features": "7500RPM high-speed motor, R-type blade\nLED digital display showing RPM and battery\nPrecision steel cutter head\nUSB charging with long-lasting battery\n40 pcs per carton",
+        "names": {
+          "en": "KM-1368 Electric Hair Clipper 7500RPM LED Display Precision Steel Blade USB Charging for Barbershop",
+          "zh": "KM-1368 电动理发器 7500转 LED显示 精钢刀头 USB充电",
+          "vi": "KM-1368 Tông đơ cắt tóc",
+          "th": "KM-1368 กรรไกรตัดผม",
+          "id": "KM-1368 Pemotong Rambut",
+          "es": "KM-1368 Cortapelos",
+          "fr": "KM-1368 Tondeuses à Cheveux",
+          "pt": "KM-1368 Máquinas de Cortar Cabelo"
+        },
+        "desc": {
+          "en": "The KM-1368 professional hair clipper delivers 7500RPM cutting power with an LED digital display and precision steel blade, perfect for daily barbershop use.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p124",
+        "name": "KM-1377 Electric Hair Clipper 8000RPM LED Display Type-C 3000mAh Lithium Battery for Barbershop",
+        "category": "hair-clipper",
+        "image": "assets/images/p124-main.jpg",
+        "gallery": "assets/images/p124-g1.jpg,assets/images/p124-g2.jpg,assets/images/p124-g3.jpg,assets/images/p124-g4.jpg,assets/images/p124-g5.jpg,assets/images/p124-g6.jpg,assets/images/p124-g7.jpg,assets/images/p124-g8.jpg,assets/images/p124-g9.jpg,assets/images/p124-g10.jpg",
+        "detailImages": "assets/images/p124-d1.jpg,assets/images/p124-d2.jpg,assets/images/p124-d3.jpg,assets/images/p124-d4.jpg,assets/images/p124-d5.jpg,assets/images/p124-d6.jpg,assets/images/p124-d7.jpg,assets/images/p124-d8.jpg,assets/images/p124-d9.jpg,assets/images/p124-d10.jpg,assets/images/p124-d11.jpg,assets/images/p124-d12.jpg,assets/images/p124-d13.jpg",
+        "price": 39.5,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 20,
+        "packing": 20,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V/1A (Type-C)",
+        "material": "Metal body with precision steel blade",
+        "capacity": "Motor 8000RPM 路 3000/2500mAh lithium battery 路 Type-C charging 路 single gross weight 654g 路 carton 33.8x22.9x6.2cm",
+        "certs": "CE,ROHS,FCC",
+        "features": "8000RPM high-speed professional motor\nLED digital display screen\nType-C charging interface\n3000mAh large-capacity lithium battery\nPrecision steel blade, streamlined metal body\n20 pcs per carton",
+        "names": {
+          "en": "KM-1377 Electric Hair Clipper 8000RPM LED Display Type-C 3000mAh Lithium Battery for Barbershop",
+          "zh": "KM-1377 电动理发器 8000转 LED显示 Type-C 3000毫安锂电池",
+          "vi": "KM-1377 Tông đơ cắt tóc",
+          "th": "KM-1377 กรรไกรตัดผม",
+          "id": "KM-1377 Pemotong Rambut",
+          "es": "KM-1377 Cortapelos",
+          "fr": "KM-1377 Tondeuses à Cheveux",
+          "pt": "KM-1377 Máquinas de Cortar Cabelo"
+        },
+        "desc": {
+          "en": "The KM-1377 professional hair clipper combines an 8000RPM motor, LED display and 3000mAh lithium battery with a metal body, built for demanding barbershop work.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [
+          {
+            "name": "Color",
+            "options": [
+              "KM-1377-Black",
+              "KM-1377-Red"
+            ]
+          }
+        ],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p125",
+        "name": "KM-1509 Electric Hair Clipper Brushless Motor 6000-8000RPM DLC Blade Charging Base for Barbershop",
+        "category": "hair-clipper",
+        "image": "assets/images/p125-main.jpg",
+        "gallery": "assets/images/p125-g1.jpg,assets/images/p125-g2.jpg,assets/images/p125-g3.jpg,assets/images/p125-g4.jpg,assets/images/p125-g5.jpg,assets/images/p125-g6.jpg,assets/images/p125-g7.jpg,assets/images/p125-g8.jpg,assets/images/p125-g9.jpg",
+        "detailImages": "assets/images/p125-d1.jpg,assets/images/p125-d2.jpg,assets/images/p125-d3.jpg,assets/images/p125-d4.jpg,assets/images/p125-d5.jpg,assets/images/p125-d6.jpg,assets/images/p125-d7.jpg,assets/images/p125-d8.jpg,assets/images/p125-d9.jpg,assets/images/p125-d10.jpg,assets/images/p125-d11.jpg,assets/images/p125-d12.jpg",
+        "price": 39.5,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 20,
+        "packing": 20,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V/1A (Type-C)",
+        "material": "Full metal zinc alloy body",
+        "capacity": "Brushless motor 6000-8000RPM 5-speed 路 21700 4500mAh lithium battery 路 charge 3h / run ~5h 路 DLC blade 路 single weight 380g 路 carton 55.1x48.5x40.5cm",
+        "certs": "CE,ROHS,FCC",
+        "features": "Brushless DC motor, 6000-8000RPM 5-speed regulation\n21700 4500mAh battery, ~5h runtime, 3h fast charge\nDLC coated blade, removable for cleaning\nFull metal zinc alloy body, LCD digital display\nComes with charging base, noise <65dB\n20 pcs per carton",
+        "names": {
+          "en": "KM-1509 Electric Hair Clipper Brushless Motor 6000-8000RPM DLC Blade Charging Base for Barbershop",
+          "zh": "KM-1509 电动理发器 无刷电机 6000-8000转 DLC刀头 带充电座",
+          "vi": "KM-1509 Tông đơ cắt tóc",
+          "th": "KM-1509 กรรไกรตัดผม",
+          "id": "KM-1509 Pemotong Rambut",
+          "es": "KM-1509 Cortapelos",
+          "fr": "KM-1509 Tondeuses à Cheveux",
+          "pt": "KM-1509 Máquinas de Cortar Cabelo"
+        },
+        "desc": {
+          "en": "The KM-1509 premium clipper uses a brushless motor with 5-speed 6000-8000RPM regulation, a 4500mAh battery, DLC blade and metal body with charging base for professional barbershops.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p126",
+        "name": "KM-1551 Electric Hair Clipper 7000RPM LED Display Metal Body USB Charging for Barbershop",
+        "category": "hair-clipper",
+        "image": "assets/images/p126-main.jpg",
+        "gallery": "assets/images/p126-g1.jpg,assets/images/p126-g2.jpg,assets/images/p126-g3.jpg,assets/images/p126-g4.jpg,assets/images/p126-g5.jpg",
+        "detailImages": "assets/images/p126-d1.jpg,assets/images/p126-d2.jpg,assets/images/p126-d3.jpg,assets/images/p126-d4.jpg,assets/images/p126-d5.jpg,assets/images/p126-d6.jpg,assets/images/p126-d7.jpg,assets/images/p126-d8.jpg,assets/images/p126-d9.jpg,assets/images/p126-d10.jpg,assets/images/p126-d11.jpg",
+        "price": 9.8,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 24,
+        "packing": 24,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V/1A (USB)",
+        "material": "Metal body",
+        "capacity": "Motor 7000RPM 路 USB charging 路 6 limit combs 路 single gross weight 673g 路 carton 48.5x23x46.8cm",
+        "certs": "",
+        "features": "7000RPM professional motor\nCircular LED display showing RPM and power\nFull metal grip body\nUSB charging cable included\n24 pcs per carton",
+        "names": {
+          "en": "KM-1551 Electric Hair Clipper 7000RPM LED Display Metal Body USB Charging for Barbershop",
+          "zh": "KM-1551 电动理发器 7000转 LED显示 金属机身 USB充电",
+          "vi": "KM-1551 Tông đơ cắt tóc",
+          "th": "KM-1551 กรรไกรตัดผม",
+          "id": "KM-1551 Pemotong Rambut",
+          "es": "KM-1551 Cortapelos",
+          "fr": "KM-1551 Tondeuses à Cheveux",
+          "pt": "KM-1551 Máquinas de Cortar Cabelo"
+        },
+        "desc": {
+          "en": "The KM-1551 hair clipper features a 7000RPM motor, circular LED display and full metal body, supplied with 6 guide combs for barbershop and home use.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p127",
+        "name": "KM-1567 Electric Hair Trimmer Brushless Motor Oil Head Carving T-Blade USB Rechargeable for Barbershop",
+        "category": "hair-clipper",
+        "image": "assets/images/p127-main.jpg",
+        "gallery": "assets/images/p127-g1.jpg,assets/images/p127-g2.jpg,assets/images/p127-g3.jpg,assets/images/p127-g4.jpg,assets/images/p127-g5.jpg,assets/images/p127-g6.jpg,assets/images/p127-g7.jpg,assets/images/p127-g8.jpg,assets/images/p127-g9.jpg",
+        "detailImages": "assets/images/p127-d1.jpg,assets/images/p127-d2.jpg,assets/images/p127-d3.jpg,assets/images/p127-d4.jpg,assets/images/p127-d5.jpg,assets/images/p127-d6.jpg,assets/images/p127-d7.jpg,assets/images/p127-d8.jpg,assets/images/p127-d9.jpg,assets/images/p127-d10.jpg,assets/images/p127-d11.jpg,assets/images/p127-d12.jpg,assets/images/p127-d13.jpg,assets/images/p127-d14.jpg,assets/images/p127-d15.jpg",
+        "price": 20.5,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 40,
+        "packing": 40,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V/1A (USB)",
+        "material": "ABS body with alloy moving blade",
+        "capacity": "Brushless DC motor 路 alloy acute-angle cutter head 路 USB charging & plug-in dual use 路 single gross weight 465g 路 carton 52x42x30cm",
+        "certs": "CE,ROHS,FCC",
+        "features": "Brushless DC motor, high-speed powerful drive\nAlloy acute-angle cutter head with alloy moving blade\nUSB charging and plug-in dual use\nHigh-capacity lithium battery\n40 pcs per carton",
+        "names": {
+          "en": "KM-1567 Electric Hair Trimmer Brushless Motor Oil Head Carving T-Blade USB Rechargeable for Barbershop",
+          "zh": "KM-1567 电动雕刻修发器 无刷电机 合金钢刀头 USB插充两用",
+          "vi": "KM-1567 Tông đơ cắt tóc",
+          "th": "KM-1567 กรรไกรตัดผม",
+          "id": "KM-1567 Pemotong Rambut",
+          "es": "KM-1567 Cortapelos",
+          "fr": "KM-1567 Tondeuses à Cheveux",
+          "pt": "KM-1567 Máquinas de Cortar Cabelo"
+        },
+        "desc": {
+          "en": "The KM-1567 oil-head carving trimmer uses a brushless DC motor and alloy blade with USB plug-in dual-use design, perfect for barbershop detailing and carving.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p128",
+        "name": "KM-1598 Electric Hair Trimmer Powder Metallurgy Ceramic Blade 0.1mm T-Blade LED Display for Barbershop",
+        "category": "hair-clipper",
+        "image": "assets/images/p128-main.jpg",
+        "gallery": "assets/images/p128-g1.jpg,assets/images/p128-g2.jpg,assets/images/p128-g3.jpg,assets/images/p128-g4.jpg,assets/images/p128-g5.jpg",
+        "detailImages": "assets/images/p128-d1.jpg,assets/images/p128-d2.jpg,assets/images/p128-d3.jpg,assets/images/p128-d4.jpg,assets/images/p128-d5.jpg,assets/images/p128-d6.jpg,assets/images/p128-d7.jpg,assets/images/p128-d8.jpg",
+        "price": 10.8,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 40,
+        "packing": 40,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V/1A (USB)",
+        "material": "ABS body with powder metallurgy / ceramic blade",
+        "capacity": "Powder metallurgy + ceramic blade 0.1mm pitch 路 USB charging 路 3 limit combs 1/2/3mm 路 single gross weight ~350g 路 carton 41.5x41x35cm",
+        "certs": "",
+        "features": "Dual-material powder metallurgy + ceramic blade\n0.1mm fine pitch blade for bald-head trimming\nLED power-left display\nUSB charging with 8-language manual\n40 pcs per carton",
+        "names": {
+          "en": "KM-1598 Electric Hair Trimmer Powder Metallurgy Ceramic Blade 0.1mm T-Blade LED Display for Barbershop",
+          "zh": "KM-1598 电动雕刻修发器 粉末冶金陶瓷刀头 0.1mm精修 LED显示",
+          "vi": "KM-1598 Tông đơ cắt tóc",
+          "th": "KM-1598 กรรไกรตัดผม",
+          "id": "KM-1598 Pemotong Rambut",
+          "es": "KM-1598 Cortapelos",
+          "fr": "KM-1598 Tondeuses à Cheveux",
+          "pt": "KM-1598 Máquinas de Cortar Cabelo"
+        },
+        "desc": {
+          "en": "The KM-1598 carving trimmer uses a 0.1mm fine-pitch powder metallurgy and ceramic blade with an LED display, delivering razor-close results for bald heads and detailing.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [
+          {
+            "name": "Color",
+            "options": [
+              "KM-1598-Gold"
+            ]
+          }
+        ],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p129",
+        "name": "KM-1667 Electric Hair Clipper 9000RPM LED Display Metal Body Type-C for Barbershop",
+        "category": "hair-clipper",
+        "image": "assets/images/p129-main.jpg",
+        "gallery": "assets/images/p129-g1.jpg,assets/images/p129-g2.jpg,assets/images/p129-g3.jpg,assets/images/p129-g4.jpg,assets/images/p129-g5.jpg,assets/images/p129-g6.jpg,assets/images/p129-g7.jpg,assets/images/p129-g8.jpg,assets/images/p129-g9.jpg,assets/images/p129-g10.jpg",
+        "detailImages": "assets/images/p129-d1.jpg,assets/images/p129-d2.jpg,assets/images/p129-d3.jpg,assets/images/p129-d4.jpg,assets/images/p129-d5.jpg,assets/images/p129-d6.jpg,assets/images/p129-d7.jpg,assets/images/p129-d8.jpg,assets/images/p129-d9.jpg,assets/images/p129-d10.jpg,assets/images/p129-d11.jpg,assets/images/p129-d12.jpg,assets/images/p129-d13.jpg",
+        "price": 19.5,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 30,
+        "packing": 30,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V/1A (Type-C)",
+        "material": "Metal body",
+        "capacity": "Motor 9000RPM 路 LED display 路 Type-C charging 路 6 limit combs 路 single gross weight 700g 路 carton 47.2x37.2x39.5cm",
+        "certs": "CE,ROHS,FCC",
+        "features": "9000RPM high-speed motor, ergonomic metal body\nLED digital display for speed and battery\nSharp blade with one-button start\nPlug & play, 6 limit combs 1.5-12mm\n30 pcs per carton",
+        "names": {
+          "en": "KM-1667 Electric Hair Clipper 9000RPM LED Display Metal Body Type-C for Barbershop",
+          "zh": "KM-1667 电动理发器 9000转 LED显示 金属机身 Type-C充电",
+          "vi": "KM-1667 Tông đơ cắt tóc",
+          "th": "KM-1667 กรรไกรตัดผม",
+          "id": "KM-1667 Pemotong Rambut",
+          "es": "KM-1667 Cortapelos",
+          "fr": "KM-1667 Tondeuses à Cheveux",
+          "pt": "KM-1667 Máquinas de Cortar Cabelo"
+        },
+        "desc": {
+          "en": "The KM-1667 professional clipper runs at 9000RPM with an LED speed display and metal grip, supplied with 6 guide combs for barbershop use.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [
+          {
+            "name": "Color",
+            "options": [
+              "KM-1667-Black",
+              "KM-1667-Gray"
+            ]
+          }
+        ],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p130",
+        "name": "KM-1683 Electric Hair Clipper 7500RPM LCD Display Bronze Metal Body for Barbershop",
+        "category": "hair-clipper",
+        "image": "assets/images/p130-main.jpg",
+        "gallery": "assets/images/p130-g1.jpg,assets/images/p130-g2.jpg,assets/images/p130-g3.jpg,assets/images/p130-g4.jpg,assets/images/p130-g5.jpg,assets/images/p130-g6.jpg,assets/images/p130-g7.jpg,assets/images/p130-g8.jpg,assets/images/p130-g9.jpg,assets/images/p130-g10.jpg",
+        "detailImages": "assets/images/p130-d1.jpg,assets/images/p130-d2.jpg,assets/images/p130-d3.jpg,assets/images/p130-d4.jpg,assets/images/p130-d5.jpg,assets/images/p130-d6.jpg,assets/images/p130-d7.jpg,assets/images/p130-d8.jpg,assets/images/p130-d9.jpg,assets/images/p130-d10.jpg,assets/images/p130-d11.jpg,assets/images/p130-d12.jpg,assets/images/p130-d13.jpg,assets/images/p130-d14.jpg",
+        "price": 11.0,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 40,
+        "packing": 40,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V/1A (USB)",
+        "material": "Bronze metal engraved body",
+        "capacity": "Motor 7500RPM 路 precision steel blade 路 USB charging 路 single gross weight 711g 路 carton 49.5x46.5x39cm",
+        "certs": "CE,ROHS,FCC",
+        "features": "7500RPM motor, LCD digital display\nPrecision steel R-type blade\nVintage bronze engraved metal body\nUSB charging, long-lasting battery\n40 pcs per carton",
+        "names": {
+          "en": "KM-1683 Electric Hair Clipper 7500RPM LCD Display Bronze Metal Body for Barbershop",
+          "zh": "KM-1683 电动理发器 7500转 LCD显示 青铜金属雕刻机身",
+          "vi": "KM-1683 Tông đơ cắt tóc",
+          "th": "KM-1683 กรรไกรตัดผม",
+          "id": "KM-1683 Pemotong Rambut",
+          "es": "KM-1683 Cortapelos",
+          "fr": "KM-1683 Tondeuses à Cheveux",
+          "pt": "KM-1683 Máquinas de Cortar Cabelo"
+        },
+        "desc": {
+          "en": "The KM-1683 clipper features a 7500RPM motor, LCD digital display and an ornate bronze metal body with a precision steel R-type blade.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p131",
+        "name": "KM-1696 Electric Hair Clipper Refined Stainless Steel Blade 4-Speed Cloud Pattern Metal Body for Barbershop",
+        "category": "hair-clipper",
+        "image": "assets/images/p131-main.jpg",
+        "gallery": "assets/images/p131-g1.jpg,assets/images/p131-g2.jpg,assets/images/p131-g3.jpg,assets/images/p131-g4.jpg,assets/images/p131-g5.jpg",
+        "detailImages": "assets/images/p131-d1.jpg,assets/images/p131-d2.jpg,assets/images/p131-d3.jpg,assets/images/p131-d4.jpg,assets/images/p131-d5.jpg,assets/images/p131-d6.jpg,assets/images/p131-d7.jpg,assets/images/p131-d8.jpg",
+        "price": 12.0,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 20,
+        "packing": 20,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V/1A (USB)",
+        "material": "Brass cloud-pattern metal body",
+        "capacity": "Refined stainless steel blade 4-level adjustment 路 USB charging 路 4 limit combs 3/6/10/13mm 路 single gross weight 458g 路 carton 47x25x39cm",
+        "certs": "CE,ROHS,FCC",
+        "features": "Refined stainless steel knife head, 4-level moving-knife adjustment\nVintage cloud-pattern engraved metal body\nLED power-left display\nUSB charging with 8-language manual\n20 pcs per carton",
+        "names": {
+          "en": "KM-1696 Electric Hair Clipper Refined Stainless Steel Blade 4-Speed Cloud Pattern Metal Body for Barbershop",
+          "zh": "KM-1696 电动理发器 精钢刀头4档调速 云纹金属机身 LCD显示",
+          "vi": "KM-1696 Tông đơ cắt tóc",
+          "th": "KM-1696 กรรไกรตัดผม",
+          "id": "KM-1696 Pemotong Rambut",
+          "es": "KM-1696 Cortapelos",
+          "fr": "KM-1696 Tondeuses à Cheveux",
+          "pt": "KM-1696 Máquinas de Cortar Cabelo"
+        },
+        "desc": {
+          "en": "The KM-1696 clipper features a refined stainless steel blade with 4-level gradient adjustment and a vintage cloud-pattern brass body, ideal for retro-style barbershops.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p132",
+        "name": "KM-1698 Electric Hair Clipper 7000RPM Powder Metallurgy Ceramic Blade 4-Speed for Barbershop",
+        "category": "hair-clipper",
+        "image": "assets/images/p132-main.jpg",
+        "gallery": "assets/images/p132-g1.jpg,assets/images/p132-g2.jpg,assets/images/p132-g3.jpg,assets/images/p132-g4.jpg,assets/images/p132-g5.jpg",
+        "detailImages": "assets/images/p132-d1.jpg,assets/images/p132-d2.jpg,assets/images/p132-d3.jpg,assets/images/p132-d4.jpg,assets/images/p132-d5.jpg,assets/images/p132-d6.jpg,assets/images/p132-d7.jpg,assets/images/p132-d8.jpg",
+        "price": 18.5,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 24,
+        "packing": 24,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V/1A (USB)",
+        "material": "Gold metal body",
+        "capacity": "Powder metallurgy static blade + zirconia ceramic moving blade 4-speed 路 motor 7000RPM 路 8 limit combs 路 single gross weight 787g 路 carton 49x46.5x24cm",
+        "certs": "CE,ROHS,FCC",
+        "features": "7000RPM motor with 4-speed adjustment\nPowder metallurgy blade paired with zirconia ceramic moving blade\nNo jamming or overheating, sharp clean cutting\nLCD display showing RPM and battery\n24 pcs per carton",
+        "names": {
+          "en": "KM-1698 Electric Hair Clipper 7000RPM Powder Metallurgy Ceramic Blade 4-Speed for Barbershop",
+          "zh": "KM-1698 电动理发器 7000转 粉末冶金陶瓷刀头 4档调速",
+          "vi": "KM-1698 Tông đơ cắt tóc",
+          "th": "KM-1698 กรรไกรตัดผม",
+          "id": "KM-1698 Pemotong Rambut",
+          "es": "KM-1698 Cortapelos",
+          "fr": "KM-1698 Tondeuses à Cheveux",
+          "pt": "KM-1698 Máquinas de Cortar Cabelo"
+        },
+        "desc": {
+          "en": "The KM-1698 clipper combines a powder metallurgy static blade with a zirconia ceramic moving blade and 4-speed 7000RPM motor, delivering smooth jam-free cutting for professionals.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p133",
+        "name": "KM-1735 Electric Hair Clipper 9000RPM LED Display DLC Blade Charging Base for Barbershop",
+        "category": "hair-clipper",
+        "image": "assets/images/p133-main.jpg",
+        "gallery": "assets/images/p133-g1.jpg,assets/images/p133-g2.jpg,assets/images/p133-g3.jpg,assets/images/p133-g4.jpg,assets/images/p133-g5.jpg,assets/images/p133-g6.jpg,assets/images/p133-g7.jpg",
+        "detailImages": "assets/images/p133-d1.jpg,assets/images/p133-d2.jpg,assets/images/p133-d3.jpg,assets/images/p133-d4.jpg,assets/images/p133-d5.jpg,assets/images/p133-d6.jpg,assets/images/p133-d7.jpg,assets/images/p133-d8.jpg,assets/images/p133-d9.jpg,assets/images/p133-d10.jpg,assets/images/p133-d11.jpg,assets/images/p133-d12.jpg,assets/images/p133-d13.jpg",
+        "price": 33.8,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 24,
+        "packing": 24,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V/1A (USB)",
+        "material": "ABS body with precision steel + DLC blade",
+        "capacity": "Motor 9000RPM 路 280 minutes battery life 路 DLC blade 路 USB charging & plug-in 路 single gross weight 1043g 路 carton 50.5x44.3x44cm",
+        "certs": "CE,ROHS,FCC",
+        "features": "9000RPM motor, circular LED digital display\nPrecision steel + DLC blade\nUSB charging and plugging dual-purpose\n280 minutes long battery life\nCharging base included\n24 pcs per carton",
+        "names": {
+          "en": "KM-1735 Electric Hair Clipper 9000RPM LED Display DLC Blade Charging Base for Barbershop",
+          "zh": "KM-1735 电动理发器 9000转 LED显示 DLC刀头 带充电底座",
+          "vi": "KM-1735 Tông đơ cắt tóc",
+          "th": "KM-1735 กรรไกรตัดผม",
+          "id": "KM-1735 Pemotong Rambut",
+          "es": "KM-1735 Cortapelos",
+          "fr": "KM-1735 Tondeuses à Cheveux",
+          "pt": "KM-1735 Máquinas de Cortar Cabelo"
+        },
+        "desc": {
+          "en": "The KM-1735 professional clipper runs at 9000RPM with a circular LED display, DLC blade and charging base, offering 280 minutes of runtime for busy barbershops.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [
+          {
+            "name": "Color",
+            "options": [
+              "KM-1735-Yellow",
+              "KM-1735-Green"
+            ]
+          }
+        ],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p134",
+        "name": "KM-1742 Electric Hair Trimmer T-Blade Stainless Steel R-Edge LED Display USB Charging for Home Use",
+        "category": "hair-clipper",
+        "image": "assets/images/p134-main.jpg",
+        "gallery": "assets/images/p134-g1.jpg,assets/images/p134-g2.jpg,assets/images/p134-g3.jpg,assets/images/p134-g4.jpg,assets/images/p134-g5.jpg,assets/images/p134-g6.jpg",
+        "detailImages": "assets/images/p134-d1.jpg,assets/images/p134-d2.jpg,assets/images/p134-d3.jpg,assets/images/p134-d4.jpg,assets/images/p134-d5.jpg,assets/images/p134-d6.jpg,assets/images/p134-d7.jpg,assets/images/p134-d8.jpg,assets/images/p134-d9.jpg,assets/images/p134-d10.jpg",
+        "price": 5.0,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 60,
+        "packing": 60,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V/1A (USB)",
+        "material": "ABS gradient body",
+        "capacity": "Stainless steel blade R-shaped rounded corner 路 USB charging 路 LED power-left display 路 single gross weight 265g 路 carton 39.5x38x44cm",
+        "certs": "CE,ROHS,FCC",
+        "features": "T-blade outliner with R-shaped rounded corner, skin-safe\nStainless steel blade, corrosion resistant\nLED digital power-left display\nLightweight body for home and travel\n60 pcs per carton",
+        "names": {
+          "en": "KM-1742 Electric Hair Trimmer T-Blade Stainless Steel R-Edge LED Display USB Charging for Home Use",
+          "zh": "KM-1742 电动修发器 T型不锈钢刀头圆角防刮 LED显示 USB充电",
+          "vi": "KM-1742 Tông đơ cắt tóc",
+          "th": "KM-1742 กรรไกรตัดผม",
+          "id": "KM-1742 Pemotong Rambut",
+          "es": "KM-1742 Cortapelos",
+          "fr": "KM-1742 Tondeuses à Cheveux",
+          "pt": "KM-1742 Máquinas de Cortar Cabelo"
+        },
+        "desc": {
+          "en": "The KM-1742 compact T-blade trimmer features a skin-safe rounded stainless steel cutter and LED power display, great for home detailing and travel grooming.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [
+          {
+            "name": "Color",
+            "options": [
+              "KM-1742-Gold",
+              "KM-1742-Blue"
+            ]
+          }
+        ],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p135",
+        "name": "KM-1757 Electric Hair Trimmer Carving Clipper USB 5V 10W Fine Steel Blade 210min Runtime for Home Use",
+        "category": "hair-clipper",
+        "image": "assets/images/p135-main.jpg",
+        "gallery": "assets/images/p135-g1.jpg,assets/images/p135-g2.jpg,assets/images/p135-g3.jpg,assets/images/p135-g4.jpg,assets/images/p135-g5.jpg,assets/images/p135-g6.jpg,assets/images/p135-g7.jpg,assets/images/p135-g8.jpg",
+        "detailImages": "assets/images/p135-d1.jpg,assets/images/p135-d2.jpg,assets/images/p135-d3.jpg,assets/images/p135-d4.jpg,assets/images/p135-d5.jpg,assets/images/p135-d6.jpg,assets/images/p135-d7.jpg,assets/images/p135-d8.jpg,assets/images/p135-d9.jpg",
+        "price": 8.0,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 40,
+        "packing": 40,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V (USB)",
+        "material": "All-metal silver body",
+        "capacity": "Input 5V 10W 路 fine steel blade 路 charging 1.5h / usage 210min 路 net weight 138g 路 carton 42x40x27cm",
+        "certs": "CE,ROHS,FCC",
+        "features": "Sleek all-metal carving clipper body\nFast charging 1.5h, 210 minutes usage time\nFine steel sharp blade, powerful motor\nSmart indicator light, lightweight 138g\n40 pcs per carton",
+        "names": {
+          "en": "KM-1757 Electric Hair Trimmer Carving Clipper USB 5V 10W Fine Steel Blade 210min Runtime for Home Use",
+          "zh": "KM-1757 电动雕刻修发器 金属机身 精钢刀头 充电1.5h使用210分钟",
+          "vi": "KM-1757 Tông đơ cắt tóc",
+          "th": "KM-1757 กรรไกรตัดผม",
+          "id": "KM-1757 Pemotong Rambut",
+          "es": "KM-1757 Cortapelos",
+          "fr": "KM-1757 Tondeuses à Cheveux",
+          "pt": "KM-1757 Máquinas de Cortar Cabelo"
+        },
+        "desc": {
+          "en": "The KM-1757 all-metal carving trimmer charges in 1.5h and runs 210 minutes, with a fine steel blade and smart indicator light for family grooming.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p136",
+        "name": "KM-1770 Electric Hair Clipper Aluminum Alloy Body Powder Metallurgy Blade LCD Display for Barbershop",
+        "category": "hair-clipper",
+        "image": "assets/images/p136-main.jpg",
+        "gallery": "assets/images/p136-g1.jpg,assets/images/p136-g2.jpg,assets/images/p136-g3.jpg,assets/images/p136-g4.jpg,assets/images/p136-g5.jpg,assets/images/p136-g6.jpg",
+        "detailImages": "assets/images/p136-d1.jpg,assets/images/p136-d2.jpg,assets/images/p136-d3.jpg,assets/images/p136-d4.jpg,assets/images/p136-d5.jpg,assets/images/p136-d6.jpg,assets/images/p136-d7.jpg,assets/images/p136-d8.jpg,assets/images/p136-d9.jpg,assets/images/p136-d10.jpg,assets/images/p136-d11.jpg",
+        "price": 19.5,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 24,
+        "packing": 24,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V/1A (USB)",
+        "material": "Full aluminum alloy body",
+        "capacity": "Aluminum alloy fuselage 路 powder metallurgy cutter head 路 LCD digital display 路 adjustable moving knife 路 single gross weight 826g 路 carton 46.5x36.5x32cm",
+        "certs": "CE,ROHS,FCC",
+        "features": "Full aluminum alloy body, barbershop edition design\nPowder metallurgy cutter head with adjustable moving knife\nLCD digital display screen\nHigh-speed electric motor, one-touch start\n24 pcs per carton",
+        "names": {
+          "en": "KM-1770 Electric Hair Clipper Aluminum Alloy Body Powder Metallurgy Blade LCD Display for Barbershop",
+          "zh": "KM-1770 电动理发器 铝合金机身 粉末冶金刀头 LCD显示",
+          "vi": "KM-1770 Tông đơ cắt tóc",
+          "th": "KM-1770 กรรไกรตัดผม",
+          "id": "KM-1770 Pemotong Rambut",
+          "es": "KM-1770 Cortapelos",
+          "fr": "KM-1770 Tondeuses à Cheveux",
+          "pt": "KM-1770 Máquinas de Cortar Cabelo"
+        },
+        "desc": {
+          "en": "The KM-1770 professional clipper is built with a full aluminum alloy body, powder metallurgy cutter and LCD display for a premium barbershop experience.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p137",
+        "name": "KM-1791 5-in-1 Electric Hair Clipper Grooming Kit 7800RPM IPX6 LED Display for Barbershop",
+        "category": "hair-clipper",
+        "image": "assets/images/p137-main.jpg",
+        "gallery": "assets/images/p137-g1.jpg,assets/images/p137-g2.jpg,assets/images/p137-g3.jpg,assets/images/p137-g4.jpg,assets/images/p137-g5.jpg",
+        "detailImages": "assets/images/p137-d1.jpg,assets/images/p137-d2.jpg,assets/images/p137-d3.jpg,assets/images/p137-d4.jpg,assets/images/p137-d5.jpg,assets/images/p137-d6.jpg,assets/images/p137-d7.jpg,assets/images/p137-d8.jpg,assets/images/p137-d9.jpg,assets/images/p137-d10.jpg",
+        "price": 14.0,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 24,
+        "packing": 24,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V/1A (USB)",
+        "material": "Metal body with removable cutter heads",
+        "capacity": "7800RPM 路 5-in-1 removable heads 路 IPX6 washable 路 LED display 路 single gross weight 711g 路 carton 48.5x47.3x32.1cm",
+        "certs": "CE,ROHS,FCC",
+        "features": "5-in-1 grooming kit: clipper, shaver, nose, sideburns, trimmer heads\n7800RPM high-torque motor\nIPX6 washable design\nLED digital display\n24 pcs per carton",
+        "names": {
+          "en": "KM-1791 5-in-1 Electric Hair Clipper Grooming Kit 7800RPM IPX6 LED Display for Barbershop",
+          "zh": "KM-1791 电动理发器 5合1套装 7800转 IPX6水洗 LED显示",
+          "vi": "KM-1791 Tông đơ cắt tóc",
+          "th": "KM-1791 กรรไกรตัดผม",
+          "id": "KM-1791 Pemotong Rambut",
+          "es": "KM-1791 Cortapelos",
+          "fr": "KM-1791 Tondeuses à Cheveux",
+          "pt": "KM-1791 Máquinas de Cortar Cabelo"
+        },
+        "desc": {
+          "en": "The KM-1791 5-in-1 grooming kit combines a 7800RPM clipper with four removable heads, IPX6 washable design and LED display for whole-body men's grooming.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p138",
+        "name": "KM-1825 Electric Hair Clipper Powder Metallurgy Blade Type-C LED Display for Barbershop",
+        "category": "hair-clipper",
+        "image": "assets/images/p138-main.jpg",
+        "gallery": "assets/images/p138-g1.jpg,assets/images/p138-g2.jpg,assets/images/p138-g3.jpg,assets/images/p138-g4.jpg,assets/images/p138-g5.jpg",
+        "detailImages": "assets/images/p138-d1.jpg,assets/images/p138-d2.jpg,assets/images/p138-d3.jpg,assets/images/p138-d4.jpg,assets/images/p138-d5.jpg,assets/images/p138-d6.jpg,assets/images/p138-d7.jpg,assets/images/p138-d8.jpg,assets/images/p138-d9.jpg,assets/images/p138-d10.jpg,assets/images/p138-d11.jpg,assets/images/p138-d12.jpg",
+        "price": 18.5,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 24,
+        "packing": 24,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V/1A (Type-C)",
+        "material": "Metal body with powder metallurgical blade",
+        "capacity": "Powder metallurgical blade 路 Type-C charging 路 4 limit combs 路 single gross weight ~500g 路 color box 73x117x227mm",
+        "certs": "",
+        "features": "Powder metallurgical blade, sharp durable cutting\nType-C charging, plug and play\nLED power-left display\nLong endurance motor\n24 pcs per carton",
+        "names": {
+          "en": "KM-1825 Electric Hair Clipper Powder Metallurgy Blade Type-C LED Display for Barbershop",
+          "zh": "KM-1825 电动理发器 粉末冶金刀头 Type-C充电 LED显示",
+          "vi": "KM-1825 Tông đơ cắt tóc",
+          "th": "KM-1825 กรรไกรตัดผม",
+          "id": "KM-1825 Pemotong Rambut",
+          "es": "KM-1825 Cortapelos",
+          "fr": "KM-1825 Tondeuses à Cheveux",
+          "pt": "KM-1825 Máquinas de Cortar Cabelo"
+        },
+        "desc": {
+          "en": "The KM-1825 professional clipper features a powder metallurgical blade, Type-C charging and LED power display, supplied with 4 guide combs for barbershop use.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [
+          {
+            "name": "Color",
+            "options": [
+              "KM-1825-Black",
+              "KM-1825-Gold"
+            ]
+          }
+        ],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p139",
+        "name": "KM-1855 Electric Hair Trimmer T-Blade Precision Steel Blade Type-C LED Display for Barbershop",
+        "category": "hair-clipper",
+        "image": "assets/images/p139-main.jpg",
+        "gallery": "assets/images/p139-g1.jpg,assets/images/p139-g2.jpg,assets/images/p139-g3.jpg,assets/images/p139-g4.jpg,assets/images/p139-g5.jpg",
+        "detailImages": "assets/images/p139-d1.jpg,assets/images/p139-d2.jpg,assets/images/p139-d3.jpg,assets/images/p139-d4.jpg,assets/images/p139-d5.jpg,assets/images/p139-d6.jpg,assets/images/p139-d7.jpg,assets/images/p139-d8.jpg,assets/images/p139-d9.jpg,assets/images/p139-d10.jpg,assets/images/p139-d11.jpg,assets/images/p139-d12.jpg",
+        "price": 22.8,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 48,
+        "packing": 48,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V/1A (Type-C)",
+        "material": "Metal body with precision steel blade",
+        "capacity": "Precision steel blade 路 Type-C charging 路 3 limit combs 路 single gross weight ~300g 路 carton 42x41x42cm",
+        "certs": "",
+        "features": "T-blade outliner with precision steel cutter\nType-C interface, one-button start\nLED power-left display\nPlug and play, surging power\n48 pcs per carton",
+        "names": {
+          "en": "KM-1855 Electric Hair Trimmer T-Blade Precision Steel Blade Type-C LED Display for Barbershop",
+          "zh": "KM-1855 电动修发器 T型刀头精钢刀 Type-C充电 LED显示",
+          "vi": "KM-1855 Tông đơ cắt tóc",
+          "th": "KM-1855 กรรไกรตัดผม",
+          "id": "KM-1855 Pemotong Rambut",
+          "es": "KM-1855 Cortapelos",
+          "fr": "KM-1855 Tondeuses à Cheveux",
+          "pt": "KM-1855 Máquinas de Cortar Cabelo"
+        },
+        "desc": {
+          "en": "The KM-1855 T-blade trimmer uses a precision steel cutter with Type-C charging and LED display, ideal for oil-head carving and edge detailing.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [
+          {
+            "name": "Color",
+            "options": [
+              "KM-1855-Black",
+              "KM-1855-Gold"
+            ]
+          }
+        ],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p140",
+        "name": "KM-1856 Electric Hair Clipper Clean Steel Cutter Head USB Charging LED Display Lightweight for Barbershop",
+        "category": "hair-clipper",
+        "image": "assets/images/p140-main.jpg",
+        "gallery": "assets/images/p140-g1.jpg,assets/images/p140-g2.jpg,assets/images/p140-g3.jpg,assets/images/p140-g4.jpg,assets/images/p140-g5.jpg",
+        "detailImages": "assets/images/p140-d1.jpg,assets/images/p140-d2.jpg,assets/images/p140-d3.jpg,assets/images/p140-d4.jpg,assets/images/p140-d5.jpg,assets/images/p140-d6.jpg,assets/images/p140-d7.jpg,assets/images/p140-d8.jpg,assets/images/p140-d9.jpg,assets/images/p140-d10.jpg,assets/images/p140-d11.jpg",
+        "price": 14.5,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 40,
+        "packing": 40,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V/1A (USB)",
+        "material": "ABS body with clean steel cutter head",
+        "capacity": "Clean steel cutter head 路 USB charging 路 4 limit combs 路 LED display 路 single gross weight 628g 路 carton 44x42.5x36.5cm",
+        "certs": "",
+        "features": "Strong power motor with enduring battery\nClean steel cutter head\nUSB charging, one-touch start\nLightweight design, 4 guide combs\n40 pcs per carton",
+        "names": {
+          "en": "KM-1856 Electric Hair Clipper Clean Steel Cutter Head USB Charging LED Display Lightweight for Barbershop",
+          "zh": "KM-1856 电动理发器 精钢刀头 USB充电 LED显示 轻量化",
+          "vi": "KM-1856 Tông đơ cắt tóc",
+          "th": "KM-1856 กรรไกรตัดผม",
+          "id": "KM-1856 Pemotong Rambut",
+          "es": "KM-1856 Cortapelos",
+          "fr": "KM-1856 Tondeuses à Cheveux",
+          "pt": "KM-1856 Máquinas de Cortar Cabelo"
+        },
+        "desc": {
+          "en": "The KM-1856 high-performance clipper features a clean steel cutter head, USB charging and LED display in a lightweight body suitable for all hairstyles.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [
+          {
+            "name": "Color",
+            "options": [
+              "KM-1856-Black"
+            ]
+          }
+        ],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p141",
+        "name": "KM-1861 Electric Hair Trimmer Brushless Motor 7000-8000RPM 6-Speed Ceramic Blade Type-C for Barbershop",
+        "category": "hair-clipper",
+        "image": "assets/images/p141-main.jpg",
+        "gallery": "assets/images/p141-g1.jpg,assets/images/p141-g2.jpg,assets/images/p141-g3.jpg,assets/images/p141-g4.jpg,assets/images/p141-g5.jpg,assets/images/p141-g6.jpg,assets/images/p141-g7.jpg",
+        "detailImages": "",
+        "price": 19.5,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": "",
+        "packing": "",
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V/1A (Type-C)",
+        "material": "ABS body, 3.7V 2000mAh lithium battery",
+        "capacity": "Outer rotor brushless motor 7000-8000RPM 6 gears 路 3.7V 2000mAh battery 路 fine steel + ceramic cutter head 路 body 17.5cm 路 Type-C rechargeable",
+        "certs": "CE",
+        "features": "Outer rotor brushless motor, 6 gears 7000-8000RPM\nFine steel + ceramic cutter, no hair jamming\nRoller speed adjustment knob\nLED power and RPM display\nUSB Type-C rechargeable hair trimmer\nColors: yellow and orange",
+        "names": {
+          "en": "KM-1861 Electric Hair Trimmer Brushless Motor 7000-8000RPM 6-Speed Ceramic Blade Type-C for Barbershop",
+          "zh": "KM-1861 电动修发器 外转子无刷电机 7000-8000转6档 精钢陶瓷刀头",
+          "vi": "KM-1861 Tông đơ cắt tóc",
+          "th": "KM-1861 กรรไกรตัดผม",
+          "id": "KM-1861 Pemotong Rambut",
+          "es": "KM-1861 Cortapelos",
+          "fr": "KM-1861 Tondeuses à Cheveux",
+          "pt": "KM-1861 Máquinas de Cortar Cabelo"
+        },
+        "desc": {
+          "en": "The KM-1861 T-blade trimmer uses an outer rotor brushless motor with 6 speed gears from 7000 to 8000RPM, a fine steel-ceramic cutter and Type-C charging.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [
+          {
+            "name": "Color",
+            "options": [
+              "KM-1861-Yellow",
+              "KM-1861-Orange"
+            ]
+          }
+        ],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p142",
+        "name": "KM-1868 Electric Hair Trimmer 0-Gap Steel Blade LCD RPM Display Gradient Body for Barbershop",
+        "category": "hair-clipper",
+        "image": "assets/images/p142-main.jpg",
+        "gallery": "assets/images/p142-g1.jpg,assets/images/p142-g2.jpg,assets/images/p142-g3.jpg,assets/images/p142-g4.jpg,assets/images/p142-g5.jpg",
+        "detailImages": "assets/images/p142-d1.jpg,assets/images/p142-d2.jpg,assets/images/p142-d3.jpg,assets/images/p142-d4.jpg,assets/images/p142-d5.jpg,assets/images/p142-d6.jpg,assets/images/p142-d7.jpg,assets/images/p142-d8.jpg,assets/images/p142-d9.jpg,assets/images/p142-d10.jpg",
+        "price": 27.0,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 24,
+        "packing": 24,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V/1A (Type-C)",
+        "material": "ABS gradient body with clean steel cutter head",
+        "capacity": "0-gap double-edge clean steel cutter 路 LCD RPM/Min display 路 Type-C charging 路 single gross weight ~400g 路 carton 55.5x33x48.5cm",
+        "certs": "CE,ROHS,FCC",
+        "features": "0-gap double-edge cutting clean steel cutter head\nLCD circular display showing RPM and minutes\nEngraving and zero-cutting design\nSkin-safe, harmless to skin\n24 pcs per carton",
+        "names": {
+          "en": "KM-1868 Electric Hair Trimmer 0-Gap Steel Blade LCD RPM Display Gradient Body for Barbershop",
+          "zh": "KM-1868 电动修发器 0间隙精钢刀头 LCD转速显示 渐变机身",
+          "vi": "KM-1868 Tông đơ cắt tóc",
+          "th": "KM-1868 กรรไกรตัดผม",
+          "id": "KM-1868 Pemotong Rambut",
+          "es": "KM-1868 Cortapelos",
+          "fr": "KM-1868 Tondeuses à Cheveux",
+          "pt": "KM-1868 Máquinas de Cortar Cabelo"
+        },
+        "desc": {
+          "en": "The KM-1868 T-blade trimmer features a 0-gap double-edge steel cutter, LCD RPM display and gradient body, designed for close engraving and zero-hairline fades.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p143",
+        "name": "KM-1918 Electric Hair Clipper 9000RPM Aluminum Body Ceramic Titanium Blade Charging Base for Barbershop",
+        "category": "hair-clipper",
+        "image": "assets/images/p143-main.jpg",
+        "gallery": "assets/images/p143-g1.jpg,assets/images/p143-g2.jpg,assets/images/p143-g3.jpg,assets/images/p143-g4.jpg,assets/images/p143-g5.jpg,assets/images/p143-g6.jpg,assets/images/p143-g7.jpg,assets/images/p143-g8.jpg,assets/images/p143-g9.jpg",
+        "detailImages": "assets/images/p143-d1.jpg,assets/images/p143-d2.jpg,assets/images/p143-d3.jpg,assets/images/p143-d4.jpg,assets/images/p143-d5.jpg,assets/images/p143-d6.jpg,assets/images/p143-d7.jpg,assets/images/p143-d8.jpg,assets/images/p143-d9.jpg,assets/images/p143-d10.jpg,assets/images/p143-d11.jpg,assets/images/p143-d12.jpg,assets/images/p143-d13.jpg",
+        "price": 29.0,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 20,
+        "packing": 20,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V/2A (USB)",
+        "material": "Aluminum alloy body",
+        "capacity": "Motor 9100RPM 路 18650 3000mAh battery 路 charge ~2h / run >=150min 路 powder metal + titanium ceramic blade 路 host 310g 路 carton 53.5x34.5x47cm",
+        "certs": "CE,ROHS,FCC",
+        "features": "9000RPM high-speed motor with constant-speed control\nAluminum alloy body, host weight 310g\nPowder metallurgy static blade with titanium-coated ceramic moving blade\nLCD display, ~150min runtime, 2h charge\nCharging base included, noise <=68dB\n20 pcs per carton",
+        "names": {
+          "en": "KM-1918 Electric Hair Clipper 9000RPM Aluminum Body Ceramic Titanium Blade Charging Base for Barbershop",
+          "zh": "KM-1918 电动理发器 9000转 铝合金机身 陶瓷镀钛刀头 带充电座",
+          "vi": "KM-1918 Tông đơ cắt tóc",
+          "th": "KM-1918 กรรไกรตัดผม",
+          "id": "KM-1918 Pemotong Rambut",
+          "es": "KM-1918 Cortapelos",
+          "fr": "KM-1918 Tondeuses à Cheveux",
+          "pt": "KM-1918 Máquinas de Cortar Cabelo"
+        },
+        "desc": {
+          "en": "The KM-1918 premium clipper runs at 9000RPM with an aluminum body, titanium ceramic blade, 3000mAh battery and charging base, built for professional barbershops.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p144",
+        "name": "KM-1949 Electric Hair Trimmer All-Metal Body Type-C High-Power Motor 2.5h Fast Charge for Barbershop",
+        "category": "hair-clipper",
+        "image": "assets/images/p144-main.jpg",
+        "gallery": "assets/images/p144-g1.jpg,assets/images/p144-g2.jpg,assets/images/p144-g3.jpg,assets/images/p144-g4.jpg,assets/images/p144-g5.jpg,assets/images/p144-g6.jpg,assets/images/p144-g7.jpg,assets/images/p144-g8.jpg,assets/images/p144-g9.jpg",
+        "detailImages": "assets/images/p144-d1.jpg,assets/images/p144-d2.jpg,assets/images/p144-d3.jpg,assets/images/p144-d4.jpg,assets/images/p144-d5.jpg,assets/images/p144-d6.jpg,assets/images/p144-d7.jpg,assets/images/p144-d8.jpg,assets/images/p144-d9.jpg,assets/images/p144-d10.jpg,assets/images/p144-d11.jpg,assets/images/p144-d12.jpg,assets/images/p144-d13.jpg,assets/images/p144-d14.jpg",
+        "price": 15.5,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 40,
+        "packing": 40,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V/1A (Type-C)",
+        "material": "Full metal body",
+        "capacity": "High-power motor 路 large-capacity lithium battery 路 Type-C port, full charge in 2.5h 路 R-shaped sharp blade 路 single gross weight 500g 路 carton 55x43x33cm",
+        "certs": "CE,ROHS,FCC",
+        "features": "Full metal anniversary edition body\nHigh-power motor with intelligent anti-jam design\nR-shaped sharp blade\nType-C port, fully charged in 2.5 hours\n40 pcs per carton",
+        "names": {
+          "en": "KM-1949 Electric Hair Trimmer All-Metal Body Type-C High-Power Motor 2.5h Fast Charge for Barbershop",
+          "zh": "KM-1949 电动修发器 全金属机身 Type-C大功率电机 2.5h快充",
+          "vi": "KM-1949 Tông đơ cắt tóc",
+          "th": "KM-1949 กรรไกรตัดผม",
+          "id": "KM-1949 Pemotong Rambut",
+          "es": "KM-1949 Cortapelos",
+          "fr": "KM-1949 Tondeuses à Cheveux",
+          "pt": "KM-1949 Máquinas de Cortar Cabelo"
+        },
+        "desc": {
+          "en": "The KM-1949 all-metal T-blade trimmer features a high-power anti-jam motor, R-shaped sharp blade and Type-C fast charging in 2.5 hours.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [
+          {
+            "name": "Color",
+            "options": [
+              "KM-1949-Gold",
+              "KM-1949-Silver"
+            ]
+          }
+        ],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p145",
+        "name": "KM-2136 Electric Hair Clipper 6500RPM LED Display Powder Metallurgy Blade Charging Base for Barbershop",
+        "category": "hair-clipper",
+        "image": "assets/images/p145-main.jpg",
+        "gallery": "assets/images/p145-g1.jpg,assets/images/p145-g2.jpg,assets/images/p145-g3.jpg,assets/images/p145-g4.jpg,assets/images/p145-g5.jpg,assets/images/p145-g6.jpg",
+        "detailImages": "assets/images/p145-d1.jpg,assets/images/p145-d2.jpg,assets/images/p145-d3.jpg,assets/images/p145-d4.jpg,assets/images/p145-d5.jpg,assets/images/p145-d6.jpg,assets/images/p145-d7.jpg,assets/images/p145-d8.jpg,assets/images/p145-d9.jpg,assets/images/p145-d10.jpg,assets/images/p145-d11.jpg",
+        "price": 17.5,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 24,
+        "packing": 24,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V/1A (Type-C)",
+        "material": "Metal body with powder metallurgy blade",
+        "capacity": "Motor 6500RPM 路 powder metallurgy blades 4 limit combs 路 low-noise operation 路 charging base included 路 single gross weight 733g 路 carton 46x25x47cm",
+        "certs": "",
+        "features": "6500RPM powerful motor, low-noise operation\nPowder metallurgy blades\nLED display showing RPM and available time\nCharging base included\n24 pcs per carton",
+        "names": {
+          "en": "KM-2136 Electric Hair Clipper 6500RPM LED Display Powder Metallurgy Blade Charging Base for Barbershop",
+          "zh": "KM-2136 电动理发器 6500转 LED显示 粉末冶金刀头 带充电底座",
+          "vi": "KM-2136 Tông đơ cắt tóc",
+          "th": "KM-2136 กรรไกรตัดผม",
+          "id": "KM-2136 Pemotong Rambut",
+          "es": "KM-2136 Cortapelos",
+          "fr": "KM-2136 Tondeuses à Cheveux",
+          "pt": "KM-2136 Máquinas de Cortar Cabelo"
+        },
+        "desc": {
+          "en": "The KM-2136 clipper features a 6500RPM low-noise motor, powder metallurgy blades, LED display and charging base for home and professional use.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p146",
+        "name": "KM-2137 Electric Hair Clipper 6900RPM Stainless Blade Transparent Body USB Charging for Barbershop",
+        "category": "hair-clipper",
+        "image": "assets/images/p146-main.jpg",
+        "gallery": "assets/images/p146-g1.jpg,assets/images/p146-g2.jpg,assets/images/p146-g3.jpg,assets/images/p146-g4.jpg,assets/images/p146-g5.jpg",
+        "detailImages": "assets/images/p146-d1.jpg,assets/images/p146-d2.jpg,assets/images/p146-d3.jpg,assets/images/p146-d4.jpg,assets/images/p146-d5.jpg,assets/images/p146-d6.jpg,assets/images/p146-d7.jpg,assets/images/p146-d8.jpg,assets/images/p146-d9.jpg,assets/images/p146-d10.jpg",
+        "price": 12.5,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 24,
+        "packing": 24,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V (USB)",
+        "material": "ABS body with water transfer + UV plating design",
+        "capacity": "Motor 6900RPM 路 18650 2000mAh battery 路 charge 3h / use 240min 路 stainless cutter, weight 271g 路 carton 46.5x36.5x31.5cm",
+        "certs": "CE,ROHS,FCC",
+        "features": "6900RPM constant-speed motor with constant-voltage control\nStainless steel cutter head\nCamouflage transparent body with LED power display\n5 limit combs, 240 minutes runtime\n24 pcs per carton",
+        "names": {
+          "en": "KM-2137 Electric Hair Clipper 6900RPM Stainless Blade Transparent Body USB Charging for Barbershop",
+          "zh": "KM-2137 电动理发器 6900转 不锈钢刀头 透明机身 USB充电",
+          "vi": "KM-2137 Tông đơ cắt tóc",
+          "th": "KM-2137 กรรไกรตัดผม",
+          "id": "KM-2137 Pemotong Rambut",
+          "es": "KM-2137 Cortapelos",
+          "fr": "KM-2137 Tondeuses à Cheveux",
+          "pt": "KM-2137 Máquinas de Cortar Cabelo"
+        },
+        "desc": {
+          "en": "The KM-2137 clipper runs at 6900RPM with a stainless blade, 240-minute runtime and a distinctive camouflage transparent body, offering great value for barbershops.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p147",
+        "name": "KM-2154 Electric Hair Clipper 9000RPM Ceramic Blade Type-C 2600mAh for Barbershop",
+        "category": "hair-clipper",
+        "image": "assets/images/product-p147-main.jpg",
+        "gallery": "assets/images/product-p147-g1.jpg,assets/images/product-p147-g2.jpg,assets/images/product-p147-g3.jpg,assets/images/product-p147-g4.jpg,assets/images/product-p147-g5.jpg,assets/images/product-p147-g6.jpg,assets/images/product-p147-g7.jpg,assets/images/product-p147-g8.jpg,assets/images/product-p147-g9.jpg,assets/images/product-p147-g10.jpg",
+        "detailImages": "assets/images/product-p147-d1.jpg,assets/images/product-p147-d2.jpg,assets/images/product-p147-d3.jpg,assets/images/product-p147-d4.jpg,assets/images/product-p147-d5.jpg,assets/images/product-p147-d6.jpg,assets/images/product-p147-d7.jpg,assets/images/product-p147-d8.jpg,assets/images/product-p147-d9.jpg,assets/images/product-p147-d10.jpg,assets/images/product-p147-d11.jpg,assets/images/product-p147-d12.jpg,assets/images/product-p147-d13.jpg,assets/images/product-p147-d14.jpg,assets/images/product-p147-d15.jpg",
+        "price": 15.8,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 40,
+        "packing": 40,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V/1A (Type-C)",
+        "material": "ABS body with spray paint",
+        "capacity": "Motor 9000RPM 路 18650 2600mAh lithium battery 路 charging 2.5h / >=150min run time 路 single weight 290g 路 single gross 670g 路 carton 225*117*75mm color box",
+        "certs": "CE,ROHS,FCC",
+        "features": "9000RPM high-speed motor\nCeramic moving blade + powder metallurgy stationary blade\n18650 2600mAh battery, 2.5h charge / >=150min run\nDigital LED display\nType-C charging 5V/1A\n6 limit combs (1.5/3/4.5/6/9/12mm)\n<=78dB low noise\n40 pcs per carton",
+        "names": {
+          "en": "KM-2154 Electric Hair Clipper 9000RPM Ceramic Blade Type-C 2600mAh for Barbershop",
+          "zh": "KM-2154 电推剪 9000转 陶瓷刀头 Type-C充电 2600mAh锂电池 专业理发",
+          "vi": "KM-2154 Tông đơ cắt tóc",
+          "th": "KM-2154 กรรไกรตัดผม",
+          "id": "KM-2154 Pemotong Rambut",
+          "es": "KM-2154 Cortapelos",
+          "fr": "KM-2154 Tondeuse à Cheveux",
+          "pt": "KM-2154 Máquina de Cortar Cabelo"
+        },
+        "desc": {
+          "en": "The KM-2154 professional hair clipper delivers 9000RPM cutting power with a ceramic blade and 2600mAh lithium battery, featuring a digital LED display and Type-C charging for barbershop use.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [
+          {
+            "name": "Color",
+            "options": [
+              "KM-2154-Yellow",
+              "KM-2154-Red"
+            ]
+          }
+        ],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p148",
+        "name": "KM-2168 Electric Hair Clipper 9000RPM USB-C Digital Display Charging Dock for Barbershop",
+        "category": "hair-clipper",
+        "image": "assets/images/product-p148-main.jpg",
+        "gallery": "assets/images/product-p148-g1.jpg,assets/images/product-p148-g2.jpg,assets/images/product-p148-g3.jpg,assets/images/product-p148-g4.jpg,assets/images/product-p148-g5.jpg,assets/images/product-p148-g6.jpg,assets/images/product-p148-g7.jpg",
+        "detailImages": "assets/images/product-p148-d1.jpg,assets/images/product-p148-d2.jpg,assets/images/product-p148-d3.jpg,assets/images/product-p148-d4.jpg,assets/images/product-p148-d5.jpg,assets/images/product-p148-d6.jpg,assets/images/product-p148-d7.jpg,assets/images/product-p148-d8.jpg,assets/images/product-p148-d9.jpg,assets/images/product-p148-d10.jpg,assets/images/product-p148-d11.jpg,assets/images/product-p148-d12.jpg,assets/images/product-p148-d13.jpg",
+        "price": 18.5,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 24,
+        "packing": 24,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V/1A (USB-C)",
+        "material": "ABS body",
+        "capacity": "Motor 9000RPM 路 digital LED display 路 charging dock included 路 single gross 751g 路 carton 49.5*38*44cm",
+        "certs": "CE,ROHS,FCC",
+        "features": "9000RPM motor\nDigital LED display\nUSB-C fast charging\nCharging dock included\nErgonomic non-slip body\n24 pcs per carton",
+        "names": {
+          "en": "KM-2168 Electric Hair Clipper 9000RPM USB-C Digital Display Charging Dock for Barbershop",
+          "zh": "KM-2168 电推剪 9000转 数显屏 USB-C充电 带充电底座 专业理发",
+          "vi": "KM-2168 Tông đơ cắt tóc",
+          "th": "KM-2168 กรรไกรตัดผม",
+          "id": "KM-2168 Pemotong Rambut",
+          "es": "KM-2168 Cortapelos",
+          "fr": "KM-2168 Tondeuse à Cheveux",
+          "pt": "KM-2168 Máquina de Cortar Cabelo"
+        },
+        "desc": {
+          "en": "The KM-2168 professional hair clipper features a 9000RPM motor, digital LED display and USB-C charging with a charging dock, ideal for barbershop styling.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p149",
+        "name": "KM-2177 Electric Hair Clipper 6500-7500RPM 3-Speed Ceramic Blade Type-C for Barbershop",
+        "category": "hair-clipper",
+        "image": "assets/images/product-p149-main.jpg",
+        "gallery": "assets/images/product-p149-g1.jpg,assets/images/product-p149-g2.jpg,assets/images/product-p149-g3.jpg,assets/images/product-p149-g4.jpg,assets/images/product-p149-g5.jpg,assets/images/product-p149-g6.jpg,assets/images/product-p149-g7.jpg,assets/images/product-p149-g8.jpg,assets/images/product-p149-g9.jpg,assets/images/product-p149-g10.jpg,assets/images/product-p149-g11.jpg,assets/images/product-p149-g12.jpg",
+        "detailImages": "assets/images/product-p149-d1.jpg,assets/images/product-p149-d2.jpg,assets/images/product-p149-d3.jpg,assets/images/product-p149-d4.jpg,assets/images/product-p149-d5.jpg,assets/images/product-p149-d6.jpg,assets/images/product-p149-d7.jpg,assets/images/product-p149-d8.jpg,assets/images/product-p149-d9.jpg,assets/images/product-p149-d10.jpg,assets/images/product-p149-d11.jpg,assets/images/product-p149-d12.jpg,assets/images/product-p149-d13.jpg",
+        "price": 13.5,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 24,
+        "packing": 24,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V/1A (Type-C)",
+        "material": "ABS body",
+        "capacity": "Motor 6500/7000/7500RPM 3-speed 路 18650 2000mAh lithium battery 路 charging 180min / 180min run time 路 single weight 272g 路 single gross 751g 路 carton 50*43.5*37cm",
+        "certs": "CE,ROHS,FCC",
+        "features": "3-speed: 6500/7000/7500RPM\nCeramic moving blade + powder metallurgy black-titanium stationary blade\n18650 2000mAh, 3h charge / 3h run\nDigital speed & battery display\nType-C charging 5V/1A\n6 limit combs (1.5/3/4.5/6/9/12mm)\n<60dB low noise\n24 pcs per carton",
+        "names": {
+          "en": "KM-2177 Electric Hair Clipper 6500-7500RPM 3-Speed Ceramic Blade Type-C for Barbershop",
+          "zh": "KM-2177 电推剪 6500-7500转三档调速 陶瓷刀头 Type-C充电 数显 专业理发",
+          "vi": "KM-2177 Tông đơ cắt tóc",
+          "th": "KM-2177 กรรไกรตัดผม",
+          "id": "KM-2177 Pemotong Rambut",
+          "es": "KM-2177 Cortapelos",
+          "fr": "KM-2177 Tondeuse à Cheveux",
+          "pt": "KM-2177 Máquina de Cortar Cabelo"
+        },
+        "desc": {
+          "en": "The KM-2177 professional hair clipper offers 3-speed adjustment (6500-7500RPM), a ceramic blade and 2000mAh battery with digital display, perfect for barbershop use.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [
+          {
+            "name": "Color",
+            "options": [
+              "KM-2177-Red",
+              "KM-2177-Yellow"
+            ]
+          }
+        ],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p150",
+        "name": "KM-2229 Electric Hair Clipper 9000RPM LCD Display 2000mAh Metal Body for Barbershop",
+        "category": "hair-clipper",
+        "image": "assets/images/product-p150-main.jpg",
+        "gallery": "assets/images/product-p150-g1.jpg,assets/images/product-p150-g2.jpg,assets/images/product-p150-g3.jpg,assets/images/product-p150-g4.jpg,assets/images/product-p150-g5.jpg",
+        "detailImages": "assets/images/product-p150-d1.jpg,assets/images/product-p150-d2.jpg,assets/images/product-p150-d3.jpg,assets/images/product-p150-d4.jpg,assets/images/product-p150-d5.jpg,assets/images/product-p150-d6.jpg,assets/images/product-p150-d7.jpg,assets/images/product-p150-d8.jpg,assets/images/product-p150-d9.jpg,assets/images/product-p150-d10.jpg,assets/images/product-p150-d11.jpg",
+        "price": 23.0,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 24,
+        "packing": 24,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V/1A (USB)",
+        "material": "Metal body",
+        "capacity": "Motor 9000RPM 路 2000mAh lithium battery 路 LCD display 路 single gross 755g 路 carton 226*116*74mm color box",
+        "certs": "",
+        "features": "9000RPM high-speed motor\nLCD digital display\n2000mAh lithium battery\nMetal body build\n4 limit combs included\n24 pcs per carton",
+        "names": {
+          "en": "KM-2229 Electric Hair Clipper 9000RPM LCD Display 2000mAh Metal Body for Barbershop",
+          "zh": "KM-2229 电推剪 9000转 LCD数显 2000mAh 金属机身 专业理发",
+          "vi": "KM-2229 Tông đơ cắt tóc",
+          "th": "KM-2229 กรรไกรตัดผม",
+          "id": "KM-2229 Pemotong Rambut",
+          "es": "KM-2229 Cortapelos",
+          "fr": "KM-2229 Tondeuse à Cheveux",
+          "pt": "KM-2229 Máquina de Cortar Cabelo"
+        },
+        "desc": {
+          "en": "The KM-2229 professional hair clipper combines a 9000RPM motor, LCD display and metal body for reliable barbershop performance.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p151",
+        "name": "KM-2254 Electric Hair Clipper Digital Display Ceramic Blade USB Rechargeable for Home Use",
+        "category": "hair-clipper",
+        "image": "assets/images/product-p151-main.jpg",
+        "gallery": "assets/images/product-p151-g1.jpg,assets/images/product-p151-g2.jpg,assets/images/product-p151-g3.jpg,assets/images/product-p151-g4.jpg,assets/images/product-p151-g5.jpg",
+        "detailImages": "assets/images/product-p151-d1.jpg,assets/images/product-p151-d2.jpg,assets/images/product-p151-d3.jpg,assets/images/product-p151-d4.jpg,assets/images/product-p151-d5.jpg,assets/images/product-p151-d6.jpg,assets/images/product-p151-d7.jpg,assets/images/product-p151-d8.jpg,assets/images/product-p151-d9.jpg,assets/images/product-p151-d10.jpg,assets/images/product-p151-d11.jpg",
+        "price": 9.8,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 40,
+        "packing": 40,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V/1A (USB)",
+        "material": "ABS body with brown-orange finish",
+        "capacity": "Digital LED display 路 USB charging 路 single gross 436g 路 carton 46.5*40*49cm",
+        "certs": "",
+        "features": "Digital LED power display\nCeramic blade\nUSB rechargeable\n4 limit combs (1.5/3/4.5/6mm)\nCompact ergonomic body\n40 pcs per carton",
+        "names": {
+          "en": "KM-2254 Electric Hair Clipper Digital Display Ceramic Blade USB Rechargeable for Home Use",
+          "zh": "KM-2254 电推剪 数显屏 陶瓷刀头 USB充电 家用理发器",
+          "vi": "KM-2254 Tông đơ cắt tóc",
+          "th": "KM-2254 กรรไกรตัดผม",
+          "id": "KM-2254 Pemotong Rambut",
+          "es": "KM-2254 Cortapelos",
+          "fr": "KM-2254 Tondeuse à Cheveux",
+          "pt": "KM-2254 Máquina de Cortar Cabelo"
+        },
+        "desc": {
+          "en": "The KM-2254 affordable hair clipper features a digital display, ceramic blade and USB charging, ideal for home and entry-level salon use.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p152",
+        "name": "KM-2256 Electric Hair Trimmer LCD Display USB Rechargeable for Detail carving",
+        "category": "hair-clipper",
+        "image": "assets/images/product-p152-main.jpg",
+        "gallery": "assets/images/product-p152-g1.jpg,assets/images/product-p152-g2.jpg,assets/images/product-p152-g3.jpg,assets/images/product-p152-g4.jpg,assets/images/product-p152-g5.jpg,assets/images/product-p152-g6.jpg",
+        "detailImages": "assets/images/product-p152-d1.jpg,assets/images/product-p152-d2.jpg,assets/images/product-p152-d3.jpg,assets/images/product-p152-d4.jpg,assets/images/product-p152-d5.jpg,assets/images/product-p152-d6.jpg,assets/images/product-p152-d7.jpg,assets/images/product-p152-d8.jpg,assets/images/product-p152-d9.jpg,assets/images/product-p152-d10.jpg,assets/images/product-p152-d11.jpg,assets/images/product-p152-d12.jpg",
+        "price": 15.5,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 40,
+        "packing": 40,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V/1A (USB)",
+        "material": "ABS body, blue",
+        "capacity": "LCD digital display 路 USB charging 路 4 limit combs 路 carton 97*66*201mm color box",
+        "certs": "",
+        "features": "LCD digital battery display\nT-blade detail trimmer\nUSB rechargeable\n4 limit combs included\nSlim portable body\n40 pcs per carton",
+        "names": {
+          "en": "KM-2256 Electric Hair Trimmer LCD Display USB Rechargeable for Detail carving",
+          "zh": "KM-2256 电动修发器 LCD数显 USB充电 蓝色 细节雕刻修边",
+          "vi": "KM-2256 Tông đơ cắt tóc",
+          "th": "KM-2256 กรรไกรตัดผม",
+          "id": "KM-2256 Pemotong Rambut",
+          "es": "KM-2256 Cortapelos",
+          "fr": "KM-2256 Tondeuse à Cheveux",
+          "pt": "KM-2256 Máquina de Cortar Cabelo"
+        },
+        "desc": {
+          "en": "The KM-2256 cordless T-blade trimmer features an LCD display and USB charging, perfect for outlining, detail carving and beard trimming.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [
+          {
+            "name": "Color",
+            "options": [
+              "KM-2256-Blue"
+            ]
+          }
+        ],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p153",
+        "name": "KM-2261 Electric Hair Trimmer Stainless Steel Blade USB Rechargeable for Detail carving",
+        "category": "hair-clipper",
+        "image": "assets/images/product-p153-main.jpg",
+        "gallery": "assets/images/product-p153-g1.jpg,assets/images/product-p153-g2.jpg,assets/images/product-p153-g3.jpg,assets/images/product-p153-g4.jpg,assets/images/product-p153-g5.jpg,assets/images/product-p153-g6.jpg",
+        "detailImages": "assets/images/product-p153-d1.jpg,assets/images/product-p153-d2.jpg,assets/images/product-p153-d3.jpg,assets/images/product-p153-d4.jpg,assets/images/product-p153-d5.jpg,assets/images/product-p153-d6.jpg,assets/images/product-p153-d7.jpg,assets/images/product-p153-d8.jpg,assets/images/product-p153-d9.jpg,assets/images/product-p153-d10.jpg,assets/images/product-p153-d11.jpg",
+        "price": 6.5,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 40,
+        "packing": 40,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V/1A (USB)",
+        "material": "ABS body, gray",
+        "capacity": "Stainless steel cutter 路 single weight 138g 路 USB charging 路 single gross 350g 路 carton 50.5*41.5*28.2cm",
+        "certs": "",
+        "features": "Stainless steel blade\nUltra-light 138g body\nUSB rechargeable\n4 limit combs included\nDigital display\n40 pcs per carton",
+        "names": {
+          "en": "KM-2261 Electric Hair Trimmer Stainless Steel Blade USB Rechargeable for Detail carving",
+          "zh": "KM-2261 电动修发器 不锈钢刀头 USB充电 灰色 轻量138g",
+          "vi": "KM-2261 Tông đơ cắt tóc",
+          "th": "KM-2261 กรรไกรตัดผม",
+          "id": "KM-2261 Pemotong Rambut",
+          "es": "KM-2261 Cortapelos",
+          "fr": "KM-2261 Tondeuse à Cheveux",
+          "pt": "KM-2261 Máquina de Cortar Cabelo"
+        },
+        "desc": {
+          "en": "The KM-2261 lightweight cordless trimmer (138g) features a stainless steel blade and USB charging, great for detailing and travel use.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [
+          {
+            "name": "Color",
+            "options": [
+              "KM-2261-Gray"
+            ]
+          }
+        ],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p154",
+        "name": "KM-2272 Electric Hair Clipper Digital Display 4 Limit Combs USB Charging for Barbershop",
+        "category": "hair-clipper",
+        "image": "assets/images/product-p154-main.jpg",
+        "gallery": "assets/images/product-p154-g1.jpg,assets/images/product-p154-g2.jpg,assets/images/product-p154-g3.jpg,assets/images/product-p154-g4.jpg,assets/images/product-p154-g5.jpg",
+        "detailImages": "assets/images/product-p154-d1.jpg,assets/images/product-p154-d2.jpg,assets/images/product-p154-d3.jpg,assets/images/product-p154-d4.jpg,assets/images/product-p154-d5.jpg,assets/images/product-p154-d6.jpg,assets/images/product-p154-d7.jpg,assets/images/product-p154-d8.jpg",
+        "price": 10.5,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 24,
+        "packing": 24,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V/1A (USB)",
+        "material": "ABS body, blue-purple gradient",
+        "capacity": "Digital LED display 路 4 limit combs (3/6/10/13mm) 路 USB charging 路 single gross 708g 路 carton 47*46*25.3cm",
+        "certs": "",
+        "features": "Digital LED display (100%)\n4 limit combs (3/6/10/13mm)\nUSB rechargeable\n8-language manual included\nCharging base optional\n24 pcs per carton",
+        "names": {
+          "en": "KM-2272 Electric Hair Clipper Digital Display 4 Limit Combs USB Charging for Barbershop",
+          "zh": "KM-2272 电推剪 数显屏 4限位梳 USB充电 蓝紫色机身 专业理发",
+          "vi": "KM-2272 Tông đơ cắt tóc",
+          "th": "KM-2272 กรรไกรตัดผม",
+          "id": "KM-2272 Pemotong Rambut",
+          "es": "KM-2272 Cortapelos",
+          "fr": "KM-2272 Tondeuse à Cheveux",
+          "pt": "KM-2272 Máquina de Cortar Cabelo"
+        },
+        "desc": {
+          "en": "The KM-2272 professional hair clipper features a digital display, 4 limit combs and USB charging, with a stylish blue-purple gradient body.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p155",
+        "name": "KM-2279 Electric Hair Clipper LCD Display Metal Body USB Charging for Barbershop",
+        "category": "hair-clipper",
+        "image": "assets/images/product-p155-main.jpg",
+        "gallery": "assets/images/product-p155-g1.jpg,assets/images/product-p155-g2.jpg,assets/images/product-p155-g3.jpg,assets/images/product-p155-g4.jpg,assets/images/product-p155-g5.jpg,assets/images/product-p155-g6.jpg",
+        "detailImages": "assets/images/product-p155-d1.jpg,assets/images/product-p155-d2.jpg,assets/images/product-p155-d3.jpg,assets/images/product-p155-d4.jpg,assets/images/product-p155-d5.jpg,assets/images/product-p155-d6.jpg,assets/images/product-p155-d7.jpg,assets/images/product-p155-d8.jpg,assets/images/product-p155-d9.jpg,assets/images/product-p155-d10.jpg,assets/images/product-p155-d11.jpg",
+        "price": 11.0,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 24,
+        "packing": 24,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V/1A (USB)",
+        "material": "Metal body, cyan-teal gradient",
+        "capacity": "LCD digital display 路 metal body 路 USB charging 路 4 limit combs 路 single gross 708g 路 carton 46.5*37*32.5cm",
+        "certs": "",
+        "features": "LCD digital speed & battery display\nMetal body with engraving finish\nUSB rechargeable\n4 limit combs included\nCooling hole design\n24 pcs per carton",
+        "names": {
+          "en": "KM-2279 Electric Hair Clipper LCD Display Metal Body USB Charging for Barbershop",
+          "zh": "KM-2279 电推剪 LCD数显 金属机身 USB充电 青蓝色 专业理发",
+          "vi": "KM-2279 Tông đơ cắt tóc",
+          "th": "KM-2279 กรรไกรตัดผม",
+          "id": "KM-2279 Pemotong Rambut",
+          "es": "KM-2279 Cortapelos",
+          "fr": "KM-2279 Tondeuse à Cheveux",
+          "pt": "KM-2279 Máquina de Cortar Cabelo"
+        },
+        "desc": {
+          "en": "The KM-2279 professional hair clipper features a metal body, LCD display and USB charging, delivering a cool teal gradient design for barbers.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p156",
+        "name": "KM-2293 Electric Hair Trimmer Cordless T-Blade USB Rechargeable for Detail carving",
+        "category": "hair-clipper",
+        "image": "assets/images/product-p156-main.jpg",
+        "gallery": "assets/images/product-p156-g1.jpg,assets/images/product-p156-g2.jpg,assets/images/product-p156-g3.jpg,assets/images/product-p156-g4.jpg,assets/images/product-p156-g5.jpg,assets/images/product-p156-g6.jpg,assets/images/product-p156-g7.jpg,assets/images/product-p156-g8.jpg,assets/images/product-p156-g9.jpg,assets/images/product-p156-g10.jpg,assets/images/product-p156-g11.jpg,assets/images/product-p156-g12.jpg",
+        "detailImages": "assets/images/product-p156-d1.jpg,assets/images/product-p156-d2.jpg,assets/images/product-p156-d3.jpg,assets/images/product-p156-d4.jpg,assets/images/product-p156-d5.jpg,assets/images/product-p156-d6.jpg,assets/images/product-p156-d7.jpg,assets/images/product-p156-d8.jpg,assets/images/product-p156-d9.jpg",
+        "price": 12.5,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 40,
+        "packing": 40,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V/1A (USB)",
+        "material": "ABS body, multiple colors",
+        "capacity": "T-blade trimmer 路 USB charging 路 3 limit combs (1/2/3mm) 路 single gross 529g 路 carton 41.5*41*35cm",
+        "certs": "CE,ROHS,FCC",
+        "features": "T-blade close-cut trimmer\nUSB rechargeable\n3 limit combs (1/2/3mm)\nAvailable in black/silver/gold/orange\nCompact portable body\n40 pcs per carton",
+        "names": {
+          "en": "KM-2293 Electric Hair Trimmer Cordless T-Blade USB Rechargeable for Detail carving",
+          "zh": "KM-2293 电动修发器 T型刀头 USB充电 多色可选 细节雕刻",
+          "vi": "KM-2293 Tông đơ cắt tóc",
+          "th": "KM-2293 กรรไกรตัดผม",
+          "id": "KM-2293 Pemotong Rambut",
+          "es": "KM-2293 Cortapelos",
+          "fr": "KM-2293 Tondeuse à Cheveux",
+          "pt": "KM-2293 Máquina de Cortar Cabelo"
+        },
+        "desc": {
+          "en": "The KM-2293 cordless T-blade trimmer comes in 4 colors, featuring a close-cut blade and USB charging for detail carving and outlining.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [
+          {
+            "name": "Color",
+            "options": [
+              "KM-2293-Black",
+              "KM-2293-Silver",
+              "KM-2293-Gold",
+              "KM-2293-Orange"
+            ]
+          }
+        ],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p157",
+        "name": "KM-234 Electric Hair Clipper Digital Display USB Rechargeable 3 Colors for Barbershop",
+        "category": "hair-clipper",
+        "image": "assets/images/product-p157-main.jpg",
+        "gallery": "assets/images/product-p157-g1.jpg,assets/images/product-p157-g2.jpg,assets/images/product-p157-g3.jpg,assets/images/product-p157-g4.jpg,assets/images/product-p157-g5.jpg,assets/images/product-p157-g6.jpg",
+        "detailImages": "assets/images/product-p157-d1.jpg,assets/images/product-p157-d2.jpg,assets/images/product-p157-d3.jpg,assets/images/product-p157-d4.jpg,assets/images/product-p157-d5.jpg,assets/images/product-p157-d6.jpg,assets/images/product-p157-d7.jpg,assets/images/product-p157-d8.jpg,assets/images/product-p157-d9.jpg,assets/images/product-p157-d10.jpg,assets/images/product-p157-d11.jpg",
+        "price": 6.5,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 40,
+        "packing": 40,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V/1A (USB)",
+        "material": "ABS body, multiple colors",
+        "capacity": "Digital LED display 路 USB charging 路 4 limit combs 路 single gross 425g 路 carton 42*34.5*41cm",
+        "certs": "",
+        "features": "Digital LED display\nUSB rechargeable\n4 limit combs included\nAvailable in red/blue/black\nLightweight body\n40 pcs per carton",
+        "names": {
+          "en": "KM-234 Electric Hair Clipper Digital Display USB Rechargeable 3 Colors for Barbershop",
+          "zh": "KM-234 电推剪 数显屏 USB充电 红蓝黑三色可选 专业理发",
+          "vi": "KM-234 Tông đơ cắt tóc",
+          "th": "KM-234 กรรไกรตัดผม",
+          "id": "KM-234 Pemotong Rambut",
+          "es": "KM-234 Cortapelos",
+          "fr": "KM-234 Tondeuse à Cheveux",
+          "pt": "KM-234 Máquina de Cortar Cabelo"
+        },
+        "desc": {
+          "en": "The KM-234 affordable hair clipper features a digital display, USB charging and comes in red, blue and black variants for salon and home use.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [
+          {
+            "name": "Color",
+            "options": [
+              "KM-234-Red",
+              "KM-234-Blue",
+              "KM-234-Black"
+            ]
+          }
+        ],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p158",
+        "name": "KM-2373 Electric Hair Clipper 8800RPM Magnetic Levitation Motor Charging Base for Barbershop",
+        "category": "hair-clipper",
+        "image": "assets/images/product-p158-main.jpg",
+        "gallery": "assets/images/product-p158-g1.jpg,assets/images/product-p158-g2.jpg,assets/images/product-p158-g3.jpg,assets/images/product-p158-g4.jpg,assets/images/product-p158-g5.jpg,assets/images/product-p158-g6.jpg,assets/images/product-p158-g7.jpg",
+        "detailImages": "assets/images/product-p158-d1.jpg,assets/images/product-p158-d2.jpg,assets/images/product-p158-d3.jpg,assets/images/product-p158-d4.jpg,assets/images/product-p158-d5.jpg,assets/images/product-p158-d6.jpg,assets/images/product-p158-d7.jpg,assets/images/product-p158-d8.jpg,assets/images/product-p158-d9.jpg,assets/images/product-p158-d10.jpg,assets/images/product-p158-d11.jpg",
+        "price": 59.5,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 24,
+        "packing": 24,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V/1A (USB)",
+        "material": "Metal body, black-gold",
+        "capacity": "Motor 8800RPM magnetic levitation 路 2000mAh lithium battery 路 LCD display 路 charging base included 路 single gross 1166g 路 carton 53.5*47.5*54cm",
+        "certs": "",
+        "features": "8800RPM magnetic levitation high-torque motor\nMetal body with LCD display\n2000mAh battery\nCharging base included\n6 colored limit combs (1.5/3/4.5/6/9/12mm)\nHigh power for professional barbershop\n24 pcs per carton",
+        "names": {
+          "en": "KM-2373 Electric Hair Clipper 8800RPM Magnetic Levitation Motor Charging Base for Barbershop",
+          "zh": "KM-2373 电推剪 8800转磁悬浮马达 带充电底座 LCD数显 专业理发店",
+          "vi": "KM-2373 Tông đơ cắt tóc",
+          "th": "KM-2373 กรรไกรตัดผม",
+          "id": "KM-2373 Pemotong Rambut",
+          "es": "KM-2373 Cortapelos",
+          "fr": "KM-2373 Tondeuse à Cheveux",
+          "pt": "KM-2373 Máquina de Cortar Cabelo"
+        },
+        "desc": {
+          "en": "The KM-2373 premium barber clipper features an 8800RPM magnetic levitation motor, metal body with LCD display and a charging base for professional salon use.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p159",
+        "name": "KM-260 Electric Hair Trimmer USB Type-C Rechargeable Mini Cordless for Detail carving",
+        "category": "hair-clipper",
+        "image": "assets/images/product-p159-main.jpg",
+        "gallery": "assets/images/product-p159-g1.jpg,assets/images/product-p159-g2.jpg,assets/images/product-p159-g3.jpg,assets/images/product-p159-g4.jpg,assets/images/product-p159-g5.jpg,assets/images/product-p159-g6.jpg,assets/images/product-p159-g7.jpg,assets/images/product-p159-g8.jpg,assets/images/product-p159-g9.jpg",
+        "detailImages": "assets/images/product-p159-d1.jpg,assets/images/product-p159-d2.jpg,assets/images/product-p159-d3.jpg,assets/images/product-p159-d4.jpg,assets/images/product-p159-d5.jpg,assets/images/product-p159-d6.jpg,assets/images/product-p159-d7.jpg,assets/images/product-p159-d8.jpg,assets/images/product-p159-d9.jpg,assets/images/product-p159-d10.jpg,assets/images/product-p159-d11.jpg,assets/images/product-p159-d12.jpg",
+        "price": 6.0,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 60,
+        "packing": 60,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V/1A (Type-C)",
+        "material": "ABS body, multiple colors",
+        "capacity": "USB Type-C charging 路 mini cordless trimmer 路 single gross 300g 路 carton 49.5*41.5*42cm",
+        "certs": "CE,ROHS,FCC",
+        "features": "USB Type-C fast charging\nMini cordless T-blade trimmer\nAvailable in pink/green/yellow accents\nPortable size for travel\n60 pcs per carton",
+        "names": {
+          "en": "KM-260 Electric Hair Trimmer USB Type-C Rechargeable Mini Cordless for Detail carving",
+          "zh": "KM-260 电动修发器 USB Type-C充电 迷你便携 多色 细节雕刻",
+          "vi": "KM-260 Tông đơ cắt tóc",
+          "th": "KM-260 กรรไกรตัดผม",
+          "id": "KM-260 Pemotong Rambut",
+          "es": "KM-260 Cortapelos",
+          "fr": "KM-260 Tondeuse à Cheveux",
+          "pt": "KM-260 Máquina de Cortar Cabelo"
+        },
+        "desc": {
+          "en": "The KM-260 mini cordless trimmer features USB Type-C charging and a slim portable design, available in pink, green and yellow accent colors.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [
+          {
+            "name": "Color",
+            "options": [
+              "KM-260-Pink",
+              "KM-260-Green",
+              "KM-260-Yellow"
+            ]
+          }
+        ],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p160",
+        "name": "KM-2797 Hair Clipper & Trimmer 2-in-1 Kit DLC Blade 260min Runtime for Barbershop",
+        "category": "hair-clipper",
+        "image": "assets/images/product-p160-main.jpg",
+        "gallery": "assets/images/product-p160-g1.jpg,assets/images/product-p160-g2.jpg,assets/images/product-p160-g3.jpg",
+        "detailImages": "assets/images/product-p160-d1.jpg,assets/images/product-p160-d2.jpg,assets/images/product-p160-d3.jpg,assets/images/product-p160-d4.jpg,assets/images/product-p160-d5.jpg,assets/images/product-p160-d6.jpg,assets/images/product-p160-d7.jpg,assets/images/product-p160-d8.jpg,assets/images/product-p160-d9.jpg,assets/images/product-p160-d10.jpg,assets/images/product-p160-d11.jpg",
+        "price": 39.8,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 20,
+        "packing": 20,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V (USB)",
+        "material": "Metal body, blue-black",
+        "capacity": "Power 8W/10W 路 DLC blade 路 charging 3h / 260min run time 路 single weight 172g (per unit) 路 size 14.2*3.2*4cm 路 single gross 1060g 路 carton 42*40*45.5cm",
+        "certs": "",
+        "features": "2-in-1 kit: 1 clipper + 1 trimmer\nDLC coated blade\n8W/10W high power\n3h charge / 260min run time\n13 limit combs included\nDigital LCD display\n20 pcs per carton",
+        "names": {
+          "en": "KM-2797 Hair Clipper & Trimmer 2-in-1 Kit DLC Blade 260min Runtime for Barbershop",
+          "zh": "KM-2797 理发剪修发器二合一套装 DLC刀头 260分钟续航 专业美发套装",
+          "vi": "KM-2797 Tông đơ cắt tóc",
+          "th": "KM-2797 กรรไกรตัดผม",
+          "id": "KM-2797 Pemotong Rambut",
+          "es": "KM-2797 Cortapelos",
+          "fr": "KM-2797 Tondeuse à Cheveux",
+          "pt": "KM-2797 Máquina de Cortar Cabelo"
+        },
+        "desc": {
+          "en": "The KM-2797 2-in-1 grooming kit pairs a full-size clipper with a detail trimmer, featuring DLC blades and a 260-minute runtime for barbers.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [
+          {
+            "name": "Color",
+            "options": [
+              "KM-2797-Blue",
+              "KM-2797-Black"
+            ]
+          }
+        ],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p161",
+        "name": "KM-3023-702 Electric Hair Trimmer 9000RPM Ceramic Blade Charging Base for Barbershop",
+        "category": "hair-clipper",
+        "image": "assets/images/product-p161-main.jpg",
+        "gallery": "assets/images/product-p161-g1.jpg,assets/images/product-p161-g2.jpg,assets/images/product-p161-g3.jpg,assets/images/product-p161-g4.jpg,assets/images/product-p161-g5.jpg,assets/images/product-p161-g6.jpg",
+        "detailImages": "assets/images/product-p161-d1.jpg,assets/images/product-p161-d2.jpg,assets/images/product-p161-d3.jpg,assets/images/product-p161-d4.jpg,assets/images/product-p161-d5.jpg,assets/images/product-p161-d6.jpg,assets/images/product-p161-d7.jpg,assets/images/product-p161-d8.jpg,assets/images/product-p161-d9.jpg,assets/images/product-p161-d10.jpg",
+        "price": 23.0,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 20,
+        "packing": 20,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V/1A (USB)",
+        "material": "Metal body",
+        "capacity": "Motor 9000RPM 路 professional ceramic + oil blade 路 LED display 路 charging base included 路 single gross 845g 路 carton 49.7*31.2*43.5cm",
+        "certs": "CE,ROHS,FCC",
+        "features": "9000RPM high-speed motor\nProfessional ceramic + oil blade\nLED display\nCharging base included\nMetal body engraving finish\nGift box packaging\n20 pcs per carton",
+        "names": {
+          "en": "KM-3023-702 Electric Hair Trimmer 9000RPM Ceramic Blade Charging Base for Barbershop",
+          "zh": "KM-3023-702 电动修发器 9000转 陶瓷刀头 带充电底座 LED数显 专业修边",
+          "vi": "KM-3023-702 Tông đơ cắt tóc",
+          "th": "KM-3023-702 กรรไกรตัดผม",
+          "id": "KM-3023-702 Pemotong Rambut",
+          "es": "KM-3023-702 Cortapelos",
+          "fr": "KM-3023-702 Tondeuse à Cheveux",
+          "pt": "KM-3023-702 Máquina de Cortar Cabelo"
+        },
+        "desc": {
+          "en": "The KM-3023-702 professional trimmer features a 9000RPM motor, ceramic blade, charging base and LED display in a premium gift box.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p162",
+        "name": "KM-5085 Electric Hair Trimmer Cordless T-Blade USB Rechargeable for Detail carving",
+        "category": "hair-clipper",
+        "image": "assets/images/product-p162-main.jpg",
+        "gallery": "assets/images/product-p162-g1.jpg,assets/images/product-p162-g2.jpg,assets/images/product-p162-g3.jpg,assets/images/product-p162-g4.jpg,assets/images/product-p162-g5.jpg",
+        "detailImages": "assets/images/product-p162-d1.jpg,assets/images/product-p162-d2.jpg,assets/images/product-p162-d3.jpg,assets/images/product-p162-d4.jpg,assets/images/product-p162-d5.jpg,assets/images/product-p162-d6.jpg,assets/images/product-p162-d7.jpg,assets/images/product-p162-d8.jpg,assets/images/product-p162-d9.jpg,assets/images/product-p162-d10.jpg,assets/images/product-p162-d11.jpg,assets/images/product-p162-d12.jpg",
+        "price": 12.0,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 40,
+        "packing": 40,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V/1A (USB)",
+        "material": "Metal body, black-gold",
+        "capacity": "T-blade trimmer 路 USB charging 路 single gross 455g 路 carton 44*42.5*36cm",
+        "certs": "",
+        "features": "T-blade close-cut trimmer\nUSB rechargeable\nBlack-gold metal body\nCompact professional design\n40 pcs per carton",
+        "names": {
+          "en": "KM-5085 Electric Hair Trimmer Cordless T-Blade USB Rechargeable for Detail carving",
+          "zh": "KM-5085 电动修发器 T型刀 USB充电 黑金配色 细节雕刻修边",
+          "vi": "KM-5085 Tông đơ cắt tóc",
+          "th": "KM-5085 กรรไกรตัดผม",
+          "id": "KM-5085 Pemotong Rambut",
+          "es": "KM-5085 Cortapelos",
+          "fr": "KM-5085 Tondeuse à Cheveux",
+          "pt": "KM-5085 Máquina de Cortar Cabelo"
+        },
+        "desc": {
+          "en": "The KM-5085 cordless T-blade trimmer features a black-gold metal body and USB charging, ideal for professional outlining and detail work.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p163",
+        "name": "KM-8502 Hair Clipper & Trimmer 2-in-1 Set 9000RPM Magnetic Motor DLC Blade for Barbershop",
+        "category": "hair-clipper",
+        "image": "assets/images/product-p163-main.jpg",
+        "gallery": "assets/images/product-p163-g1.jpg,assets/images/product-p163-g2.jpg,assets/images/product-p163-g3.jpg,assets/images/product-p163-g4.jpg,assets/images/product-p163-g5.jpg,assets/images/product-p163-g6.jpg",
+        "detailImages": "assets/images/product-p163-d1.jpg,assets/images/product-p163-d2.jpg,assets/images/product-p163-d3.jpg,assets/images/product-p163-d4.jpg,assets/images/product-p163-d5.jpg,assets/images/product-p163-d6.jpg,assets/images/product-p163-d7.jpg,assets/images/product-p163-d8.jpg,assets/images/product-p163-d9.jpg,assets/images/product-p163-d10.jpg,assets/images/product-p163-d11.jpg",
+        "price": 42.0,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 12,
+        "packing": 12,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V/1A (USB-C)",
+        "material": "ABS body, pink",
+        "capacity": "Motor 9000RPM magnetic 路 DLC blade 路 LCD display 路 10 limit combs 路 color box 338*229*62mm",
+        "certs": "",
+        "features": "2-in-1 set: clipper + trimmer\n9000RPM magnetic levitation motor\nDLC coated blade\nLCD digital display\n10 limit combs included\nPink professional grooming kit\n12 pcs per carton",
+        "names": {
+          "en": "KM-8502 Hair Clipper & Trimmer 2-in-1 Set 9000RPM Magnetic Motor DLC Blade for Barbershop",
+          "zh": "KM-8502 理发剪修发器二合一套装 9000转磁悬浮马达 DLC刀头 LCD数显 粉色",
+          "vi": "KM-8502 Tông đơ cắt tóc",
+          "th": "KM-8502 กรรไกรตัดผม",
+          "id": "KM-8502 Pemotong Rambut",
+          "es": "KM-8502 Cortapelos",
+          "fr": "KM-8502 Tondeuse à Cheveux",
+          "pt": "KM-8502 Máquina de Cortar Cabelo"
+        },
+        "desc": {
+          "en": "The KM-8502 2-in-1 pink grooming set combines a 9000RPM magnetic clipper and trimmer with DLC blades, LCD display and 10 limit combs.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [
+          {
+            "name": "Color",
+            "options": [
+              "KM-8502-Red"
+            ]
+          }
+        ],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p164",
+        "name": "KM-8539 Hair Clipper 2-Host Set Magnetic Limit Combs LCD Display Barber Kit",
+        "category": "hair-clipper",
+        "image": "assets/images/product-p164-main.jpg",
+        "gallery": "assets/images/product-p164-g1.jpg,assets/images/product-p164-g2.jpg,assets/images/product-p164-g3.jpg,assets/images/product-p164-g4.jpg,assets/images/product-p164-g5.jpg",
+        "detailImages": "assets/images/product-p164-d1.jpg,assets/images/product-p164-d2.jpg,assets/images/product-p164-d3.jpg,assets/images/product-p164-d4.jpg,assets/images/product-p164-d5.jpg,assets/images/product-p164-d6.jpg,assets/images/product-p164-d7.jpg,assets/images/product-p164-d8.jpg",
+        "price": 29.0,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 20,
+        "packing": 20,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V/1A (USB-C)",
+        "material": "Metal body, gold-silver",
+        "capacity": "2 hosts included 路 8 magnetic limit combs (0.5/1.5/3/4/6/10/13/16mm) 路 LCD display 路 haircut apron included 路 single gross 1350g 路 carton 66*34.1*47.4cm",
+        "certs": "",
+        "features": "2-host kit: gold + silver clippers\n8 magnetic limit combs (0.5-16mm)\nLCD digital display\nProfessional blade with engraving\nHaircut apron included\nBig oil bottle & barber brush kit\n20 pcs per carton",
+        "names": {
+          "en": "KM-8539 Hair Clipper 2-Host Set Magnetic Limit Combs LCD Display Barber Kit",
+          "zh": "KM-8539 理发剪双机套装 磁吸限位梳 LCD数显 金色银色 带理发围布",
+          "vi": "KM-8539 Tông đơ cắt tóc",
+          "th": "KM-8539 กรรไกรตัดผม",
+          "id": "KM-8539 Pemotong Rambut",
+          "es": "KM-8539 Cortapelos",
+          "fr": "KM-8539 Tondeuse à Cheveux",
+          "pt": "KM-8539 Máquina de Cortar Cabelo"
+        },
+        "desc": {
+          "en": "The KM-8539 premium barber kit includes two clippers (gold & silver), 8 magnetic limit combs, an LCD display and a full barber apron set.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p165",
+        "name": "KM-PG1947 Electric Hair Trimmer Gold T-Blade Digital Display USB Rechargeable",
+        "category": "hair-clipper",
+        "image": "assets/images/product-p165-main.jpg",
+        "gallery": "assets/images/product-p165-g1.jpg,assets/images/product-p165-g2.jpg,assets/images/product-p165-g3.jpg,assets/images/product-p165-g4.jpg,assets/images/product-p165-g5.jpg",
+        "detailImages": "assets/images/product-p165-d1.jpg,assets/images/product-p165-d2.jpg,assets/images/product-p165-d3.jpg,assets/images/product-p165-d4.jpg,assets/images/product-p165-d5.jpg,assets/images/product-p165-d6.jpg,assets/images/product-p165-d7.jpg,assets/images/product-p165-d8.jpg,assets/images/product-p165-d9.jpg,assets/images/product-p165-d10.jpg,assets/images/product-p165-d11.jpg,assets/images/product-p165-d12.jpg",
+        "price": 12.5,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 40,
+        "packing": 40,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V/1A (USB)",
+        "material": "Metal body, gold",
+        "capacity": "T-blade trimmer 路 digital display (100%) 路 USB charging 路 4 limit combs 路 single gross 500g 路 carton 55*43*33cm",
+        "certs": "",
+        "features": "Gold metal T-blade trimmer\nDigital LED display (100%)\nUSB rechargeable\n4 limit combs included\nBarber head engraving design\n40 pcs per carton",
+        "names": {
+          "en": "KM-PG1947 Electric Hair Trimmer Gold T-Blade Digital Display USB Rechargeable",
+          "zh": "KM-PG1947 电动修发器 金色T型刀 数显屏 USB充电 专业雕刻修边",
+          "vi": "KM-PG1947 Tông đơ cắt tóc",
+          "th": "KM-PG1947 กรรไกรตัดผม",
+          "id": "KM-PG1947 Pemotong Rambut",
+          "es": "KM-PG1947 Cortapelos",
+          "fr": "KM-PG1947 Tondeuse à Cheveux",
+          "pt": "KM-PG1947 Máquina de Cortar Cabelo"
+        },
+        "desc": {
+          "en": "The KM-PG1947 gold T-blade trimmer features a digital display, USB charging and barber-head engraving, perfect for professional detailing.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [
+          {
+            "name": "Color",
+            "options": [
+              "KM-PG1947-Gold"
+            ]
+          }
+        ],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p166",
+        "name": "KM-PG232 Electric Hair Trimmer Orange T-Blade Digital Display USB Rechargeable",
+        "category": "hair-clipper",
+        "image": "assets/images/product-p166-main.jpg",
+        "gallery": "assets/images/product-p166-g1.jpg,assets/images/product-p166-g2.jpg,assets/images/product-p166-g3.jpg,assets/images/product-p166-g4.jpg,assets/images/product-p166-g5.jpg,assets/images/product-p166-g6.jpg,assets/images/product-p166-g7.jpg,assets/images/product-p166-g8.jpg,assets/images/product-p166-g9.jpg,assets/images/product-p166-g10.jpg,assets/images/product-p166-g11.jpg",
+        "detailImages": "assets/images/product-p166-d1.jpg,assets/images/product-p166-d2.jpg,assets/images/product-p166-d3.jpg,assets/images/product-p166-d4.jpg,assets/images/product-p166-d5.jpg,assets/images/product-p166-d6.jpg,assets/images/product-p166-d7.jpg,assets/images/product-p166-d8.jpg,assets/images/product-p166-d9.jpg,assets/images/product-p166-d10.jpg,assets/images/product-p166-d11.jpg,assets/images/product-p166-d12.jpg,assets/images/product-p166-d13.jpg,assets/images/product-p166-d14.jpg",
+        "price": 6.8,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 48,
+        "packing": 48,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V/1A (USB)",
+        "material": "ABS body, orange-red",
+        "capacity": "T-blade trimmer 路 digital display 路 USB charging 路 3 limit combs (1/2/3mm) 路 single gross 445g 路 carton 55.5*41*35.5cm",
+        "certs": "CE,ROHS,FCC",
+        "features": "T-blade close-cut trimmer\nDigital LED display\nUSB rechargeable\n3 limit combs (1/2/3mm)\nOrange-red stylish body\n48 pcs per carton",
+        "names": {
+          "en": "KM-PG232 Electric Hair Trimmer Orange T-Blade Digital Display USB Rechargeable",
+          "zh": "KM-PG232 电动修发器 橙色T型刀 数显屏 USB充电 细节雕刻",
+          "vi": "KM-PG232 Tông đơ cắt tóc",
+          "th": "KM-PG232 กรรไกรตัดผม",
+          "id": "KM-PG232 Pemotong Rambut",
+          "es": "KM-PG232 Cortapelos",
+          "fr": "KM-PG232 Tondeuse à Cheveux",
+          "pt": "KM-PG232 Máquina de Cortar Cabelo"
+        },
+        "desc": {
+          "en": "The KM-PG232 cordless T-blade trimmer features a digital display, USB charging and a bright orange body, ideal for detail carving.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p167",
+        "name": "KM-PG809A Electric Hair Clipper Cordless USB Rechargeable Professional for Barbershop",
+        "category": "hair-clipper",
+        "image": "assets/images/product-p167-main.jpg",
+        "gallery": "assets/images/product-p167-g1.jpg,assets/images/product-p167-g2.jpg,assets/images/product-p167-g3.jpg,assets/images/product-p167-g4.jpg,assets/images/product-p167-g5.jpg,assets/images/product-p167-g6.jpg,assets/images/product-p167-g7.jpg,assets/images/product-p167-g8.jpg,assets/images/product-p167-g9.jpg",
+        "detailImages": "assets/images/product-p167-d1.jpg,assets/images/product-p167-d2.jpg,assets/images/product-p167-d3.jpg,assets/images/product-p167-d4.jpg,assets/images/product-p167-d5.jpg,assets/images/product-p167-d6.jpg,assets/images/product-p167-d7.jpg,assets/images/product-p167-d8.jpg,assets/images/product-p167-d9.jpg,assets/images/product-p167-d10.jpg,assets/images/product-p167-d11.jpg,assets/images/product-p167-d12.jpg,assets/images/product-p167-d13.jpg,assets/images/product-p167-d14.jpg,assets/images/product-p167-d15.jpg,assets/images/product-p167-d16.jpg,assets/images/product-p167-d17.jpg,assets/images/product-p167-d18.jpg,assets/images/product-p167-d19.jpg",
+        "price": 8.5,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 40,
+        "packing": 40,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V/1A (USB)",
+        "material": "ABS body, white-yellow",
+        "capacity": "Cordless hair clipper 路 USB charging 路 single gross 562g 路 carton 58*49*34cm",
+        "certs": "CE,ROHS,FCC",
+        "features": "Cordless professional hair clipper\nUSB rechargeable\nErgonomic grip\nWhite-yellow body\n40 pcs per carton",
+        "names": {
+          "en": "KM-PG809A Electric Hair Clipper Cordless USB Rechargeable Professional for Barbershop",
+          "zh": "KM-PG809A 电推剪 无线 USB充电 专业理发器 白黄配色",
+          "vi": "KM-PG809A Tông đơ cắt tóc",
+          "th": "KM-PG809A กรรไกรตัดผม",
+          "id": "KM-PG809A Pemotong Rambut",
+          "es": "KM-PG809A Cortapelos",
+          "fr": "KM-PG809A Tondeuse à Cheveux",
+          "pt": "KM-PG809A Máquina de Cortar Cabelo"
+        },
+        "desc": {
+          "en": "The KM-PG809A cordless hair clipper features USB charging and an ergonomic design, delivering reliable performance for salon and home use.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p168",
+        "name": "PROKM-1376 Professional Hair Clipper External Rotor Motor 2500mAh Digital Display for Barbershop",
+        "category": "hair-clipper",
+        "image": "assets/images/product-p168-main.jpg",
+        "gallery": "assets/images/product-p168-g1.jpg,assets/images/product-p168-g2.jpg,assets/images/product-p168-g3.jpg,assets/images/product-p168-g4.jpg,assets/images/product-p168-g5.jpg,assets/images/product-p168-g6.jpg,assets/images/product-p168-g7.jpg",
+        "detailImages": "assets/images/product-p168-d1.jpg,assets/images/product-p168-d2.jpg,assets/images/product-p168-d3.jpg,assets/images/product-p168-d4.jpg,assets/images/product-p168-d5.jpg,assets/images/product-p168-d6.jpg,assets/images/product-p168-d7.jpg,assets/images/product-p168-d8.jpg,assets/images/product-p168-d9.jpg,assets/images/product-p168-d10.jpg,assets/images/product-p168-d11.jpg,assets/images/product-p168-d12.jpg,assets/images/product-p168-d13.jpg,assets/images/product-p168-d14.jpg,assets/images/product-p168-d15.jpg",
+        "price": 24.5,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 20,
+        "packing": 20,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V/1A (USB-C)",
+        "material": "Metal body, gold-silver",
+        "capacity": "External rotor motor 路 2500mAh lithium battery 路 digital display (99%) 路 6 limit combs (1.5/3/4.5/6/9/12mm) 路 single gross 780g 路 color box 240*60*220mm",
+        "certs": "CE,ROHS,FCC",
+        "features": "External rotor high-torque motor\n2500mAh lithium battery\nDigital LED display (99%)\n6 limit combs (1.5-12mm)\nGold or silver metal body\nProfessional barber-grade build\n20 pcs per carton",
+        "names": {
+          "en": "PROKM-1376 Professional Hair Clipper External Rotor Motor 2500mAh Digital Display for Barbershop",
+          "zh": "PROKM-1376 专业电推剪 外转子马达 2500mAh 数显屏 金/银 理发",
+          "vi": "PROKM-1376 Tông đơ cắt tóc",
+          "th": "PROKM-1376 กรรไกรตัดผม",
+          "id": "PROKM-1376 Pemotong Rambut",
+          "es": "PROKM-1376 Cortapelos",
+          "fr": "PROKM-1376 Tondeuse à Cheveux",
+          "pt": "PROKM-1376 Máquina de Cortar Cabelo"
+        },
+        "desc": {
+          "en": "The PROKM-1376 professional clipper features an external rotor motor, 2500mAh battery and digital display, available in gold or silver for barbers.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [
+          {
+            "name": "Color",
+            "options": [
+              "PROKM-1376-Gold",
+              "PROKM-1376-Silver"
+            ]
+          }
+        ],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p169",
+        "name": "PROKM-1378 Professional Hair Clipper Linear Motor 8500RPM DLC Blade Aluminum Body for Barbershop",
+        "category": "hair-clipper",
+        "image": "assets/images/product-p169-main.jpg",
+        "gallery": "assets/images/product-p169-g1.jpg,assets/images/product-p169-g2.jpg,assets/images/product-p169-g3.jpg,assets/images/product-p169-g4.jpg,assets/images/product-p169-g5.jpg,assets/images/product-p169-g6.jpg,assets/images/product-p169-g7.jpg",
+        "detailImages": "assets/images/product-p169-d1.jpg,assets/images/product-p169-d2.jpg,assets/images/product-p169-d3.jpg,assets/images/product-p169-d4.jpg,assets/images/product-p169-d5.jpg,assets/images/product-p169-d6.jpg,assets/images/product-p169-d7.jpg,assets/images/product-p169-d8.jpg,assets/images/product-p169-d9.jpg,assets/images/product-p169-d10.jpg,assets/images/product-p169-d11.jpg",
+        "price": 36.0,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": "",
+        "packing": "",
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V/1A (Type-C)",
+        "material": "Aluminum alloy body (sandblasted + anodized), black-gold",
+        "capacity": "Linear motor 8500RPM 路 18650 2500mAh lithium battery 路 charging 2.5h / >=150min run time 路 steel blade with DLC coating 路 single weight 260g 路 digital display 路 color box 210*59.5*239mm",
+        "certs": "CE,ROHS,FCC",
+        "features": "Linear suspension motor 8500RPM\nDLC coated steel blade\nAluminum alloy sandblasted body\n18650 2500mAh, 2.5h charge / >=150min run\nDigital LED display\n3 limit combs (1.5/3/4.5mm)\n<=72dB low noise",
+        "names": {
+          "en": "PROKM-1378 Professional Hair Clipper Linear Motor 8500RPM DLC Blade Aluminum Body for Barbershop",
+          "zh": "PROKM-1378 专业电推剪 线性马达 8500转 DLC刀头 铝合金机身 数显",
+          "vi": "PROKM-1378 Tông đơ cắt tóc",
+          "th": "PROKM-1378 กรรไกรตัดผม",
+          "id": "PROKM-1378 Pemotong Rambut",
+          "es": "PROKM-1378 Cortapelos",
+          "fr": "PROKM-1378 Tondeuse à Cheveux",
+          "pt": "PROKM-1378 Máquina de Cortar Cabelo"
+        },
+        "desc": {
+          "en": "The PROKM-1378 professional clipper features a linear 8500RPM motor, DLC coated blade, aluminum body and 2500mAh battery for premium barbershop use.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p170",
+        "name": "PROKM-1379 Professional Hair Clipper Linear Motor 8500RPM DLC Blade 6 Combs for Barbershop",
+        "category": "hair-clipper",
+        "image": "assets/images/product-p170-main.jpg",
+        "gallery": "assets/images/product-p170-g1.jpg,assets/images/product-p170-g2.jpg,assets/images/product-p170-g3.jpg,assets/images/product-p170-g4.jpg,assets/images/product-p170-g5.jpg,assets/images/product-p170-g6.jpg,assets/images/product-p170-g7.jpg,assets/images/product-p170-g8.jpg",
+        "detailImages": "assets/images/product-p170-d1.jpg,assets/images/product-p170-d2.jpg,assets/images/product-p170-d3.jpg,assets/images/product-p170-d4.jpg,assets/images/product-p170-d5.jpg,assets/images/product-p170-d6.jpg,assets/images/product-p170-d7.jpg,assets/images/product-p170-d8.jpg,assets/images/product-p170-d9.jpg,assets/images/product-p170-d10.jpg,assets/images/product-p170-d11.jpg",
+        "price": 42.0,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": "",
+        "packing": "",
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V/1A (Type-C)",
+        "material": "Aluminum alloy body (sandblasted + anodized), black-gold",
+        "capacity": "Linear motor 8500RPM 路 18650 2500mAh lithium battery 路 charging 2.5h / >=150min run time 路 steel blade with DLC coating 路 single weight 290g 路 digital display 路 color box 238.8*60.8*268mm",
+        "certs": "CE,ROHS,FCC",
+        "features": "Linear suspension motor 8500RPM\nDLC coated steel blade\nAluminum alloy sandblasted body\n18650 2500mAh, 2.5h charge / >=150min run\nDigital LED display\n6 limit combs (1.5/3/4.5/6/9/12mm)\n<=72dB low noise",
+        "names": {
+          "en": "PROKM-1379 Professional Hair Clipper Linear Motor 8500RPM DLC Blade 6 Combs for Barbershop",
+          "zh": "PROKM-1379 专业电推剪 线性马达 8500转 DLC刀头 铝合金机身 6限位梳",
+          "vi": "PROKM-1379 Tông đơ cắt tóc",
+          "th": "PROKM-1379 กรรไกรตัดผม",
+          "id": "PROKM-1379 Pemotong Rambut",
+          "es": "PROKM-1379 Cortapelos",
+          "fr": "PROKM-1379 Tondeuse à Cheveux",
+          "pt": "PROKM-1379 Máquina de Cortar Cabelo"
+        },
+        "desc": {
+          "en": "The PROKM-1379 professional clipper features a linear 8500RPM motor, DLC blade, aluminum body and 6 limit combs for full barbershop styling.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p171",
+        "name": "KM-567 Electric Shaver 6 Floating Rotary Heads Bald Shaver Washable USB Rechargeable for Men",
+        "category": "shaver",
+        "image": "assets/images/product-p171-main.jpg",
+        "gallery": "assets/images/product-p171-g1.jpg,assets/images/product-p171-g2.jpg,assets/images/product-p171-g3.jpg,assets/images/product-p171-g4.jpg,assets/images/product-p171-g5.jpg,assets/images/product-p171-g6.jpg,assets/images/product-p171-g7.jpg,assets/images/product-p171-g8.jpg,assets/images/product-p171-g9.jpg",
+        "detailImages": "assets/images/product-p171-d1.jpg,assets/images/product-p171-d2.jpg,assets/images/product-p171-d3.jpg,assets/images/product-p171-d4.jpg,assets/images/product-p171-d5.jpg,assets/images/product-p171-d6.jpg,assets/images/product-p171-d7.jpg,assets/images/product-p171-d8.jpg,assets/images/product-p171-d9.jpg,assets/images/product-p171-d10.jpg,assets/images/product-p171-d11.jpg,assets/images/product-p171-d12.jpg,assets/images/product-p171-d13.jpg",
+        "price": 14.8,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 40,
+        "packing": 40,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "USB Rechargeable",
+        "material": "ABS body",
+        "capacity": "6 floating rotary heads · USB charging · single gross weight 510g · color box 130*85*175mm · carton 53.9*44*36.5cm",
+        "certs": "CE,RoHS,FCC",
+        "features": "6 floating rotary cutter heads for bald head and close shaving\nWet & dry use, washable under running water\nLED battery level display\nUSB rechargeable cordless design\nBlue body with protective cover, brush and USB cable\n40 pcs per carton",
+        "names": {
+          "en": "KM-567 Electric Shaver 6 Floating Rotary Heads Bald Shaver Washable USB Rechargeable for Men",
+          "zh": "KM-567 电动剃须刀 六刀头光头剃 水洗USB充电",
+          "vi": "KM-567 Máy cạo râu",
+          "th": "KM-567 มีดโกนหนวด",
+          "id": "KM-567 Pencukur Elektrik",
+          "es": "KM-567 Afeitadoras Eléctricas",
+          "fr": "KM-567 Rasoirs Électriques",
+          "pt": "KM-567 Barbeadores Elétricos"
+        },
+        "desc": {
+          "en": "The Kemei KM-567 is a 6-head rotary bald shaver with floating cutter heads, a washable body and USB charging, designed for close bald head shaving and everyday beard grooming.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p172",
+        "name": "KM-6052 Electric Shaver Twin Rotary Heads LED Power Display USB Rechargeable for Men",
+        "category": "shaver",
+        "image": "assets/images/product-p172-main.jpg",
+        "gallery": "assets/images/product-p172-g1.jpg,assets/images/product-p172-g2.jpg,assets/images/product-p172-g3.jpg,assets/images/product-p172-g4.jpg,assets/images/product-p172-g5.jpg",
+        "detailImages": "assets/images/product-p172-d1.jpg,assets/images/product-p172-d2.jpg,assets/images/product-p172-d3.jpg,assets/images/product-p172-d4.jpg,assets/images/product-p172-d5.jpg,assets/images/product-p172-d6.jpg,assets/images/product-p172-d7.jpg,assets/images/product-p172-d8.jpg,assets/images/product-p172-d9.jpg,assets/images/product-p172-d10.jpg,assets/images/product-p172-d11.jpg,assets/images/product-p172-d12.jpg",
+        "price": 11.5,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": "",
+        "packing": "",
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "USB Rechargeable",
+        "material": "ABS body",
+        "capacity": "Twin rotary heads · LED power display · single gross weight 108.9g · color box 25.5*17*6cm",
+        "certs": "",
+        "features": "Twin rotary floating cutter heads for smooth shaving\nLED digital display showing remaining power (99)\nCompact pocket size for travel and business trip\nUSB rechargeable design\nBlue body with chrome trim",
+        "names": {
+          "en": "KM-6052 Electric Shaver Twin Rotary Heads LED Power Display USB Rechargeable for Men",
+          "zh": "KM-6052 电动剃须刀 双刀头 LED数显 便携",
+          "vi": "KM-6052 Máy cạo râu",
+          "th": "KM-6052 มีดโกนหนวด",
+          "id": "KM-6052 Pencukur Elektrik",
+          "es": "KM-6052 Afeitadoras Eléctricas",
+          "fr": "KM-6052 Rasoirs Électriques",
+          "pt": "KM-6052 Barbeadores Elétricos"
+        },
+        "desc": {
+          "en": "The Kemei KM-6052 is a compact twin-head rotary shaver with an LED power display and USB charging, ideal for travel and everyday men's grooming.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p173",
+        "name": "KM-821 4-in-1 Electric Shaver 7500RPM LCD Display Type-C Rechargeable for Women",
+        "category": "shaver",
+        "image": "assets/images/product-p173-main.jpg",
+        "gallery": "assets/images/product-p173-g1.jpg,assets/images/product-p173-g2.jpg,assets/images/product-p173-g3.jpg,assets/images/product-p173-g4.jpg,assets/images/product-p173-g5.jpg,assets/images/product-p173-g6.jpg",
+        "detailImages": "assets/images/product-p173-d1.jpg,assets/images/product-p173-d2.jpg,assets/images/product-p173-d3.jpg,assets/images/product-p173-d4.jpg,assets/images/product-p173-d5.jpg,assets/images/product-p173-d6.jpg,assets/images/product-p173-d7.jpg,assets/images/product-p173-d8.jpg,assets/images/product-p173-d9.jpg,assets/images/product-p173-d10.jpg,assets/images/product-p173-d11.jpg,assets/images/product-p173-d12.jpg",
+        "price": 7.8,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 60,
+        "packing": 60,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V/1A USB",
+        "material": "ABS + UV plating",
+        "capacity": "Motor 7500RPM · 500mAh lithium battery · 2h charge / 60min run time · 3Cr13 blade · net weight 104g · single gross weight 291g · color box 184*82*56mm",
+        "certs": "CE,RoHS,FCC",
+        "features": "4-in-1 lady's grooming set with replaceable heads and combs\n7500RPM motor, 5W power, <=78dB low noise\nLCD digital display\nUSB Type-C charging, 2h charge / 60min runtime\n3Cr13 stainless steel blade, ABS + UV plating body\n60 pcs per carton",
+        "names": {
+          "en": "KM-821 4-in-1 Electric Shaver 7500RPM LCD Display Type-C Rechargeable for Women",
+          "zh": "KM-821 电动剃须刀 4合1 7500转 数显 Type-C",
+          "vi": "KM-821 Máy cạo râu",
+          "th": "KM-821 มีดโกนหนวด",
+          "id": "KM-821 Pencukur Elektrik",
+          "es": "KM-821 Afeitadoras Eléctricas",
+          "fr": "KM-821 Rasoirs Électriques",
+          "pt": "KM-821 Barbeadores Elétricos"
+        },
+        "desc": {
+          "en": "The Kemei KM-821 is a 4-in-1 cordless lady's shaver with a 7500RPM motor, LCD display and Type-C charging for full-body grooming.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p174",
+        "name": "KM-870 Electric Shaver Foil Shaver Vintage Gold Body LCD Display for Men",
+        "category": "shaver",
+        "image": "assets/images/product-p174-main.jpg",
+        "gallery": "assets/images/product-p174-g1.jpg,assets/images/product-p174-g2.jpg,assets/images/product-p174-g3.jpg,assets/images/product-p174-g4.jpg,assets/images/product-p174-g5.jpg",
+        "detailImages": "assets/images/product-p174-d1.jpg,assets/images/product-p174-d2.jpg,assets/images/product-p174-d3.jpg,assets/images/product-p174-d4.jpg,assets/images/product-p174-d5.jpg,assets/images/product-p174-d6.jpg,assets/images/product-p174-d7.jpg,assets/images/product-p174-d8.jpg,assets/images/product-p174-d9.jpg,assets/images/product-p174-d10.jpg,assets/images/product-p174-d11.jpg,assets/images/product-p174-d12.jpg,assets/images/product-p174-d13.jpg,assets/images/product-p174-d14.jpg",
+        "price": 15.8,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 40,
+        "packing": 40,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "USB Rechargeable",
+        "material": "Zinc alloy + gold plating",
+        "capacity": "LCD digital display · single gross weight 525g · color box 117.5*177*64mm · carton 50*35*38cm",
+        "certs": "",
+        "features": "Reciprocating foil shaver for close beard shaving\nVintage gold metal texture body\nLCD digital display showing time and battery percent\nDetachable foil head for easy cleaning\nCompact and portable design\n40 pcs per carton",
+        "names": {
+          "en": "KM-870 Electric Shaver Foil Shaver Vintage Gold Body LCD Display for Men",
+          "zh": "KM-870 电动剃须刀 往复式箔刀 复古金 LCD数显",
+          "vi": "KM-870 Máy cạo râu",
+          "th": "KM-870 มีดโกนหนวด",
+          "id": "KM-870 Pencukur Elektrik",
+          "es": "KM-870 Afeitadoras Eléctricas",
+          "fr": "KM-870 Rasoirs Électriques",
+          "pt": "KM-870 Barbeadores Elétricos"
+        },
+        "desc": {
+          "en": "The Kemei KM-870 is a retro-style foil shaver with a gold textured metal body, LCD display and detachable foil head for comfortable close shaving.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p175",
+        "name": "KM-T290 Electric Shaver Mini Foil Shaver IPX1 Waterproof USB Rechargeable for Men",
+        "category": "shaver",
+        "image": "assets/images/product-p175-main.jpg",
+        "gallery": "assets/images/product-p175-g1.jpg,assets/images/product-p175-g2.jpg,assets/images/product-p175-g3.jpg,assets/images/product-p175-g4.jpg,assets/images/product-p175-g5.jpg,assets/images/product-p175-g6.jpg,assets/images/product-p175-g7.jpg,assets/images/product-p175-g8.jpg,assets/images/product-p175-g9.jpg,assets/images/product-p175-g10.jpg,assets/images/product-p175-g11.jpg",
+        "detailImages": "assets/images/product-p175-d1.jpg,assets/images/product-p175-d2.jpg,assets/images/product-p175-d3.jpg,assets/images/product-p175-d4.jpg,assets/images/product-p175-d5.jpg,assets/images/product-p175-d6.jpg,assets/images/product-p175-d7.jpg,assets/images/product-p175-d8.jpg,assets/images/product-p175-d9.jpg,assets/images/product-p175-d10.jpg,assets/images/product-p175-d11.jpg,assets/images/product-p175-d12.jpg,assets/images/product-p175-d13.jpg,assets/images/product-p175-d14.jpg,assets/images/product-p175-d15.jpg",
+        "price": 18.8,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 60,
+        "packing": 60,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "USB Rechargeable",
+        "material": "ABS body",
+        "capacity": "Mini pocket foil shaver · single gross weight 385g · color box 191*132*50mm · carton 53*41*40cm",
+        "certs": "CE,RoHS,FCC",
+        "features": "Mini pocket-sized foil shaver for travel and on-the-go use\nFloating foil cutter head for a close fit\nSlide switch operation, simple and safe\nIPX1 waterproof body\nAvailable in blue, gold and silver\n60 pcs per carton",
+        "names": {
+          "en": "KM-T290 Electric Shaver Mini Foil Shaver IPX1 Waterproof USB Rechargeable for Men",
+          "zh": "KM-T290 电动剃须刀 迷你往复式 旅行便携 多色",
+          "vi": "KM-T290 Máy cạo râu",
+          "th": "KM-T290 มีดโกนหนวด",
+          "id": "KM-T290 Pencukur Elektrik",
+          "es": "KM-T290 Afeitadoras Eléctricas",
+          "fr": "KM-T290 Rasoirs Électriques",
+          "pt": "KM-T290 Barbeadores Elétricos"
+        },
+        "desc": {
+          "en": "The Kemei KM-T290 is a mini reciprocating foil shaver that easily fits a pocket, with a floating head, slide switch and IPX1 water resistance.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [
+          {
+            "name": "Color",
+            "options": [
+              "KM-T290-Blue",
+              "KM-T290-Gold",
+              "KM-T290-Silver"
+            ]
+          }
+        ],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p176",
+        "name": "KM-T381 2-in-1 Electric Shaver Foil Shaver & Nose Trimmer IPX7 Washable for Men",
+        "category": "shaver",
+        "image": "assets/images/product-p176-main.jpg",
+        "gallery": "assets/images/product-p176-g1.jpg,assets/images/product-p176-g2.jpg,assets/images/product-p176-g3.jpg,assets/images/product-p176-g4.jpg,assets/images/product-p176-g5.jpg,assets/images/product-p176-g6.jpg",
+        "detailImages": "assets/images/product-p176-d1.jpg,assets/images/product-p176-d2.jpg,assets/images/product-p176-d3.jpg,assets/images/product-p176-d4.jpg,assets/images/product-p176-d5.jpg,assets/images/product-p176-d6.jpg,assets/images/product-p176-d7.jpg,assets/images/product-p176-d8.jpg,assets/images/product-p176-d9.jpg,assets/images/product-p176-d10.jpg",
+        "price": 14.0,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 60,
+        "packing": 60,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "USB Rechargeable",
+        "material": "ABS body",
+        "capacity": "2-in-1 shaver + nose trimmer · single gross weight 343g · color box 191*50*132mm · carton 52.5*41*39.5cm",
+        "certs": "CE,RoHS,FCC",
+        "features": "2-in-1 foil shaver plus detachable nose hair trimmer\nIPX7 waterproof, rinsable under running water\nDetachable cutter head for easy cleaning\nCompact mini size for travel and car use\nBlack brushed metal body\n60 pcs per carton",
+        "names": {
+          "en": "KM-T381 2-in-1 Electric Shaver Foil Shaver & Nose Trimmer IPX7 Washable for Men",
+          "zh": "KM-T381 电动剃须刀 2合1 鼻毛修剪 IPX7水洗",
+          "vi": "KM-T381 Máy cạo râu",
+          "th": "KM-T381 มีดโกนหนวด",
+          "id": "KM-T381 Pencukur Elektrik",
+          "es": "KM-T381 Afeitadoras Eléctricas",
+          "fr": "KM-T381 Rasoirs Électriques",
+          "pt": "KM-T381 Barbeadores Elétricos"
+        },
+        "desc": {
+          "en": "The Kemei KM-T381 is a 2-in-1 mini groomer combining a foil shaver and a nose trimmer, with IPX7 waterproofing and a compact travel-friendly size.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p177",
+        "name": "KM-T399 Electric Shaver Foil Shaver LED Digital Display RPM for Men",
+        "category": "shaver",
+        "image": "assets/images/product-p177-main.jpg",
+        "gallery": "assets/images/product-p177-g1.jpg,assets/images/product-p177-g2.jpg,assets/images/product-p177-g3.jpg,assets/images/product-p177-g4.jpg,assets/images/product-p177-g5.jpg",
+        "detailImages": "assets/images/product-p177-d1.jpg,assets/images/product-p177-d2.jpg,assets/images/product-p177-d3.jpg,assets/images/product-p177-d4.jpg,assets/images/product-p177-d5.jpg,assets/images/product-p177-d6.jpg,assets/images/product-p177-d7.jpg,assets/images/product-p177-d8.jpg,assets/images/product-p177-d9.jpg,assets/images/product-p177-d10.jpg,assets/images/product-p177-d11.jpg,assets/images/product-p177-d12.jpg",
+        "price": 17.0,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 40,
+        "packing": 40,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "USB Rechargeable",
+        "material": "ABS body",
+        "capacity": "LED digital display (RPM / time / battery) · single gross weight 488g · color box 191*132*50mm · carton 40.5*28*55.5cm",
+        "certs": "CE,RoHS,FCC",
+        "features": "Professional reciprocating foil shaver\nLED digital display showing RPM, runtime and battery\nStainless steel cutter blade for a closer shave\nDetachable head, easy to clean\nVivid yellow industrial design\n40 pcs per carton",
+        "names": {
+          "en": "KM-T399 Electric Shaver Foil Shaver LED Digital Display RPM for Men",
+          "zh": "KM-T399 电动剃须刀 往复式箔刀 LED数显转速",
+          "vi": "KM-T399 Máy cạo râu",
+          "th": "KM-T399 มีดโกนหนวด",
+          "id": "KM-T399 Pencukur Elektrik",
+          "es": "KM-T399 Afeitadoras Eléctricas",
+          "fr": "KM-T399 Rasoirs Électriques",
+          "pt": "KM-T399 Barbeadores Elétricos"
+        },
+        "desc": {
+          "en": "The Kemei KM-T399 is a bold yellow foil shaver with an LED digital display showing speed and runtime, built for a close and efficient shave.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p178",
+        "name": "KM-T401 Electric Shaver Foil Shaver UV Sterilization 3-Speed IPX7 for Men",
+        "category": "shaver",
+        "image": "assets/images/product-p178-main.jpg",
+        "gallery": "assets/images/product-p178-g1.jpg,assets/images/product-p178-g2.jpg,assets/images/product-p178-g3.jpg,assets/images/product-p178-g4.jpg,assets/images/product-p178-g5.jpg,assets/images/product-p178-g6.jpg,assets/images/product-p178-g7.jpg,assets/images/product-p178-g8.jpg",
+        "detailImages": "assets/images/product-p178-d1.jpg,assets/images/product-p178-d2.jpg,assets/images/product-p178-d3.jpg,assets/images/product-p178-d4.jpg,assets/images/product-p178-d5.jpg,assets/images/product-p178-d6.jpg,assets/images/product-p178-d7.jpg,assets/images/product-p178-d8.jpg,assets/images/product-p178-d9.jpg,assets/images/product-p178-d10.jpg,assets/images/product-p178-d11.jpg,assets/images/product-p178-d12.jpg,assets/images/product-p178-d13.jpg,assets/images/product-p178-d14.jpg",
+        "price": 19.8,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 40,
+        "packing": 40,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V/1A Type-C",
+        "material": "ABS + Zinc alloy",
+        "capacity": "ICR18500 3.7V 1400mAh battery · Type-C charge 120min / 90min run time · IPX7 · <=68dB · size 125*66.5*32mm · single gross weight 540g · carton 53*28*40cm",
+        "certs": "CE,RoHS,FCC",
+        "features": "Independent floating dual foil cutter heads\nUV sterilization charging cap\n3-speed adjustment with digital display\nIPX7 waterproof, wet & dry use\nNickel foil net for close and comfortable shaving\nType-C charging, 120min charge / 90min runtime\nZinc alloy body, <=68dB low noise\n40 pcs per carton",
+        "names": {
+          "en": "KM-T401 Electric Shaver Foil Shaver UV Sterilization 3-Speed IPX7 for Men",
+          "zh": "KM-T401 电动剃须刀 往复式 紫外线杀菌 三档数显 IPX7",
+          "vi": "KM-T401 Máy cạo râu",
+          "th": "KM-T401 มีดโกนหนวด",
+          "id": "KM-T401 Pencukur Elektrik",
+          "es": "KM-T401 Afeitadoras Eléctricas",
+          "fr": "KM-T401 Rasoirs Électriques",
+          "pt": "KM-T401 Barbeadores Elétricos"
+        },
+        "desc": {
+          "en": "The Kemei KM-T401 is a premium foil shaver with a UV sterilization cap, 3-speed digital display, IPX7 waterproofing and a 1400mAh Type-C rechargeable battery.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p179",
+        "name": "KM-T417 Electric Shaver Foil Shaver Creative Art Shell USB Rechargeable for Men",
+        "category": "shaver",
+        "image": "assets/images/product-p179-main.jpg",
+        "gallery": "assets/images/product-p179-g1.jpg,assets/images/product-p179-g2.jpg,assets/images/product-p179-g3.jpg,assets/images/product-p179-g4.jpg,assets/images/product-p179-g5.jpg,assets/images/product-p179-g6.jpg,assets/images/product-p179-g7.jpg,assets/images/product-p179-g8.jpg,assets/images/product-p179-g9.jpg,assets/images/product-p179-g10.jpg,assets/images/product-p179-g11.jpg",
+        "detailImages": "assets/images/product-p179-d1.jpg,assets/images/product-p179-d2.jpg,assets/images/product-p179-d3.jpg,assets/images/product-p179-d4.jpg,assets/images/product-p179-d5.jpg,assets/images/product-p179-d6.jpg,assets/images/product-p179-d7.jpg,assets/images/product-p179-d8.jpg,assets/images/product-p179-d9.jpg,assets/images/product-p179-d10.jpg,assets/images/product-p179-d11.jpg,assets/images/product-p179-d12.jpg,assets/images/product-p179-d13.jpg",
+        "price": 19.5,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 40,
+        "packing": 40,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "USB Rechargeable",
+        "material": "ABS body",
+        "capacity": "LED battery level indicator (20-100%) · single gross weight 570g · color box 190*50*130mm · carton 55*40*27cm",
+        "certs": "CE,RoHS,FCC",
+        "features": "Reciprocating foil shaver with creative art shell designs\n3 artistic patterns: Robot, Dragon and Black Beauty\nLED battery level indicator (100/80/60/40/20)\nUSB rechargeable, compact and portable\nDetachable cutter head for easy cleaning\n40 pcs per carton",
+        "names": {
+          "en": "KM-T417 Electric Shaver Foil Shaver Creative Art Shell USB Rechargeable for Men",
+          "zh": "KM-T417 电动剃须刀 艺术外壳 龙/机器人/黑妹 数显",
+          "vi": "KM-T417 Máy cạo râu",
+          "th": "KM-T417 มีดโกนหนวด",
+          "id": "KM-T417 Pencukur Elektrik",
+          "es": "KM-T417 Afeitadoras Eléctricas",
+          "fr": "KM-T417 Rasoirs Électriques",
+          "pt": "KM-T417 Barbeadores Elétricos"
+        },
+        "desc": {
+          "en": "The Kemei KM-T417 is a fashion-forward foil shaver available in three artistic shell designs (Robot, Dragon, Black Beauty) with an LED battery display.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [
+          {
+            "name": "Color",
+            "options": [
+              "KM-T417-Robot",
+              "KM-T417-Dragon",
+              "KM-T417-BlackBeauty"
+            ]
+          }
+        ],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p180",
+        "name": "KM-189B Epilator Lady Shaver 2-Speed Cordless Rechargeable for Women",
+        "category": "beauty",
+        "image": "assets/images/product-p180-main.jpg",
+        "gallery": "assets/images/product-p180-g1.jpeg,assets/images/product-p180-g2.jpeg,assets/images/product-p180-g3.jpeg,assets/images/product-p180-g4.jpeg,assets/images/product-p180-g5.jpeg,assets/images/product-p180-g6.jpeg,assets/images/product-p180-g7.jpg,assets/images/product-p180-g8.jpg",
+        "detailImages": "assets/images/product-p180-d1.jpg,assets/images/product-p180-d2.jpg,assets/images/product-p180-d3.jpg,assets/images/product-p180-d4.jpg,assets/images/product-p180-d5.jpg,assets/images/product-p180-d6.jpg,assets/images/product-p180-d7.jpg,assets/images/product-p180-d8.jpg,assets/images/product-p180-d9.jpg,assets/images/product-p180-d10.jpg,assets/images/product-p180-d11.jpg,assets/images/product-p180-d12.jpg",
+        "price": 7.0,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 60,
+        "packing": 60,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "Rechargeable",
+        "material": "ABS body",
+        "capacity": "2-speed switch (0/1/2) · single gross weight 258g · color box 130*166*42mm · carton 47*35*45.5cm",
+        "certs": "",
+        "features": "Cordless epilator for women's face and body hair removal\n2-speed adjustment for different hair types\nPink and white elegant design\nWashable epilator head\nCompact and lightweight, easy to hold\n60 pcs per carton",
+        "names": {
+          "en": "KM-189B Epilator Lady Shaver 2-Speed Cordless Rechargeable for Women",
+          "zh": "KM-189B 美容与脱毛 女士拔毛器 两档调速",
+          "vi": "KM-189B Chăm sóc sắc đẹp & Triệt lông",
+          "th": "KM-189B ความงามและการกำจัดขน",
+          "id": "KM-189B Kecantikan & Pencabutan Bulu",
+          "es": "KM-189B Belleza y Depilación",
+          "fr": "KM-189B Beauté & Épilation",
+          "pt": "KM-189B Beleza e Depilação"
+        },
+        "desc": {
+          "en": "The Kemei KM-189B is a cordless ladies' epilator with a 2-speed switch and a pink-white body, designed for comfortable facial and body hair removal.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p181",
+        "name": "KM-2190 5-in-1 Epilator Lady Shaver Kit USB Rechargeable Wet & Dry for Women",
+        "category": "beauty",
+        "image": "assets/images/product-p181-main.jpg",
+        "gallery": "assets/images/product-p181-g1.jpg,assets/images/product-p181-g2.jpg,assets/images/product-p181-g3.jpg,assets/images/product-p181-g4.jpg,assets/images/product-p181-g5.jpg,assets/images/product-p181-g6.jpg,assets/images/product-p181-g7.jpg,assets/images/product-p181-g8.jpg",
+        "detailImages": "assets/images/product-p181-d1.jpg,assets/images/product-p181-d2.jpg,assets/images/product-p181-d3.jpg,assets/images/product-p181-d4.jpg,assets/images/product-p181-d5.jpg,assets/images/product-p181-d6.jpg,assets/images/product-p181-d7.jpg,assets/images/product-p181-d8.jpg,assets/images/product-p181-d9.jpg,assets/images/product-p181-d10.jpg",
+        "price": 21.5,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 20,
+        "packing": 20,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V USB",
+        "material": "ABS body",
+        "capacity": "Power 7W · USB 5V · size 16*5.5cm · precision steel blade · net weight 176.6g · carton 44.2*36.2*40.5cm",
+        "certs": "CE,RoHS,FCC",
+        "features": "5-in-1 women's grooming kit: epilator, shaver, foot file, massage and cleansing brushes\nLED digital power display (100)\nWet & dry use, detachable heads rinsable under water\nUSB charging, 5V 7W, precision steel blade\n20 pcs per carton",
+        "names": {
+          "en": "KM-2190 5-in-1 Epilator Lady Shaver Kit USB Rechargeable Wet & Dry for Women",
+          "zh": "KM-2190 美容与脱毛 5合1美容套装 干湿两用 LED数显",
+          "vi": "KM-2190 Chăm sóc sắc đẹp & Triệt lông",
+          "th": "KM-2190 ความงามและการกำจัดขน",
+          "id": "KM-2190 Kecantikan & Pencabutan Bulu",
+          "es": "KM-2190 Belleza y Depilación",
+          "fr": "KM-2190 Beauté & Épilation",
+          "pt": "KM-2190 Beleza e Depilação"
+        },
+        "desc": {
+          "en": "The Kemei KM-2190 is a 5-in-1 ladies' beauty kit with interchangeable epilator, shaver, foot file and brush heads, an LED display and wet & dry use.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p182",
+        "name": "KM-2530 4-in-1 Epilator Lady Shaver Set Rechargeable for Women",
+        "category": "beauty",
+        "image": "assets/images/product-p182-main.jpg",
+        "gallery": "assets/images/product-p182-g1.jpg,assets/images/product-p182-g2.jpg,assets/images/product-p182-g3.jpg,assets/images/product-p182-g4.jpg,assets/images/product-p182-g5.jpg,assets/images/product-p182-g6.jpg,assets/images/product-p182-g7.jpg,assets/images/product-p182-g8.jpg",
+        "detailImages": "assets/images/product-p182-d1.jpg,assets/images/product-p182-d2.jpg,assets/images/product-p182-d3.jpg,assets/images/product-p182-d4.jpg,assets/images/product-p182-d5.jpg,assets/images/product-p182-d6.jpg,assets/images/product-p182-d7.jpg,assets/images/product-p182-d8.jpg,assets/images/product-p182-d9.jpg,assets/images/product-p182-d10.jpg,assets/images/product-p182-d11.jpg,assets/images/product-p182-d12.jpg",
+        "price": 10.8,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 48,
+        "packing": 48,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "Rechargeable",
+        "material": "ABS body",
+        "capacity": "4-in-1 heads (epilator + shaver + foot file + trimmer) · single gross weight 498g · color box 97.4*66.4*201mm · carton 41*42*42.5cm",
+        "certs": "",
+        "features": "4-in-1 lady's epilator set with 3 replaceable heads\nEpilator, shaver head, foot file and trimmer\n3 protective covers included\nRechargeable cordless design\nAvailable in mixed, red and purple\n48 pcs per carton",
+        "names": {
+          "en": "KM-2530 4-in-1 Epilator Lady Shaver Set Rechargeable for Women",
+          "zh": "KM-2530 美容与脱毛 4合1拔毛套装 多色",
+          "vi": "KM-2530 Chăm sóc sắc đẹp & Triệt lông",
+          "th": "KM-2530 ความงามและการกำจัดขน",
+          "id": "KM-2530 Kecantikan & Pencabutan Bulu",
+          "es": "KM-2530 Belleza y Depilación",
+          "fr": "KM-2530 Beauté & Épilation",
+          "pt": "KM-2530 Beleza e Depilação"
+        },
+        "desc": {
+          "en": "The Kemei KM-2530 is a 4-in-1 ladies' epilator set covering epilation, shaving, foot care and trimming, rechargeable and available in multiple colors.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [
+          {
+            "name": "Color",
+            "options": [
+              "KM-2530-Mixed",
+              "KM-2530-Red",
+              "KM-2530-Purple"
+            ]
+          }
+        ],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p183",
+        "name": "KM-3077 8-in-1 Epilator Beauty Kit USB Rechargeable for Women",
+        "category": "beauty",
+        "image": "assets/images/product-p183-main.jpg",
+        "gallery": "assets/images/product-p183-g1.jpg,assets/images/product-p183-g2.jpg,assets/images/product-p183-g3.jpg,assets/images/product-p183-g4.jpg,assets/images/product-p183-g5.jpg,assets/images/product-p183-g6.jpg,assets/images/product-p183-g7.jpg",
+        "detailImages": "assets/images/product-p183-d1.jpg,assets/images/product-p183-d2.jpg,assets/images/product-p183-d3.jpg,assets/images/product-p183-d4.jpg,assets/images/product-p183-d5.jpg,assets/images/product-p183-d6.jpg,assets/images/product-p183-d7.jpg,assets/images/product-p183-d8.jpg,assets/images/product-p183-d9.jpg,assets/images/product-p183-d10.jpg",
+        "price": 16.0,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 32,
+        "packing": 32,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V USB",
+        "material": "ABS body",
+        "capacity": "Power 3W · USB 5V · size 11*6.3cm · precision steel blade · net weight 159g · single gross weight 684g · carton 50*35.5*53cm",
+        "certs": "CE,RoHS,FCC",
+        "features": "8-in-1 beauty & toen care kit for women\nEpilator, facial brush and multiple replacement heads\n2-speed adjustment\nUSB charging, 5V 3W precision steel blade\n32 pcs per carton",
+        "names": {
+          "en": "KM-3077 8-in-1 Epilator Beauty Kit USB Rechargeable for Women",
+          "zh": "KM-3077 美容与脱毛 8合1美容套装 USB充电",
+          "vi": "KM-3077 Chăm sóc sắc đẹp & Triệt lông",
+          "th": "KM-3077 ความงามและการกำจัดขน",
+          "id": "KM-3077 Kecantikan & Pencabutan Bulu",
+          "es": "KM-3077 Belleza y Depilación",
+          "fr": "KM-3077 Beauté & Épilation",
+          "pt": "KM-3077 Beleza e Depilação"
+        },
+        "desc": {
+          "en": "The Kemei KM-3077 is an 8-in-1 ladies' beauty kit combining epilation, facial cleansing and pedicure care with multiple interchangeable heads.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p184",
+        "name": "KM-6714 Lady Shaver Electric Bikini Trimmer Wet & Dry Rechargeable for Women",
+        "category": "beauty",
+        "image": "assets/images/product-p184-main.jpg",
+        "gallery": "assets/images/product-p184-g1.jpg,assets/images/product-p184-g2.jpg,assets/images/product-p184-g3.jpg,assets/images/product-p184-g4.jpg,assets/images/product-p184-g5.jpg,assets/images/product-p184-g6.jpg",
+        "detailImages": "assets/images/product-p184-d1.jpg,assets/images/product-p184-d2.jpg,assets/images/product-p184-d3.jpg,assets/images/product-p184-d4.jpg,assets/images/product-p184-d5.jpg,assets/images/product-p184-d6.jpg,assets/images/product-p184-d7.jpg,assets/images/product-p184-d8.jpg,assets/images/product-p184-d9.jpg,assets/images/product-p184-d10.jpg,assets/images/product-p184-d11.jpg",
+        "price": 7.8,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 40,
+        "packing": 40,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "USB Charging",
+        "material": "ABS body",
+        "capacity": "Power 3W · charge 8h / use 30min · size 15.5*2.5*2.2cm · precision steel cutter · weight 96g · single gross weight 380g · carton 42*41.5*36cm",
+        "certs": "",
+        "features": "Lady's electric shaver for body, bikini line and underarm\nWet & dry use, washable design\nMulti-head kit with 4 replacement blades\nCompact pen-like size, easy to carry\nPink-purple metallic body\n40 pcs per carton",
+        "names": {
+          "en": "KM-6714 Lady Shaver Electric Bikini Trimmer Wet & Dry Rechargeable for Women",
+          "zh": "KM-6714 美容与脱毛 女士剃毛器 私处剃毛 干湿两用",
+          "vi": "KM-6714 Chăm sóc sắc đẹp & Triệt lông",
+          "th": "KM-6714 ความงามและการกำจัดขน",
+          "id": "KM-6714 Kecantikan & Pencabutan Bulu",
+          "es": "KM-6714 Belleza y Depilación",
+          "fr": "KM-6714 Beauté & Épilation",
+          "pt": "KM-6714 Beleza e Depilação"
+        },
+        "desc": {
+          "en": "The Kemei KM-6714 is a cordless ladies' shaver designed for body and bikini line trimming, with wet & dry use and multiple interchangeable blades.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p185",
+        "name": "KM-7102 3-in-1 Epilator Lady Shaver & Foot File Rechargeable for Women",
+        "category": "beauty",
+        "image": "assets/images/product-p185-main.jpg",
+        "gallery": "assets/images/product-p185-g1.jpg,assets/images/product-p185-g2.jpg,assets/images/product-p185-g3.jpg,assets/images/product-p185-g4.jpg,assets/images/product-p185-g5.jpg,assets/images/product-p185-g6.jpg",
+        "detailImages": "assets/images/product-p185-d1.jpg,assets/images/product-p185-d2.jpg,assets/images/product-p185-d3.jpg,assets/images/product-p185-d4.jpg,assets/images/product-p185-d5.jpg,assets/images/product-p185-d6.jpg,assets/images/product-p185-d7.jpg,assets/images/product-p185-d8.jpg,assets/images/product-p185-d9.jpg,assets/images/product-p185-d10.jpg,assets/images/product-p185-d11.jpg",
+        "price": 9.8,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 48,
+        "packing": 48,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "USB Rechargeable",
+        "material": "ABS + gold plating",
+        "capacity": "3 interchangeable heads (epilator / shaver / foot file) · LED power display · color box 98*201*67mm",
+        "certs": "",
+        "features": "3-in-1 hair remover: epilator, shaver blade and grinding foot file\nLED digital power display\nWhite and gold elegant design\nComes with storage bag, sponge cloth and cleaning brush\nUSB rechargeable cordless design\n48 pcs per carton",
+        "names": {
+          "en": "KM-7102 3-in-1 Epilator Lady Shaver & Foot File Rechargeable for Women",
+          "zh": "KM-7102 美容与脱毛 3合1脱毛 磨脚 LED数显 白金",
+          "vi": "KM-7102 Chăm sóc sắc đẹp & Triệt lông",
+          "th": "KM-7102 ความงามและการกำจัดขน",
+          "id": "KM-7102 Kecantikan & Pencabutan Bulu",
+          "es": "KM-7102 Belleza y Depilación",
+          "fr": "KM-7102 Beauté & Épilation",
+          "pt": "KM-7102 Beleza e Depilação"
+        },
+        "desc": {
+          "en": "The Kemei KM-7102 is a 3-in-1 ladies' hair remover with epilator, shaver and foot file heads, an LED display and a white-gold premium finish.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [
+          {
+            "name": "Color",
+            "options": [
+              "KM-7102-WhiteGold"
+            ]
+          }
+        ],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p186",
+        "name": "KM-A5 Turbo Air Blower Hair Dryer High Speed Jet Fan LCD Display for Salon",
+        "category": "hair-dryer",
+        "image": "assets/images/product-p186-main.jpg",
+        "gallery": "assets/images/product-p186-g1.jpg,assets/images/product-p186-g2.jpg,assets/images/product-p186-g3.jpg,assets/images/product-p186-g4.jpg,assets/images/product-p186-g5.jpg,assets/images/product-p186-g6.jpg,assets/images/product-p186-g7.jpg,assets/images/product-p186-g8.jpg,assets/images/product-p186-g9.jpg,assets/images/product-p186-g10.jpg,assets/images/product-p186-g11.jpg,assets/images/product-p186-g12.jpg,assets/images/product-p186-g13.jpg,assets/images/product-p186-g14.jpg",
+        "detailImages": "assets/images/product-p186-d1.jpg,assets/images/product-p186-d2.jpg,assets/images/product-p186-d3.jpg,assets/images/product-p186-d4.jpg,assets/images/product-p186-d5.jpg,assets/images/product-p186-d6.jpg,assets/images/product-p186-d7.jpg,assets/images/product-p186-d8.jpg,assets/images/product-p186-d9.jpg,assets/images/product-p186-d10.jpg,assets/images/product-p186-d11.jpg,assets/images/product-p186-d12.jpg",
+        "price": 14.5,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 60,
+        "packing": 60,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "",
+        "material": "ABS body",
+        "capacity": "Turbo high-speed air force · LCD digital display · single gross weight 446g · color box 188*58*165mm",
+        "certs": "CE,RoHS,FCC",
+        "features": "High-speed turbo air blower / dryer for fast drying\nLCD digital display with temperature indication\nStrong jet air force, quick styling\nErgonomic anti-slip handle with detachable nozzle\nAvailable in black and white\n60 pcs per carton",
+        "names": {
+          "en": "KM-A5 Turbo Air Blower Hair Dryer High Speed Jet Fan LCD Display for Salon",
+          "zh": "KM-A5 吹风机 高速涡轮 数显 强风",
+          "vi": "KM-A5 Máy sấy tóc",
+          "th": "KM-A5 ไดร์เป่าผม",
+          "id": "KM-A5 Pengering Rambut",
+          "es": "KM-A5 Secadores de Pelo",
+          "fr": "KM-A5 Sèche-cheveux",
+          "pt": "KM-A5 Secadores de Cabelo"
+        },
+        "desc": {
+          "en": "The Kemei KM-A5 is a turbo high-speed air blower with an LCD display and strong jet air force for quick salon-style drying and styling.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [
+          {
+            "name": "Color",
+            "options": [
+              "KM-A5-Black",
+              "KM-A5-White"
+            ]
+          }
+        ],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p187",
+        "name": "KM-1880 Hair Straightener Ceramic Plate Flat Iron Fast Heating for Home Use",
+        "category": "hairstyling",
+        "image": "assets/images/product-p187-main.jpg",
+        "gallery": "assets/images/product-p187-g1.jpg,assets/images/product-p187-g2.jpg,assets/images/product-p187-g3.jpg,assets/images/product-p187-g4.jpg,assets/images/product-p187-g5.jpg",
+        "detailImages": "assets/images/product-p187-d1.jpg,assets/images/product-p187-d2.jpg,assets/images/product-p187-d3.jpg,assets/images/product-p187-d4.jpg,assets/images/product-p187-d5.jpg,assets/images/product-p187-d6.jpg,assets/images/product-p187-d7.jpg,assets/images/product-p187-d8.jpg,assets/images/product-p187-d9.jpg,assets/images/product-p187-d10.jpg,assets/images/product-p187-d11.jpg",
+        "price": 9.8,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 40,
+        "packing": 40,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "",
+        "material": "ABS + ceramic plate",
+        "capacity": "Pink ceramic heating plate · single gross weight 625g · color box 360*105*53mm · carton 56*37.5*44.5cm",
+        "certs": "",
+        "features": "Professional hair straightener flat iron\nPink ceramic coating plate for smooth gliding\nFast heating, even temperature distribution\nComes with 2 sectioning hairpins\nSuitable for salon and home styling\n40 pcs per carton",
+        "names": {
+          "en": "KM-1880 Hair Straightener Ceramic Plate Flat Iron Fast Heating for Home Use",
+          "zh": "KM-1880 直发与造型 陶瓷夹板 拉直发",
+          "vi": "KM-1880 Tạo kiểu & Duỗi tóc",
+          "th": "KM-1880 จัดแต่งทรงผม",
+          "id": "KM-1880 Penataan & Pelurusan Rambut",
+          "es": "KM-1880 Peinado y Alisado",
+          "fr": "KM-1880 Coiffage & Lissage",
+          "pt": "KM-1880 Modelagem e Alisamento"
+        },
+        "desc": {
+          "en": "The Kemei KM-1880 is a ceramic-plate hair straightener with a pink heating plate, fast heat-up and a smooth glide for frizz-free straightening.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p188",
+        "name": "KM-1881 Curling Iron Ceramic Barrel Hair Curler for Home Use",
+        "category": "hairstyling",
+        "image": "assets/images/product-p188-main.jpg",
+        "gallery": "assets/images/product-p188-g1.jpg,assets/images/product-p188-g2.jpg,assets/images/product-p188-g3.jpg,assets/images/product-p188-g4.jpg,assets/images/product-p188-g5.jpg",
+        "detailImages": "assets/images/product-p188-d1.jpg,assets/images/product-p188-d2.jpg,assets/images/product-p188-d3.jpg,assets/images/product-p188-d4.jpg,assets/images/product-p188-d5.jpg,assets/images/product-p188-d6.jpg,assets/images/product-p188-d7.jpg,assets/images/product-p188-d8.jpg,assets/images/product-p188-d9.jpg,assets/images/product-p188-d10.jpg,assets/images/product-p188-d11.jpg",
+        "price": 7.8,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 40,
+        "packing": 40,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "",
+        "material": "ABS + ceramic barrel",
+        "capacity": "Pink ceramic curling barrel · single gross weight 554g · color box 366*107*67mm · carton 68.5*38*45.5cm",
+        "certs": "",
+        "features": "Professional curling iron with ceramic barrel\n360-degree swivel cord for easy operation\nComes with 2 sectioning hairpins\nFast heating for long-lasting curls\nSuitable for salon and home use\n40 pcs per carton",
+        "names": {
+          "en": "KM-1881 Curling Iron Ceramic Barrel Hair Curler for Home Use",
+          "zh": "KM-1881 直发与造型 陶瓷卷发棒 大卷",
+          "vi": "KM-1881 Tạo kiểu & Duỗi tóc",
+          "th": "KM-1881 จัดแต่งทรงผม",
+          "id": "KM-1881 Penataan & Pelurusan Rambut",
+          "es": "KM-1881 Peinado y Alisado",
+          "fr": "KM-1881 Coiffage & Lissage",
+          "pt": "KM-1881 Modelagem e Alisamento"
+        },
+        "desc": {
+          "en": "The Kemei KM-1881 is a pink ceramic-barrel curling iron with a swivel cord, for quick long-lasting curls at home or in the salon.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p189",
+        "name": "KM-2851 Hair Straightener Ceramic Plate Pink Flat Iron for Home Use",
+        "category": "hairstyling",
+        "image": "assets/images/product-p189-main.jpg",
+        "gallery": "assets/images/product-p189-g1.jpg,assets/images/product-p189-g2.jpg,assets/images/product-p189-g3.jpg,assets/images/product-p189-g4.jpg,assets/images/product-p189-g5.jpg",
+        "detailImages": "assets/images/product-p189-d1.jpg,assets/images/product-p189-d2.jpg,assets/images/product-p189-d3.jpg,assets/images/product-p189-d4.jpg,assets/images/product-p189-d5.jpg,assets/images/product-p189-d6.jpg,assets/images/product-p189-d7.jpg,assets/images/product-p189-d8.jpg,assets/images/product-p189-d9.jpg,assets/images/product-p189-d10.jpg,assets/images/product-p189-d11.jpg,assets/images/product-p189-d12.jpg",
+        "price": 8.0,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 40,
+        "packing": 40,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "",
+        "material": "ABS + ceramic plate",
+        "capacity": "Pink ceramic plate · heating indicator lights · single gross weight 466g · color box 312*99*49mm · carton 51.5*45.5*39cm",
+        "certs": "",
+        "features": "Hair straightener flat iron with pink ceramic plate\nHeating indicator lights\nComes with 2 sectioning clips\nCompact body for easy storage\n40 pcs per carton",
+        "names": {
+          "en": "KM-2851 Hair Straightener Ceramic Plate Pink Flat Iron for Home Use",
+          "zh": "KM-2851 直发与造型 陶瓷夹板 粉色",
+          "vi": "KM-2851 Tạo kiểu & Duỗi tóc",
+          "th": "KM-2851 จัดแต่งทรงผม",
+          "id": "KM-2851 Penataan & Pelurusan Rambut",
+          "es": "KM-2851 Peinado y Alisado",
+          "fr": "KM-2851 Coiffage & Lissage",
+          "pt": "KM-2851 Modelagem e Alisamento"
+        },
+        "desc": {
+          "en": "The Kemei KM-2851 is a pink ceramic hair straightener with heating indicators, compact and easy to use for everyday styling.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p190",
+        "name": "KM-3139 Curling Iron Long Ceramic Barrel 45cm for Salon Styling",
+        "category": "hairstyling",
+        "image": "assets/images/product-p190-main.jpg",
+        "gallery": "assets/images/product-p190-g1.jpg,assets/images/product-p190-g2.jpg,assets/images/product-p190-g3.jpg,assets/images/product-p190-g4.jpg,assets/images/product-p190-g5.jpg,assets/images/product-p190-g6.jpg,assets/images/product-p190-g7.jpg,assets/images/product-p190-g8.jpg",
+        "detailImages": "",
+        "price": 7.0,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 60,
+        "packing": 60,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "",
+        "material": "ABS + ceramic barrel",
+        "capacity": "Length 45cm · black ceramic barrel · single gross weight 604g · color box 43.8*12*5.5cm · carton 58*45*51cm",
+        "certs": "",
+        "features": "Professional long-barrel curling iron, 45cm length\nBlack ceramic barrel for long-lasting curls\nSpring clamp design, easy to wrap long hair\n360-degree swivel power cord\n60 pcs per carton",
+        "names": {
+          "en": "KM-3139 Curling Iron Long Ceramic Barrel 45cm for Salon Styling",
+          "zh": "KM-3139 直发与造型 45cm加长卷筒 沙龙造型",
+          "vi": "KM-3139 Tạo kiểu & Duỗi tóc",
+          "th": "KM-3139 จัดแต่งทรงผม",
+          "id": "KM-3139 Penataan & Pelurusan Rambut",
+          "es": "KM-3139 Peinado y Alisado",
+          "fr": "KM-3139 Coiffage & Lissage",
+          "pt": "KM-3139 Modelagem e Alisamento"
+        },
+        "desc": {
+          "en": "The Kemei KM-3139 is a 45cm long-barrel curling iron with a black ceramic barrel, designed for salon long-lasting curls.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p191",
+        "name": "KM-3142 Hair Straightener Fast Heating 220C Pink Flat Iron for Home Use",
+        "category": "hairstyling",
+        "image": "assets/images/product-p191-main.jpg",
+        "gallery": "assets/images/product-p191-g1.jpg,assets/images/product-p191-g2.jpg,assets/images/product-p191-g3.jpg,assets/images/product-p191-g4.jpg,assets/images/product-p191-g5.jpg",
+        "detailImages": "assets/images/product-p191-d1.jpg,assets/images/product-p191-d2.jpg,assets/images/product-p191-d3.jpg,assets/images/product-p191-d4.jpg,assets/images/product-p191-d5.jpg,assets/images/product-p191-d6.jpg,assets/images/product-p191-d7.jpg,assets/images/product-p191-d8.jpg,assets/images/product-p191-d9.jpg,assets/images/product-p191-d10.jpg,assets/images/product-p191-d11.jpg",
+        "price": 6.8,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 60,
+        "packing": 60,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "",
+        "material": "ABS + ceramic plate",
+        "capacity": "Pink gradient body · temperature display up to 220C · single gross weight 496g · color box 348*54*110mm · carton 67.5*36*57.5cm",
+        "certs": "",
+        "features": "Hair straightener with pink gradient body\nFast heating up to 220C with temperature display\nSmooth plates for frizz-free straightening\nCompact and elegant design\n60 pcs per carton",
+        "names": {
+          "en": "KM-3142 Hair Straightener Fast Heating 220C Pink Flat Iron for Home Use",
+          "zh": "KM-3142 直发与造型 粉色渐变夹板 速热220度",
+          "vi": "KM-3142 Tạo kiểu & Duỗi tóc",
+          "th": "KM-3142 จัดแต่งทรงผม",
+          "id": "KM-3142 Penataan & Pelurusan Rambut",
+          "es": "KM-3142 Peinado y Alisado",
+          "fr": "KM-3142 Coiffage & Lissage",
+          "pt": "KM-3142 Modelagem e Alisamento"
+        },
+        "desc": {
+          "en": "The Kemei KM-3142 is a pink-gradient hair straightener heating up to 220C with a temperature display for smooth straight styling.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p192",
+        "name": "KM-6910 Hot Air Styler Hair Dryer Brush Curling Iron LCD Display",
+        "category": "hairstyling",
+        "image": "assets/images/product-p192-main.jpg",
+        "gallery": "assets/images/product-p192-g1.jpg,assets/images/product-p192-g2.jpg,assets/images/product-p192-g3.jpg,assets/images/product-p192-g4.jpg",
+        "detailImages": "assets/images/product-p192-d1.jpg,assets/images/product-p192-d2.jpg,assets/images/product-p192-d3.jpg,assets/images/product-p192-d4.jpg,assets/images/product-p192-d5.jpg,assets/images/product-p192-d6.jpg,assets/images/product-p192-d7.jpg,assets/images/product-p192-d8.jpg,assets/images/product-p192-d9.jpg,assets/images/product-p192-d10.jpg",
+        "price": 32.0,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": "",
+        "packing": "",
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "",
+        "material": "ABS body",
+        "capacity": "LCD digital temperature display (120) · color box 76*424*97mm",
+        "certs": "",
+        "features": "Hot air styler for drying, straightening and curling in one\nLCD digital temperature display\nBlack and gold premium body\nComes with 8-language instruction manual\nSalon-level styling at home",
+        "names": {
+          "en": "KM-6910 Hot Air Styler Hair Dryer Brush Curling Iron LCD Display",
+          "zh": "KM-6910 直发与造型 热风造型梳 数显 吹风直发",
+          "vi": "KM-6910 Tạo kiểu & Duỗi tóc",
+          "th": "KM-6910 จัดแต่งทรงผม",
+          "id": "KM-6910 Penataan & Pelurusan Rambut",
+          "es": "KM-6910 Peinado y Alisado",
+          "fr": "KM-6910 Coiffage & Lissage",
+          "pt": "KM-6910 Modelagem e Alisamento"
+        },
+        "desc": {
+          "en": "The Kemei KM-6910 is a hot air styler with an LCD temperature display, combining drying, straightening and curling for salon results at home.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p193",
+        "name": "KM-8557 Hair Clipper & Shaver Set 3-in-1 TURBO 6500-7500RPM Type-C Rechargeable for Barbershop",
+        "category": "gift-set",
+        "image": "assets/images/product-p193-main.jpg",
+        "gallery": "assets/images/product-p193-g1.jpg,assets/images/product-p193-g2.jpg,assets/images/product-p193-g3.jpg,assets/images/product-p193-g4.jpg,assets/images/product-p193-g5.jpg,assets/images/product-p193-g6.jpg",
+        "detailImages": "assets/images/product-p193-d1.jpg,assets/images/product-p193-d2.jpg,assets/images/product-p193-d3.jpg,assets/images/product-p193-d4.jpg,assets/images/product-p193-d5.jpg,assets/images/product-p193-d6.jpg,assets/images/product-p193-d7.jpg,assets/images/product-p193-d8.jpg,assets/images/product-p193-d9.jpg,assets/images/product-p193-d10.jpg,assets/images/product-p193-d11.jpg,assets/images/product-p193-d12.jpg,assets/images/product-p193-d13.jpg,assets/images/product-p193-d14.jpg,assets/images/product-p193-d15.jpg,assets/images/product-p193-d16.jpg",
+        "price": 58.5,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 10,
+        "packing": 10,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V/1A (Type-C)",
+        "material": "ABS body",
+        "capacity": "Motor 6500-7500RPM 路 18500-1400 lithium battery 路 charging >=2.5h / 2-2.5h run time 路 single gross weight 1506g 路 carton 47.5x35x33.5cm",
+        "certs": "CE,ROHS,FCC",
+        "features": "3-in-1 set: 2 hair clippers + 1 shaver\nTURBO 6500-7500RPM high-speed motor\nLED digital display with TURBO mode\nType-C charging 5V/1A\nWashable design, noise <68db\n10 pcs per carton",
+        "names": {
+          "en": "KM-8557 Hair Clipper & Shaver Set 3-in-1 TURBO 6500-7500RPM Type-C Rechargeable for Barbershop",
+          "zh": "KM-8557 理发剪剃须刀套装 3合1 TURBO 6500-7500RPM Type-C充电 专业美发",
+          "vi": "KM-8557 Bộ Tông Đơ & Máy Cạo Râu",
+          "th": "KM-8557 ชุดกรรไกรตัดผมและมีดโกนหนวด",
+          "id": "KM-8557 Set Pemotong Rambut & Pencukur",
+          "es": "KM-8557 Set Cortapelos y Afeitadora",
+          "fr": "KM-8557 Ensemble Tondeuse et Rasoir",
+          "pt": "KM-8557 Conjunto Cortapelos e Barbeador"
+        },
+        "desc": {
+          "en": "The KM-8557 3-in-1 grooming set combines two TURBO hair clippers and a shaver with LED displays, delivering 6500-7500RPM cutting power and Type-C charging for professional barbershop use.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p194",
+        "name": "KM-8558 Hair Clipper & Shaver Set 3-in-1 Gold LCD Display Type-C Rechargeable Professional Grooming Kit",
+        "category": "gift-set",
+        "image": "assets/images/product-p194-main.jpg",
+        "gallery": "assets/images/product-p194-g1.jpg,assets/images/product-p194-g2.jpg,assets/images/product-p194-g3.jpg,assets/images/product-p194-g4.jpg,assets/images/product-p194-g5.jpg",
+        "detailImages": "assets/images/product-p194-d1.jpg,assets/images/product-p194-d2.jpg,assets/images/product-p194-d3.jpg,assets/images/product-p194-d4.jpg,assets/images/product-p194-d5.jpg,assets/images/product-p194-d6.jpg,assets/images/product-p194-d7.jpg,assets/images/product-p194-d8.jpg,assets/images/product-p194-d9.jpg,assets/images/product-p194-d10.jpg",
+        "price": 45.5,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 12,
+        "packing": 12,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V/1A (Type-C)",
+        "material": "ABS injection molded brushed gold body",
+        "capacity": "2000/1400/1200mAh lithium batteries 路 charging ~3h 路 LCD digital display 路 single gross weight 1608g 路 carton 48.5x35x39.5cm",
+        "certs": "CE,ROHS,FCC",
+        "features": "3-in-1 set: 2 hair clippers + 1 foil shaver\nGold brushed metal-style body with engraving\nLCD digital display on each unit\nType-C fast charging, 2000/1400/1200mAh batteries\nPowder metallurgy blade, stainless steel foil mesh\n12 pcs per carton",
+        "names": {
+          "en": "KM-8558 Hair Clipper & Shaver Set 3-in-1 Gold LCD Display Type-C Rechargeable Professional Grooming Kit",
+          "zh": "KM-8558 理发剪剃须刀套装 3合1 金色 LCD数显 Type-C充电 专业美发",
+          "vi": "KM-8558 Bộ Tông Đơ & Máy Cạo Râu",
+          "th": "KM-8558 ชุดกรรไกรตัดผมและมีดโกนหนวด",
+          "id": "KM-8558 Set Pemotong Rambut & Pencukur",
+          "es": "KM-8558 Set Cortapelos y Afeitadora",
+          "fr": "KM-8558 Ensemble Tondeuse et Rasoir",
+          "pt": "KM-8558 Conjunto Cortapelos e Barbeador"
+        },
+        "desc": {
+          "en": "The KM-8558 3-in-1 grooming kit pairs two gold hair clippers with a foil shaver, each with an LCD display and Type-C charging, delivering a professional barbershop-grade finish in one gift set.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p195",
+        "name": "KM-2235 Hair Clipper & Shaver Set 3-in-1 Zinc Alloy Metal Body LCD Display USB Rechargeable Professional",
+        "category": "gift-set",
+        "image": "assets/images/product-p195-main.jpg",
+        "gallery": "assets/images/product-p195-g1.jpg,assets/images/product-p195-g2.jpg,assets/images/product-p195-g3.jpg,assets/images/product-p195-g4.jpg,assets/images/product-p195-g5.jpg,assets/images/product-p195-g6.jpg",
+        "detailImages": "assets/images/product-p195-d1.jpg,assets/images/product-p195-d2.jpg,assets/images/product-p195-d3.jpg,assets/images/product-p195-d4.jpg,assets/images/product-p195-d5.jpg,assets/images/product-p195-d6.jpg,assets/images/product-p195-d7.jpg,assets/images/product-p195-d8.jpg,assets/images/product-p195-d9.jpg,assets/images/product-p195-d10.jpg",
+        "price": 45.8,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 20,
+        "packing": 20,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V USB",
+        "material": "Zinc alloy metal body (gold)",
+        "capacity": "5W each unit 路 charging 2.5-2.7h / 90-120min run time 路 LCD display 路 single gross weight 1265g 路 carton 55.7x45.7x49.7cm",
+        "certs": "",
+        "features": "3-in-1 set: professional clipper + carving trimmer + foil shaver (KM-T88)\nZinc alloy carved metal body\nLCD digital display on every unit\nUSB 5V charging, ~2.5h charge / 90-120min use\n11 limit combs + oil + 2 USB cables included\n20 pcs per carton",
+        "names": {
+          "en": "KM-2235 Hair Clipper & Shaver Set 3-in-1 Zinc Alloy Metal Body LCD Display USB Rechargeable Professional",
+          "zh": "KM-2235 理发剪剃须刀套装 3合1 锌合金金属机身 LCD数显 USB充电",
+          "vi": "KM-2235 Bộ Tông Đơ & Máy Cạo Râu",
+          "th": "KM-2235 ชุดกรรไกรตัดผมและมีดโกนหนวด",
+          "id": "KM-2235 Set Pemotong Rambut & Pencukur",
+          "es": "KM-2235 Set Cortapelos y Afeitadora",
+          "fr": "KM-2235 Ensemble Tondeuse et Rasoir",
+          "pt": "KM-2235 Conjunto Cortapelos e Barbeador"
+        },
+        "desc": {
+          "en": "The KM-2235 3-in-1 kit brings a full-size clipper, a detail trimmer and a foil shaver into one zinc-alloy gift set, with LCD displays and USB charging for professional carving and shaving.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p196",
+        "name": "KM-2360 Hair Clipper & Shaver Set 3-in-1 Brushless Motor 7500-8000RPM DLC Blade LCD Display Charging Base",
+        "category": "gift-set",
+        "image": "assets/images/product-p196-main.jpg",
+        "gallery": "assets/images/product-p196-g1.jpg,assets/images/product-p196-g2.jpg,assets/images/product-p196-g3.jpg,assets/images/product-p196-g4.jpg,assets/images/product-p196-g5.jpg",
+        "detailImages": "assets/images/product-p196-d1.jpg,assets/images/product-p196-d2.jpg,assets/images/product-p196-d3.jpg,assets/images/product-p196-d4.jpg,assets/images/product-p196-d5.jpg,assets/images/product-p196-d6.jpg,assets/images/product-p196-d7.jpg,assets/images/product-p196-d8.jpg,assets/images/product-p196-d9.jpg",
+        "price": 66.5,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 20,
+        "packing": 20,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V/1A (Type-C)",
+        "material": "Full metal gold body",
+        "capacity": "Brushless motor 7500-8000RPM 路 18650 2500/2000mAh + 18500 1400mAh batteries 路 charging 2.5-3.5h / 120-240min run 路 DLC blade 路 weight 281/367/248g 路 single gross weight 1550g 路 carton 56x50x32cm",
+        "certs": "",
+        "features": "3-in-1 set: K01 large clipper + K01 small trimmer + A01 foil shaver\nBrushless motor 7500-8000RPM, DLC cutting blade\nLED digital display + charging base for each unit\nLong runtime up to 240min, 18650 lithium battery\n8 limit combs + oil + USB cable included\n20 pcs per carton",
+        "names": {
+          "en": "KM-2360 Hair Clipper & Shaver Set 3-in-1 Brushless Motor 7500-8000RPM DLC Blade LCD Display Charging Base",
+          "zh": "KM-2360 理发剪剃须刀套装 3合1 无刷电机 7500-8000RPM DLC刀头 LCD数显充电座",
+          "vi": "KM-2360 Bộ Tông Đơ & Máy Cạo Râu",
+          "th": "KM-2360 ชุดกรรไกรตัดผมและมีดโกนหนวด",
+          "id": "KM-2360 Set Pemotong Rambut & Pencukur",
+          "es": "KM-2360 Set Cortapelos y Afeitadora",
+          "fr": "KM-2360 Ensemble Tondeuse et Rasoir",
+          "pt": "KM-2360 Conjunto Cortapelos e Barbeador"
+        },
+        "desc": {
+          "en": "The KM-2360 premium 3-in-1 set combines a brushless-motor clipper, a detail trimmer and a foil shaver with DLC blades, LED displays and charging bases for high-end barbershop use.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p197",
+        "name": "KM-8566 Hair Clipper & Shaver Set 3-in-1 Yellow ABS Body LCD RPM Display Type-C Rechargeable Grooming Kit",
+        "category": "gift-set",
+        "image": "assets/images/product-p197-main.jpg",
+        "gallery": "assets/images/product-p197-g1.jpg,assets/images/product-p197-g2.jpg,assets/images/product-p197-g3.jpg,assets/images/product-p197-g4.jpg,assets/images/product-p197-g5.jpg,assets/images/product-p197-g6.jpg,assets/images/product-p197-g7.jpg",
+        "detailImages": "assets/images/product-p197-d1.jpg,assets/images/product-p197-d2.jpg,assets/images/product-p197-d3.jpg,assets/images/product-p197-d4.jpg,assets/images/product-p197-d5.jpg,assets/images/product-p197-d6.jpg,assets/images/product-p197-d7.jpg,assets/images/product-p197-d8.jpg,assets/images/product-p197-d9.jpg,assets/images/product-p197-d10.jpg,assets/images/product-p197-d11.jpg,assets/images/product-p197-d12.jpg",
+        "price": 48.0,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 24,
+        "packing": 24,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V/1A (Type-C)",
+        "material": "ABS body (bright yellow)",
+        "capacity": "Circular LCD RPM/minutes display 路 Type-C charging 路 single gross weight 1500g 路 carton 55.5x40x49cm",
+        "certs": "CE,ROHS,FCC",
+        "features": "3-in-1 set: 2 hair clippers + 1 foil shaver\nEye-catching yellow ABS body, mecha style\nCircular LCD display showing RPM and remaining time\nType-C charging, 12 limit combs (1-13mm)\nOil, brush, USB cable and manual included\n24 pcs per carton",
+        "names": {
+          "en": "KM-8566 Hair Clipper & Shaver Set 3-in-1 Yellow ABS Body LCD RPM Display Type-C Rechargeable Grooming Kit",
+          "zh": "KM-8566 理发剪剃须刀套装 3合1 黄色 ABS机身 LCD转速数显 Type-C充电",
+          "vi": "KM-8566 Bộ Tông Đơ & Máy Cạo Râu",
+          "th": "KM-8566 ชุดกรรไกรตัดผมและมีดโกนหนวด",
+          "id": "KM-8566 Set Pemotong Rambut & Pencukur",
+          "es": "KM-8566 Set Cortapelos y Afeitadora",
+          "fr": "KM-8566 Ensemble Tondeuse et Rasoir",
+          "pt": "KM-8566 Conjunto Cortapelos e Barbeador"
+        },
+        "desc": {
+          "en": "The KM-8566 3-in-1 grooming kit stands out with its bold yellow ABS body and circular LCD displays, pairing two clippers with a foil shaver for a modern, giftable set.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p198",
+        "name": "KM-S9 Hair Clipper & Shaver Set 3-in-1 Professional Salon Kit with Storage Bag Charging Stand Multi-Speed",
+        "category": "gift-set",
+        "image": "assets/images/product-p198-main.jpg",
+        "gallery": "assets/images/product-p198-g1.jpg,assets/images/product-p198-g2.jpg,assets/images/product-p198-g3.jpg,assets/images/product-p198-g4.jpg,assets/images/product-p198-g5.jpg,assets/images/product-p198-g6.jpg,assets/images/product-p198-g7.jpg,assets/images/product-p198-g8.jpg",
+        "detailImages": "assets/images/product-p198-d1.jpg,assets/images/product-p198-d2.jpg,assets/images/product-p198-d3.jpg,assets/images/product-p198-d4.jpg,assets/images/product-p198-d5.jpg,assets/images/product-p198-d6.jpg,assets/images/product-p198-d7.jpg,assets/images/product-p198-d8.jpg,assets/images/product-p198-d9.jpg,assets/images/product-p198-d10.jpg,assets/images/product-p198-d11.jpg,assets/images/product-p198-d12.jpg,assets/images/product-p198-d13.jpg,assets/images/product-p198-d14.jpg,assets/images/product-p198-d15.jpg,assets/images/product-p198-d16.jpg,assets/images/product-p198-d17.jpg,assets/images/product-p198-d18.jpg,assets/images/product-p198-d19.jpg,assets/images/product-p198-d20.jpg,assets/images/product-p198-d21.jpg,assets/images/product-p198-d22.jpg",
+        "price": 40.0,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 16,
+        "packing": 16,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V USB",
+        "material": "ABS body (black) with leather storage case",
+        "capacity": "Fine steel cutter head 路 powerful multi-speed motor 路 charging stands included 路 single gross weight 1296g 路 carton 53x43x47.5cm",
+        "certs": "CE,ROHS,FCC",
+        "features": "3-in-1 salon set: full clipper + detail trimmer + foil shaver\nFine steel cutter head, powerful multi-speed motor\nCharging stands for the two cordless units\nComes in a branded leather storage bag\n11 guide combs + apron + oil + brushes included\n16 pcs per carton",
+        "names": {
+          "en": "KM-S9 Hair Clipper & Shaver Set 3-in-1 Professional Salon Kit with Storage Bag Charging Stand Multi-Speed",
+          "zh": "KM-S9 理发剪剃须刀套装 3合1 专业美发师套装 带收纳包充电座 多速调节",
+          "vi": "KM-S9 Bộ Tông Đơ & Máy Cạo Râu",
+          "th": "KM-S9 ชุดกรรไกรตัดผมและมีดโกนหนวด",
+          "id": "KM-S9 Set Pemotong Rambut & Pencukur",
+          "es": "KM-S9 Set Cortapelos y Afeitadora",
+          "fr": "KM-S9 Ensemble Tondeuse et Rasoir",
+          "pt": "KM-S9 Conjunto Cortapelos e Barbeador"
+        },
+        "desc": {
+          "en": "The KM-S9 professional salon set packages a full clipper, a trimmer and a foil shaver into one branded storage bag, with charging stands and multi-speed motors for complete home and barbershop grooming.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p199",
+        "name": "S2 KM-1692+1685 Hair Clipper Set 2-in-1 7500RPM LCD Display Charging Base Aluminum Case for Barbershop",
+        "category": "gift-set",
+        "image": "assets/images/product-p199-main.jpg",
+        "gallery": "assets/images/product-p199-g1.jpg,assets/images/product-p199-g2.jpg,assets/images/product-p199-g3.jpg,assets/images/product-p199-g4.jpg,assets/images/product-p199-g5.jpg",
+        "detailImages": "assets/images/product-p199-d1.jpg,assets/images/product-p199-d2.jpg,assets/images/product-p199-d3.jpg,assets/images/product-p199-d4.jpg,assets/images/product-p199-d5.jpg,assets/images/product-p199-d6.jpg,assets/images/product-p199-d7.jpg,assets/images/product-p199-d8.jpg,assets/images/product-p199-d9.jpg,assets/images/product-p199-d10.jpg,assets/images/product-p199-d11.jpg,assets/images/product-p199-d12.jpg,assets/images/product-p199-d13.jpg,assets/images/product-p199-d14.jpg",
+        "price": 45.8,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 10,
+        "packing": 10,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V USB",
+        "material": "Black metal body with gold accents",
+        "capacity": "7500RPM motor 路 LCD RPM/battery display 路 2 charging bases 路 single gross weight 2118g 路 carton 61x45.5x39.5cm",
+        "certs": "CE,ROHS,FCC",
+        "features": "2-in-1 set: KM-1692 full clipper + KM-1685 detail trimmer\n7500RPM motor with LCD RPM & battery display\nCharging base for each unit\nDelivered in a premium aluminum briefcase case\n9 colorful limit combs + oil + USB cable included\n10 pcs per carton",
+        "names": {
+          "en": "S2 KM-1692+1685 Hair Clipper Set 2-in-1 7500RPM LCD Display Charging Base Aluminum Case for Barbershop",
+          "zh": "S2 KM-1692+1685 理发剪套装 2合1 7500RPM LCD数显充电座 铝笼便携箱 专业美发",
+          "vi": "S2 KM-1692+1685 Bộ Tông Đơ & Máy Cạo Râu",
+          "th": "S2 KM-1692+1685 ชุดกรรไกรตัดผมและมีดโกนหนวด",
+          "id": "S2 KM-1692+1685 Set Pemotong Rambut & Pencukur",
+          "es": "S2 KM-1692+1685 Set Cortapelos y Afeitadora",
+          "fr": "S2 KM-1692+1685 Ensemble Tondeuse et Rasoir",
+          "pt": "S2 KM-1692+1685 Conjunto Cortapelos e Barbeador"
+        },
+        "desc": {
+          "en": "The S2 KM-1692+1685 two-piece clipper set pairs a full clipper with a detail trimmer, both showing 7500RPM on an LCD display and resting on charging bases, all packed in a luxury aluminum case.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
+      },
+      {
+        "id": "p200",
+        "name": "S3 KM-3023-702+KM-1798+KM-T402 Hair Clipper & Shaver Set 3-in-1 Silver Metal Body LCD Display Aluminum Case Barber Combo",
+        "category": "gift-set",
+        "image": "assets/images/product-p200-main.jpg",
+        "gallery": "assets/images/product-p200-g1.jpg,assets/images/product-p200-g2.jpg,assets/images/product-p200-g3.jpg,assets/images/product-p200-g4.jpg,assets/images/product-p200-g5.jpg",
+        "detailImages": "assets/images/product-p200-d1.jpg,assets/images/product-p200-d2.jpg,assets/images/product-p200-d3.jpg,assets/images/product-p200-d4.jpg,assets/images/product-p200-d5.jpg,assets/images/product-p200-d6.jpg,assets/images/product-p200-d7.jpg,assets/images/product-p200-d8.jpg,assets/images/product-p200-d9.jpg,assets/images/product-p200-d10.jpg,assets/images/product-p200-d11.jpg,assets/images/product-p200-d12.jpg,assets/images/product-p200-d13.jpg,assets/images/product-p200-d14.jpg,assets/images/product-p200-d15.jpg,assets/images/product-p200-d16.jpg,assets/images/product-p200-d17.jpg",
+        "price": 84.0,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 10,
+        "packing": 10,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "5V USB",
+        "material": "Silver metal body with aluminum case",
+        "capacity": "LCD battery display 路 2x USB cables 路 single gross weight 2352g 路 carton 61x45.5x39.5cm",
+        "certs": "CE,ROHS,FCC",
+        "features": "3-in-1 barber combo: KM-1798 clipper + KM-3023-702 trimmer + KM-T402 foil shaver\nSilver textured metal bodies with LCD displays\nSharp, non-sticking blades for professional styling\n11 limit combs + cover + oil + brushes included\nDelivered in a premium aluminum briefcase case\n10 pcs per carton",
+        "names": {
+          "en": "S3 KM-3023-702+KM-1798+KM-T402 Hair Clipper & Shaver Set 3-in-1 Silver Metal Body LCD Display Aluminum Case Barber Combo",
+          "zh": "S3 KM-3023-702+KM-1798+KM-T402 理发剪剃须刀套装 3合1 银色金属机身 LCD数显 铝笼美发套装",
+          "vi": "S3 KM-3023-702+KM-1798+KM-T402 Bộ Tông Đơ & Máy Cạo Râu",
+          "th": "S3 KM-3023-702+KM-1798+KM-T402 ชุดกรรไกรตัดผมและมีดโกนหนวด",
+          "id": "S3 KM-3023-702+KM-1798+KM-T402 Set Pemotong Rambut & Pencukur",
+          "es": "S3 KM-3023-702+KM-1798+KM-T402 Set Cortapelos y Afeitadora",
+          "fr": "S3 KM-3023-702+KM-1798+KM-T402 Ensemble Tondeuse et Rasoir",
+          "pt": "S3 KM-3023-702+KM-1798+KM-T402 Conjunto Cortapelos e Barbeador"
+        },
+        "desc": {
+          "en": "The S3 professional barber combo brings together the KM-1798 clipper, KM-3023-702 trimmer and KM-T402 shaver in silver metal bodies, complete with an aluminum case for a premium all-in-one grooming set.",
+          "zh": "",
+          "vi": "",
+          "th": "",
+          "id": "",
+          "es": "",
+          "fr": "",
+          "pt": ""
+        },
+        "skuOptions": [],
         "datasheet": "",
         "certFile": ""
       }

@@ -8,7 +8,7 @@
 <link rel="icon" href="assets/favicon.png" type="image/png">
 <link rel="preconnect" href="https://miaoda.feishu.cn">
 <link href="https://miaoda.feishu.cn/fonts/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=v20261015v20">
+<link rel="stylesheet" href="css/style.css?v=v20261015v21">
 </head>
 <body data-page="admin">
 
@@ -77,7 +77,10 @@
     <div id="pane-products" class="tab-pane">
       <div class="a-toolbar">
         <div><h1 data-i18n="admin.products">Products</h1><p class="a-sub" data-i18n="admin.prodSub">Add, edit, enable or remove products.</p></div>
-        <button id="prod-add-btn" class="btn btn-primary btn-sm" data-i18n="admin.addProduct">+ Add Product</button>
+        <div style="display:flex;gap:10px;align-items:center">
+          <input id="prod-search" type="search" placeholder="Search by name / model / ID…" style="height:36px;border:1px solid var(--line,#d9e1ec);border-radius:8px;padding:0 12px;font-size:13px;min-width:220px">
+          <button id="prod-add-btn" class="btn btn-primary btn-sm" data-i18n="admin.addProduct">+ Add Product</button>
+        </div>
       </div>
       <div class="a-table-wrap">
         <table class="a-table">
@@ -320,6 +323,17 @@
   .sku-del-group:hover{background:#fef2f2}
   #pf-sku-add-group{border:1px dashed var(--line,#cbd5e1);background:#fff;color:var(--navy-700,#2c3e50);border-radius:8px;padding:7px 12px;font-size:13px;cursor:pointer}
   #pf-sku-add-group:hover{background:var(--navy-50,#f3f6fa)}
+  .sku-chip-img{width:20px;height:20px;border-radius:50%;object-fit:cover;border:1px solid var(--line,#d9e1ec);vertical-align:middle}
+  .sku-chip-img-btn{width:20px;height:20px;border:none;border-radius:50%;background:var(--slate-100,#eef2f7);color:#475569;font-size:11px;line-height:1;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;padding:0}
+  .sku-chip-img-btn:hover{background:var(--orange-500,#f97316);color:#fff}
+  .thumb .thumb-move{position:absolute;top:2px;width:20px;height:20px;border:none;border-radius:50%;background:rgba(15,23,42,.55);color:#fff;font-size:12px;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0}
+  .thumb .thumb-move.left{left:2px;right:auto}
+  .thumb .thumb-move.right{right:28px;left:auto}
+  .thumb .thumb-move:hover{background:#0b2545}
+  #sku-img-picker .picker-grid{display:flex;flex-wrap:wrap;gap:10px;margin-top:10px;max-height:260px;overflow:auto}
+  #sku-img-picker .picker-opt{width:72px;height:72px;border:2px solid var(--line,#d9e1ec);border-radius:8px;overflow:hidden;cursor:pointer;background:#fff;padding:0}
+  #sku-img-picker .picker-opt img{width:100%;height:100%;object-fit:cover}
+  #sku-img-picker .picker-opt.selected{border-color:var(--orange-500,#f97316)}
 </style>
 <div id="product-modal" class="modal">
   <div class="modal-box">
@@ -453,13 +467,32 @@
   </div>
 </div>
 
+<!-- ============ SKU IMAGE PICKER MODAL ============ -->
+<div id="sku-img-picker" class="modal">
+  <div class="modal-box">
+    <div class="m-head"><h3>SKU option image</h3><button class="m-close" aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg></button></div>
+    <div class="m-body">
+      <p class="hint" style="margin-top:0">Pick an image for this option — either reuse one of this product's existing images, or upload a new one (auto-compressed).</p>
+      <div id="sku-img-picker-list" class="picker-grid"></div>
+      <div class="row-gap" style="margin-top:14px">
+        <input id="pf-file-sku" type="file" accept="image/*" style="display:none">
+        <button type="button" class="btn btn-outline btn-sm" id="sku-img-upload-btn">Upload from computer…</button>
+        <button type="button" class="btn btn-ghost btn-sm danger" id="sku-img-clear-btn">Remove image</button>
+      </div>
+    </div>
+    <div class="m-foot">
+      <button type="button" class="btn btn-primary" id="sku-img-done-btn">Done</button>
+    </div>
+  </div>
+</div>
+
 <div id="toast-box"></div>
 
-<script src="js/data-override.js?v=v20261015v20"></script>
-<script src="langs/en.js?v=v20261015v20"></script>
-<script src="js/i18n.js?v=v20261015v20"></script>
-<script src="js/data.js?v=v20261015v20"></script>
-<script src="js/content-data.js?v=v20261015v20"></script>
-<script src="js/admin.js?v=v20261015v20"></script>
+<script src="js/data-override.js?v=v20261015v21"></script>
+<script src="langs/en.js?v=v20261015v21"></script>
+<script src="js/i18n.js?v=v20261015v21"></script>
+<script src="js/data.js?v=v20261015v21"></script>
+<script src="js/content-data.js?v=v20261015v21"></script>
+<script src="js/admin.js?v=v20261015v21"></script>
 </body>
 </html>

@@ -268,9 +268,13 @@
     if (p.skuOptions && p.skuOptions.length) {
       skuHtml = '<div class="pd-sku" data-sku-wrap>';
       p.skuOptions.forEach(function (g, gi) {
+        var optImgs = g.optionImages || {};
         skuHtml += '<div class="pd-sku-group"><span class="pd-sku-label">' + esc(g.name || T("product.sku")) + '</span><div class="pd-sku-opts">';
         (g.options || []).forEach(function (o, oi) {
-          skuHtml += '<button type="button" class="pd-sku-opt' + (oi === 0 ? " active" : "") + '" data-sku-g="' + gi + '" data-sku-v="' + esc(String(o).toLowerCase()) + '" data-sku-label="' + esc(o) + '">' + esc(o) + "</button>";
+          var sw = optImgs[o]
+            ? '<img src="' + esc(optImgs[o]) + '" alt="" style="width:24px;height:24px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:6px;border:1px solid var(--line,#e2e8f0)">'
+            : "";
+          skuHtml += '<button type="button" class="pd-sku-opt' + (oi === 0 ? " active" : "") + '" data-sku-g="' + gi + '" data-sku-v="' + esc(String(o).toLowerCase()) + '" data-sku-label="' + esc(o) + '">' + sw + esc(o) + "</button>";
         });
         skuHtml += "</div></div>";
       });

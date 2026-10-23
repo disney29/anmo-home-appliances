@@ -10,7 +10,7 @@
   var T = function (k) { return window.HT_I18N.t(k); };
   var Store = window.HT_Store;
   var Util = window.HT_Util;
-  var state = { tab: "dash", editId: null };
+  var state = { tab: "dash", editId: null, prodQuery: "", skuImages: {}, skuImgTarget: null };
 
   /* ---------- Auth ---------- */
   function checkAuth() {
@@ -183,15 +183,26 @@
   }
 
   function renderProducts() {
-    var list = Store.getProducts();
+    var all = Store.getProducts();
     var tbody = document.getElementById("prod-tbody");
     if (!tbody) return;
+    var q = (state.prodQuery || "").trim().toLowerCase();
+    var list = all;
+    if (q) {
+      list = all.filter(function (p) {
+        return (p.name || "").toLowerCase().indexOf(q) >= 0
+          || (p.model || "").toLowerCase().indexOf(q) >= 0
+          || (p.id || "").toLowerCase().indexOf(q) >= 0
+          || (p.category || "").toLowerCase().indexOf(q) >= 0;
+      });
+    }
     if (!list.length) {
       tbody.innerHTML = '<tr><td colspan="7"><div class="empty-state"><p>' + Util.esc(T("admin.noData")) + "</p></div></td></tr>";
       return;
     }
     var html = "";
     list.forEach(function (p) {
+      var idx = all.findIndex(function (x) { return x.id === p.id; });
       var disp = p.price;
       if (p.priceTiers && p.priceTiers.length && p.priceTiers[0].price != null) disp = p.priceTiers[0].price;
       var price = disp ? "$" + Util.money(disp) + '<br><small style="color:var(--ink-3)">' + "\u00a5" + Util.money(disp * Util.curRate()) + "</small>" : "—";
@@ -200,12 +211,14 @@
         : '<span class="a-badge off">OFF</span>';
       html += "<tr>"
         + '<td><img class="t-img" src="' + Util.esc(p.image) + '" alt=""></td>'
-        + "<td><b>" + Util.esc(p.name) + "</b></td>"
+        + "<td><b>" + Util.esc(p.name) + "</b><br><small style=\"color:var(--ink-3);font-size:11px\">#" + Util.esc(p.id) + (p.model ? " · " + Util.esc(p.model) : "") + "</small></td>"
         + "<td>" + Util.esc(T("categories." + p.category)) + "</td>"
         + "<td>" + price + "</td>"
         + "<td>" + Util.esc(p.moq || "—") + "</td>"
         + "<td>" + status + "</td>"
         + '<td><div class="a-actions">'
+        + '<button class="a-icon-btn" data-act="up" data-id="' + p.id + '" title="Move up"' + (idx <= 0 ? ' style="opacity:.3;pointer-events:none"' : "") + '><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5m0 0l-6 6m6-6l6 6"/></svg></button>'
+        + '<button class="a-icon-btn" data-act="down" data-id="' + p.id + '" title="Move down"' + (idx >= all.length - 1 ? ' style="opacity:.3;pointer-events:none"' : "") + '><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14m0 0l6-6m-6 6l-6-6"/></svg></button>'
         + '<button class="a-icon-btn" data-act="edit" data-id="' + p.id + '" title="' + Util.esc(T("admin.edit")) + '"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 3a2.8 2.8 0 114 4L7.5 20.5 2 22l1.5-5.5L17 3z"/></svg></button>'
         + '<button class="a-icon-btn" data-act="toggle" data-id="' + p.id + '" title="' + Util.esc(T("admin.pActive")) + '"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7z"/><circle cx="12" cy="12" r="3"/></svg></button>'
         + '<button class="a-icon-btn" data-act="view" data-id="' + p.id + '" title="View detail page"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><path d="M15 3h6v6M10 14L21 3"/></svg></button>'
@@ -221,8 +234,20 @@
         else if (act === "toggle") { toggleProduct(id); }
         else if (act === "view") { window.open("product.html?id=" + encodeURIComponent(id), "_blank"); }
         else if (act === "del") { deleteProduct(id); }
+        else if (act === "up") { moveProduct(id, -1); }
+        else if (act === "down") { moveProduct(id, 1); }
       });
     });
+  }
+
+  function moveProduct(id, dir) {
+    var list = Store.getProducts();
+    var i = list.findIndex(function (x) { return x.id === id; });
+    var j = i + dir;
+    if (i < 0 || j < 0 || j >= list.length) return;
+    var t = list[i]; list[i] = list[j]; list[j] = t;
+    Store.saveProducts(list);
+    renderProducts();
   }
 
   function toggleProduct(id) {
@@ -238,13 +263,30 @@
     window.HT_Toast(T("admin.deleted"));
   }
 
+  function extractModelFromName(name) {
+    if (!name) return "";
+    var m = String(name).match(/^\s*([A-Za-z0-9][A-Za-z0-9+\-]*(?:\s+[A-Za-z0-9+\-]+)*?)(?=\s|$)/);
+    if (!m) return "";
+    /* take the leading "model token run": consecutive tokens of alnum/dash/plus
+       that look like a model (start with a letter or digit), stop at first
+       whitespace-separated English word. We already captured up to first whitespace
+       group; uppercase it. */
+    var tok = m[1].trim().toUpperCase();
+    /* guard: if it's just a single English word with no digit/dash, treat as non-model */
+    if (!/[0-9\-+]/.test(tok)) return "";
+    return tok;
+  }
+
   function openProductModal(id) {
     state.editId = id;
+    state.skuImages = {};
     var form = document.getElementById("product-form");
     form.reset();
     var p = Store.getProducts().find(function (x) { return x.id === id; });
     document.getElementById("pm-title").textContent = p ? T("admin.editProduct") : T("admin.addProduct");
     var f = function (n) { return document.getElementById("pf-" + n); };
+    /* always (re)fill category options FIRST, then set value — fixes empty dropdown on edit */
+    f("category").innerHTML = catOptions(p ? (p.category || "hair-clipper") : "hair-clipper");
     if (p) {
       f("name").value = p.name || "";
       f("category").value = p.category || "hair-clipper";
@@ -267,14 +309,27 @@
       f("detailImages").value = p.detailImages || "";
       f("datasheet").value = p.datasheet || "";
       f("certFile").value = p.certFile || "";
-      f("model").value = p.model || (p.id ? String(p.id).toUpperCase() : "");
+      f("model").value = p.model || "";
+      /* hydrate SKU images from existing product data */
+      (p.skuOptions || []).forEach(function (g) {
+        if (g && g.optionImages) state.skuImages[g.name] = Object.assign({}, g.optionImages);
+      });
       f("priceTiers").value = (p.priceTiers || []).map(function (t) { return (t.qtyMin || "") + "-" + (t.qtyMax || "") + "," + (t.price != null ? t.price : ""); }).join("\n");
-      f("skuOptions").value = (p.skuOptions || []).map(function (g) { return g.name + ":" + (g.options || []).join(","); }).join("\n");
+      f("skuOptions").value = (p.skuOptions || []).map(function (g) {
+        var imgs = g.optionImages || {};
+        return g.name + ":" + (g.options || []).map(function (o) {
+          return imgs[o] ? o + "~" + imgs[o] : o;
+        }).join(",");
+      }).join("\n");
       renderSkuEditor();
       f("packing").value = p.packing || "";
     } else {
-      f("category").innerHTML = catOptions("hair-clipper");
       f("active").checked = true;
+    }
+    /* auto-fill Model No. from product name if empty */
+    if (!f("model").value) {
+      var auto = extractModelFromName(f("name").value);
+      if (auto) f("model").value = auto;
     }
     renderGalPreviews(((p ? (p.gallery || "") : "") || "").split(",").filter(Boolean));
     renderDetailPreviews(((p ? (p.detailImages || "") : "") || "").split(",").filter(Boolean));
@@ -299,22 +354,60 @@
     return out;
   }
 
+  /* Parse a hidden sku-options string into groups.
+     Format per line:  GroupName:Opt1,Opt2~img2,Opt3~data:image/jpeg;base64,XXXX
+     - comma separates options; label and img separated by "~"; img optional.
+     - a data: URL contains a comma after ";base64," so a naive comma split cuts
+       it into two pieces; we detect that (img starts with "data:" and ends right
+       at ";base64") and merge with the next comma-segment (the payload).
+     - Backward compatible: lines without "~" produce options as plain labels and
+       an empty optionImages object. */
   function parseSkuOptions(raw) {
     var out = [];
-    String(raw || "").split(/[\n;]+/).forEach(function (line) {
+    /* split groups on newline only — never on ";" because data: URLs contain ";base64" */
+    String(raw || "").split(/\n+/).forEach(function (line) {
       line = line.trim();
       if (!line) return;
       var idx = line.indexOf(":");
       if (idx < 1) return;
       var name = line.slice(0, idx).trim();
-      var opts = line.slice(idx + 1).split(",").map(function (o) { return o.trim(); }).filter(Boolean);
-      if (!name || !opts.length) return;
-      out.push({ name: name, options: opts });
+      var rest = line.slice(idx + 1);
+      var segs = rest.split(",");
+      var options = [];
+      var optionImages = {};
+      for (var i = 0; i < segs.length; i++) {
+        var s = segs[i];
+        var tilde = s.indexOf("~");
+        var label, img;
+        if (tilde >= 0) { label = s.slice(0, tilde).trim(); img = s.slice(tilde + 1); }
+        else { label = s.trim(); img = ""; }
+        if (!label) continue;
+        /* truncated data URL? merge with next segment */
+        if (img && img.indexOf("data:") === 0 && /;base64$/.test(img) && i + 1 < segs.length) {
+          img = img + "," + segs[i + 1];
+          i++;
+        }
+        options.push(label);
+        if (img) optionImages[label] = img;
+      }
+      if (!options.length) return;
+      var g = { name: name, options: options };
+      if (Object.keys(optionImages).length) g.optionImages = optionImages;
+      out.push(g);
     });
     return out;
   }
 
   /* ---------- SKU visual editor (groups + option chips, add/remove) ---------- */
+  function skuImgFor(gName, optLabel) {
+    var m = state.skuImages && state.skuImages[gName];
+    return (m && m[optLabel]) || "";
+  }
+  function skuImgSet(gName, optLabel, url) {
+    if (!state.skuImages[gName]) state.skuImages[gName] = {};
+    if (url) state.skuImages[gName][optLabel] = url;
+    else delete state.skuImages[gName][optLabel];
+  }
   function renderSkuEditor() {
     var box = document.getElementById("pf-sku-editor");
     var hid = document.getElementById("pf-skuOptions");
@@ -322,10 +415,17 @@
     var groups = parseSkuOptions(hid.value);
     box.innerHTML = groups.map(function (g, gi) {
       var chips = (g.options || []).map(function (o, oi) {
-        return '<span class="sku-chip" data-opt="' + Util.esc(o) + '">' + Util.esc(o)
+        var img = skuImgFor(g.name, o);
+        var imgHtml = img
+          ? '<img class="sku-chip-img" src="' + Util.esc(img) + '" alt="">'
+          : "";
+        return '<span class="sku-chip" data-opt="' + Util.esc(o) + '" data-gname="' + Util.esc(g.name) + '">'
+          + '<button type="button" class="sku-chip-img-btn" data-img-opt="' + gi + '" data-opt-val="' + Util.esc(o) + '" title="Set option image" aria-label="Set option image">📷</button>'
+          + imgHtml
+          + "<span>" + Util.esc(o) + "</span>"
           + '<button type="button" class="sku-chip-x" data-del-opt="' + gi + '" data-opt-val="' + Util.esc(o) + '" aria-label="Remove">×</button></span>';
       }).join("");
-      return '<div class="sku-group" data-gi="' + gi + '">'
+      return '<div class="sku-group" data-gi="' + gi + '" data-lastname="' + Util.esc(g.name || "") + '">'
         + '<input class="sku-group-name" data-gi="' + gi + '" placeholder="Group name (e.g. Color)" value="' + Util.esc(g.name || "") + '">'
         + '<span class="sku-chips">' + (chips || '<span style="font-size:12px;color:var(--slate-400,#94a3b8)">no options yet</span>') + "</span>"
         + '<input class="sku-add-opt" data-gi="' + gi + '" placeholder="+ option (e.g. Gold)">'
@@ -349,19 +449,33 @@
       var opts = Array.prototype.map.call(g.querySelectorAll(".sku-chip"), function (c) {
         return c.getAttribute("data-opt");
       }).filter(Boolean);
-      if (opts.length) lines.push(name + ":" + opts.join(","));
+      if (!opts.length) return;
+      var imgs = state.skuImages[name] || {};
+      var parts = opts.map(function (o) { return imgs[o] ? o + "~" + imgs[o] : o; });
+      lines.push(name + ":" + parts.join(","));
     });
     hid.value = lines.join("\n");
   }
 
   /* SKU editor events (delegated once) */
   document.addEventListener("click", function (e) {
+    var imgOpt = e.target.closest("[data-img-opt]");
+    if (imgOpt) {
+      var gi0 = imgOpt.getAttribute("data-img-opt");
+      var val0 = imgOpt.getAttribute("data-opt-val");
+      var group0 = document.querySelector('#pf-sku-editor .sku-group[data-gi="' + gi0 + '"]');
+      var gName0 = group0 ? group0.querySelector(".sku-group-name").value.trim() : "";
+      openSkuImgPicker(gName0, val0);
+      return;
+    }
     var delOpt = e.target.closest("[data-del-opt]");
     if (delOpt) {
       var gi = delOpt.getAttribute("data-del-opt");
       var val = delOpt.getAttribute("data-opt-val");
       var group = document.querySelector('#pf-sku-editor .sku-group[data-gi="' + gi + '"]');
       if (group) {
+        var gName = group.querySelector(".sku-group-name").value.trim();
+        if (state.skuImages[gName]) delete state.skuImages[gName][val];
         var chip = group.querySelector('.sku-chip[data-opt="' + Util.esc(val) + '"]');
         if (chip) chip.remove();
         syncSkuInput();
@@ -378,10 +492,16 @@
         if (v) {
           var exists = Array.prototype.some.call(group2.querySelectorAll(".sku-chip"), function (c) { return c.getAttribute("data-opt") === v; });
           if (!exists) {
+            var gName2 = group2.querySelector(".sku-group-name").value.trim();
             var chip2 = document.createElement("span");
             chip2.className = "sku-chip";
             chip2.setAttribute("data-opt", v);
-            chip2.innerHTML = Util.esc(v) + '<button type="button" class="sku-chip-x" data-del-opt="' + gi2 + '" data-opt-val="' + Util.esc(v) + '" aria-label="Remove">×</button>';
+            chip2.setAttribute("data-gname", gName2);
+            var imgUrl = skuImgFor(gName2, v);
+            var imgHtml = imgUrl ? '<img class="sku-chip-img" src="' + Util.esc(imgUrl) + '" alt="">' : "";
+            chip2.innerHTML = '<button type="button" class="sku-chip-img-btn" data-img-opt="' + gi2 + '" data-opt-val="' + Util.esc(v) + '" title="Set option image" aria-label="Set option image">📷</button>'
+              + imgHtml + "<span>" + Util.esc(v) + "</span>"
+              + '<button type="button" class="sku-chip-x" data-del-opt="' + gi2 + '" data-opt-val="' + Util.esc(v) + '" aria-label="Remove">×</button>';
             var chipsBox = group2.querySelector(".sku-chips");
             var hint = group2.querySelector('[style*="no options yet"]');
             if (hint) hint.remove();
@@ -397,7 +517,11 @@
     if (delGroup) {
       var gi3 = delGroup.getAttribute("data-del-group");
       var g3 = document.querySelector('#pf-sku-editor .sku-group[data-gi="' + gi3 + '"]');
-      if (g3) { g3.remove(); syncSkuInput(); }
+      if (g3) {
+        var gName3 = g3.querySelector(".sku-group-name").value.trim();
+        delete state.skuImages[gName3];
+        g3.remove(); syncSkuInput();
+      }
       return;
     }
     var addGroup = e.target.closest("#pf-sku-add-group");
@@ -418,10 +542,72 @@
     }
   });
   document.addEventListener("input", function (e) {
-    if (e.target.closest(".sku-group-name") || e.target.closest(".sku-add-opt")) {
+    if (e.target.closest(".sku-group-name")) {
+      /* migrate images map when group is renamed */
+      var inp = e.target;
+      var g = inp.closest(".sku-group");
+      if (g) {
+        var newName = inp.value.trim();
+        var last = g.getAttribute("data-lastname") || "";
+        if (last && last !== newName && state.skuImages[last] && !state.skuImages[newName]) {
+          state.skuImages[newName] = state.skuImages[last];
+          delete state.skuImages[last];
+        }
+        g.setAttribute("data-lastname", newName);
+      }
       syncSkuInput();
+      return;
+    }
+    if (e.target.closest(".sku-add-opt")) {
+      syncSkuInput();
+      return;
+    }
+    /* auto-extract Model No. from product name while typing (only if model untouched/empty) */
+    if (e.target && e.target.id === "pf-name") {
+      var m = document.getElementById("pf-model");
+      if (m && !m.value) {
+        var auto = extractModelFromName(e.target.value);
+        if (auto) m.value = auto;
+      }
     }
   });
+
+  /* ---------- SKU option image picker ---------- */
+  function collectExistingProductImages() {
+    var out = [];
+    function push(u) { u = (u || "").trim(); if (u && out.indexOf(u) === -1) out.push(u); }
+    push((document.getElementById("pf-image") || {}).value);
+    String(((document.getElementById("pf-gallery") || {}).value) || "").split(",").forEach(push);
+    String(((document.getElementById("pf-detailImages") || {}).value) || "").split(",").forEach(push);
+    return out;
+  }
+  function openSkuImgPicker(gName, optLabel) {
+    state.skuImgTarget = { gName: gName, opt: optLabel };
+    var list = document.getElementById("sku-img-picker-list");
+    if (!list) return;
+    var existing = collectExistingProductImages();
+    var cur = skuImgFor(gName, optLabel);
+    list.innerHTML = existing.length
+      ? existing.map(function (u) {
+          return '<button type="button" class="picker-opt' + (u === cur ? " selected" : "") + '" data-pick="' + Util.esc(u) + '" title="' + Util.esc(u) + '"><img src="' + Util.esc(u) + '" alt=""></button>';
+        }).join("")
+      : '<p class="hint" style="width:100%">No existing product images yet — upload one below.</p>';
+    list.querySelectorAll("[data-pick]").forEach(function (b) {
+      b.addEventListener("click", function () {
+        list.querySelectorAll(".picker-opt").forEach(function (x) { x.classList.remove("selected"); });
+        b.classList.add("selected");
+        skuImgSet(gName, optLabel, b.getAttribute("data-pick"));
+        syncSkuInput();
+        renderSkuEditor();
+      });
+    });
+    document.getElementById("sku-img-picker").classList.add("open");
+  }
+  function closeSkuImgPicker() {
+    var m = document.getElementById("sku-img-picker");
+    if (m) m.classList.remove("open");
+    state.skuImgTarget = null;
+  }
 
   function saveProduct() {
     var form = document.getElementById("product-form");
@@ -456,6 +642,10 @@
     } else {
       data.id = Util.uid("p");
       list.push(data);
+    }
+    /* model fallback: still empty after auto-extract? use uppercase id */
+    if (!data.model) {
+      data.model = String(data.id || state.editId || "p").toUpperCase();
     }
     Store.saveProducts(list);
     document.getElementById("product-modal").classList.remove("open");
@@ -624,7 +814,28 @@
         if (field) field.value = parts.join(",");
         renderThumbPreviews(boxId, parts, fieldId);
       });
-      wrap.appendChild(im); wrap.appendChild(del);
+      var left = document.createElement("button");
+      left.type = "button"; left.className = "thumb-move left"; left.innerHTML = "&#8249;"; left.title = "Move left";
+      left.addEventListener("click", function () {
+        if (idx <= 0) return;
+        var t = parts[idx - 1]; parts[idx - 1] = parts[idx]; parts[idx] = t;
+        var field = document.getElementById(fieldId);
+        if (field) field.value = parts.join(",");
+        renderThumbPreviews(boxId, parts, fieldId);
+      });
+      var right = document.createElement("button");
+      right.type = "button"; right.className = "thumb-move right"; right.innerHTML = "&#8250;"; right.title = "Move right";
+      right.addEventListener("click", function () {
+        if (idx >= parts.length - 1) return;
+        var t = parts[idx + 1]; parts[idx + 1] = parts[idx]; parts[idx] = t;
+        var field = document.getElementById(fieldId);
+        if (field) field.value = parts.join(",");
+        renderThumbPreviews(boxId, parts, fieldId);
+      });
+      wrap.appendChild(left);
+      wrap.appendChild(im);
+      wrap.appendChild(right);
+      wrap.appendChild(del);
       box.appendChild(wrap);
     });
   }
@@ -1234,6 +1445,66 @@
     if (saveBtn) saveBtn.addEventListener("click", saveProduct);
     var cancelBtn = document.getElementById("prod-cancel-btn");
     if (cancelBtn) cancelBtn.addEventListener("click", function () { document.getElementById("product-modal").classList.remove("open"); });
+
+    /* product quick search */
+    var searchBox = document.getElementById("prod-search");
+    if (searchBox) searchBox.addEventListener("input", function () {
+      state.prodQuery = searchBox.value || "";
+      renderProducts();
+    });
+
+    /* SKU image picker buttons */
+    var picker = document.getElementById("sku-img-picker");
+    if (picker) {
+      picker.addEventListener("click", function (e) {
+        if (e.target === picker) closeSkuImgPicker();
+      });
+      var closeBtns = picker.querySelectorAll(".m-close");
+      closeBtns.forEach(function (b) { b.addEventListener("click", closeSkuImgPicker); });
+      var doneBtn = document.getElementById("sku-img-done-btn");
+      if (doneBtn) doneBtn.addEventListener("click", function () { closeSkuImgPicker(); });
+      var clearBtn = document.getElementById("sku-img-clear-btn");
+      if (clearBtn) clearBtn.addEventListener("click", function () {
+        var tgt = state.skuImgTarget;
+        if (tgt) { skuImgSet(tgt.gName, tgt.opt, ""); syncSkuInput(); renderSkuEditor(); }
+        closeSkuImgPicker();
+      });
+      var upBtn = document.getElementById("sku-img-upload-btn");
+      var skuFile = document.getElementById("pf-file-sku");
+      if (upBtn && skuFile) upBtn.addEventListener("click", function () { skuFile.click(); });
+      if (skuFile) skuFile.addEventListener("change", function () {
+        var file = skuFile.files && skuFile.files[0];
+        skuFile.value = "";
+        if (!file) return;
+        if (file.size > 5 * 1024 * 1024) { window.HT_Toast(T("admin.imgSize"), "err"); return; }
+        var tgt = state.skuImgTarget;
+        if (!tgt) return;
+        var reader = new FileReader();
+        reader.onload = function () {
+          var img = new Image();
+          img.onload = function () {
+            var MAX = 1200;
+            var w = img.width, h = img.height;
+            if (w > MAX || h > MAX) {
+              if (w >= h) { h = Math.round(h * MAX / w); w = MAX; }
+              else { w = Math.round(w * MAX / h); h = MAX; }
+            }
+            var cv = document.createElement("canvas");
+            cv.width = w; cv.height = h;
+            cv.getContext("2d").drawImage(img, 0, 0, w, h);
+            var out = cv.toDataURL("image/jpeg", 0.82);
+            if (out.length > 900 * 1024) out = cv.toDataURL("image/jpeg", 0.6);
+            skuImgSet(tgt.gName, tgt.opt, out);
+            syncSkuInput();
+            renderSkuEditor();
+            window.HT_Toast("Image set for " + tgt.opt);
+          };
+          img.onerror = function () { window.HT_Toast(T("admin.imgSize"), "err"); };
+          img.src = reader.result;
+        };
+        reader.readAsDataURL(file);
+      });
+    }
 
     /* close modals on backdrop */
     document.querySelectorAll(".modal").forEach(function (m) {
