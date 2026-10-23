@@ -1115,7 +1115,7 @@ window.I18N_DATA['en'] = {
     "viewLess": "View Less",
     "tierTitle": "Tiered Pricing",
     "qty": "Quantity",
-    "qtyHint": "MOQ {moq} pcs (1 carton × {pk} pcs) — order in carton multiples",
+    "qtyHint": "MOQ {moq} pcs ({boxes} cartons × {pk} pcs) — order in carton multiples",
     "sku": "Option",
     "tierFor": "Unit price for",
     "tierBase": "Unit price applies per piece"

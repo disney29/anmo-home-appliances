@@ -1113,7 +1113,7 @@ window.I18N_DATA['zh'] = {
     "viewLess": "收起",
     "tierTitle": "阶梯价格",
     "qty": "订购数量",
-    "qtyHint": "最小起订 {moq} 个（1 箱 × 每箱 {pk} 个），下单数量为整箱倍数",
+    "qtyHint": "最小起订 {moq} 个（{boxes} 箱 × 每箱 {pk} 个），下单数量为整箱倍数",
     "sku": "规格",
     "tierFor": "此数量单价",
     "tierBase": "单价按件计算"

@@ -292,7 +292,7 @@
       + '<div class="pd-stepper"><button type="button" data-qty-step="-1" aria-label="Decrease">−</button>'
       + '<input type="text" inputmode="numeric" data-qty value="' + defQty + '" aria-label="Quantity">'
       + '<button type="button" data-qty-step="1" aria-label="Increase">+</button></div>'
-      + '<span class="pd-qty-hint">' + esc(T("product.qtyHint").replace("{moq}", String(moqVal)).replace("{pk}", String(pk))) + "</span>"
+      + '<span class="pd-qty-hint">' + esc(T("product.qtyHint").replace("{moq}", String(moqVal)).replace("{boxes}", String(Math.ceil(moqVal / pk))).replace("{pk}", String(pk))) + "</span>"
       + "</div>"
       + '<div class="pd-tier-line" data-tier-line></div>'
       + "</div>";
