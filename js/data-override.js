@@ -11455,6 +11455,238 @@ window.HT_OVERRIDE = {
         "skuOptions": [],
         "datasheet": "",
         "certFile": ""
+},
+{
+        "id": "p206",
+        "category": "hair-clipper",
+        "price": 7.0,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 60,
+        "packing": 60,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "USB charging",
+        "material": "Zinc alloy copper-tone body with carved pattern",
+        "capacity": "3W · 600mAh lithium battery · charge 2h / use 100min · cutter 4.1cm, body 14cm · color box 184x82x55mm · carton 51.5x30x39cm · 60 pcs/carton · single GW 368g · carton GW 23kg",
+        "certs": "CE,RoHS,FCC",
+        "image": "assets/images/product-p206-main.jpg",
+        "gallery": "assets/images/product-p206-g1.jpg,assets/images/product-p206-g2.jpg,assets/images/product-p206-g3.jpg,assets/images/product-p206-g4.jpg,assets/images/product-p206-g5.jpg",
+        "detailImages": "assets/images/product-p206-d1.jpg,assets/images/product-p206-d2.jpg,assets/images/product-p206-d3.jpg,assets/images/product-p206-d4.jpg,assets/images/product-p206-d5.jpg,assets/images/product-p206-d6.jpg,assets/images/product-p206-d7.jpg,assets/images/product-p206-d8.jpg,assets/images/product-p206-d9.jpg,assets/images/product-p206-d10.jpg,assets/images/product-p206-d11.jpg,assets/images/product-p206-d12.jpg",
+        "features": "Retro carved zinc alloy body with auspicious cloud and portrait patterns\nTurbo digital display shows battery and power level\nStrong professional cutting performance\nUSB charging cable included, 100 minutes of use per charge\nComes with host, 4 guide combs, USB cable, oil bottle and cleaning brush",
+        "names": {
+          "en": "KM-077 Retro Carved Professional Electric Hair Clipper Cordless USB Rechargeable Turbo Digital Display with 4 Guide Combs",
+          "zh": "KM-077 复古雕花专业理发器 无线USB充电 涡轮数显 4档限位梳 电推剪",
+          "vi": "KM-077 Tông đơ cắt tóc chuyên nghiệp hoa văn cổ điển sạc USB màn hình kỹ thuật số Turbo kèm 4 lược chặn",
+          "th": "KM-077 ปัตตาเลี่ยนมืออาชีพสไตล์วินเทจแกะสลัก ชาร์จ USB จอแสดงผล Turbo พร้อมหวีล็อก 4 ระดับ",
+          "es": "KM-077 Cortapelos profesional retro tallado recargable por USB con pantalla digital Turbo y 4 peines guía",
+          "fr": "KM-077 Tondeuse à cheveux professionnelle rétro gravée rechargeable USB à écran numérique Turbo avec 4 peignes de coupe",
+          "id": "KM-077 Alat cukur rambut profesional ukiran retro isi ulang USB layar digital Turbo dengan 4 sisir pengatur",
+          "pt": "KM-077 Apara-tosador profissional retrô esculpido recarregável USB com tela digital Turbo e 4 pentes guia"
+        },
+        "desc": {
+          "en": "Kemei KM-077 professional electric clipper features a retro carved zinc alloy body with a Turbo digital display showing remaining power. USB charging gives 100 minutes of use after 2 hours, with a powerful 3W motor. Includes host, 4 guide combs, USB cable, oil bottle and cleaning brush.",
+          "zh": "科美 KM-077 专业理发器，复古雕花锌合金机身搭配涡轮数显屏，USB 充电 2 小时可用 100 分钟，3W 强劲动力，配主机、4 档限位梳、USB 线、油瓶与清洁刷。",
+          "vi": "Tông đơ KM-077 của Kemei có thân hợp kim kẽm chạm khắc cổ điển, màn hình kỹ thuật số Turbo hiển thị pin còn lại. Sạc USB 2 giờ dùng 100 phút, động cơ mạnh 3W. Kèm máy chính, 4 lược chặn, dây USB, dầu bôi trơn và chổi.",
+          "th": "ปัตตาเลี่ยน KM-077 ของ Kemei ตัวเครื่องโลหะผสมสังกะสีแกะสลักวินเทจ จอแสดงผลดิจิทัล Turbo ชาร์จ USB 2 ชั่วโมง ใช้ได้ 100 นาที มอเตอร์ 3W พร้อมตัวเครื่อง หวีล็อก 4 ระดับ สาย USB น้ำมันและแปรง",
+          "es": "La cortapelos KM-077 de Kemei tiene cuerpo de aleación de zinc tallado retro con pantalla digital Turbo. La carga USB da 100 minutos de uso tras 2 horas, con motor de 3W. Incluye máquina, 4 peines, cable USB, aceite y cepillo.",
+          "fr": "La tondeuse KM-077 de Kemei possède un corps en alliage de zinc gravé rétro avec écran numérique Turbo. La charge USB offre 100 minutes d'utilisation après 2 heures, moteur 3W. Comprend machine, 4 peignes, câble USB, huile et brosse.",
+          "id": "Alat cukur KM-077 Kemei berbadan paduan seng ukiran retro dengan layar digital Turbo. Pengisian USB memberi 100 menit pemakaian setelah 2 jam, motor 3W. Termasuk unit, 4 sisir, kabel USB, oli dan kuas.",
+          "pt": "O apara-tosador KM-077 da Kemei tem corpo de liga de zinco esculpido retrô com tela digital Turbo. A carga USB dá 100 minutos de uso após 2 horas, motor 3W. Inclui máquina, 4 pentes, cabo USB, óleo e escova."
+        },
+        "skuOptions": []
+},
+{
+        "id": "p207",
+        "category": "hair-clipper",
+        "price": 16.5,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 24,
+        "packing": 24,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "Charging base + USB",
+        "material": "Metal alloy body with cloud-carved patterns",
+        "capacity": "LCD digital display (speed + available time) · adjustable blade · cutter 5.5cm, body 18.5cm · color box 270x236x62mm · carton 55.5x38.5x49cm · 24 pcs/carton · single GW 1026g · carton GW 24.6kg",
+        "certs": "CE,RoHS,FCC",
+        "image": "assets/images/product-p207-main.jpg",
+        "gallery": "assets/images/product-p207-g1.jpg,assets/images/product-p207-g2.jpg,assets/images/product-p207-g3.jpg,assets/images/product-p207-g4.jpg,assets/images/product-p207-g5.jpg,assets/images/product-p207-g6.jpg,assets/images/product-p207-g7.jpg,assets/images/product-p207-g8.jpg,assets/images/product-p207-g9.jpg,assets/images/product-p207-g10.jpg",
+        "detailImages": "assets/images/product-p207-d1.jpg,assets/images/product-p207-d2.jpg,assets/images/product-p207-d3.jpg,assets/images/product-p207-d4.jpg,assets/images/product-p207-d5.jpg,assets/images/product-p207-d6.jpg,assets/images/product-p207-d7.jpg,assets/images/product-p207-d8.jpg,assets/images/product-p207-d9.jpg,assets/images/product-p207-d10.jpg,assets/images/product-p207-d11.jpg,assets/images/product-p207-d12.jpg",
+        "features": "Two colors available: black-gold and silver\nLCD digital display shows speed and remaining time\nAdjustable blade for precise and even trimming\nTrendy carved design combining beauty and performance\nComes with charging base, 6 guide combs (1.5/3/4.5/6/9/12mm), USB cable, brush, oil bottle and instructions",
+        "names": {
+          "en": "KM-1364 Professional Electric Hair Clipper LCD Digital Display Adjustable Blade 2 Colors Charging Base USB Rechargeable with 6 Guide Combs",
+          "zh": "KM-1364 专业电动理发器 LCD数显 可调节刀头 双色可选 充电底座 USB充电 6档限位梳",
+          "vi": "KM-1364 Tông đơ cắt tóc chuyên nghiệp màn hình LCD lưỡi điều chỉnh 2 màu đế sạc USB kèm 6 lược chặn",
+          "th": "KM-1364 ปัตตาเลี่ยนมืออาชีพ จอ LCD ใบมีดปรับได้ 2 สี ฐานชาร์จ USB พร้อมหวีล็อก 6 ระดับ",
+          "es": "KM-1364 Cortapelos profesional con pantalla LCD cuchilla ajustable 2 colores base de carga USB y 6 peines guía",
+          "fr": "KM-1364 Tondeuse professionnelle écran LCD lame réglable 2 couleurs socle de charge USB avec 6 peignes",
+          "id": "KM-1364 Alat cukur rambut profesional layar LCD pisau dapat diatur 2 warna basis pengisian USB dengan 6 sisir",
+          "pt": "KM-1364 Apara-tosador profissional com tela LCD lâmina ajustável 2 cores base de carga USB e 6 pentes guia"
+        },
+        "desc": {
+          "en": "Kemei KM-1364 professional clipper comes in black-gold and silver with an LCD display showing speed and remaining time. The adjustable blade gives precise even trimming. Includes charging base, 6 guide combs (1.5-12mm), USB cable, brush, oil bottle and instructions.",
+          "zh": "科美 KM-1364 专业理发器，黑金/银灰双色可选，LCD 数显转速与剩余时间，刀头可调节精准修剪，配充电底座、6 档限位梳（1.5-12mm）、USB 线、毛刷、油瓶与说明书。",
+          "vi": "Tông đơ KM-1364 của Kemei có 2 màu đen vàng và bạc, màn hình LCD hiển thị tốc độ và thời gian còn lại. Lưỡi điều chỉnh chính xác. Kèm đế sạc, 6 lược chặn (1.5-12mm), dây USB, chổi, dầu và hướng dẫn.",
+          "th": "ปัตตาเลี่ยน KM-1364 ของ Kemei มี 2 สี ดำทองและเงิน จอ LCD แสดงความเร็วและเวลาที่เหลือ ใบมีดปรับได้แม่นยำ พร้อมฐานชาร์จ หวีล็อก 6 ระดับ (1.5-12มม.) สาย USB แปรง น้ำมันและคู่มือ",
+          "es": "La cortapelos KM-1364 de Kemei viene en negro-dorado y plateado con pantalla LCD. La cuchilla ajustable da un corte preciso y uniforme. Incluye base de carga, 6 peines, cable USB, cepillo, aceite e instrucciones.",
+          "fr": "La tondeuse KM-1364 de Kemei existe en noir-or et argent avec écran LCD. La lame réglable offre une coupe précise et uniforme. Comprend socle de charge, 6 peignes, câble USB, brosse, huile et instructions.",
+          "id": "Alat cukur KM-1364 Kemei hadir dalam hitam-emas dan perak dengan layar LCD. Pisau dapat diatur untuk potongan presisi. Termasuk basis pengisian, 6 sisir, kabel USB, kuas, oli dan buku panduan.",
+          "pt": "O apara-tosador KM-1364 da Kemei vem em preto-dourado e prata com tela LCD. A lâmina ajustável proporciona corte preciso e uniforme. Inclui base de carga, 6 pentes, cabo USB, escova, óleo e instruções."
+        },
+        "skuOptions": [
+          {
+            "name": "KM-1364-Black Gold",
+            "image": ""
+          },
+          {
+            "name": "KM-1364-Silver",
+            "image": ""
+          }
+        ]
+},
+{
+        "id": "p208",
+        "category": "hair-clipper",
+        "price": 31.5,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 40,
+        "packing": 40,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "USB charging",
+        "material": "Zinc alloy fuselage with painting finish",
+        "capacity": "9000RPM strong power · LCD display (power left + RPM) · cutter 6cm, body 18cm · color box 118.5x74.5x226mm · carton 49x47x39cm · 40 pcs/carton · single GW 767g · carton GW 29kg",
+        "certs": "CE,RoHS,FCC",
+        "image": "assets/images/product-p208-main.jpg",
+        "gallery": "assets/images/product-p208-g1.jpg,assets/images/product-p208-g2.jpg,assets/images/product-p208-g3.jpg,assets/images/product-p208-g4.jpg",
+        "detailImages": "assets/images/product-p208-d1.jpg,assets/images/product-p208-d2.jpg,assets/images/product-p208-d3.jpg,assets/images/product-p208-d4.jpg,assets/images/product-p208-d5.jpg,assets/images/product-p208-d6.jpg,assets/images/product-p208-d7.jpg,assets/images/product-p208-d8.jpg,assets/images/product-p208-d9.jpg,assets/images/product-p208-d10.jpg,assets/images/product-p208-d11.jpg,assets/images/product-p208-d12.jpg",
+        "features": "Strong power 9000RPM professional motor\nZinc alloy fuselage with painting, ergonomic streamlined body\nLCD display shows remaining power and RPM\n6 guide combs (1.5/3/4.5/6/9/12mm) with protective hood\nComes with USB cable, cleaning brush, oil bottle and instructions",
+        "names": {
+          "en": "KM-1788 Professional Hair Clipper 9000RPM Zinc Alloy LCD Display USB Rechargeable with 6 Guide Combs Black Gold",
+          "zh": "KM-1788 专业理发器 9000RPM 锌合金机身 LCD数显 USB充电 6档限位梳 黑金色",
+          "vi": "KM-1788 Tông đơ chuyên nghiệp 9000RPM thân hợp kim kẽm màn hình LCD sạc USB kèm 6 lược chặn đen vàng",
+          "th": "KM-1788 ปัตตาเลี่ยนมืออาชีพ 9000RPM ตัวเครื่องโลหะผสมสังกะสี จอ LCD ชาร์จ USB พร้อมหวีล็อก 6 ระดับ ดำทอง",
+          "es": "KM-1788 Cortapelos profesional 9000RPM cuerpo de aleación de zinc pantalla LCD carga USB con 6 peines guía negro dorado",
+          "fr": "KM-1788 Tondeuse professionnelle 9000RPM corps en alliage de zinc écran LCD charge USB avec 6 peignes noir or",
+          "id": "KM-1788 Alat cukur profesional 9000RPM bodi paduan seng layar LCD pengisian USB dengan 6 sisir hitam emas",
+          "pt": "KM-1788 Apara-tosador profissional 9000RPM corpo de liga de zinco tela LCD carga USB com 6 pentes preto dourado"
+        },
+        "desc": {
+          "en": "Kemei KM-1788 professional clipper delivers strong 9000RPM cutting power in a zinc alloy body with painting finish and ergonomic streamlined design. LCD display shows remaining power and RPM. Includes 6 guide combs (1.5-12mm), protective hood, USB cable, brush, oil bottle and instructions.",
+          "zh": "科美 KM-1788 专业理发器，9000RPM 强劲动力，锌合金烤漆机身人体工学流线设计，LCD 显示剩余电量与转速，配 6 档限位梳（1.5-12mm）、保护罩、USB 线、毛刷、油瓶与说明书。",
+          "vi": "Tông đơ KM-1788 của Kemei có lực cắt mạnh 9000RPM, thân hợp kim kẽm sơn tĩnh điện thiết kế khí động học. LCD hiển thị pin và RPM. Kèm 6 lược chặn (1.5-12mm), nắp bảo vệ, dây USB, chổi, dầu và hướng dẫn.",
+          "th": "ปัตตาเลี่ยน KM-1788 ของ Kemei แรงตัด 9000RPM ตัวเครื่องโลหะผสมสังกะสีดีไซน์เพรียวบาง จอ LCD แสดงแบตเตอรี่และรอบ พร้อมหวีล็อก 6 ระดับ (1.5-12มม.) ฝาป้องกัน สาย USB แปรง น้ำมันและคู่มือ",
+          "es": "La cortapelos KM-1788 de Kemei ofrece 9000RPM en cuerpo de aleación de zinc con acabado pintado. La pantalla LCD muestra carga y RPM. Incluye 6 peines, protector, cable USB, cepillo, aceite e instrucciones.",
+          "fr": "La tondeuse KM-1788 de Kemei offre 9000RPM dans un corps en alliage de zinc laqué. L'écran LCD affiche la charge et les RPM. Comprend 6 peignes, capuchon, câble USB, brosse, huile et instructions.",
+          "id": "Alat cukur KM-1788 Kemei memberikan tenaga potong 9000RPM dengan bodi paduan seng. Layar LCD menampilkan daya dan RPM. Termasuk 6 sisir, pelindung, kabel USB, kuas, oli dan buku panduan.",
+          "pt": "O apara-tosador KM-1788 da Kemei oferece 9000RPM em corpo de liga de zinco pintado. A tela LCD mostra carga e RPM. Inclui 6 pentes, protetor, cabo USB, escova, óleo e instruções."
+        },
+        "skuOptions": []
+},
+{
+        "id": "p209",
+        "category": "hair-clipper",
+        "price": 13.0,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 40,
+        "packing": 40,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "USB charging",
+        "material": "Gradient painted body",
+        "capacity": "8000RPM high-speed motor · 1200mAh battery · charge 2h / run 180min · color box 98x67x200mm · carton 42x36x40.5cm · 40 pcs/carton · single GW 500g · carton GW 20.4kg",
+        "certs": "CE,RoHS,FCC",
+        "image": "assets/images/product-p209-main.jpg",
+        "gallery": "assets/images/product-p209-g1.jpg,assets/images/product-p209-g2.jpg,assets/images/product-p209-g3.jpg,assets/images/product-p209-g4.jpg,assets/images/product-p209-g5.jpg,assets/images/product-p209-g6.jpg,assets/images/product-p209-g7.jpg,assets/images/product-p209-g8.jpg",
+        "detailImages": "assets/images/product-p209-d1.jpg,assets/images/product-p209-d2.jpg,assets/images/product-p209-d3.jpg,assets/images/product-p209-d4.jpg,assets/images/product-p209-d5.jpg,assets/images/product-p209-d6.jpg,assets/images/product-p209-d7.jpg,assets/images/product-p209-d8.jpg,assets/images/product-p209-d9.jpg,assets/images/product-p209-d10.jpg,assets/images/product-p209-d11.jpg,assets/images/product-p209-d12.jpg",
+        "features": "Smart digital display shows power left\nHigh-speed motor 8000RPM\n1200mAh battery: 2 hours charging, 180 minutes running\nExclusive Mr. Tony / Ms. Tony gradient colorways\nComes with protective cover, 3 guide combs (1/2/3mm), USB cable, brush, oil bottle and instructions",
+        "names": {
+          "en": "KM-1817 Professional Hair Clipper 8000RPM Smart Digital Display 1200mAh USB Rechargeable 2 Colors with 3 Guide Combs",
+          "zh": "KM-1817 专业理发器 8000RPM 智能数显 1200mAh USB充电 双色可选 3档限位梳",
+          "vi": "KM-1817 Tông đơ chuyên nghiệp 8000RPM màn hình kỹ thuật số thông minh 1200mAh sạc USB 2 màu kèm 3 lược chặn",
+          "th": "KM-1817 ปัตตาเลี่ยนมืออาชีพ 8000RPM จอแสดงผลอัจฉริยะ แบตเตอรี่ 1200mAh ชาร์จ USB 2 สี พร้อมหวีล็อก 3 ระดับ",
+          "es": "KM-1817 Cortapelos profesional 8000RPM pantalla digital inteligente 1200mAh carga USB 2 colores con 3 peines guía",
+          "fr": "KM-1817 Tondeuse professionnelle 8000RPM écran numérique intelligent 1200mAh charge USB 2 couleurs avec 3 peignes",
+          "id": "KM-1817 Alat cukur profesional 8000RPM layar digital cerdas 1200mAh pengisian USB 2 warna dengan 3 sisir",
+          "pt": "KM-1817 Apara-tosador profissional 8000RPM tela digital inteligente 1200mAh carga USB 2 cores com 3 pentes"
+        },
+        "desc": {
+          "en": "Kemei KM-1817 professional clipper features a smart digital display, high-speed 8000RPM motor and 1200mAh battery giving 180 minutes of running time after 2 hours of USB charging. Available in green and gold gradient colors. Includes protective cover, 3 guide combs (1/2/3mm), USB cable, brush, oil bottle and instructions.",
+          "zh": "科美 KM-1817 专业理发器，智能数显屏，8000RPM 高速电机，1200mAh 电池 USB 充电 2 小时可运行 180 分钟，青绿/黑金渐变双色可选，配保护盖、3 档限位梳（1/2/3mm）、USB 线、毛刷、油瓶与说明书。",
+          "vi": "Tông đơ KM-1817 của Kemei có màn hình kỹ thuật số thông minh, động cơ 8000RPM, pin 1200mAh dùng 180 phút sau 2 giờ sạc USB. 2 màu gradient xanh và vàng. Kèm nắp bảo vệ, 3 lược chặn (1/2/3mm), dây USB, chổi, dầu và hướng dẫn.",
+          "th": "ปัตตาเลี่ยน KM-1817 ของ Kemei จอแสดงผลอัจฉริยะ มอเตอร์ 8000RPM แบตเตอรี่ 1200mAh ใช้ได้ 180 นาที ชาร์จ USB 2 ชั่วโมง มี 2 สี เขียวและทอง พร้อมฝาปิด หวีล็อก 3 ระดับ (1/2/3มม.) สาย USB แปรง น้ำมันและคู่มือ",
+          "es": "La cortapelos KM-1817 de Kemei tiene pantalla digital inteligente, motor 8000RPM y batería 1200mAh con 180 minutos tras 2 horas de carga USB. Disponible en verde y dorado. Incluye protector, 3 peines, cable USB, cepillo, aceite e instrucciones.",
+          "fr": "La tondeuse KM-1817 de Kemei possède un écran numérique intelligent, moteur 8000RPM et batterie 1200mAh donnant 180 minutes après 2 heures de charge USB. Disponible en vert et or. Comprend capuchon, 3 peignes, câble USB, brosse, huile et instructions.",
+          "id": "Alat cukur KM-1817 Kemei memiliki layar digital cerdas, motor 8000RPM dan baterai 1200mAh yang memberi 180 menit setelah 2 jam pengisian USB. Tersedia gradasi hijau dan emas. Termasuk penutup, 3 sisir, kabel USB, kuas, oli dan buku panduan.",
+          "pt": "O apara-tosador KM-1817 da Kemei tem tela digital inteligente, motor 8000RPM e bateria 1200mAh com 180 minutos após 2 horas de carga USB. Disponível em verde e dourado. Inclui protetor, 3 pentes, cabo USB, escova, óleo e instruções."
+        },
+        "skuOptions": [
+          {
+            "name": "KM-1817-Green",
+            "image": "assets/images/product-p209-sku1.jpg"
+          },
+          {
+            "name": "KM-1817-Gold",
+            "image": "assets/images/product-p209-sku2.jpg"
+          }
+        ]
+},
+{
+        "id": "p210",
+        "category": "hair-clipper",
+        "price": 25.5,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 24,
+        "packing": 24,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "USB 5V input",
+        "material": "Metal body with DLC coated powder metallurgical blade",
+        "capacity": "8W · 5V USB input · charge 3h / use 150min · size 5x6x17cm · weight 355g · color box 73x117x227mm · 24 pcs/carton",
+        "certs": "CE,RoHS,FCC",
+        "image": "assets/images/product-p210-main.jpg",
+        "gallery": "assets/images/product-p210-g1.jpg,assets/images/product-p210-g2.jpg,assets/images/product-p210-g3.jpg,assets/images/product-p210-g4.jpg,assets/images/product-p210-g5.jpg",
+        "detailImages": "assets/images/product-p210-d1.jpg,assets/images/product-p210-d2.jpg,assets/images/product-p210-d3.jpg,assets/images/product-p210-d4.jpg,assets/images/product-p210-d5.jpg,assets/images/product-p210-d6.jpg,assets/images/product-p210-d7.jpg,assets/images/product-p210-d8.jpg,assets/images/product-p210-d9.jpg,assets/images/product-p210-d10.jpg,assets/images/product-p210-d11.jpg,assets/images/product-p210-d12.jpg",
+        "features": "DLC blade coating with high-precision powder metallurgical blade\nLCD power display shows remaining battery\n8W strong cutting power, 150 minutes use per charge\nComes with 4 guide combs, USB cable, cleaning brush and oil bottle",
+        "names": {
+          "en": "KM-1826 Professional Hair Clipper DLC Blade 8W USB 5V LCD Power Display Black Gold with 4 Guide Combs",
+          "zh": "KM-1826 专业理发器 DLC刀片 8W USB 5V LCD电量显示 黑金色 4档限位梳",
+          "vi": "KM-1826 Tông đơ chuyên nghiệp lưỡi DLC 8W USB 5V màn hình LCD đen vàng kèm 4 lược chặn",
+          "th": "KM-1826 ปัตตาเลี่ยนมืออาชีพ ใบมีด DLC 8W USB 5V จอ LCD ดำทอง พร้อมหวีล็อก 4 ระดับ",
+          "es": "KM-1826 Cortapelos profesional cuchilla DLC 8W USB 5V pantalla LCD negro dorado con 4 peines guía",
+          "fr": "KM-1826 Tondeuse professionnelle lame DLC 8W USB 5V écran LCD noir or avec 4 peignes",
+          "id": "KM-1826 Alat cukur profesional pisau DLC 8W USB 5V layar LCD hitam emas dengan 4 sisir",
+          "pt": "KM-1826 Apara-tosador profissional lâmina DLC 8W USB 5V tela LCD preto dourado com 4 pentes"
+        },
+        "desc": {
+          "en": "Kemei KM-1826 professional clipper uses a DLC-coated high-precision powder metallurgical blade for smooth cutting. The 8W motor with LCD power display gives 150 minutes of use after 3 hours of USB charging. Black and gold colorways. Includes 4 guide combs, USB cable, brush and oil bottle.",
+          "zh": "科美 KM-1826 专业理发器，DLC 镀层高精度粉末冶金刀片，8W 动力 + LCD 电量显示，USB 充电 3 小时可用 150 分钟，黑色/金色可选，配 4 档限位梳、USB 线、毛刷与油瓶。",
+          "vi": "Tông đơ KM-1826 của Kemei dùng lưỡi luyện kim bột độ chính xác cao phủ DLC cắt mượt. Động cơ 8W có LCD hiển thị pin, dùng 150 phút sau 3 giờ sạc USB. Màu đen và vàng. Kèm 4 lược chặn, dây USB, chổi và dầu.",
+          "th": "ปัตตาเลี่ยน KM-1826 ของ Kemei ใช้ใบมีดผงโลหะความแม่นยำสูงเคลือบ DLC ตัดเนียน มอเตอร์ 8W จอ LCD แสดงแบตเตอรี่ ใช้ได้ 150 นาที ชาร์จ USB 3 ชั่วโมง สีดำและทอง พร้อมหวีล็อก 4 ระดับ สาย USB แปรงและน้ำมัน",
+          "es": "La cortapelos KM-1826 de Kemei usa cuchilla de metalurgia de polvos de alta precisión con recubrimiento DLC. El motor de 8W con pantalla LCD da 150 minutos tras 3 horas de carga USB. Negro y dorado. Incluye 4 peines, cable USB, cepillo y aceite.",
+          "fr": "La tondeuse KM-1826 de Kemei utilise une lame de métallurgie des poudres de haute précision revêtue DLC. Le moteur 8W avec écran LCD offre 150 minutes après 3 heures de charge USB. Noir et or. Comprend 4 peignes, câble USB, brosse et huile.",
+          "id": "Alat cukur KM-1826 Kemei menggunakan pisau metalurgi bubuk presisi tinggi berlapis DLC. Motor 8W dengan layar LCD memberi 150 menit setelah 3 jam pengisian USB. Hitam dan emas. Termasuk 4 sisir, kabel USB, kuas dan oli.",
+          "pt": "O apara-tosador KM-1826 da Kemei usa lâmina de metalurgia do pó de alta precisão revestida com DLC. O motor 8W com tela LCD dá 150 minutos após 3 horas de carga USB. Preto e dourado. Inclui 4 pentes, cabo USB, escova e óleo."
+        },
+        "skuOptions": [
+          {
+            "name": "KM-1826-Black",
+            "image": ""
+          },
+          {
+            "name": "KM-1826-Gold",
+            "image": ""
+          }
+        ]
 }
   ],
   "categories": [
