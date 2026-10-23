@@ -9771,6 +9771,50 @@
           ],
           "datasheet": "",
           "certFile": ""
+    },
+{
+          "id": "p204",
+          "name": "KM-1879 Automatic Curling Iron Stick 5s Curling Plant Protein Heating Plate 100-240V 45W USB Hair Styling for Women",
+          "category": "hairstyling",
+          "image": "assets/images/product-p204-main.jpg",
+          "gallery": "assets/images/product-p204-g1.jpg,assets/images/product-p204-g2.jpg,assets/images/product-p204-g3.jpg,assets/images/product-p204-g4.jpg,assets/images/product-p204-g5.jpg",
+          "detailImages": "assets/images/product-p204-d1.jpg,assets/images/product-p204-d2.jpg,assets/images/product-p204-d3.jpg,assets/images/product-p204-d4.jpg,assets/images/product-p204-d5.jpg,assets/images/product-p204-d6.jpg,assets/images/product-p204-d7.jpg,assets/images/product-p204-d8.jpg,assets/images/product-p204-d9.jpg,assets/images/product-p204-d10.jpg",
+          "price": 11.5,
+          "term": "EXW",
+          "unit": "pcs",
+          "moq": 40,
+          "packing": 40,
+          "lead": "15-30",
+          "active": true,
+          "hot": false,
+          "voltage": "100-240V",
+          "material": "ABS, ceramic barrel with plant protein coating",
+          "capacity": "45W · USB connection · product size 3x5x33cm · color box 395x60x11mm · carton 62x42x47cm · 40 pcs/carton · single GW 600g · carton GW 24kg",
+          "certs": "CE,RoHS,FCC",
+          "features": "Automatic curling stick: no practice required, curls formed in 5 seconds\nBi-directional rotation for easier, faster styling\nExtended heating rod holds more hair per curl\nIntelligent anti-pull design protects hair from snagging\nPlant protein heating plate penetrates hair scales for smooth shiny results\nRapid heating up, 360-degree swivel cord\nCreates European lazy roll and playful wool roll styles\nVoltage 100-240V, 45W, lightweight 333g ABS body",
+          "names": {
+            "en": "KM-1879 Automatic Curling Iron Stick 5s Curling Plant Protein Heating Plate 100-240V 45W USB Hair Styling for Women",
+            "zh": "KM-1879 自动卷发棒 5秒出卷 植物蛋白加热板 100-240V 45W USB 女士卷发造型",
+            "vi": "KM-1879 Bàn là uốn tóc tự động 5 giây tấm sưởi protein thực vật 100-240V 45W USB cho nữ",
+            "th": "KM-1879 เครื่องม้วนผมอัตโนมัติ 5 วินาที แผ่นความร้อนโปรตีนพืช 100-240V 45W USB สำหรับผู้หญิง",
+            "es": "KM-1879 Rizador de pelo automático 5 segundos placa de calor de proteína vegetal 100-240V 45W USB para mujer",
+            "fr": "KM-1879 Fer à boucler automatique 5 secondes plaque de chaleur à protéines végétales 100-240V 45W USB pour femme",
+            "id": "KM-1879 Alat pengeriting rambut otomatis 5 detik pelat panas protein nabati 100-240V 45W USB untuk wanita",
+            "pt": "KM-1879 Modelador de cachos automático 5 segundos placa de aquecimento de proteína vegetal 100-240V 45W USB para mulher"
+          },
+          "desc": {
+            "en": "Kemei KM-1879 automatic curling stick curls hair in 5 seconds without practice, with bi-directional rotation and an extended heating rod. The plant-protein heating plate keeps hair smooth and shiny, with anti-pull protection, rapid heating and a 360-degree swivel cord. 100-240V global voltage.",
+            "zh": "科美 KM-1879 自动卷发棒，无需练习 5 秒出卷，双向旋转卷发、加长加热棒，植物蛋白加热板养护发丝顺滑亮泽，智能防扯发、升温快，线材 360° 旋转，100-240V 全球电压。",
+            "vi": "KM-1879 là bàn là uốn tóc tự động, tạo lọn trong 5 giây không cần luyện tập, xoay hai chiều, thanh sưởi dài, tấm protein thực vật giữ tóc mượt bóng, chống kéo tóc, tăng nhiệt nhanh, dây xoay 360 độ, điện áp 100-240V.",
+            "th": "KM-1879 เครื่องม้วนผมอัตโนมัติ ม้วนใน 5 วินาทีไม่ต้องฝึก ซ้ายขวาหมุนได้ แท่งความร้อนยาว แผ่นโปรตีนพืชทำให้ผมนุ่มเงางาม ป้องกันผมถูกดึง ขึ้นความร้อนเร็ว สายไฟหมุน 360 องศา รองรับ 100-240V",
+            "es": "KM-1879 es un rizador automático que riza el pelo en 5 segundos sin práctica, con rotación bidireccional y varilla calefactora extendida. La placa de proteína vegetal mantiene el cabello suave y brillante, con protección anti-tirones, calentamiento rápido y cable giratorio 360°. Voltaje global 100-240V.",
+            "fr": "KM-1879 est un fer à boucler automatique qui boucle les cheveux en 5 secondes sans pratique, rotation bidirectionnelle et tige chauffante allongée. La plaque à protéines végétales garde les cheveux doux et brillants, anti-tirage, chauffe rapide et cordon pivotant 360°. Tension globale 100-240V.",
+            "id": "KM-1879 adalah alat pengeriting rambut otomatis, keriting dalam 5 detik tanpa latihan, rotasi dua arah, batang pemanas panjang, pelat protein nabati menjaga rambut halus berkilau, anti-tarik, cepat panas, kabel putar 360 derajat. Tegangan global 100-240V.",
+            "pt": "KM-1879 é um modelador de cachos automático que faz cachos em 5 segundos sem prática, rotação bidirecional e haste de aquecimento estendida. A placa de proteína vegetal mantém o cabelo macio e brilhante, com proteção anti-puxão, aquecimento rápido e cabo giratório 360°. Tensão global 100-240V."
+          },
+          "skuOptions": [],
+          "datasheet": "",
+          "certFile": ""
     }
     ],
     testimonials: [
