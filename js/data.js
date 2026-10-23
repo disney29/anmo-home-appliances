@@ -9862,6 +9862,7 @@
     },
 {
           "id": "p206",
+          "name": "KM-077 Retro Carved Professional Electric Hair Clipper Cordless USB Rechargeable Turbo Digital Display with 4 Guide Combs",
           "category": "hair-clipper",
           "price": 7.0,
           "term": "EXW",
@@ -9903,6 +9904,7 @@
     },
 {
           "id": "p207",
+          "name": "KM-1364 Professional Electric Hair Clipper LCD Digital Display Adjustable Blade 2 Colors Charging Base USB Rechargeable with 6 Guide Combs",
           "category": "hair-clipper",
           "price": 16.5,
           "term": "EXW",
@@ -9953,6 +9955,7 @@
     },
 {
           "id": "p208",
+          "name": "KM-1788 Professional Hair Clipper 9000RPM Zinc Alloy LCD Display USB Rechargeable with 6 Guide Combs Black Gold",
           "category": "hair-clipper",
           "price": 31.5,
           "term": "EXW",
@@ -9994,6 +9997,7 @@
     },
 {
           "id": "p209",
+          "name": "KM-1817 Professional Hair Clipper 8000RPM Smart Digital Display 1200mAh USB Rechargeable 2 Colors with 3 Guide Combs",
           "category": "hair-clipper",
           "price": 13.0,
           "term": "EXW",
@@ -10044,6 +10048,7 @@
     },
 {
           "id": "p210",
+          "name": "KM-1826 Professional Hair Clipper DLC Blade 8W USB 5V LCD Power Display Black Gold with 4 Guide Combs",
           "category": "hair-clipper",
           "price": 25.5,
           "term": "EXW",
