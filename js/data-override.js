@@ -11411,6 +11411,50 @@ window.HT_OVERRIDE = {
         "skuOptions": [],
         "datasheet": "",
         "certFile": ""
+},
+{
+        "id": "p205",
+        "name": "KM-1309 Rechargeable Electric Shaver Reciprocating Razor IPX7 Waterproof USB Type-C Charging Pop-up Trimmer Wet Dry Shaving for Men",
+        "category": "shaver",
+        "image": "assets/images/product-p205-main.jpg",
+        "gallery": "assets/images/product-p205-g1.jpg,assets/images/product-p205-g2.jpg,assets/images/product-p205-g3.jpg,assets/images/product-p205-g4.jpg,assets/images/product-p205-g5.jpg",
+        "detailImages": "assets/images/product-p205-d1.jpg,assets/images/product-p205-d2.jpg,assets/images/product-p205-d3.jpg,assets/images/product-p205-d4.jpg,assets/images/product-p205-d5.jpg,assets/images/product-p205-d6.jpg,assets/images/product-p205-d7.jpg,assets/images/product-p205-d8.jpg,assets/images/product-p205-d9.jpg,assets/images/product-p205-d10.jpg,assets/images/product-p205-d11.jpg,assets/images/product-p205-d12.jpg,assets/images/product-p205-d13.jpg",
+        "price": 16.5,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 40,
+        "packing": 40,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "USB Type-C charging",
+        "material": "ABS body, stainless steel reciprocating foil",
+        "capacity": "5W · 1400mAh lithium battery · charge 2h / use 100min · product size 16.5x6.5cm · color box 200x91x67mm · carton 42x35.5x31.5cm · 40 pcs/carton · single GW 491g · carton GW 20.5kg",
+        "certs": "CE,RoHS,FCC",
+        "features": "Reciprocating cutter head: blade sealed inside head isolates skin from direct contact for safe comfortable shaving\nPop-up trimmer trims sideburns - one machine for two purposes\nWet and dry shaving with IPX7 full-body waterproof, washable without worry of bacterial residue\nIntelligent anti-pinch and upgraded floating head for precise shaving\n1400mAh lithium battery: 2 hours charging, 100 minutes use\nUSB Type-C universal charging, plug and play, charge as you use\nStrong power, lightweight design, one-touch start with power light\nComes with host, USB cable, protective cover and cleaning brush",
+        "names": {
+          "en": "KM-1309 Rechargeable Electric Shaver Reciprocating Razor IPX7 Waterproof USB Type-C Charging Pop-up Trimmer Wet Dry Shaving for Men",
+          "zh": "KM-1309 男士电动剃须刀 往复式刀头 IPX7 防水 USB Type-C 充电 弹出式修剪刀 干湿双剃",
+          "vi": "KM-1309 Máy cạo râu điện nam lưỡi dao chuyển động qua lại chống nước IPX7 sạc USB Type-C dao tỉa ria mép cạo khô và ướt",
+          "th": "KM-1309 มีดโกนหนวดไฟฟ้าผู้ชาย หัวหมุนวน กันน้ำ IPX7 ชาร์จ USB Type-C ใบมีดตกแต่งจอน โกนแห้งและเปียก",
+          "es": "KM-1309 Afeitadora eléctrica recargable para hombre cuchilla oscilante impermeable IPX7 carga USB Type-C recortadora emergente afeitado en seco y húmedo",
+          "fr": "KM-1309 Rasoir électrique rechargeable pour homme lame oscillante étanche IPX7 charge USB Type-C tondeuse escamotable rasage sec et humide",
+          "id": "KM-1309 Pencukur listrik pria kepala reciprocating tahan air IPX7 pengisian USB Type-C trimmer pop-up cukur kering dan basah",
+          "pt": "KM-1309 Barbeador elétrico recarregável masculino lâmina oscilante à prova d'água IPX7 carregamento USB Type-C aparador pop-up barbear a seco e molhado"
+        },
+        "desc": {
+          "en": "Kemei KM-1309 electric shaver features a reciprocating cutter head with a sealed blade design that isolates the skin for safe, comfortable shaving. The pop-up trimmer handles sideburns, while IPX7 waterproofing supports wet and dry shaving with full-body washing. A 1400mAh lithium battery gives 100 minutes of use after 2 hours of USB Type-C charging. Includes host, USB cable, protective cover and cleaning brush.",
+          "zh": "科美 KM-1309 电动剃须刀，往复式刀头密封隔离皮肤更安全舒适，弹出式修剪刀打理鬓角一机两用，IPX7 全身水洗支持干湿双剃，1400mAh 锂电池 Type-C 充电 2 小时可用 100 分钟，配主机、USB 线、保护盖、清洁刷。",
+          "vi": "Máy cạo râu KM-1309 của Kemei có lưỡi dao chuyển động qua lại với thiết kế lưỡi kín cách ly da an toàn và thoải mái. Dao tỉa pop-up xử lý ria mép, chống nước IPX7 hỗ trợ cạo khô và ướt, rửa toàn thân. Pin lithium 1400mAh dùng 100 phút sau 2 giờ sạc USB Type-C.",
+          "th": "มีดโกน KM-1309 ของ Kemei มาพร้อมหัวหมุนวนดีไซน์ใบมีดปิดแยกผิวหนัง ปลอดภัยและโกนสบาย มีใบมีดพับสำหรับจอน กันน้ำ IPX7 โกนได้ทั้งแห้งและเปียก ล้างทั้งเครื่องได้ แบตเตอรี่ลิเธียม 1400mAh ใช้ได้ 100 นาที ชาร์จ Type-C 2 ชั่วโมง",
+          "es": "La afeitadora KM-1309 de Kemei tiene cuchilla oscilante con diseño sellado que aísla la piel para un afeitado seguro y cómodo. La recortadora emergente cuida las patillas, la impermeabilidad IPX7 permite afeitado en seco y húmedo con lavado de cuerpo completo. Batería de litio 1400mAh: 100 minutos de uso tras 2 horas de carga USB Type-C.",
+          "fr": "Le rasoir KM-1309 de Kemei dispose d'une lame oscillante au design scellé qui isole la peau pour un rasage sûr et confortable. La tondeuse escamotable gère les favoris, l'étanchéité IPX7 permet un rasage sec et humide avec lavage complet. Batterie lithium 1400mAh : 100 minutes d'utilisation après 2 heures de charge USB Type-C.",
+          "id": "Pencukur KM-1309 Kemei memiliki kepala reciprocating dengan desain pisau tertutup yang mengisolasi kulit untuk pencukuran aman dan nyaman. Trimmer pop-up merapikan cambang, anti air IPX7 mendukung cukur kering dan basah dengan pencucian seluruh badan. Baterai lithium 1400mAh: 100 menit pemakaian setelah 2 jam pengisian USB Type-C.",
+          "pt": "O barbeador KM-1309 da Kemei possui lâmina oscilante com design selado que isola a pele para um barbear seguro e confortável. O aparador pop-up cuida das costeletas, a impermeabilidade IPX7 permite barbear a seco e molhado com lavagem completa. Bateria de lítio 1400mAh: 100 minutos de uso após 2 horas de carga USB Type-C."
+        },
+        "skuOptions": [],
+        "datasheet": "",
+        "certFile": ""
 }
   ],
   "categories": [
