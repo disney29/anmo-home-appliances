@@ -7504,7 +7504,7 @@ window.HT_OVERRIDE = {
       "name": "PROKM-CW2107 Pet Grooming Clipper 8000RPM USB Charging Ceramic Blade for Dogs & Cats",
       "category": "pet",
       "image": "assets/images/product-p121-main.jpg",
-      "gallery": "assets/images/product-p121-g1.jpg,assets/images/product-p121-g2.jpg,assets/images/product-p121-g3.jpg,assets/images/product-p121-g4.jpg,assets/images/product-p121-g5.jpg,assets/images/product-p121-g6.jpg,assets/images/product-p121-g7.jpg,assets/images/product-p121-g8.jpg,assets/images/product-p121-g9.jpg",
+      "gallery": "assets/images/product-p121-g1.jpg,assets/images/product-p121-g2.jpg,assets/images/product-p121-g3.jpg,assets/images/product-p121-g4.jpg,assets/images/product-p121-g5.jpg,assets/images/product-p121-g6.jpg,assets/images/product-p121-g7.jpg,assets/images/product-p121-g8.jpg",
       "detailImages": "assets/images/product-p121-d1.jpg,assets/images/product-p121-d2.jpg,assets/images/product-p121-d3.jpg,assets/images/product-p121-d4.jpg,assets/images/product-p121-d5.jpg,assets/images/product-p121-d6.jpg,assets/images/product-p121-d7.jpg,assets/images/product-p121-d8.jpg,assets/images/product-p121-d9.jpg,assets/images/product-p121-d10.jpg,assets/images/product-p121-d11.jpg,assets/images/product-p121-d12.jpg,assets/images/product-p121-d13.jpg",
       "price": 36.0,
       "term": "EXW",
