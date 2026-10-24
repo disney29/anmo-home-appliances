@@ -11702,6 +11702,61 @@ window.HT_OVERRIDE = {
             "image": ""
           }
         ]
+},
+{
+        "name": "KM-1678 Professional Hair Clipper 7500RPM 5W 1500mAh USB Type-C LED Display Cordless Electric Hair Trimmer with 3 Guide Combs",
+  "id": "p211",
+        "category": "hair-clipper",
+        "price": 8.0,
+        "term": "EXW",
+        "unit": "pcs",
+        "moq": 40,
+        "packing": 40,
+        "lead": "15-30",
+        "active": true,
+        "hot": false,
+        "voltage": "USB Type-C charging",
+        "material": "ABS body with fine steel cutter head",
+        "capacity": "7500RPM high-speed motor · 5W · 1500mAh lithium battery · charge 2h / run 180min · input 3V · 0.1mm fine pitch steel cutter · color box 97.4x66.4x201mm · carton 50.5x41.7x29cm · 40 pcs/carton · single GW 446g · carton GW 17.6kg",
+        "certs": "CE,RoHS,FCC",
+        "image": "assets/images/product-p211-main.jpg",
+        "gallery": "assets/images/product-p211-g1.jpg,assets/images/product-p211-g2.jpg,assets/images/product-p211-g3.jpg,assets/images/product-p211-g4.jpg",
+        "detailImages": "assets/images/product-p211-d1.jpg,assets/images/product-p211-d2.jpg,assets/images/product-p211-d3.jpg,assets/images/product-p211-d4.jpg,assets/images/product-p211-d5.jpg,assets/images/product-p211-d6.jpg,assets/images/product-p211-d7.jpg,assets/images/product-p211-d8.jpg,assets/images/product-p211-d9.jpg",
+        "features": "7500RPM high-speed motor with 5W strong power\n0.1mm fine pitch steel cutter head for razor-close smooth shaving\n1500mAh lithium battery: 2 hours charging, 180 minutes running\nLED digital display shows remaining power left\nType-C USB charging, ABS body\n3 guide combs (1.5/2/3mm) plus oil bottle, cleaning brush, USB cable and manual\n3 colors available: yellow, rose red and black",
+        "names": {
+          "en": "KM-1678 Professional Hair Clipper 7500RPM 5W 1500mAh USB Type-C LED Display Cordless Electric Hair Trimmer with 3 Guide Combs",
+          "zh": "KM-1678 专业理发器 7500RPM 5W 1500mAh USB Type-C充电 LED数显 无线电动推剪 3档限位梳",
+          "vi": "KM-1678 Tông đơ cắt tóc chuyên nghiệp 7500RPM 5W 1500mAh sạc USB Type-C màn hình LED kèm 3 lược chặn",
+          "th": "KM-1678 ปัตตาเลี่ยนมืออาชีพ 7500RPM 5W แบตเตอรี่ 1500mAh ชาร์จ USB Type-C จอ LED พร้อมหวีล็อก 3 ระดับ",
+          "es": "KM-1678 Cortapelos profesional 7500RPM 5W 1500mAh carga USB Tipo-C pantalla LED con 3 peines guía",
+          "fr": "KM-1678 Tondeuse professionnelle 7500RPM 5W 1500mAh charge USB Type-C écran LED avec 3 peignes",
+          "id": "KM-1678 Alat cukur rambut profesional 7500RPM 5W 1500mAh pengisian USB Type-C layar LED dengan 3 sisir",
+          "pt": "KM-1678 Apara-tosador profissional 7500RPM 5W 1500mAh carga USB Tipo-C tela LED com 3 pentes"
+        },
+        "desc": {
+          "en": "Kemei KM-1678 professional hair clipper features a 7500RPM high-speed motor and a 0.1mm fine pitch steel cutter head for razor-close smooth shaving. The 1500mAh lithium battery runs 180 minutes after 2 hours of Type-C USB charging, with an LED display showing power left. Available in yellow, rose red and black. Includes 3 guide combs (1.5/2/3mm), oil bottle, cleaning brush, USB cable and manual.",
+          "zh": "科美 KM-1678 专业理发器，7500RPM 高速电机，0.1mm 细齿距钢刀头可贴肤剃净，1500mAh 锂电池 Type-C 充电 2 小时续航 180 分钟，LED 数显剩余电量，亮黄/玫红/黑色可选，配 3 档限位梳（1.5/2/3mm）、油瓶、清洁刷、USB 线与说明书。",
+          "vi": "Tông đơ KM-1678 của Kemei có động cơ tốc độ cao 7500RPM, lưỡi thép mảnh 0.1mm cạo sát da mượt mà. Pin lithium 1500mAh dùng 180 phút sau 2 giờ sạc USB Type-C, màn hình LED hiển thị pin. 3 màu vàng, hồng đỏ, đen. Kèm 3 lược chặn (1.5/2/3mm), dầu, chổi, dây USB và hướng dẫn.",
+          "th": "ปัตตาเลี่ยน KM-1678 ของ Kemei มอเตอร์ความเร็วสูง 7500RPM ใบมีดเหล็กละเอียด 0.1mm โกนติดผิว แบตเตอรี่ลิเธียม 1500mAh ใช้ได้ 180 นาที ชาร์จ USB Type-C 2 ชั่วโมง จอ LED แสดงแบตเตอรี่ มี 3 สี เหลือง ชมพูแดง ดำ พร้อมหวีล็อก 3 ระดับ (1.5/2/3มม.) น้ำมัน แปรง สาย USB และคู่มือ",
+          "es": "La cortapelos KM-1678 de Kemei tiene motor de 7500RPM y cuchilla de acero fino de 0.1mm para un afeitado suave. La batería de 1500mAh rinde 180 minutos tras 2 horas de carga USB Tipo-C, con pantalla LED. Disponible en amarillo, rojo rosado y negro. Incluye 3 peines, aceite, cepillo, cable USB e instrucciones.",
+          "fr": "La tondeuse KM-1678 de Kemei dispose d'un moteur 7500RPM et d'une lame en acier fin de 0,1 mm pour un rasage doux. La batterie lithium 1500mAh offre 180 minutes après 2 heures de charge USB Type-C, avec écran LED. Disponible en jaune, rouge rosé et noir. Comprend 3 peignes, huile, brosse, câble USB et instructions.",
+          "id": "Alat cukur KM-1678 Kemei memiliki motor kecepatan tinggi 7500RPM dan mata pisau baja halus 0.1mm untuk cukur halus. Baterai lithium 1500mAh berjalan 180 menit setelah 2 jam pengisian USB Type-C, dengan layar LED. Tersedia kuning, merah mawar dan hitam. Termasuk 3 sisir, oli, kuas, kabel USB dan panduan.",
+          "pt": "O apara-tosador KM-1678 da Kemei tem motor de alta velocidade 7500RPM e lâmina de aço fino de 0,1mm para barbear suave. A bateria de lítio 1500mAh dura 180 minutos após 2 horas de carga USB Tipo-C, com tela LED. Disponível em amarelo, vermelho-rosa e preto. Inclui 3 pentes, óleo, escova, cabo USB e instruções."
+        },
+        "skuOptions": [
+          {
+            "name": "KM-1678-Yellow",
+            "image": ""
+          },
+          {
+            "name": "KM-1678-Rose Red",
+            "image": ""
+          },
+          {
+            "name": "KM-1678-Black",
+            "image": ""
+          }
+        ]
 }
   ],
   "categories": [
