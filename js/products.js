@@ -97,7 +97,7 @@
       if (p.priceTiers && p.priceTiers.length > 1) priceHtml += '<div class="p-tier-hint">' + Util.esc(T("product.tierTitle")) + "</div>";
       html += '<article class="card prod-card reveal in">'
         + '<div class="p-img"><span class="p-cat' + (p.hot ? " hot" : "") + '">' + Util.esc(catName(p.category)) + "</span>"
-        + '<a href="product.html?id=' + encodeURIComponent(p.id) + '" class="p-img-link" aria-label="' + Util.esc(pName(p)) + '"><img src="' + Util.esc(p.image) + '" alt="' + Util.esc(pName(p)) + '" loading="lazy"></a></div>'
+        + '<a href="product.html?id=' + encodeURIComponent(p.id) + '" class="p-img-link" aria-label="' + Util.esc(pName(p)) + '"><img src="' + Util.esc(_uv(p.image)) + '" alt="' + Util.esc(pName(p)) + '" loading="lazy"></a></div>'
         + '<div class="p-body"><h3><a href="product.html?id=' + encodeURIComponent(p.id) + '">' + Util.esc(pName(p)) + "</a></h3>"
         + '<div class="p-specs">'
         + "<span><b>" + Util.esc(T("common.voltage")) + '</b>' + Util.esc(p.voltage || "—") + "</span>"
@@ -134,7 +134,7 @@
     var m = document.getElementById("quote-modal");
     if (!m) return;
     m.querySelector("[data-q-name]").textContent = pName(p);
-    m.querySelector("img").src = p.image;
+    m.querySelector("img").src = _uv(p.image);
     m.querySelector("img").alt = pName(p);
     var modelTag = (p.model || p.id || "").toUpperCase();
     var prodVal = (modelTag ? modelTag + " · " : "") + pName(p);
@@ -149,7 +149,7 @@
     var m = document.getElementById("order-modal");
     if (!m) return;
     m.querySelector("[data-o-name]").textContent = pName(p);
-    m.querySelector("[data-o-img]").src = p.image;
+    m.querySelector("[data-o-img]").src = _uv(p.image);
     m.querySelector("[name=product]").value = pName(p);
     var pidEl = m.querySelector("[name=pid]");
     if (pidEl) pidEl.value = p.id;

@@ -121,7 +121,7 @@
       var moq = parseInt(p.moq, 10) || 0;
       var pk = packingOf(p);
       html += '<div class="inquiry-item" data-pid="' + esc(c.pid) + '" data-key="' + esc(keyOf(c)) + '">'
-        + '<img src="' + esc(p.image) + '" alt="' + esc(pName(p)) + '" loading="lazy">'
+        + '<img src="' + esc(_uv(p.image)) + '" alt="' + esc(pName(p)) + '" loading="lazy">'
         + '<div class="ii-info"><b>' + esc(pName(p))
         + (c.sku ? ' <span style="color:var(--orange-600,#f97316);font-size:11px;font-weight:600">' + esc(c.sku) + "</span>" : "")
         + "</b>"

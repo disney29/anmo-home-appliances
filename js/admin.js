@@ -98,7 +98,7 @@
       html += "<tr><td><strong>" + Util.esc(nm) + "</strong>" + sub + "</td>"
         + "<td><code>" + Util.esc(id) + "</code></td>"
         + "<td>" + cnt + "</td>"
-        + "<td>" + (img ? '<img src="' + Util.esc(img) + '" style="width:48px;height:48px;object-fit:cover;border-radius:6px">' : "—") + "</td>"
+        + "<td>" + (img ? '<img src="' + Util.esc(_uv(img)) + '" style="width:48px;height:48px;object-fit:cover;border-radius:6px">' : "—") + "</td>"
         + '<td><button class="btn btn-ghost btn-sm" data-act="edit" data-idx="' + i + '">' + T("admin.edit") + '</button> <button class="btn btn-ghost btn-sm danger" data-act="del" data-idx="' + i + '">' + T("admin.delete") + "</button></td></tr>";
     });
     tbody.innerHTML = html || '<tr><td colspan="5">' + Util.esc(T("admin.noData")) + "</td></tr>";
@@ -210,7 +210,7 @@
         ? '<span class="a-badge done">ON</span>'
         : '<span class="a-badge off">OFF</span>';
       html += "<tr>"
-        + '<td><img class="t-img" src="' + Util.esc(p.image) + '" alt=""></td>'
+        + '<td><img class="t-img" src="' + Util.esc(_uv(p.image)) + '" alt=""></td>'
         + "<td><b>" + Util.esc(p.name) + "</b><br><small style=\"color:var(--ink-3);font-size:11px\">#" + Util.esc(p.id) + (p.model ? " · " + Util.esc(p.model) : "") + "</small></td>"
         + "<td>" + Util.esc(T("categories." + p.category)) + "</td>"
         + "<td>" + price + "</td>"
@@ -336,7 +336,7 @@
     pfSetStep(1);
     document.getElementById("product-modal").classList.add("open");
     var imgPrev = document.getElementById("pf-preview");
-    imgPrev.src = p ? p.image : "";
+    imgPrev.src = p ? _uv(p.image) : "";
     var mEl = document.getElementById("product-modal");
     mEl.classList.add("fullscreen");
     mEl.setAttribute("data-fs", "1");
@@ -417,7 +417,7 @@
       var chips = (g.options || []).map(function (o, oi) {
         var img = skuImgFor(g.name, o);
         var imgHtml = img
-          ? '<img class="sku-chip-img" src="' + Util.esc(img) + '" alt="">'
+          ? '<img class="sku-chip-img" src="' + Util.esc(_uv(img)) + '" alt="">'
           : "";
         return '<span class="sku-chip" data-opt="' + Util.esc(o) + '" data-gname="' + Util.esc(g.name) + '">'
           + '<button type="button" class="sku-chip-img-btn" data-img-opt="' + gi + '" data-opt-val="' + Util.esc(o) + '" title="Set option image" aria-label="Set option image">📷</button>'
@@ -498,7 +498,7 @@
             chip2.setAttribute("data-opt", v);
             chip2.setAttribute("data-gname", gName2);
             var imgUrl = skuImgFor(gName2, v);
-            var imgHtml = imgUrl ? '<img class="sku-chip-img" src="' + Util.esc(imgUrl) + '" alt="">' : "";
+            var imgHtml = imgUrl ? '<img class="sku-chip-img" src="' + Util.esc(_uv(imgUrl)) + '" alt="">' : "";
             chip2.innerHTML = '<button type="button" class="sku-chip-img-btn" data-img-opt="' + gi2 + '" data-opt-val="' + Util.esc(v) + '" title="Set option image" aria-label="Set option image">📷</button>'
               + imgHtml + "<span>" + Util.esc(v) + "</span>"
               + '<button type="button" class="sku-chip-x" data-del-opt="' + gi2 + '" data-opt-val="' + Util.esc(v) + '" aria-label="Remove">×</button>';
@@ -589,7 +589,7 @@
     var cur = skuImgFor(gName, optLabel);
     list.innerHTML = existing.length
       ? existing.map(function (u) {
-          return '<button type="button" class="picker-opt' + (u === cur ? " selected" : "") + '" data-pick="' + Util.esc(u) + '" title="' + Util.esc(u) + '"><img src="' + Util.esc(u) + '" alt=""></button>';
+          return '<button type="button" class="picker-opt' + (u === cur ? " selected" : "") + '" data-pick="' + Util.esc(u) + '" title="' + Util.esc(u) + '"><img src="' + Util.esc(_uv(u)) + '" alt=""></button>';
         }).join("")
       : '<p class="hint" style="width:100%">No existing product images yet — upload one below.</p>';
     list.querySelectorAll("[data-pick]").forEach(function (b) {
@@ -805,7 +805,7 @@
       var wrap = document.createElement("div");
       wrap.className = "thumb";
       var im = document.createElement("img");
-      im.src = u; im.alt = ""; im.loading = "lazy";
+      im.src = _uv(u); im.alt = ""; im.loading = "lazy";
       var del = document.createElement("button");
       del.type = "button"; del.innerHTML = "\u00d7"; del.title = "Remove";
       del.addEventListener("click", function () {
