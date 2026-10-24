@@ -7039,7 +7039,7 @@ window.HT_OVERRIDE = {
     {
       "id": "p110",
       "name": "KM-569 Kids Hair Clipper Type-C Charging Ceramic Blade for Kids",
-      "category": "hair-clipper",
+      "category": "kids-clipper",
       "image": "assets/images/product-p110-main.jpg",
       "gallery": "assets/images/product-p110-g1.jpg,assets/images/product-p110-g2.jpg,assets/images/product-p110-g3.jpg,assets/images/product-p110-g4.jpg,assets/images/product-p110-g5.jpg,assets/images/product-p110-g6.jpg",
       "detailImages": "assets/images/product-p110-d1.jpg,assets/images/product-p110-d2.jpg,assets/images/product-p110-d3.jpg,assets/images/product-p110-d4.jpg,assets/images/product-p110-d5.jpg,assets/images/product-p110-d6.jpg,assets/images/product-p110-d7.jpg,assets/images/product-p110-d8.jpg,assets/images/product-p110-d9.jpg,assets/images/product-p110-d10.jpg,assets/images/product-p110-d11.jpg,assets/images/product-p110-d12.jpg",
@@ -7082,7 +7082,7 @@ window.HT_OVERRIDE = {
     {
       "id": "p111",
       "name": "KM-963 Kids Hair Clipper USB Charging for Kids",
-      "category": "hair-clipper",
+      "category": "kids-clipper",
       "image": "assets/images/product-p111-main.jpg",
       "gallery": "assets/images/product-p111-g1.jpg,assets/images/product-p111-g2.jpg,assets/images/product-p111-g3.jpg,assets/images/product-p111-g4.jpg,assets/images/product-p111-g5.jpg,assets/images/product-p111-g6.jpg",
       "detailImages": "assets/images/product-p111-d1.jpg,assets/images/product-p111-d2.jpg,assets/images/product-p111-d3.jpg,assets/images/product-p111-d4.jpg,assets/images/product-p111-d5.jpg,assets/images/product-p111-d6.jpg,assets/images/product-p111-d7.jpg,assets/images/product-p111-d8.jpg,assets/images/product-p111-d9.jpg,assets/images/product-p111-d10.jpg,assets/images/product-p111-d11.jpg",
@@ -7125,7 +7125,7 @@ window.HT_OVERRIDE = {
     {
       "id": "p112",
       "name": "KM-965 Kids Hair Clipper USB Charging Washable Low Noise Ceramic Blade for Kids",
-      "category": "hair-clipper",
+      "category": "kids-clipper",
       "image": "assets/images/product-p112-main.jpg",
       "gallery": "assets/images/product-p112-g1.jpg,assets/images/product-p112-g2.jpg,assets/images/product-p112-g3.jpg,assets/images/product-p112-g4.jpg,assets/images/product-p112-g5.jpg,assets/images/product-p112-g6.jpg,assets/images/product-p112-g7.jpg",
       "detailImages": "assets/images/product-p112-d1.jpg,assets/images/product-p112-d2.jpg,assets/images/product-p112-d3.jpg,assets/images/product-p112-d4.jpg,assets/images/product-p112-d5.jpg,assets/images/product-p112-d6.jpg,assets/images/product-p112-d7.jpg,assets/images/product-p112-d8.jpg,assets/images/product-p112-d9.jpg,assets/images/product-p112-d10.jpg,assets/images/product-p112-d11.jpg",
