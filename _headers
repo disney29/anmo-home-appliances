@@ -8,19 +8,19 @@
   Cache-Control: public, max-age=3600
 
 /*.png
-  Cache-Control: public, max-age=86400, stale-while-revalidate=86400
+  Cache-Control: public, max-age=0, must-revalidate
 
 /*.jpg
-  Cache-Control: public, max-age=86400, stale-while-revalidate=86400
+  Cache-Control: public, max-age=0, must-revalidate
 
 /*.jpeg
-  Cache-Control: public, max-age=86400, stale-while-revalidate=86400
+  Cache-Control: public, max-age=0, must-revalidate
 
 /*.webp
-  Cache-Control: public, max-age=86400, stale-while-revalidate=86400
+  Cache-Control: public, max-age=0, must-revalidate
 
 /*.svg
-  Cache-Control: public, max-age=86400, stale-while-revalidate=86400
+  Cache-Control: public, max-age=0, must-revalidate
 
 /*.ico
-  Cache-Control: public, max-age=86400, stale-while-revalidate=86400
+  Cache-Control: public, max-age=0, must-revalidate
