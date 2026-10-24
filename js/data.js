@@ -9559,7 +9559,7 @@
         "image": "assets/images/product-p199-main.jpg",
         "gallery": "assets/images/product-p199-g1.jpg,assets/images/product-p199-g2.jpg,assets/images/product-p199-g3.jpg,assets/images/product-p199-g4.jpg,assets/images/product-p199-g5.jpg",
         "detailImages": "assets/images/product-p199-d1.jpg,assets/images/product-p199-d2.jpg,assets/images/product-p199-d3.jpg,assets/images/product-p199-d4.jpg,assets/images/product-p199-d5.jpg,assets/images/product-p199-d6.jpg,assets/images/product-p199-d7.jpg,assets/images/product-p199-d8.jpg,assets/images/product-p199-d9.jpg,assets/images/product-p199-d10.jpg,assets/images/product-p199-d11.jpg,assets/images/product-p199-d12.jpg,assets/images/product-p199-d13.jpg,assets/images/product-p199-d14.jpg",
-        "price": 45.8,
+        "price": 73.0,
         "term": "EXW",
         "unit": "pcs",
         "moq": 10,
@@ -10047,11 +10047,11 @@
           },
           "skuOptions": [
             {
-              "name": "KM-1817-Green",
+              "name": "KM-1817-Yellow",
               "image": "assets/images/product-p209-sku1.jpg"
             },
             {
-              "name": "KM-1817-Gold",
+              "name": "KM-1817-Blue",
               "image": "assets/images/product-p209-sku2.jpg"
             }
           ]
