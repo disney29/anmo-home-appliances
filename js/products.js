@@ -64,11 +64,13 @@
       wrap.querySelectorAll(".chip").forEach(function (x) { x.classList.remove("active"); });
       b.classList.add("active");
       state.cat = b.getAttribute("data-cat");
+      state.page = 1;
       render();
     });
   }
 
-  var state = { cat: "all", q: "" };
+  var PER_PAGE = 24;
+  var state = { cat: "all", q: "", page: 1 };
 
   function render() {
     var grid = document.getElementById("prod-grid");
@@ -86,10 +88,16 @@
     });
     if (!filtered.length) {
       grid.innerHTML = '<div class="empty-state" style="grid-column:1/-1"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg><p>' + Util.esc(T("products.noResults")) + "</p></div>";
+      var pgEmpty = document.getElementById("pagination");
+      if (pgEmpty) pgEmpty.style.display = "none";
       return;
     }
+    var totalPages = Math.ceil(filtered.length / PER_PAGE);
+    if (state.page > totalPages) state.page = totalPages;
+    var start = (state.page - 1) * PER_PAGE;
+    var pageItems = filtered.slice(start, start + PER_PAGE);
     var html = "";
-    filtered.forEach(function (p) {
+    pageItems.forEach(function (p) {
       var priceHtml = '<div class="p-price">' + Util.esc(priceTxt(p)) + "</div>";
       if (p.priceTiers && p.priceTiers.length > 1) priceHtml += '<div class="p-tier-hint">' + Util.esc(T("product.tierTitle")) + "</div>";
       html += '<article class="card prod-card reveal in">'
@@ -111,6 +119,7 @@
         + "</div></article>";
     });
     grid.innerHTML = html;
+    renderPager(totalPages);
     grid.querySelectorAll("[data-act]").forEach(function (b) {
       b.addEventListener("click", function () {
         var p = list.find(function (x) { return x.id === b.getAttribute("data-id"); });
@@ -118,6 +127,19 @@
         else if (b.getAttribute("data-act") === "order") openOrder(p);
       });
     });
+  }
+
+  function renderPager(total) {
+    var el = document.getElementById("pagination");
+    if (!el) return;
+    if (total <= 1) { el.style.display = "none"; return; }
+    el.style.display = "";
+    var html = '<button class="pg-btn" data-pg="prev"' + (state.page <= 1 ? " disabled" : "") + ' aria-label="Previous page">‹</button>';
+    for (var i = 1; i <= total; i++) {
+      html += '<button class="pg-btn' + (i === state.page ? " active" : "") + '" data-pg="' + i + '">' + i + "</button>";
+    }
+    html += '<button class="pg-btn" data-pg="next"' + (state.page >= total ? " disabled" : "") + ' aria-label="Next page">›</button>';
+    el.innerHTML = html;
   }
 
   function collectContact(form) {
@@ -186,11 +208,26 @@
 
     var search = document.getElementById("prod-search");
     if (search) {
-      search.addEventListener("input", function () { state.q = search.value; render(); });
+      search.addEventListener("input", function () { state.q = search.value; state.page = 1; render(); });
       search.setAttribute("placeholder", T("products.search"));
     }
 
     render();
+
+    var pgWrap = document.getElementById("pagination");
+    if (pgWrap) {
+      pgWrap.addEventListener("click", function (e) {
+        var b = e.target.closest(".pg-btn");
+        if (!b || b.disabled) return;
+        var v = b.getAttribute("data-pg");
+        if (v === "prev") state.page = Math.max(1, state.page - 1);
+        else if (v === "next") state.page = state.page + 1;
+        else state.page = parseInt(v, 10);
+        render();
+        var tb = document.querySelector(".toolbar");
+        if (tb) tb.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+    }
 
     /* close modals */
     document.querySelectorAll(".modal").forEach(function (m) {
