@@ -84,9 +84,6 @@
       }
       return true;
     });
-    var count = document.getElementById("prod-count");
-    if (count) count.innerHTML = "<b>" + filtered.length + "</b> " + Util.esc(T("products.results"));
-
     if (!filtered.length) {
       grid.innerHTML = '<div class="empty-state" style="grid-column:1/-1"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg><p>' + Util.esc(T("products.noResults")) + "</p></div>";
       return;
